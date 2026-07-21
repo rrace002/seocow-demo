@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Red Rabbit Security">
-  <rect width="64" height="64" rx="14" fill="#141012"/>
-  <path d="M20 38c2-14 8-22 12-22s10 8 12 22c-4 8-20 8-24 0z" fill="#c1121f"/>
-  <circle cx="28" cy="34" r="2.2" fill="#fff"/><circle cx="36" cy="34" r="2.2" fill="#fff"/>
-  <path d="M18 18c4 2 6 8 6 12M46 18c-4 2-6 8-6 12" stroke="#e8d5c4" stroke-width="3" fill="none" stroke-linecap="round"/>
-</svg>
