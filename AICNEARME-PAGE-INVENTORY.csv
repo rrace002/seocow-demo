@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,AI consulting,logo/home,"A1,A6,A10",
+/about-ai-consulting-near-me/,COMP-HUB,/,about AI consulting,About menu,"A1,A10",
+/about-ai-consulting-near-me/why-choose-us/,COMP-CHILD,/about-ai-consulting-near-me/,why choose AI consulting,About menu,"A10,A12",
+/about-ai-consulting-near-me/who-we-serve/,COMP-CHILD,/about-ai-consulting-near-me/,who AI consulting serves,About menu,D1,
+/contact/,COMP-CONTACT,/,contact AI consulting,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,AI consulting proposal,nav utility,I1,Request for Proposal
+/request-a-consultation/,FORM-CONSULT,/,request a consultation,nav utility (highlighted),I1,Consultation Request
+/ai-strategy-consulting/,SVC-HUB,/,ai strategy consulting,Services menu,B (category),
+/ai-strategy-consulting/ai-readiness-assessment/,SVC-CHILD,/ai-strategy-consulting/,ai readiness assessment,Services menu > hub grid,B row,Request for Proposal
+/ai-strategy-consulting/ai-opportunity-analysis/,SVC-CHILD,/ai-strategy-consulting/,ai opportunity analysis,Services menu > hub grid,B row,Request for Proposal
+/ai-strategy-consulting/custom-ai-roadmap/,SVC-CHILD,/ai-strategy-consulting/,custom ai roadmap,Services menu > hub grid,B row,Request for Proposal
+/ai-strategy-consulting/roi-projection-modeling/,SVC-CHILD,/ai-strategy-consulting/,roi projection modeling,Services menu > hub grid,B row,Request for Proposal
+/ai-strategy-consulting/technology-stack-selection/,SVC-CHILD,/ai-strategy-consulting/,technology stack selection,Services menu > hub grid,B row,Request for Proposal
+/ai-strategy-consulting/executive-ai-briefings/,SVC-CHILD,/ai-strategy-consulting/,executive ai briefings,Services menu > hub grid,B row,Request for Proposal
+/ai-strategy-consulting/competitive-ai-benchmarking/,SVC-CHILD,/ai-strategy-consulting/,competitive ai benchmarking,Services menu > hub grid,B row,Request for Proposal
+/ai-strategy-consulting/change-management-planning/,SVC-CHILD,/ai-strategy-consulting/,change management planning,Services menu > hub grid,B row,Request for Proposal
+/ai-strategy-consulting/pilot-use-case-selection/,SVC-CHILD,/ai-strategy-consulting/,pilot use-case selection,Services menu > hub grid,B row,Request for Proposal
+/ai-strategy-consulting/ai-budget-and-resourcing/,SVC-CHILD,/ai-strategy-consulting/,ai budget and resourcing,Services menu > hub grid,B row,Request for Proposal
+/process-automation-consulting/,SVC-HUB,/,process automation consulting,Services menu,B (category),
+/process-automation-consulting/workflow-analysis/,SVC-CHILD,/process-automation-consulting/,workflow analysis,Services menu > hub grid,B row,Request for Proposal
+/process-automation-consulting/intelligent-document-processing/,SVC-CHILD,/process-automation-consulting/,intelligent document processing,Services menu > hub grid,B row,Request for Proposal
+/process-automation-consulting/rpa-plus-ai-automation/,SVC-CHILD,/process-automation-consulting/,rpa plus ai automation,Services menu > hub grid,B row,Request for Proposal
+/process-automation-consulting/operations-automation-design/,SVC-CHILD,/process-automation-consulting/,operations automation design,Services menu > hub grid,B row,Request for Proposal
+/process-automation-consulting/integration-with-existing-systems/,SVC-CHILD,/process-automation-consulting/,integration with existing systems,Services menu > hub grid,B row,Request for Proposal
+/process-automation-consulting/error-reduction-automation/,SVC-CHILD,/process-automation-consulting/,error reduction automation,Services menu > hub grid,B row,Request for Proposal
+/process-automation-consulting/employee-self-serve-bots/,SVC-CHILD,/process-automation-consulting/,employee self-serve bots,Services menu > hub grid,B row,Request for Proposal
+/process-automation-consulting/automation-performance-monitoring/,SVC-CHILD,/process-automation-consulting/,automation performance monitoring,Services menu > hub grid,B row,Request for Proposal
+/process-automation-consulting/exception-handling-playbooks/,SVC-CHILD,/process-automation-consulting/,exception handling playbooks,Services menu > hub grid,B row,Request for Proposal
+/process-automation-consulting/automation-roi-reporting/,SVC-CHILD,/process-automation-consulting/,automation roi reporting,Services menu > hub grid,B row,Request for Proposal
+/data-analytics-insights/,SVC-HUB,/,data analytics & insights,Services menu,B (category),
+/data-analytics-insights/data-assessment-and-audit/,SVC-CHILD,/data-analytics-insights/,data assessment and audit,Services menu > hub grid,B row,Request for Proposal
+/data-analytics-insights/analytics-platform-setup/,SVC-CHILD,/data-analytics-insights/,analytics platform setup,Services menu > hub grid,B row,Request for Proposal
+/data-analytics-insights/executive-dashboard-creation/,SVC-CHILD,/data-analytics-insights/,executive dashboard creation,Services menu > hub grid,B row,Request for Proposal
+/data-analytics-insights/predictive-analytics-models/,SVC-CHILD,/data-analytics-insights/,predictive analytics models,Services menu > hub grid,B row,Request for Proposal
+/data-analytics-insights/customer-insight-modeling/,SVC-CHILD,/data-analytics-insights/,customer insight modeling,Services menu > hub grid,B row,Request for Proposal
+/data-analytics-insights/operational-kpi-frameworks/,SVC-CHILD,/data-analytics-insights/,operational kpi frameworks,Services menu > hub grid,B row,Request for Proposal
+/data-analytics-insights/self-serve-reporting-enablement/,SVC-CHILD,/data-analytics-insights/,self-serve reporting enablement,Services menu > hub grid,B row,Request for Proposal
+/data-analytics-insights/data-pipeline-reliability/,SVC-CHILD,/data-analytics-insights/,data pipeline reliability,Services menu > hub grid,B row,Request for Proposal
+/data-analytics-insights/insight-to-action-workshops/,SVC-CHILD,/data-analytics-insights/,insight to action workshops,Services menu > hub grid,B row,Request for Proposal
+/data-analytics-insights/analytics-governance/,SVC-CHILD,/data-analytics-insights/,analytics governance,Services menu > hub grid,B row,Request for Proposal
+/ai-customer-experience/,SVC-HUB,/,ai customer experience,Services menu,B (category),
+/ai-customer-experience/ai-customer-service-bots/,SVC-CHILD,/ai-customer-experience/,ai customer service bots,Services menu > hub grid,B row,Request for Proposal
+/ai-customer-experience/omnichannel-support-ai/,SVC-CHILD,/ai-customer-experience/,omnichannel support ai,Services menu > hub grid,B row,Request for Proposal
+/ai-customer-experience/personalized-recommendation-engines/,SVC-CHILD,/ai-customer-experience/,personalized recommendation engines,Services menu > hub grid,B row,Request for Proposal
+/ai-customer-experience/lead-qualification-assistants/,SVC-CHILD,/ai-customer-experience/,lead qualification assistants,Services menu > hub grid,B row,Request for Proposal
+/ai-customer-experience/voice-of-customer-analytics/,SVC-CHILD,/ai-customer-experience/,voice of customer analytics,Services menu > hub grid,B row,Request for Proposal
+/ai-customer-experience/knowledge-base-ai-search/,SVC-CHILD,/ai-customer-experience/,knowledge base ai search,Services menu > hub grid,B row,Request for Proposal
+/ai-customer-experience/retention-and-winback-ai/,SVC-CHILD,/ai-customer-experience/,retention and winback ai,Services menu > hub grid,B row,Request for Proposal
+/ai-customer-experience/appointment-booking-automation/,SVC-CHILD,/ai-customer-experience/,appointment booking automation,Services menu > hub grid,B row,Request for Proposal
+/ai-customer-experience/brand-voice-guardrails/,SVC-CHILD,/ai-customer-experience/,brand voice guardrails,Services menu > hub grid,B row,Request for Proposal
+/ai-customer-experience/cx-ai-qa-and-training/,SVC-CHILD,/ai-customer-experience/,cx ai qa and training,Services menu > hub grid,B row,Request for Proposal
+/ai-ethics-compliance/,SVC-HUB,/,ai ethics & compliance,Services menu,B (category),
+/ai-ethics-compliance/responsible-ai-policy/,SVC-CHILD,/ai-ethics-compliance/,responsible ai policy,Services menu > hub grid,B row,Request for Proposal
+/ai-ethics-compliance/model-risk-assessment/,SVC-CHILD,/ai-ethics-compliance/,model risk assessment,Services menu > hub grid,B row,Request for Proposal
+/ai-ethics-compliance/data-privacy-for-ai/,SVC-CHILD,/ai-ethics-compliance/,data privacy for ai,Services menu > hub grid,B row,Request for Proposal
+/ai-ethics-compliance/vendor-ai-due-diligence/,SVC-CHILD,/ai-ethics-compliance/,vendor ai due diligence,Services menu > hub grid,B row,Request for Proposal
+/ai-ethics-compliance/ai-usage-guidelines/,SVC-CHILD,/ai-ethics-compliance/,ai usage guidelines,Services menu > hub grid,B row,Request for Proposal
+/ai-ethics-compliance/audit-ready-documentation/,SVC-CHILD,/ai-ethics-compliance/,audit-ready documentation,Services menu > hub grid,B row,Request for Proposal
+/ai-ethics-compliance/industry-compliance-mapping/,SVC-CHILD,/ai-ethics-compliance/,industry compliance mapping,Services menu > hub grid,B row,Request for Proposal
+/ai-ethics-compliance/human-oversight-design/,SVC-CHILD,/ai-ethics-compliance/,human oversight design,Services menu > hub grid,B row,Request for Proposal
+/ai-ethics-compliance/incident-response-for-ai/,SVC-CHILD,/ai-ethics-compliance/,incident response for ai,Services menu > hub grid,B row,Request for Proposal
+/ai-ethics-compliance/ethics-review-board-setup/,SVC-CHILD,/ai-ethics-compliance/,ethics review board setup,Services menu > hub grid,B row,Request for Proposal
+/ai-implementation-support/,SVC-HUB,/,ai implementation & support,Services menu,B (category),
+/ai-implementation-support/pilot-implementation/,SVC-CHILD,/ai-implementation-support/,pilot implementation,Services menu > hub grid,B row,Request for Proposal
+/ai-implementation-support/systems-integration-support/,SVC-CHILD,/ai-implementation-support/,systems integration support,Services menu > hub grid,B row,Request for Proposal
+/ai-implementation-support/mlops-and-monitoring/,SVC-CHILD,/ai-implementation-support/,mlops and monitoring,Services menu > hub grid,B row,Request for Proposal
+/ai-implementation-support/user-training-and-enablement/,SVC-CHILD,/ai-implementation-support/,user training and enablement,Services menu > hub grid,B row,Request for Proposal
+/ai-implementation-support/prompt-and-workflow-tuning/,SVC-CHILD,/ai-implementation-support/,prompt and workflow tuning,Services menu > hub grid,B row,Request for Proposal
+/ai-implementation-support/knowledge-transfer-handoff/,SVC-CHILD,/ai-implementation-support/,knowledge transfer handoff,Services menu > hub grid,B row,Request for Proposal
+/ai-implementation-support/sla-and-support-retainer/,SVC-CHILD,/ai-implementation-support/,sla and support retainer,Services menu > hub grid,B row,Request for Proposal
+/ai-implementation-support/performance-optimization/,SVC-CHILD,/ai-implementation-support/,performance optimization,Services menu > hub grid,B row,Request for Proposal
+/ai-implementation-support/version-upgrade-planning/,SVC-CHILD,/ai-implementation-support/,version upgrade planning,Services menu > hub grid,B row,Request for Proposal
+/ai-implementation-support/post-launch-roi-review/,SVC-CHILD,/ai-implementation-support/,post-launch roi review,Services menu > hub grid,B row,Request for Proposal
+/healthcare-ai-consulting/,SVC-HUB,/,healthcare ai consulting,Services menu,B (category),
+/healthcare-ai-consulting/patient-scheduling-automation/,SVC-CHILD,/healthcare-ai-consulting/,patient scheduling automation,Services menu > hub grid,B row,Request for Proposal
+/healthcare-ai-consulting/clinical-admin-automation/,SVC-CHILD,/healthcare-ai-consulting/,clinical admin automation,Services menu > hub grid,B row,Request for Proposal
+/healthcare-ai-consulting/healthcare-document-ai/,SVC-CHILD,/healthcare-ai-consulting/,healthcare document ai,Services menu > hub grid,B row,Request for Proposal
+/healthcare-ai-consulting/care-ops-analytics/,SVC-CHILD,/healthcare-ai-consulting/,care ops analytics,Services menu > hub grid,B row,Request for Proposal
+/healthcare-ai-consulting/patient-communication-assistants/,SVC-CHILD,/healthcare-ai-consulting/,patient communication assistants,Services menu > hub grid,B row,Request for Proposal
+/healthcare-ai-consulting/revenue-cycle-ai-support/,SVC-CHILD,/healthcare-ai-consulting/,revenue cycle ai support,Services menu > hub grid,B row,Request for Proposal
+/healthcare-ai-consulting/hipaa-aware-ai-design/,SVC-CHILD,/healthcare-ai-consulting/,hipaa-aware ai design,Services menu > hub grid,B row,Request for Proposal
+/healthcare-ai-consulting/provider-knowledge-assistants/,SVC-CHILD,/healthcare-ai-consulting/,provider knowledge assistants,Services menu > hub grid,B row,Request for Proposal
+/healthcare-ai-consulting/telehealth-ops-automation/,SVC-CHILD,/healthcare-ai-consulting/,telehealth ops automation,Services menu > hub grid,B row,Request for Proposal
+/healthcare-ai-consulting/healthcare-ai-pilot-design/,SVC-CHILD,/healthcare-ai-consulting/,healthcare ai pilot design,Services menu > hub grid,B row,Request for Proposal
+/finance-ai-consulting/,SVC-HUB,/,finance ai consulting,Services menu,B (category),
+/finance-ai-consulting/risk-management-analytics/,SVC-CHILD,/finance-ai-consulting/,risk management analytics,Services menu > hub grid,B row,Request for Proposal
+/finance-ai-consulting/finance-process-automation/,SVC-CHILD,/finance-ai-consulting/,finance process automation,Services menu > hub grid,B row,Request for Proposal
+/finance-ai-consulting/personalized-banking-experiences/,SVC-CHILD,/finance-ai-consulting/,personalized banking experiences,Services menu > hub grid,B row,Request for Proposal
+/finance-ai-consulting/fraud-signal-triage/,SVC-CHILD,/finance-ai-consulting/,fraud signal triage,Services menu > hub grid,B row,Request for Proposal
+/finance-ai-consulting/compliance-document-review/,SVC-CHILD,/finance-ai-consulting/,compliance document review,Services menu > hub grid,B row,Request for Proposal
+/finance-ai-consulting/wealth-ops-assistants/,SVC-CHILD,/finance-ai-consulting/,wealth ops assistants,Services menu > hub grid,B row,Request for Proposal
+/finance-ai-consulting/financial-forecasting-models/,SVC-CHILD,/finance-ai-consulting/,financial forecasting models,Services menu > hub grid,B row,Request for Proposal
+/finance-ai-consulting/kyc-and-onboarding-assist/,SVC-CHILD,/finance-ai-consulting/,kyc and onboarding assist,Services menu > hub grid,B row,Request for Proposal
+/finance-ai-consulting/finance-ai-governance/,SVC-CHILD,/finance-ai-consulting/,finance ai governance,Services menu > hub grid,B row,Request for Proposal
+/finance-ai-consulting/finance-ai-pilot-scoping/,SVC-CHILD,/finance-ai-consulting/,finance ai pilot scoping,Services menu > hub grid,B row,Request for Proposal
+/retail-manufacturing-ai/,SVC-HUB,/,retail & manufacturing ai,Services menu,B (category),
+/retail-manufacturing-ai/inventory-optimization-ai/,SVC-CHILD,/retail-manufacturing-ai/,inventory optimization ai,Services menu > hub grid,B row,Request for Proposal
+/retail-manufacturing-ai/retail-personalization/,SVC-CHILD,/retail-manufacturing-ai/,retail personalization,Services menu > hub grid,B row,Request for Proposal
+/retail-manufacturing-ai/demand-forecasting/,SVC-CHILD,/retail-manufacturing-ai/,demand forecasting,Services menu > hub grid,B row,Request for Proposal
+/retail-manufacturing-ai/predictive-maintenance/,SVC-CHILD,/retail-manufacturing-ai/,predictive maintenance,Services menu > hub grid,B row,Request for Proposal
+/retail-manufacturing-ai/production-efficiency-analytics/,SVC-CHILD,/retail-manufacturing-ai/,production efficiency analytics,Services menu > hub grid,B row,Request for Proposal
+/retail-manufacturing-ai/supply-chain-visibility/,SVC-CHILD,/retail-manufacturing-ai/,supply chain visibility,Services menu > hub grid,B row,Request for Proposal
+/retail-manufacturing-ai/quality-inspection-assist/,SVC-CHILD,/retail-manufacturing-ai/,quality inspection assist,Services menu > hub grid,B row,Request for Proposal
+/retail-manufacturing-ai/store-ops-automation/,SVC-CHILD,/retail-manufacturing-ai/,store ops automation,Services menu > hub grid,B row,Request for Proposal
+/retail-manufacturing-ai/pricing-and-promo-analytics/,SVC-CHILD,/retail-manufacturing-ai/,pricing and promo analytics,Services menu > hub grid,B row,Request for Proposal
+/retail-manufacturing-ai/industrial-iot-insight-layers/,SVC-CHILD,/retail-manufacturing-ai/,industrial iot insight layers,Services menu > hub grid,B row,Request for Proposal
+/small-business-ai-solutions/,SVC-HUB,/,small business ai solutions,Services menu,B (category),
+/small-business-ai-solutions/smb-ai-starter-assessment/,SVC-CHILD,/small-business-ai-solutions/,smb ai starter assessment,Services menu > hub grid,B row,Request for Proposal
+/small-business-ai-solutions/affordable-automation-packages/,SVC-CHILD,/small-business-ai-solutions/,affordable automation packages,Services menu > hub grid,B row,Request for Proposal
+/small-business-ai-solutions/local-business-chat-assistants/,SVC-CHILD,/small-business-ai-solutions/,local business chat assistants,Services menu > hub grid,B row,Request for Proposal
+/small-business-ai-solutions/review-and-reputation-automation/,SVC-CHILD,/small-business-ai-solutions/,review and reputation automation,Services menu > hub grid,B row,Request for Proposal
+/small-business-ai-solutions/crm-and-follow-up-automation/,SVC-CHILD,/small-business-ai-solutions/,crm and follow-up automation,Services menu > hub grid,B row,Request for Proposal
+/small-business-ai-solutions/content-ops-with-ai/,SVC-CHILD,/small-business-ai-solutions/,content ops with ai,Services menu > hub grid,B row,Request for Proposal
+/small-business-ai-solutions/local-seo-ai-assist/,SVC-CHILD,/small-business-ai-solutions/,local seo ai assist,Services menu > hub grid,B row,Request for Proposal
+/small-business-ai-solutions/owner-dashboard-lite/,SVC-CHILD,/small-business-ai-solutions/,owner dashboard lite,Services menu > hub grid,B row,Request for Proposal
+/small-business-ai-solutions/tool-stack-on-a-budget/,SVC-CHILD,/small-business-ai-solutions/,tool stack on a budget,Services menu > hub grid,B row,Request for Proposal
+/small-business-ai-solutions/ninety-day-smb-ai-plan/,SVC-CHILD,/small-business-ai-solutions/,ninety-day smb ai plan,Services menu > hub grid,B row,Request for Proposal
