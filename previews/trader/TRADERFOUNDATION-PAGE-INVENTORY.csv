@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,trader foundation,logo/home,"A1,A6,A10",
+/about-trader-foundation/,COMP-HUB,/,about trader foundation,About menu,"A1,A10",
+/about-trader-foundation/why-choose-us/,COMP-CHILD,/about-trader-foundation/,why choose trader foundation,About menu,"A10,A12",
+/about-trader-foundation/who-we-teach/,COMP-CHILD,/about-trader-foundation/,who trader foundation teaches,About menu,D1,
+/contact/,COMP-CONTACT,/,contact trader foundation,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,trader foundation program info,nav utility,I1,Request for Proposal
+/book-a-strategy-call/,FORM-CONSULT,/,book a strategy call,nav utility (highlighted),I1,Consultation Request
+/paycheck-collector-strategy/,SVC-HUB,/,paycheck collector strategy,Learn menu,B (category),
+/paycheck-collector-strategy/paycheck-collector-overview/,SVC-CHILD,/paycheck-collector-strategy/,paycheck collector overview,Learn menu > hub grid,B row,Request for Proposal
+/paycheck-collector-strategy/defined-risk-options-income/,SVC-CHILD,/paycheck-collector-strategy/,defined-risk options income,Learn menu > hub grid,B row,Request for Proposal
+/paycheck-collector-strategy/monthly-premium-collection/,SVC-CHILD,/paycheck-collector-strategy/,monthly premium collection,Learn menu > hub grid,B row,Request for Proposal
+/paycheck-collector-strategy/selling-options-on-liquid-names/,SVC-CHILD,/paycheck-collector-strategy/,selling options on liquid names,Learn menu > hub grid,B row,Request for Proposal
+/paycheck-collector-strategy/bull-and-bear-market-premium/,SVC-CHILD,/paycheck-collector-strategy/,bull & bear market premium,Learn menu > hub grid,B row,Request for Proposal
+/paycheck-collector-strategy/discount-stock-accumulation/,SVC-CHILD,/paycheck-collector-strategy/,discount stock accumulation,Learn menu > hub grid,B row,Request for Proposal
+/paycheck-collector-strategy/position-sizing-for-income/,SVC-CHILD,/paycheck-collector-strategy/,position sizing for income,Learn menu > hub grid,B row,Request for Proposal
+/paycheck-collector-strategy/paycheck-collector-trade-examples/,SVC-CHILD,/paycheck-collector-strategy/,paycheck collector trade examples,Learn menu > hub grid,B row,Request for Proposal
+/paycheck-collector-strategy/time-efficient-trade-management/,SVC-CHILD,/paycheck-collector-strategy/,time-efficient trade management,Learn menu > hub grid,B row,Request for Proposal
+/paycheck-collector-strategy/compounding-the-paycheck-collector/,SVC-CHILD,/paycheck-collector-strategy/,compounding the paycheck collector,Learn menu > hub grid,B row,Request for Proposal
+/options-trading-education/,SVC-HUB,/,options trading education,Learn menu,B (category),
+/options-trading-education/options-basics-for-professionals/,SVC-CHILD,/options-trading-education/,options basics for professionals,Learn menu > hub grid,B row,Request for Proposal
+/options-trading-education/credit-spread-education/,SVC-CHILD,/options-trading-education/,credit spread education,Learn menu > hub grid,B row,Request for Proposal
+/options-trading-education/calendar-spread-education/,SVC-CHILD,/options-trading-education/,calendar spread education,Learn menu > hub grid,B row,Request for Proposal
+/options-trading-education/options-vs-stock-trading/,SVC-CHILD,/options-trading-education/,options vs stock trading,Learn menu > hub grid,B row,Request for Proposal
+/options-trading-education/implied-volatility-basics/,SVC-CHILD,/options-trading-education/,implied volatility basics,Learn menu > hub grid,B row,Request for Proposal
+/options-trading-education/expiration-and-assignment-basics/,SVC-CHILD,/options-trading-education/,expiration & assignment basics,Learn menu > hub grid,B row,Request for Proposal
+/options-trading-education/options-greeks-overview/,SVC-CHILD,/options-trading-education/,options greeks overview,Learn menu > hub grid,B row,Request for Proposal
+/options-trading-education/wheel-adjacent-concepts/,SVC-CHILD,/options-trading-education/,wheel-adjacent concepts,Learn menu > hub grid,B row,Request for Proposal
+/options-trading-education/index-options-education/,SVC-CHILD,/options-trading-education/,index options education,Learn menu > hub grid,B row,Request for Proposal
+/options-trading-education/options-mistakes-to-avoid/,SVC-CHILD,/options-trading-education/,options mistakes to avoid,Learn menu > hub grid,B row,Request for Proposal
+/swing-trading-for-professionals/,SVC-HUB,/,swing trading for professionals,Learn menu,B (category),
+/swing-trading-for-professionals/swing-trading-overview/,SVC-CHILD,/swing-trading-for-professionals/,swing trading overview,Learn menu > hub grid,B row,Request for Proposal
+/swing-trading-for-professionals/career-friendly-trading-schedule/,SVC-CHILD,/swing-trading-for-professionals/,career-friendly trading schedule,Learn menu > hub grid,B row,Request for Proposal
+/swing-trading-for-professionals/setup-selection-framework/,SVC-CHILD,/swing-trading-for-professionals/,setup selection framework,Learn menu > hub grid,B row,Request for Proposal
+/swing-trading-for-professionals/entry-and-exit-planning/,SVC-CHILD,/swing-trading-for-professionals/,entry & exit planning,Learn menu > hub grid,B row,Request for Proposal
+/swing-trading-for-professionals/trade-journaling-habits/,SVC-CHILD,/swing-trading-for-professionals/,trade journaling habits,Learn menu > hub grid,B row,Request for Proposal
+/swing-trading-for-professionals/watchlist-building/,SVC-CHILD,/swing-trading-for-professionals/,watchlist building,Learn menu > hub grid,B row,Request for Proposal
+/swing-trading-for-professionals/multi-timeframe-analysis/,SVC-CHILD,/swing-trading-for-professionals/,multi-timeframe analysis,Learn menu > hub grid,B row,Request for Proposal
+/swing-trading-for-professionals/holding-through-noise/,SVC-CHILD,/swing-trading-for-professionals/,holding through noise,Learn menu > hub grid,B row,Request for Proposal
+/swing-trading-for-professionals/part-time-trader-routines/,SVC-CHILD,/swing-trading-for-professionals/,part-time trader routines,Learn menu > hub grid,B row,Request for Proposal
+/swing-trading-for-professionals/when-not-to-trade/,SVC-CHILD,/swing-trading-for-professionals/,when not to trade,Learn menu > hub grid,B row,Request for Proposal
+/risk-management-training/,SVC-HUB,/,risk management training,Learn menu,B (category),
+/risk-management-training/defined-risk-first-principles/,SVC-CHILD,/risk-management-training/,defined risk first principles,Learn menu > hub grid,B row,Request for Proposal
+/risk-management-training/position-sizing-rules/,SVC-CHILD,/risk-management-training/,position sizing rules,Learn menu > hub grid,B row,Request for Proposal
+/risk-management-training/portfolio-heat-limits/,SVC-CHILD,/risk-management-training/,portfolio heat limits,Learn menu > hub grid,B row,Request for Proposal
+/risk-management-training/avoiding-margin-call-scenarios/,SVC-CHILD,/risk-management-training/,avoiding margin-call scenarios,Learn menu > hub grid,B row,Request for Proposal
+/risk-management-training/trade-invalidation-levels/,SVC-CHILD,/risk-management-training/,trade invalidation levels,Learn menu > hub grid,B row,Request for Proposal
+/risk-management-training/drawdown-recovery-process/,SVC-CHILD,/risk-management-training/,drawdown recovery process,Learn menu > hub grid,B row,Request for Proposal
+/risk-management-training/capital-requirements-guidance/,SVC-CHILD,/risk-management-training/,capital requirements guidance,Learn menu > hub grid,B row,Request for Proposal
+/risk-management-training/risk-reward-framing/,SVC-CHILD,/risk-management-training/,risk/reward framing,Learn menu > hub grid,B row,Request for Proposal
+/risk-management-training/correlation-and-concentration/,SVC-CHILD,/risk-management-training/,correlation & concentration,Learn menu > hub grid,B row,Request for Proposal
+/risk-management-training/rules-based-risk-checklist/,SVC-CHILD,/risk-management-training/,rules-based risk checklist,Learn menu > hub grid,B row,Request for Proposal
+/one-on-one-trading-coaching/,SVC-HUB,/,one-on-one trading coaching,Learn menu,B (category),
+/one-on-one-trading-coaching/one-on-one-coaching-overview/,SVC-CHILD,/one-on-one-trading-coaching/,one-on-one coaching overview,Learn menu > hub grid,B row,Request for Proposal
+/one-on-one-trading-coaching/90-day-coaching-support/,SVC-CHILD,/one-on-one-trading-coaching/,90-day coaching support,Learn menu > hub grid,B row,Request for Proposal
+/one-on-one-trading-coaching/pay-when-profitable-guarantee/,SVC-CHILD,/one-on-one-trading-coaching/,pay when profitable framing,Learn menu > hub grid,B row,Request for Proposal
+/one-on-one-trading-coaching/coach-erin-chawla/,SVC-CHILD,/one-on-one-trading-coaching/,coach erin chawla,Learn menu > hub grid,B row,Request for Proposal
+/one-on-one-trading-coaching/founder-vlad-tayman/,SVC-CHILD,/one-on-one-trading-coaching/,founder vlad tayman,Learn menu > hub grid,B row,Request for Proposal
+/one-on-one-trading-coaching/coaches-elliot-and-leo/,SVC-CHILD,/one-on-one-trading-coaching/,coaches elliot & leo,Learn menu > hub grid,B row,Request for Proposal
+/one-on-one-trading-coaching/personalized-trade-reviews/,SVC-CHILD,/one-on-one-trading-coaching/,personalized trade reviews,Learn menu > hub grid,B row,Request for Proposal
+/one-on-one-trading-coaching/accountability-check-ins/,SVC-CHILD,/one-on-one-trading-coaching/,accountability check-ins,Learn menu > hub grid,B row,Request for Proposal
+/one-on-one-trading-coaching/strategy-call-fit-check/,SVC-CHILD,/one-on-one-trading-coaching/,strategy call fit check,Learn menu > hub grid,B row,Request for Proposal
+/one-on-one-trading-coaching/coaching-for-busy-schedules/,SVC-CHILD,/one-on-one-trading-coaching/,coaching for busy schedules,Learn menu > hub grid,B row,Request for Proposal
+/live-market-coaching/,SVC-HUB,/,live market coaching,Learn menu,B (category),
+/live-market-coaching/daily-live-coaching-sessions/,SVC-CHILD,/live-market-coaching/,daily live coaching sessions,Learn menu > hub grid,B row,Request for Proposal
+/live-market-coaching/live-trade-idea-review/,SVC-CHILD,/live-market-coaching/,live trade idea review,Learn menu > hub grid,B row,Request for Proposal
+/live-market-coaching/market-open-preparation/,SVC-CHILD,/live-market-coaching/,market open preparation,Learn menu > hub grid,B row,Request for Proposal
+/live-market-coaching/weekly-market-recaps/,SVC-CHILD,/live-market-coaching/,weekly market recaps,Learn menu > hub grid,B row,Request for Proposal
+/live-market-coaching/student-chart-reviews/,SVC-CHILD,/live-market-coaching/,student chart reviews,Learn menu > hub grid,B row,Request for Proposal
+/live-market-coaching/qa-with-coaches/,SVC-CHILD,/live-market-coaching/,q&a with coaches,Learn menu > hub grid,B row,Request for Proposal
+/live-market-coaching/real-time-risk-discussion/,SVC-CHILD,/live-market-coaching/,real-time risk discussion,Learn menu > hub grid,B row,Request for Proposal
+/live-market-coaching/earnings-and-event-awareness/,SVC-CHILD,/live-market-coaching/,earnings & event awareness,Learn menu > hub grid,B row,Request for Proposal
+/live-market-coaching/replay-and-notes-habits/,SVC-CHILD,/live-market-coaching/,replay & notes habits,Learn menu > hub grid,B row,Request for Proposal
+/live-market-coaching/community-live-support/,SVC-CHILD,/live-market-coaching/,community live support,Learn menu > hub grid,B row,Request for Proposal
+/technical-analysis-training/,SVC-HUB,/,technical analysis training,Learn menu,B (category),
+/technical-analysis-training/technical-analysis-foundations/,SVC-CHILD,/technical-analysis-training/,technical analysis foundations,Learn menu > hub grid,B row,Request for Proposal
+/technical-analysis-training/support-and-resistance-skills/,SVC-CHILD,/technical-analysis-training/,support & resistance skills,Learn menu > hub grid,B row,Request for Proposal
+/technical-analysis-training/candlestick-context/,SVC-CHILD,/technical-analysis-training/,candlestick context,Learn menu > hub grid,B row,Request for Proposal
+/technical-analysis-training/trend-vs-range-identification/,SVC-CHILD,/technical-analysis-training/,trend vs range identification,Learn menu > hub grid,B row,Request for Proposal
+/technical-analysis-training/pattern-specialization/,SVC-CHILD,/technical-analysis-training/,pattern specialization,Learn menu > hub grid,B row,Request for Proposal
+/technical-analysis-training/volume-and-liquidity-checks/,SVC-CHILD,/technical-analysis-training/,volume & liquidity checks,Learn menu > hub grid,B row,Request for Proposal
+/technical-analysis-training/chart-timeframe-alignment/,SVC-CHILD,/technical-analysis-training/,chart timeframe alignment,Learn menu > hub grid,B row,Request for Proposal
+/technical-analysis-training/indicator-minimalism/,SVC-CHILD,/technical-analysis-training/,indicator minimalism,Learn menu > hub grid,B row,Request for Proposal
+/technical-analysis-training/scanning-with-intent/,SVC-CHILD,/technical-analysis-training/,scanning with intent,Learn menu > hub grid,B row,Request for Proposal
+/technical-analysis-training/from-analysis-to-execution/,SVC-CHILD,/technical-analysis-training/,from analysis to execution,Learn menu > hub grid,B row,Request for Proposal
+/trading-psychology-discipline/,SVC-HUB,/,trading psychology & discipline,Learn menu,B (category),
+/trading-psychology-discipline/trading-psychology-basics/,SVC-CHILD,/trading-psychology-discipline/,trading psychology basics,Learn menu > hub grid,B row,Request for Proposal
+/trading-psychology-discipline/discipline-over-prediction/,SVC-CHILD,/trading-psychology-discipline/,discipline over prediction,Learn menu > hub grid,B row,Request for Proposal
+/trading-psychology-discipline/avoiding-revenge-trading/,SVC-CHILD,/trading-psychology-discipline/,avoiding revenge trading,Learn menu > hub grid,B row,Request for Proposal
+/trading-psychology-discipline/impatience-and-overtrading/,SVC-CHILD,/trading-psychology-discipline/,impatience & overtrading,Learn menu > hub grid,B row,Request for Proposal
+/trading-psychology-discipline/building-a-trading-identity/,SVC-CHILD,/trading-psychology-discipline/,building a trading identity,Learn menu > hub grid,B row,Request for Proposal
+/trading-psychology-discipline/career-stress-and-trading/,SVC-CHILD,/trading-psychology-discipline/,career stress & trading,Learn menu > hub grid,B row,Request for Proposal
+/trading-psychology-discipline/patience-as-an-edge/,SVC-CHILD,/trading-psychology-discipline/,patience as an edge,Learn menu > hub grid,B row,Request for Proposal
+/trading-psychology-discipline/confidence-without-ego/,SVC-CHILD,/trading-psychology-discipline/,confidence without ego,Learn menu > hub grid,B row,Request for Proposal
+/trading-psychology-discipline/perfect-student-habits/,SVC-CHILD,/trading-psychology-discipline/,perfect-student habits,Learn menu > hub grid,B row,Request for Proposal
+/trading-psychology-discipline/long-term-consistency-mindset/,SVC-CHILD,/trading-psychology-discipline/,long-term consistency mindset,Learn menu > hub grid,B row,Request for Proposal
+/retirement-account-trading/,SVC-HUB,/,retirement account trading,Learn menu,B (category),
+/retirement-account-trading/roth-ira-trading-education/,SVC-CHILD,/retirement-account-trading/,roth ira trading education,Learn menu > hub grid,B row,Request for Proposal
+/retirement-account-trading/hsa-trading-education/,SVC-CHILD,/retirement-account-trading/,hsa trading education,Learn menu > hub grid,B row,Request for Proposal
+/retirement-account-trading/passive-management-around-a-career/,SVC-CHILD,/retirement-account-trading/,passive management around a career,Learn menu > hub grid,B row,Request for Proposal
+/retirement-account-trading/long-term-compounding-focus/,SVC-CHILD,/retirement-account-trading/,long-term compounding focus,Learn menu > hub grid,B row,Request for Proposal
+/retirement-account-trading/tax-advantaged-account-basics/,SVC-CHILD,/retirement-account-trading/,tax-advantaged account basics,Learn menu > hub grid,B row,Request for Proposal
+/retirement-account-trading/fidelity-account-examples/,SVC-CHILD,/retirement-account-trading/,fidelity account examples,Learn menu > hub grid,B row,Request for Proposal
+/retirement-account-trading/risk-inside-retirement-accounts/,SVC-CHILD,/retirement-account-trading/,risk inside retirement accounts,Learn menu > hub grid,B row,Request for Proposal
+/retirement-account-trading/contribution-and-growth-mindset/,SVC-CHILD,/retirement-account-trading/,contribution & growth mindset,Learn menu > hub grid,B row,Request for Proposal
+/retirement-account-trading/past-performance-disclaimer-education/,SVC-CHILD,/retirement-account-trading/,past performance disclaimer education,Learn menu > hub grid,B row,Request for Proposal
+/retirement-account-trading/patient-wealth-building/,SVC-CHILD,/retirement-account-trading/,patient wealth building,Learn menu > hub grid,B row,Request for Proposal
+/community-podcast-resources/,SVC-HUB,/,"community, podcast & resources",Learn menu,B (category),
+/community-podcast-resources/trader-foundation-community/,SVC-CHILD,/community-podcast-resources/,trader foundation community,Learn menu > hub grid,B row,Request for Proposal
+/community-podcast-resources/trader-foundation-podcast/,SVC-CHILD,/community-podcast-resources/,the trader foundation podcast,Learn menu > hub grid,B row,Request for Proposal
+/community-podcast-resources/strategy-vault-access/,SVC-CHILD,/community-podcast-resources/,strategy vault access,Learn menu > hub grid,B row,Request for Proposal
+/community-podcast-resources/student-reviews-and-social-proof/,SVC-CHILD,/community-podcast-resources/,student reviews & social proof,Learn menu > hub grid,B row,Request for Proposal
+/community-podcast-resources/bbb-accredited-business/,SVC-CHILD,/community-podcast-resources/,bbb accredited business,Learn menu > hub grid,B row,Request for Proposal
+/community-podcast-resources/application-and-fit-process/,SVC-CHILD,/community-podcast-resources/,application & fit process,Learn menu > hub grid,B row,Request for Proposal
+/community-podcast-resources/book-a-strategy-call/,SVC-CHILD,/community-podcast-resources/,book a strategy call,Learn menu > hub grid,B row,Request for Proposal
+/community-podcast-resources/six-years-in-business/,SVC-CHILD,/community-podcast-resources/,six years in business,Learn menu > hub grid,B row,Request for Proposal
+/community-podcast-resources/student-success-stories/,SVC-CHILD,/community-podcast-resources/,student success stories,Learn menu > hub grid,B row,Request for Proposal
+/community-podcast-resources/continuing-education-habits/,SVC-CHILD,/community-podcast-resources/,continuing education habits,Learn menu > hub grid,B row,Request for Proposal

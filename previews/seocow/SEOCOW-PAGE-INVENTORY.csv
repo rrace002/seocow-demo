@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,seo company elizabeth nj,logo/home,"A1,A6,A10",
+/about-seo-company/,COMP-HUB,/,about seo company,About menu,"A1,A7,A10",
+/about-seo-company/why-choose-us/,COMP-CHILD,/about-seo-company/,why choose us,About menu,"A10,A12",
+/about-seo-company/best-local-seo-services-company/,COMP-BEST,/about-seo-company/,best local seo services company,About menu,B7 flagship=local-seo-services,
+/contact/,COMP-CONTACT,/,contact seo agency,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,seo proposal,nav utility,I1,Request for Proposal
+/free-website-audit/,FORM-CONSULT,/,free website audit,nav utility (highlighted),I1,Consultation Request
+/local-seo-services/,SVC-HUB,/,local SEO services,Services menu,B (category),
+/local-seo-services/google-business-profile-optimization/,SVC-CHILD,/local-seo-services/,Google Business Profile optimization,Services menu > hub grid,B row,Request for Proposal
+/local-seo-services/local-citation-building/,SVC-CHILD,/local-seo-services/,local citation building,Services menu > hub grid,B row,Request for Proposal
+/local-seo-services/google-maps-ranking-services/,SVC-CHILD,/local-seo-services/,Google Maps ranking services,Services menu > hub grid,B row,Request for Proposal
+/local-seo-services/local-keyword-research/,SVC-CHILD,/local-seo-services/,local keyword research,Services menu > hub grid,B row,Request for Proposal
+/local-seo-services/review-management-services/,SVC-CHILD,/local-seo-services/,review management services,Services menu > hub grid,B row,Request for Proposal
+/local-seo-services/local-landing-page-optimization/,SVC-CHILD,/local-seo-services/,local landing page optimization,Services menu > hub grid,B row,Request for Proposal
+/local-seo-services/near-me-search-optimization/,SVC-CHILD,/local-seo-services/,near me search optimization,Services menu > hub grid,B row,Request for Proposal
+/local-seo-services/local-link-building/,SVC-CHILD,/local-seo-services/,local link building,Services menu > hub grid,B row,Request for Proposal
+/local-seo-services/multi-location-seo/,SVC-CHILD,/local-seo-services/,multi-location SEO,Services menu > hub grid,B row,Request for Proposal
+/local-seo-services/local-seo-audit/,SVC-CHILD,/local-seo-services/,local SEO audit,Services menu > hub grid,B row,Request for Proposal
+/technical-seo-services/,SVC-HUB,/,technical SEO services,Services menu,B (category),
+/technical-seo-services/technical-seo-audit/,SVC-CHILD,/technical-seo-services/,technical SEO audit,Services menu > hub grid,B row,Request for Proposal
+/technical-seo-services/site-speed-optimization/,SVC-CHILD,/technical-seo-services/,site speed optimization,Services menu > hub grid,B row,Request for Proposal
+/technical-seo-services/core-web-vitals-optimization/,SVC-CHILD,/technical-seo-services/,Core Web Vitals optimization,Services menu > hub grid,B row,Request for Proposal
+/technical-seo-services/crawlability-and-indexing-services/,SVC-CHILD,/technical-seo-services/,crawlability and indexing services,Services menu > hub grid,B row,Request for Proposal
+/technical-seo-services/schema-markup-implementation/,SVC-CHILD,/technical-seo-services/,schema markup implementation,Services menu > hub grid,B row,Request for Proposal
+/technical-seo-services/website-migration-seo/,SVC-CHILD,/technical-seo-services/,website migration SEO,Services menu > hub grid,B row,Request for Proposal
+/technical-seo-services/mobile-seo-optimization/,SVC-CHILD,/technical-seo-services/,mobile SEO optimization,Services menu > hub grid,B row,Request for Proposal
+/technical-seo-services/javascript-seo-services/,SVC-CHILD,/technical-seo-services/,JavaScript SEO services,Services menu > hub grid,B row,Request for Proposal
+/technical-seo-services/xml-sitemap-optimization/,SVC-CHILD,/technical-seo-services/,XML sitemap optimization,Services menu > hub grid,B row,Request for Proposal
+/technical-seo-services/duplicate-content-cleanup/,SVC-CHILD,/technical-seo-services/,duplicate content cleanup,Services menu > hub grid,B row,Request for Proposal
+/link-building-services/,SVC-HUB,/,link building services,Services menu,B (category),
+/link-building-services/guest-posting-services/,SVC-CHILD,/link-building-services/,guest posting services,Services menu > hub grid,B row,Request for Proposal
+/link-building-services/niche-edit-link-building/,SVC-CHILD,/link-building-services/,niche edit link building,Services menu > hub grid,B row,Request for Proposal
+/link-building-services/digital-pr-link-building/,SVC-CHILD,/link-building-services/,digital PR link building,Services menu > hub grid,B row,Request for Proposal
+/link-building-services/broken-link-building/,SVC-CHILD,/link-building-services/,broken link building,Services menu > hub grid,B row,Request for Proposal
+/link-building-services/resource-page-link-building/,SVC-CHILD,/link-building-services/,resource page link building,Services menu > hub grid,B row,Request for Proposal
+/link-building-services/competitor-backlink-analysis/,SVC-CHILD,/link-building-services/,competitor backlink analysis,Services menu > hub grid,B row,Request for Proposal
+/link-building-services/toxic-link-cleanup/,SVC-CHILD,/link-building-services/,toxic link cleanup,Services menu > hub grid,B row,Request for Proposal
+/link-building-services/local-link-outreach/,SVC-CHILD,/link-building-services/,local link outreach,Services menu > hub grid,B row,Request for Proposal
+/link-building-services/haro-link-building/,SVC-CHILD,/link-building-services/,HARO link building,Services menu > hub grid,B row,Request for Proposal
+/link-building-services/linkable-asset-creation/,SVC-CHILD,/link-building-services/,linkable asset creation,Services menu > hub grid,B row,Request for Proposal
+/content-marketing-services/,SVC-HUB,/,content marketing services,Services menu,B (category),
+/content-marketing-services/seo-content-writing/,SVC-CHILD,/content-marketing-services/,SEO content writing,Services menu > hub grid,B row,Request for Proposal
+/content-marketing-services/blog-management-services/,SVC-CHILD,/content-marketing-services/,blog management services,Services menu > hub grid,B row,Request for Proposal
+/content-marketing-services/content-strategy-development/,SVC-CHILD,/content-marketing-services/,content strategy development,Services menu > hub grid,B row,Request for Proposal
+/content-marketing-services/topic-cluster-planning/,SVC-CHILD,/content-marketing-services/,topic cluster planning,Services menu > hub grid,B row,Request for Proposal
+/content-marketing-services/content-refresh-optimization/,SVC-CHILD,/content-marketing-services/,content refresh optimization,Services menu > hub grid,B row,Request for Proposal
+/content-marketing-services/ebook-and-lead-magnet-creation/,SVC-CHILD,/content-marketing-services/,ebook and lead magnet creation,Services menu > hub grid,B row,Request for Proposal
+/content-marketing-services/service-page-copywriting/,SVC-CHILD,/content-marketing-services/,service page copywriting,Services menu > hub grid,B row,Request for Proposal
+/content-marketing-services/faq-content-development/,SVC-CHILD,/content-marketing-services/,FAQ content development,Services menu > hub grid,B row,Request for Proposal
+/content-marketing-services/content-gap-analysis/,SVC-CHILD,/content-marketing-services/,content gap analysis,Services menu > hub grid,B row,Request for Proposal
+/content-marketing-services/editorial-calendar-management/,SVC-CHILD,/content-marketing-services/,editorial calendar management,Services menu > hub grid,B row,Request for Proposal
+/ecommerce-seo-services/,SVC-HUB,/,ecommerce SEO services,Services menu,B (category),
+/ecommerce-seo-services/product-page-seo/,SVC-CHILD,/ecommerce-seo-services/,product page SEO,Services menu > hub grid,B row,Request for Proposal
+/ecommerce-seo-services/category-page-optimization/,SVC-CHILD,/ecommerce-seo-services/,category page optimization,Services menu > hub grid,B row,Request for Proposal
+/ecommerce-seo-services/shopify-seo-services/,SVC-CHILD,/ecommerce-seo-services/,Shopify SEO services,Services menu > hub grid,B row,Request for Proposal
+/ecommerce-seo-services/woocommerce-seo-services/,SVC-CHILD,/ecommerce-seo-services/,WooCommerce SEO services,Services menu > hub grid,B row,Request for Proposal
+/ecommerce-seo-services/product-schema-markup/,SVC-CHILD,/ecommerce-seo-services/,product schema markup,Services menu > hub grid,B row,Request for Proposal
+/ecommerce-seo-services/ecommerce-site-architecture/,SVC-CHILD,/ecommerce-seo-services/,ecommerce site architecture,Services menu > hub grid,B row,Request for Proposal
+/ecommerce-seo-services/product-feed-optimization/,SVC-CHILD,/ecommerce-seo-services/,product feed optimization,Services menu > hub grid,B row,Request for Proposal
+/ecommerce-seo-services/ecommerce-keyword-research/,SVC-CHILD,/ecommerce-seo-services/,ecommerce keyword research,Services menu > hub grid,B row,Request for Proposal
+/ecommerce-seo-services/conversion-rate-optimization/,SVC-CHILD,/ecommerce-seo-services/,conversion rate optimization,Services menu > hub grid,B row,Request for Proposal
+/ecommerce-seo-services/ecommerce-content-marketing/,SVC-CHILD,/ecommerce-seo-services/,ecommerce content marketing,Services menu > hub grid,B row,Request for Proposal
+/ppc-management-services/,SVC-HUB,/,PPC management services,Services menu,B (category),
+/ppc-management-services/google-ads-management/,SVC-CHILD,/ppc-management-services/,Google Ads management,Services menu > hub grid,B row,Request for Proposal
+/ppc-management-services/google-local-services-ads/,SVC-CHILD,/ppc-management-services/,Google Local Services Ads,Services menu > hub grid,B row,Request for Proposal
+/ppc-management-services/ppc-landing-page-optimization/,SVC-CHILD,/ppc-management-services/,PPC landing page optimization,Services menu > hub grid,B row,Request for Proposal
+/ppc-management-services/remarketing-campaign-management/,SVC-CHILD,/ppc-management-services/,remarketing campaign management,Services menu > hub grid,B row,Request for Proposal
+/ppc-management-services/shopping-ads-management/,SVC-CHILD,/ppc-management-services/,Shopping ads management,Services menu > hub grid,B row,Request for Proposal
+/ppc-management-services/ppc-keyword-research/,SVC-CHILD,/ppc-management-services/,PPC keyword research,Services menu > hub grid,B row,Request for Proposal
+/ppc-management-services/ad-copywriting-services/,SVC-CHILD,/ppc-management-services/,ad copywriting services,Services menu > hub grid,B row,Request for Proposal
+/ppc-management-services/ppc-audit-services/,SVC-CHILD,/ppc-management-services/,PPC audit services,Services menu > hub grid,B row,Request for Proposal
+/ppc-management-services/display-advertising-management/,SVC-CHILD,/ppc-management-services/,display advertising management,Services menu > hub grid,B row,Request for Proposal
+/ppc-management-services/youtube-ads-management/,SVC-CHILD,/ppc-management-services/,YouTube ads management,Services menu > hub grid,B row,Request for Proposal
+/social-media-marketing-services/,SVC-HUB,/,social media marketing services,Services menu,B (category),
+/social-media-marketing-services/social-media-management/,SVC-CHILD,/social-media-marketing-services/,social media management,Services menu > hub grid,B row,Request for Proposal
+/social-media-marketing-services/facebook-marketing-services/,SVC-CHILD,/social-media-marketing-services/,Facebook marketing services,Services menu > hub grid,B row,Request for Proposal
+/social-media-marketing-services/instagram-marketing-services/,SVC-CHILD,/social-media-marketing-services/,Instagram marketing services,Services menu > hub grid,B row,Request for Proposal
+/social-media-marketing-services/linkedin-marketing-services/,SVC-CHILD,/social-media-marketing-services/,LinkedIn marketing services,Services menu > hub grid,B row,Request for Proposal
+/social-media-marketing-services/social-media-content-creation/,SVC-CHILD,/social-media-marketing-services/,social media content creation,Services menu > hub grid,B row,Request for Proposal
+/social-media-marketing-services/social-media-advertising/,SVC-CHILD,/social-media-marketing-services/,social media advertising,Services menu > hub grid,B row,Request for Proposal
+/social-media-marketing-services/community-management-services/,SVC-CHILD,/social-media-marketing-services/,community management services,Services menu > hub grid,B row,Request for Proposal
+/social-media-marketing-services/social-media-audit/,SVC-CHILD,/social-media-marketing-services/,social media audit,Services menu > hub grid,B row,Request for Proposal
+/social-media-marketing-services/influencer-outreach-services/,SVC-CHILD,/social-media-marketing-services/,influencer outreach services,Services menu > hub grid,B row,Request for Proposal
+/social-media-marketing-services/social-media-strategy/,SVC-CHILD,/social-media-marketing-services/,social media strategy,Services menu > hub grid,B row,Request for Proposal
+/seo-web-design-services/,SVC-HUB,/,SEO web design services,Services menu,B (category),
+/seo-web-design-services/seo-friendly-website-design/,SVC-CHILD,/seo-web-design-services/,SEO friendly website design,Services menu > hub grid,B row,Request for Proposal
+/seo-web-design-services/wordpress-website-development/,SVC-CHILD,/seo-web-design-services/,WordPress website development,Services menu > hub grid,B row,Request for Proposal
+/seo-web-design-services/landing-page-design/,SVC-CHILD,/seo-web-design-services/,landing page design,Services menu > hub grid,B row,Request for Proposal
+/seo-web-design-services/website-redesign-seo/,SVC-CHILD,/seo-web-design-services/,website redesign SEO,Services menu > hub grid,B row,Request for Proposal
+/seo-web-design-services/small-business-website-design/,SVC-CHILD,/seo-web-design-services/,small business website design,Services menu > hub grid,B row,Request for Proposal
+/seo-web-design-services/mobile-first-web-design/,SVC-CHILD,/seo-web-design-services/,mobile first web design,Services menu > hub grid,B row,Request for Proposal
+/seo-web-design-services/website-maintenance-services/,SVC-CHILD,/seo-web-design-services/,website maintenance services,Services menu > hub grid,B row,Request for Proposal
+/seo-web-design-services/ada-compliant-web-design/,SVC-CHILD,/seo-web-design-services/,ADA compliant web design,Services menu > hub grid,B row,Request for Proposal
+/seo-web-design-services/website-hosting-setup/,SVC-CHILD,/seo-web-design-services/,website hosting setup,Services menu > hub grid,B row,Request for Proposal
+/seo-web-design-services/conversion-focused-web-design/,SVC-CHILD,/seo-web-design-services/,conversion focused web design,Services menu > hub grid,B row,Request for Proposal
+/seo-consulting-services/,SVC-HUB,/,SEO consulting services,Services menu,B (category),
+/seo-consulting-services/seo-strategy-consulting/,SVC-CHILD,/seo-consulting-services/,SEO strategy consulting,Services menu > hub grid,B row,Request for Proposal
+/seo-consulting-services/enterprise-seo-consulting/,SVC-CHILD,/seo-consulting-services/,enterprise SEO consulting,Services menu > hub grid,B row,Request for Proposal
+/seo-consulting-services/in-house-team-training/,SVC-CHILD,/seo-consulting-services/,in-house team training,Services menu > hub grid,B row,Request for Proposal
+/seo-consulting-services/seo-project-management/,SVC-CHILD,/seo-consulting-services/,SEO project management,Services menu > hub grid,B row,Request for Proposal
+/seo-consulting-services/algorithm-update-recovery/,SVC-CHILD,/seo-consulting-services/,algorithm update recovery,Services menu > hub grid,B row,Request for Proposal
+/seo-consulting-services/penalty-recovery-consulting/,SVC-CHILD,/seo-consulting-services/,penalty recovery consulting,Services menu > hub grid,B row,Request for Proposal
+/seo-consulting-services/analytics-and-reporting-setup/,SVC-CHILD,/seo-consulting-services/,analytics and reporting setup,Services menu > hub grid,B row,Request for Proposal
+/seo-consulting-services/keyword-strategy-consulting/,SVC-CHILD,/seo-consulting-services/,keyword strategy consulting,Services menu > hub grid,B row,Request for Proposal
+/seo-consulting-services/competitor-analysis-consulting/,SVC-CHILD,/seo-consulting-services/,competitor analysis consulting,Services menu > hub grid,B row,Request for Proposal
+/seo-consulting-services/seo-roadmap-development/,SVC-CHILD,/seo-consulting-services/,SEO roadmap development,Services menu > hub grid,B row,Request for Proposal
+/small-business-seo-services/,SVC-HUB,/,small business SEO services,Services menu,B (category),
+/small-business-seo-services/contractor-seo-services/,SVC-CHILD,/small-business-seo-services/,contractor SEO services,Services menu > hub grid,B row,Request for Proposal
+/small-business-seo-services/law-firm-seo-services/,SVC-CHILD,/small-business-seo-services/,law firm SEO services,Services menu > hub grid,B row,Request for Proposal
+/small-business-seo-services/medical-practice-seo/,SVC-CHILD,/small-business-seo-services/,medical practice SEO,Services menu > hub grid,B row,Request for Proposal
+/small-business-seo-services/dental-seo-services/,SVC-CHILD,/small-business-seo-services/,dental SEO services,Services menu > hub grid,B row,Request for Proposal
+/small-business-seo-services/restaurant-seo-services/,SVC-CHILD,/small-business-seo-services/,restaurant SEO services,Services menu > hub grid,B row,Request for Proposal
+/small-business-seo-services/real-estate-seo-services/,SVC-CHILD,/small-business-seo-services/,real estate SEO services,Services menu > hub grid,B row,Request for Proposal
+/small-business-seo-services/home-services-seo/,SVC-CHILD,/small-business-seo-services/,home services SEO,Services menu > hub grid,B row,Request for Proposal
+/small-business-seo-services/auto-repair-shop-seo/,SVC-CHILD,/small-business-seo-services/,auto repair shop SEO,Services menu > hub grid,B row,Request for Proposal
+/small-business-seo-services/retail-store-seo/,SVC-CHILD,/small-business-seo-services/,retail store SEO,Services menu > hub grid,B row,Request for Proposal
+/small-business-seo-services/franchise-seo-services/,SVC-CHILD,/small-business-seo-services/,franchise SEO services,Services menu > hub grid,B row,Request for Proposal
