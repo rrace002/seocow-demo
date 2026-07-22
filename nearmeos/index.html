@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Near Me OS — Stop Selling Services. Start Owning Markets.</title>
+<meta name="description" content="Near Me OS is the operating system for building, ranking, and monetizing local 'near me' markets — with AI automation, territory licensing, and a compounding PPC-to-SEO flywheel.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://nearmeos.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Near Me OS — Stop Selling Services. Start Owning Markets.">
+<meta property="og:description" content="Near Me OS is the operating system for building, ranking, and monetizing local 'near me' markets — with AI automation, territory licensing, and a compounding PPC-to-SEO flywheel.">
+<meta property="og:url" content="https://nearmeos.io/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --bg:#0a0a0a;
+  --surface:#141414;
+  --surface-light:#1c1c1c;
+  --border:#2a2a2a;
+  --text:#e8e4de;
+  --text-muted:#8a8680;
+  --accent:#e86a2a;
+  --accent-glow:rgba(232,106,42,0.15);
+  --accent-soft:#ff8c4c;
+  --track-a:#2a7aff;
+  --track-b:#22c55e;
+  --white:#fff;
+}
+
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+body{
+  background:var(--bg);color:var(--text);
+  font-family:'DM Sans',-apple-system,sans-serif;
+  min-height:100vh;
+  overflow-x:hidden;
+}
+.serif{font-family:'Playfair Display',Georgia,serif}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+
+/* ═══ FADE-IN ═══ */
+.fade{opacity:0;transform:translateY(40px);transition:opacity .7s ease,transform .7s ease}
+.fade.in{opacity:1;transform:none}
+.fade[data-dir="down"]{transform:translateY(-40px)}.fade[data-dir="down"].in{transform:none}
+.fade[data-dir="left"]{transform:translateX(40px)}.fade[data-dir="left"].in{transform:none}
+.fade[data-dir="right"]{transform:translateX(-40px)}.fade[data-dir="right"].in{transform:none}
+.fade[data-delay="0.1"]{transition-delay:.1s}
+.fade[data-delay="0.15"]{transition-delay:.15s}
+.fade[data-delay="0.2"]{transition-delay:.2s}
+.fade[data-delay="0.3"]{transition-delay:.3s}
+.fade[data-delay="0.4"]{transition-delay:.4s}
+
+/* ═══ NAV ═══ */
+nav.topnav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  padding:16px 24px;
+  background:rgba(10,10,10,0.9);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--border);
+}
+.nav-inner{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
+.nav-brand{display:flex;align-items:center;gap:8px}
+.nav-mark{
+  width:32px;height:32px;border-radius:8px;background:var(--accent);
+  display:flex;align-items:center;justify-content:center;
+  font-size:14px;font-weight:800;color:var(--white);
+}
+.nav-name{font-size:16px;font-weight:700;color:var(--white);letter-spacing:-0.02em}
+.nav-links{display:flex;align-items:center;gap:28px}
+.nav-links a{font-size:14px;color:var(--text-muted);transition:color .2s}
+.nav-links a:hover{color:var(--white)}
+.nav-apply{
+  padding:8px 20px;border-radius:6px;background:var(--accent);
+  color:var(--white) !important;font-size:13px;font-weight:600;
+}
+
+/* ═══ HERO ═══ */
+section.hero{
+  min-height:100vh;display:flex;flex-direction:column;justify-content:center;
+  padding:120px 24px 80px;position:relative;overflow:hidden;
+}
+.hero-bg-1{
+  position:absolute;top:-200px;right:-200px;width:700px;height:700px;
+  background:radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+  pointer-events:none;
+}
+.hero-bg-2{
+  position:absolute;bottom:-300px;left:-200px;width:600px;height:600px;
+  background:radial-gradient(circle, rgba(42,122,255,0.08) 0%, transparent 70%);
+  pointer-events:none;
+}
+.hero-inner{max-width:1100px;margin:0 auto;width:100%;position:relative;z-index:1}
+.hero-pill{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:6px 16px;border-radius:100px;
+  background:var(--surface-light);border:1px solid var(--border);
+  margin-bottom:32px;
+  opacity:0;transform:translateY(20px);
+  animation:loadFade .6s ease .2s forwards;
+}
+.hero-pill .dot{
+  width:8px;height:8px;border-radius:50%;
+  background:var(--track-b);box-shadow:0 0 8px var(--track-b);
+}
+.hero-pill span:last-child{font-size:13px;color:var(--text-muted);letter-spacing:.02em}
+.hero h1{
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:clamp(44px,7vw,88px);font-weight:700;
+  line-height:1.05;letter-spacing:-.025em;
+  color:var(--white);max-width:900px;
+  opacity:0;transform:translateY(30px);
+  animation:loadFade .8s ease .3s forwards;
+}
+.hero h1 .accent{color:var(--accent)}
+.hero-sub{
+  font-size:clamp(16px,2vw,20px);color:var(--text-muted);
+  line-height:1.7;max-width:620px;margin-top:28px;
+  opacity:0;transform:translateY(20px);
+  animation:loadFade .7s ease .5s forwards;
+}
+.hero-ctas{
+  display:flex;gap:16px;margin-top:40px;flex-wrap:wrap;
+  opacity:0;transform:translateY(20px);
+  animation:loadFade .7s ease .7s forwards;
+}
+.btn-primary{
+  padding:16px 36px;border-radius:8px;background:var(--accent);
+  color:var(--white);font-size:15px;font-weight:600;letter-spacing:.02em;
+  box-shadow:0 0 30px var(--accent-glow);
+  transition:transform .2s, box-shadow .2s;
+}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 4px 40px rgba(232,106,42,.3)}
+.btn-ghost{
+  padding:16px 36px;border-radius:8px;
+  background:transparent;border:1px solid var(--border);
+  color:var(--text);font-size:15px;font-weight:500;
+  transition:border-color .2s;
+}
+.btn-ghost:hover{border-color:var(--accent)}
+
+@keyframes loadFade{to{opacity:1;transform:none}}
+
+/* ═══ STATS BAR ═══ */
+.stats-wrap{
+  max-width:1100px;margin:0 auto;padding:0 24px;
+  display:grid;grid-template-columns:repeat(auto-fit, minmax(160px,1fr));gap:1px;
+  background:var(--border);border-radius:12px;overflow:hidden;
+}
+.stat-cell{background:var(--surface);padding:32px 24px;text-align:center}
+.stat-val{font-family:'Playfair Display',serif;font-size:36px;font-weight:700;color:var(--accent)}
+.stat-lbl{font-size:13px;color:var(--text-muted);margin-top:6px;letter-spacing:.04em;text-transform:uppercase}
+
+/* ═══ SECTION ═══ */
+section.s{padding:100px 24px;position:relative}
+.s-wrap{max-width:1100px;margin:0 auto}
+.s-wrap-wide{max-width:1200px;margin:0 auto}
+.s-eyebrow{
+  font-size:13px;color:var(--accent);letter-spacing:.1em;
+  text-transform:uppercase;font-weight:600;margin-bottom:12px;
+}
+.s-title{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(28px,4vw,48px);color:var(--white);
+  font-weight:700;margin-bottom:16px;
+}
+.s-lede{font-size:17px;color:var(--text-muted);max-width:600px;line-height:1.7;margin-bottom:48px}
+
+/* ═══ FLYWHEEL ═══ */
+.fw-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.fw-visual{display:flex;justify-content:center}
+.fw-orbit{position:relative;width:320px;height:320px}
+.fw-center{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:90px;height:90px;border-radius:50%;
+  background:radial-gradient(circle, var(--accent) 0%, rgba(232,106,42,.3) 100%);
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:700;color:var(--white);text-align:center;
+  letter-spacing:.05em;line-height:1.2;
+  box-shadow:0 0 60px rgba(232,106,42,.25);
+}
+.fw-dot{
+  position:absolute;width:56px;height:56px;border-radius:50%;
+  background:var(--surface-light);border:2px solid var(--border);
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;font-size:20px;
+  transition:all .3s ease;
+}
+.fw-dot.active{
+  background:var(--accent);border-color:var(--accent);
+  box-shadow:0 0 24px rgba(232,106,42,.3);
+  transform:scale(1.15);
+}
+.fw-ring{position:absolute;top:0;left:0;pointer-events:none}
+.fw-panel{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:32px;
+}
+.fw-item{
+  padding:14px 16px;border-radius:8px;cursor:pointer;margin-bottom:4px;
+  border-left:3px solid transparent;
+  transition:all .25s;
+}
+.fw-item.active{background:var(--accent-glow);border-left-color:var(--accent)}
+.fw-item-head{display:flex;align-items:center;gap:10px}
+.fw-item-head .ico{font-size:18px}
+.fw-item-head .ttl{font-size:15px;font-weight:600;color:var(--text-muted)}
+.fw-item.active .fw-item-head .ttl{color:var(--white)}
+.fw-item-desc{
+  font-size:14px;color:var(--text-muted);line-height:1.65;
+  margin-top:10px;padding-left:28px;
+  max-height:0;overflow:hidden;
+  transition:max-height .3s ease;
+}
+.fw-item.active .fw-item-desc{max-height:200px}
+
+/* ═══ TRACKS ═══ */
+.tracks-head{text-align:center}
+.tracks-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(340px,1fr));gap:24px}
+.track-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:16px;padding:40px;position:relative;overflow:hidden;
+  height:100%;display:flex;flex-direction:column;
+}
+.track-glow{
+  position:absolute;top:-60px;right:-60px;width:200px;height:200px;
+  pointer-events:none;
+}
+.track-glow.a{background:radial-gradient(circle, rgba(42,122,255,.13) 0%, transparent 70%)}
+.track-glow.b{background:radial-gradient(circle, rgba(34,197,94,.13) 0%, transparent 70%)}
+.track-badge{
+  display:inline-block;padding:4px 14px;border-radius:100px;
+  font-size:12px;font-weight:700;letter-spacing:.06em;
+  margin-bottom:20px;align-self:flex-start;
+}
+.track-badge.a{background:rgba(42,122,255,.13);color:var(--track-a)}
+.track-badge.b{background:rgba(34,197,94,.13);color:var(--track-b)}
+.track-card h3{
+  font-family:'Playfair Display',serif;
+  font-size:28px;color:var(--white);font-weight:700;margin-bottom:14px;
+}
+.track-card .desc{font-size:15px;color:var(--text-muted);line-height:1.7;margin-bottom:28px}
+.track-feat{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.track-check{
+  width:20px;height:20px;border-radius:6px;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:700;
+}
+.track-check.a{background:rgba(42,122,255,.15);color:var(--track-a)}
+.track-check.b{background:rgba(34,197,94,.15);color:var(--track-b)}
+.track-feat span:last-child{font-size:14px;color:var(--text)}
+
+/* ═══ MATH ═══ */
+.math-head{text-align:center}
+.math-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.math-col{background:var(--surface);border-radius:12px;overflow:hidden;border:1px solid var(--border)}
+.math-col.on{border-color:rgba(232,106,42,.4)}
+.math-col-head{
+  padding:20px 28px;background:var(--surface-light);
+  border-bottom:1px solid var(--border);
+}
+.math-col.on .math-col-head{background:var(--accent-glow)}
+.math-col-head span{font-size:16px;font-weight:700;color:var(--text-muted)}
+.math-col.on .math-col-head span{color:var(--accent)}
+.math-row{
+  display:flex;justify-content:space-between;padding:16px 28px;
+  border-bottom:1px solid var(--border);
+}
+.math-row:last-child{border-bottom:none}
+.math-k{font-size:14px;color:var(--text-muted)}
+.math-v{font-size:15px;font-weight:600;color:var(--text-muted)}
+.math-col.on .math-v{color:var(--white)}
+
+/* ═══ PROOF ═══ */
+.proof{background:var(--surface)}
+.proof-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(240px,1fr));gap:16px}
+.proof-card{
+  background:var(--bg);border:1px solid var(--border);
+  border-radius:12px;padding:28px;height:100%;
+}
+.proof-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.proof-label{font-size:16px;font-weight:700;color:var(--white)}
+.proof-tag{
+  font-size:11px;padding:3px 10px;border-radius:100px;font-weight:600;
+}
+.proof-tag.live{background:rgba(34,197,94,.13);color:var(--track-b)}
+.proof-tag.build{background:rgba(232,106,42,.13);color:var(--accent-soft)}
+.proof-desc{font-size:13px;color:var(--text-muted);line-height:1.65}
+
+/* ═══ PRICING ═══ */
+.pricing{background:var(--surface)}
+.pricing-head{text-align:center}
+.pricing-head .s-lede{margin:0 auto 20px;text-align:center;max-width:580px}
+
+.ladder{
+  display:flex;justify-content:center;gap:4px;margin:32px auto 56px;
+  max-width:700px;flex-wrap:wrap;align-items:flex-end;
+}
+.ladder-bar{
+  flex:1;min-width:100px;cursor:pointer;
+  display:flex;flex-direction:column;align-items:center;gap:6px;
+}
+.ladder-price{font-size:11px;color:var(--text-muted);font-weight:600;text-align:center}
+.ladder-bar.hl .ladder-price{color:var(--accent)}
+.ladder-block{
+  width:100%;border-radius:6px;
+  background:linear-gradient(180deg, var(--surface-light) 0%, var(--border) 100%);
+  border:1px solid var(--border);
+  transition:all .3s;
+}
+.ladder-bar.hl .ladder-block{
+  background:linear-gradient(180deg, var(--accent) 0%, rgba(232,106,42,.5) 100%);
+  border-color:rgba(232,106,42,.4);
+  box-shadow:0 0 20px var(--accent-glow);
+}
+.ladder-name{font-size:10px;color:var(--text-muted);text-align:center;line-height:1.3}
+
+.tiers{display:flex;flex-direction:column;gap:20px}
+.tier{
+  background:var(--bg);border-radius:16px;overflow:hidden;
+  border:1px solid var(--border);transition:box-shadow .3s;
+}
+.tier.hl{border-color:rgba(232,106,42,.31);box-shadow:0 0 50px var(--accent-glow)}
+.tier-head{
+  display:grid;grid-template-columns:1fr auto auto;gap:16px;align-items:center;
+  padding:28px 32px;cursor:pointer;
+  transition:background .2s;
+}
+.tier.hl .tier-head{background:var(--accent-glow)}
+.tier-name-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.tier-name{font-family:'Playfair Display',serif;font-size:22px;color:var(--white);font-weight:700;margin:0}
+.tier-badge{
+  font-size:10px;padding:3px 10px;border-radius:100px;
+  font-weight:700;letter-spacing:.04em;
+  background:rgba(232,106,42,.13);color:var(--accent-soft);
+}
+.tier.hl .tier-badge{background:var(--accent);color:var(--white)}
+.tier-tagline{font-size:14px;color:var(--text-muted);margin-top:4px;line-height:1.5}
+.tier-price-col{text-align:right}
+.tier-price{font-family:'Playfair Display',serif;font-size:36px;font-weight:700;color:var(--white)}
+.tier.hl .tier-price{color:var(--accent)}
+.tier-period{font-size:12px;color:var(--text-muted)}
+.tier-caret{
+  font-size:18px;color:var(--text-muted);width:24px;text-align:center;
+  display:inline-block;
+  transition:transform .25s;
+}
+.tier.open .tier-caret{transform:rotate(180deg)}
+.tier-body{max-height:0;overflow:hidden;transition:max-height .4s ease;border-top:1px solid transparent}
+.tier.open .tier-body{max-height:2400px;border-top-color:var(--border)}
+.tier-body-inner{padding:28px 32px}
+.tier-includes{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:6px 14px;border-radius:8px;
+  background:rgba(34,197,94,.06);border:1px solid rgba(34,197,94,.15);
+  margin-bottom:20px;
+  font-size:12px;color:var(--track-b);font-weight:600;
+}
+.tier-deliv{
+  display:grid;grid-template-columns:repeat(auto-fill, minmax(320px,1fr));
+  gap:4px 32px;
+}
+.deliv{
+  display:flex;align-items:flex-start;gap:10px;margin-bottom:10px;
+}
+.deliv.inh{opacity:.5}
+.deliv .box{
+  width:18px;height:18px;border-radius:5px;flex-shrink:0;margin-top:1px;
+  background:rgba(34,197,94,.13);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--track-b);font-size:10px;font-weight:700;
+}
+.deliv.inh .box{background:rgba(34,197,94,.09);color:var(--text-muted)}
+.deliv .txt{font-size:13px;color:var(--text);line-height:1.5}
+.deliv.inh .txt{color:var(--text-muted)}
+.tier-foot{margin-top:24px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.tier-cta{
+  display:inline-block;padding:14px 32px;border-radius:8px;
+  background:transparent;border:1px solid var(--border);
+  color:var(--white);font-size:14px;font-weight:600;
+  transition:all .2s;
+}
+.tier-cta:hover{border-color:var(--accent);background:rgba(232,106,42,.08)}
+.tier.hl .tier-cta{background:var(--accent);border-color:var(--accent)}
+.tier-foot-note{font-size:12px;color:var(--text-muted)}
+
+.pricing-info{
+  margin-top:40px;padding:20px 28px;border-radius:12px;
+  background:var(--bg);border:1px solid var(--border);
+  display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap;
+}
+.pricing-info > div{flex:1;min-width:250px}
+.pricing-info span.k{font-size:13px;font-weight:700;color:var(--white)}
+.pricing-info p{font-size:13px;color:var(--text-muted);margin-top:4px;line-height:1.6}
+
+/* ═══ FINAL CTA ═══ */
+.final{padding:120px 24px;position:relative;overflow:hidden;text-align:center}
+.final::before{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(ellipse at center, var(--accent-glow) 0%, transparent 60%);
+  pointer-events:none;
+}
+.final-inner{max-width:700px;margin:0 auto;position:relative;z-index:1}
+.final h2{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(32px,5vw,52px);color:var(--white);font-weight:700;
+  margin-bottom:20px;line-height:1.15;
+}
+.final p{font-size:17px;color:var(--text-muted);line-height:1.7;margin:0 auto 40px;max-width:520px}
+.final .btn-primary{padding:18px 44px;font-size:16px;font-weight:700;box-shadow:0 0 40px rgba(232,106,42,.3)}
+
+/* ═══ FOOTER ═══ */
+footer{padding:40px 24px;border-top:1px solid var(--border)}
+.foot-inner{
+  max-width:1100px;margin:0 auto;
+  display:flex;justify-content:space-between;align-items:center;
+  flex-wrap:wrap;gap:16px;
+}
+.foot-brand{font-size:16px;font-weight:700;color:var(--white);letter-spacing:-.02em}
+.foot-sub{font-size:13px;color:var(--text-muted);margin-left:16px}
+.foot-copy{font-size:12px;color:var(--text-muted)}
+
+/* ═══ RESPONSIVE ═══ */
+@media(max-width:860px){
+  .nav-links a:not(.nav-apply){display:none}
+  .fw-grid,.math-grid{grid-template-columns:1fr;gap:32px}
+  .fw-orbit{margin:0 auto}
+  .tier-head{grid-template-columns:1fr;gap:8px}
+  .tier-price-col{text-align:left}
+  .tier-caret{align-self:flex-start}
+  .pricing-info{flex-direction:column}
+  .tracks-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- ═══════════ NAV ═══════════ -->
+<nav class="topnav">
+  <div class="nav-inner">
+    <a href="#" class="nav-brand">
+      <div class="nav-mark">N</div>
+      <span class="nav-name">Near Me OS</span>
+    </a>
+    <div class="nav-links">
+      <a href="#flywheel">Flywheel</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#apply" class="nav-apply">Apply</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section class="hero">
+  <div class="hero-bg-1"></div>
+  <div class="hero-bg-2"></div>
+  <div class="hero-inner">
+    <div class="hero-pill">
+      <span class="dot"></span>
+      <span>Now accepting founding members</span>
+    </div>
+    <h1>Stop Selling Services.<br><span class="accent">Start Owning Markets.</span></h1>
+    <p class="hero-sub">Near Me OS is the operating system for building, ranking, and monetizing local "near me" markets — with AI automation, territory licensing, and a compounding PPC-to-SEO flywheel that turns every dollar into a permanent asset.</p>
+    <div class="hero-ctas">
+      <a href="#pricing" class="btn-primary">Apply Now</a>
+      <a href="#flywheel" class="btn-ghost">See the Flywheel →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ STATS BAR ═══════════ -->
+<div class="fade">
+  <div class="stats-wrap">
+    <div class="stat-cell fade" data-delay="0.1"><div class="stat-val">9</div><div class="stat-lbl">Revenue Streams</div></div>
+    <div class="stat-cell fade" data-delay="0.2"><div class="stat-val">64%</div><div class="stat-lbl">CAC Reduction</div></div>
+    <div class="stat-cell fade" data-delay="0.3"><div class="stat-val">45%</div><div class="stat-lbl">Target Margins</div></div>
+    <div class="stat-cell fade" data-delay="0.4"><div class="stat-val">14</div><div class="stat-lbl">Weeks to Launch</div></div>
+  </div>
+</div>
+
+<!-- ═══════════ FLYWHEEL ═══════════ -->
+<section class="s" id="flywheel">
+  <div class="s-wrap">
+    <div class="fade">
+      <p class="s-eyebrow">The Engine</p>
+      <h2 class="s-title">The Compounding Flywheel</h2>
+      <p class="s-lede">Every dollar you spend on PPC becomes a permanent SEO asset. Competitors keep paying per click. You build an organic moat.</p>
+    </div>
+
+    <div class="fw-grid">
+      <div class="fade" data-delay="0.1">
+        <div class="fw-visual">
+          <div class="fw-orbit" id="fwOrbit">
+            <div class="fw-center">NEAR ME<br>OS</div>
+            <svg class="fw-ring" width="320" height="320"><circle cx="160" cy="160" r="130" fill="none" stroke="var(--border)" stroke-width="1" stroke-dasharray="4 8"/></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="fade" data-delay="0.2">
+        <div class="fw-panel" id="fwPanel"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ TRACKS ═══════════ -->
+<section class="s">
+  <div class="s-wrap">
+    <div class="fade tracks-head">
+      <p class="s-eyebrow">Two Paths. One Platform.</p>
+      <h2 class="s-title" style="margin-bottom:56px">Choose How You Build</h2>
+    </div>
+
+    <div class="tracks-grid">
+      <div class="fade">
+        <div class="track-card">
+          <div class="track-glow a"></div>
+          <span class="track-badge a">Track A</span>
+          <h3>AI Consultant Network</h3>
+          <p class="desc">Get certified. Claim a territory. Deliver AI automation services to local businesses using our proven methodology, tools, and lead engine.</p>
+          <div style="flex:1">
+            <div class="track-feat"><span class="track-check a">✓</span><span>AI Consultant Certification</span></div>
+            <div class="track-feat"><span class="track-check a">✓</span><span>Protected local territory</span></div>
+            <div class="track-feat"><span class="track-check a">✓</span><span>Lead routing &amp; CRM pipeline</span></div>
+            <div class="track-feat"><span class="track-check a">✓</span><span>n8n + GoHighLevel tech stack</span></div>
+            <div class="track-feat"><span class="track-check a">✓</span><span>Rev-share on closed deals</span></div>
+            <div class="track-feat"><span class="track-check a">✓</span><span>Training &amp; sales frameworks</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fade" data-delay="0.15">
+        <div class="track-card">
+          <div class="track-glow b"></div>
+          <span class="track-badge b">Track B</span>
+          <h3>Vertical Builders</h3>
+          <p class="desc">Launch a "Near Me" directory in any vertical — tech support, car rental, maid services, contractors. We provide the OS. You own the market.</p>
+          <div style="flex:1">
+            <div class="track-feat"><span class="track-check b">✓</span><span>Turnkey directory platform</span></div>
+            <div class="track-feat"><span class="track-check b">✓</span><span>Embedded booking engine</span></div>
+            <div class="track-feat"><span class="track-check b">✓</span><span>PPC-to-SEO flywheel built in</span></div>
+            <div class="track-feat"><span class="track-check b">✓</span><span>Territory licensing model</span></div>
+            <div class="track-feat"><span class="track-check b">✓</span><span>Operator self-serve dashboards</span></div>
+            <div class="track-feat"><span class="track-check b">✓</span><span>Cross-referral with Track A</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FLYWHEEL MATH ═══════════ -->
+<section class="s">
+  <div class="s-wrap">
+    <div class="fade math-head">
+      <p class="s-eyebrow">The Math</p>
+      <h2 class="s-title" style="margin-bottom:56px">Without the Flywheel vs. With It</h2>
+    </div>
+
+    <div class="math-grid">
+      <div class="fade">
+        <div class="math-col">
+          <div class="math-col-head"><span>Without</span></div>
+          <div class="math-row"><span class="math-k">CAC</span><span class="math-v">$144</span></div>
+          <div class="math-row"><span class="math-k">12-Month Spend</span><span class="math-v">$144,000</span></div>
+          <div class="math-row"><span class="math-k">Customers</span><span class="math-v">1,000</span></div>
+          <div class="math-row"><span class="math-k">Organic Share</span><span class="math-v">15%</span></div>
+          <div class="math-row"><span class="math-k">Compounding</span><span class="math-v">None</span></div>
+        </div>
+      </div>
+      <div class="fade" data-delay="0.15">
+        <div class="math-col on">
+          <div class="math-col-head"><span>With Near Me OS</span></div>
+          <div class="math-row"><span class="math-k">CAC</span><span class="math-v">$38</span></div>
+          <div class="math-row"><span class="math-k">12-Month Spend</span><span class="math-v">$84,000</span></div>
+          <div class="math-row"><span class="math-k">Customers</span><span class="math-v">2,200</span></div>
+          <div class="math-row"><span class="math-k">Organic Share</span><span class="math-v">55%</span></div>
+          <div class="math-row"><span class="math-k">Compounding</span><span class="math-v">3–10x ROI</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PROOF ═══════════ -->
+<section class="s proof">
+  <div class="s-wrap">
+    <div class="fade">
+      <p class="s-eyebrow">Proof, Not Promises</p>
+      <h2 class="s-title">Built on Real Deployments</h2>
+      <p class="s-lede">No 90-day proof timelines. The methodology is already live, already ranking, already generating revenue.</p>
+    </div>
+
+    <div class="proof-grid">
+      <div class="fade">
+        <div class="proof-card">
+          <div class="proof-head">
+            <span class="proof-label">RaceCS.net</span>
+            <span class="proof-tag live">Live</span>
+          </div>
+          <p class="proof-desc">Live MSP in Elizabeth, NJ — rank-and-rent proof asset powering real client revenue since 2020.</p>
+        </div>
+      </div>
+      <div class="fade" data-delay="0.1">
+        <div class="proof-card">
+          <div class="proof-head">
+            <span class="proof-label">San Diego Tech Support</span>
+            <span class="proof-tag live">Live</span>
+          </div>
+          <p class="proof-desc">West coast satellite deployment proving the Near Me model works across geographies.</p>
+        </div>
+      </div>
+      <div class="fade" data-delay="0.2">
+        <div class="proof-card">
+          <div class="proof-head">
+            <span class="proof-label">Car Rental Near Me</span>
+            <span class="proof-tag build">Building</span>
+          </div>
+          <p class="proof-desc">Flagship Track B vertical with embedded booking, territory licensing, and 14-week production timeline.</p>
+        </div>
+      </div>
+      <div class="fade" data-delay="0.3">
+        <div class="proof-card">
+          <div class="proof-head">
+            <span class="proof-label">Jersey Service Providers</span>
+            <span class="proof-tag build">Building</span>
+          </div>
+          <p class="proof-desc">Geo-first NJ directory. Tier 1 territory pricing at $7K + $1,200/mo with backlink flywheel.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PRICING ═══════════ -->
+<section class="s pricing" id="pricing">
+  <div class="s-wrap-wide">
+    <div class="fade pricing-head">
+      <p class="s-eyebrow">The Offer Stack</p>
+      <h2 class="s-title" style="margin-bottom:12px">Founding Member Pricing</h2>
+      <p class="s-lede">Enter at any layer. Each tier stacks on the one below it — or start at the top and get everything. First 10 positions at founding rates.</p>
+    </div>
+
+    <div class="fade" data-delay="0.1">
+      <div class="ladder" id="ladder"></div>
+    </div>
+
+    <div class="tiers" id="tiers"></div>
+
+    <div class="fade" data-delay="0.4">
+      <div class="pricing-info">
+        <div>
+          <span class="k">Budget Qualification</span>
+          <p>All tiers require confirmation of $1,500+/month ad spend capacity before a discovery call is scheduled. This ensures the PPC-to-SEO flywheel has enough fuel to compound.</p>
+        </div>
+        <div>
+          <span class="k">Founding Rates</span>
+          <p>Platform Build and VIP Full System are priced at founding member rates for the first 10 closes. Standard pricing after the cohort fills: Platform moves to $4,450, VIP moves to $5,997.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FINAL CTA ═══════════ -->
+<section class="final" id="apply">
+  <div class="final-inner">
+    <div class="fade">
+      <h2>Ready to Own<br>Your Market?</h2>
+      <p>Take the free AI Readiness Assessment and see exactly where you stand — then book a strategy call to claim your territory.</p>
+      <a href="#pricing" class="btn-primary">Take the Assessment →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer>
+  <div class="foot-inner">
+    <div>
+      <span class="foot-brand">Near Me OS</span>
+      <span class="foot-sub">Race Computer Services · Elizabeth, NJ</span>
+    </div>
+    <span class="foot-copy">© 2026. All rights reserved.</span>
+  </div>
+</footer>
+
+<script>
+// ═══ FADE-IN ON SCROLL ═══
+const obs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('in');
+      obs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade').forEach(el => obs.observe(el));
+
+// ═══ FLYWHEEL ═══
+const fwSteps = [
+  { icon: "🎯", title: "Rank", desc: "Dominate 'X Near Me' searches with embedded booking pages that send the strongest engagement signals Google rewards." },
+  { icon: "📥", title: "Capture", desc: "High-intent local traffic lands on your platform — not a competitor's. Every interaction stays on-domain for maximum authority." },
+  { icon: "🔀", title: "Distribute", desc: "Route leads to your certified network. Territory owners, service providers, and AI consultants all get fed from the same engine." },
+  { icon: "💰", title: "Monetize", desc: "Territory licensing fees, platform booking percentages, MRR from operators, and rev-share from the consultant network." },
+  { icon: "🔄", title: "Reinvest", desc: "Revenue compounds back into PPC → organic signal loops. CAC drops 64% in 12 months while lead volume doubles." },
+];
+let fwActive = 0;
+
+const orbit = document.getElementById('fwOrbit');
+const panel = document.getElementById('fwPanel');
+
+fwSteps.forEach((s, i) => {
+  const angle = (i / fwSteps.length) * 2 * Math.PI - Math.PI / 2;
+  const r = 130;
+  const x = 160 + r * Math.cos(angle) - 28;
+  const y = 160 + r * Math.sin(angle) - 28;
+  const dot = document.createElement('div');
+  dot.className = 'fw-dot';
+  dot.style.left = x + 'px';
+  dot.style.top = y + 'px';
+  dot.dataset.idx = i;
+  dot.textContent = s.icon;
+  dot.onclick = () => setFwActive(i);
+  orbit.appendChild(dot);
+
+  const item = document.createElement('div');
+  item.className = 'fw-item';
+  item.dataset.idx = i;
+  item.innerHTML = `
+    <div class="fw-item-head">
+      <span class="ico">${s.icon}</span>
+      <span class="ttl">${s.title}</span>
+    </div>
+    <div class="fw-item-desc">${s.desc}</div>
+  `;
+  item.onclick = () => setFwActive(i);
+  panel.appendChild(item);
+});
+
+function setFwActive(i) {
+  fwActive = i;
+  document.querySelectorAll('.fw-dot').forEach((d, j) => d.classList.toggle('active', j === i));
+  document.querySelectorAll('.fw-item').forEach((it, j) => it.classList.toggle('active', j === i));
+}
+setFwActive(0);
+setInterval(() => setFwActive((fwActive + 1) % fwSteps.length), 4000);
+
+// ═══ PRICING ═══
+const tiers = [
+  {
+    name: "SEO Layer", price: "$997", period: "one-time",
+    tagline: "Rank for 'near me' keywords in your vertical",
+    highlight: false, badge: null, includes: null, cta: "Get Started",
+    deliverables: [
+      { text: "Local 'near me' keyword research — 50+ terms mapped by intent, CPC, and competition" },
+      { text: "On-page SEO architecture for your hub pages — title tags, H1/H2 structure, internal linking plan" },
+      { text: "LocalBusiness + Offer schema markup — structured data ready to paste into your pages" },
+      { text: "Google Business Profile optimization — category, attributes, post calendar, photo strategy" },
+      { text: "Core Web Vitals audit with fix list — LCP, CLS, INP benchmarks for your current site" },
+      { text: "90-day authority content calendar — 12 geo-targeted articles mapped to keyword clusters" },
+      { text: "Backlink opportunity list — 25 local directories, chambers, and niche sites to submit to" },
+      { text: "Competitor gap analysis — what they rank for, what they miss, and where you win" },
+    ],
+  },
+  {
+    name: "PPC Layer", price: "$997", period: "one-time",
+    tagline: "Turn every ad dollar into a permanent SEO asset",
+    highlight: false, badge: null, includes: null, cta: "Get Started",
+    deliverables: [
+      { text: "Google Ads campaign architecture — 3 ad groups: airport, city-level 'near me', competitor/brand" },
+      { text: "CTR manipulation framework — engagement signal strategy that compounds PPC into organic ranking" },
+      { text: "Retargeting pixel setup — Meta + Google audiences auto-built from booking page visitors" },
+      { text: "PPC-to-SEO signal loop blueprint — the exact flywheel that drives 64% CAC reduction over 12 months" },
+      { text: "Keyword intelligence extraction — n8n workflow that pulls converting search terms into your SEO pipeline" },
+      { text: "Monthly budget optimization playbook — when to increase, when to shift, what to kill" },
+      { text: "Landing page conversion audit — dwell time, scroll depth, and booking-start benchmarks" },
+      { text: "Retargeting CPM comparison model — warm audience costs vs cold PPC, updated monthly" },
+    ],
+  },
+  {
+    name: "Platform Build", price: "$2,997", period: "founding rate",
+    tagline: "Your 'Near Me' directory — live and taking bookings",
+    highlight: false, badge: "Founding Member",
+    includes: "Includes everything in SEO + PPC Layers", cta: "Apply Now",
+    deliverables: [
+      { text: "Custom directory deployment on Brilliant Directories — your vertical, your brand, your domain" },
+      { text: "Operator/provider profile pages with embedded booking widget — entire flow stays on your domain" },
+      { text: "Backlink flywheel activation — every operator gets a dofollow profile link + automated GBP post" },
+      { text: "Provider onboarding system — self-serve signup, profile builder, calendar sync setup" },
+      { text: "Territory map with tiered pricing structure — metro, mid-tier, and rural zones defined" },
+      { text: "n8n automation skeleton — 5 core workflows: booking → CRM, new operator → backlink, review request, payout trigger, lead routing" },
+      { text: "Stripe Connect integration — split payments between platform and operators, automated payouts" },
+      { text: "GoHighLevel CRM pipeline — lead stages from assessment → call → pilot → active → MRR" },
+      { text: "AI Readiness Assessment quiz — customized 12-question version for your vertical with scoring + CTAs" },
+      { text: "Post-assessment email nurture — 5-email GHL sequence: score → case study → territory → call invite → urgency" },
+      { text: "SEO Layer deliverables", inherited: true },
+      { text: "PPC Layer deliverables", inherited: true },
+    ],
+  },
+  {
+    name: "VIP Full System", price: "$4,450", period: "founding rate",
+    tagline: "The complete Near Me OS deployment — own your local market end to end",
+    highlight: true, badge: "Best Value",
+    includes: "Includes everything in Platform Build + SEO + PPC", cta: "Apply Now",
+    deliverables: [
+      { text: "Protected local territory — exclusive rights to your county/metro. No other operator gets your zone." },
+      { text: "Full GoHighLevel automation suite — booking lifecycle SMS (5 messages), operator pipeline, review funnels, retargeting sync" },
+      { text: "Cross-referral engine — AI Consultants route leads to your directory; you route consulting needs back. Rev-share both ways." },
+      { text: "Complete n8n automation build — 10+ production workflows installed and tested: booking, payouts, backlinks, retargeting, pricing, alerts" },
+      { text: "Client deployment dashboard — 9-step onboarding tracker for every operator you bring on: website, booking, PPC, analytics, mobile app" },
+      { text: "Sales frameworks + training — call scripts, objection handling, territory pitch deck, and demo flow for selling to operators" },
+      { text: "Revenue share on platform deals — 20-25% of leads and closed deals routed through the Near Me network" },
+      { text: "Monthly flywheel review — CAC tracking, organic share %, branded search growth, with budget reallocation guidance" },
+      { text: "90-day launch support — weekly check-ins, technical troubleshooting, campaign optimization through your first 3 territory sales" },
+      { text: "Platform Build deliverables", inherited: true },
+      { text: "SEO + PPC Layer deliverables", inherited: true },
+    ],
+  },
+  {
+    name: "OS License", price: "$9,560", period: "enterprise",
+    tagline: "Build multiple verticals. White-label the platform. State-level territory rights.",
+    highlight: false, badge: "Enterprise",
+    includes: "Includes everything in VIP Full System", cta: "Schedule Call",
+    deliverables: [
+      { text: "State-wide territory rights — lock an entire state. All county-level operators roll up under your license." },
+      { text: "White-label platform — your brand, your domain, your logo on every page. Near Me OS runs invisibly underneath." },
+      { text: "Multi-vertical deployment — launch additional 'Near Me' directories (maid, tech support, car rental, contractors) under one license" },
+      { text: "Near Me OS methodology documentation — the full playbook: flywheel mechanics, territory pricing models, operator scripts, funnel architecture" },
+      { text: "Vertical builder toolkit — templates, Supabase schema, n8n workflow library, and landing page components for new verticals" },
+      { text: "Custom AI development access — n8n workflows built to your specs: pricing engines, demand forecasting, automated competitor monitoring" },
+      { text: "Priority lead routing — your territories get first pick on inbound leads from the Near Me network before standard consultants" },
+      { text: "Quarterly strategy sessions — 90-minute deep dives on expansion, new verticals, territory performance, and scaling triggers" },
+      { text: "Revenue share participation — earn platform-level rev share on all bookings across your licensed territories and verticals" },
+      { text: "VIP Full System deliverables", inherited: true },
+    ],
+  },
+];
+
+const ladder = document.getElementById('ladder');
+tiers.forEach((t, i) => {
+  const h = 28 + i * 14;
+  const bar = document.createElement('div');
+  bar.className = 'ladder-bar' + (t.highlight ? ' hl' : '');
+  bar.innerHTML = `
+    <span class="ladder-price">${t.price}</span>
+    <div class="ladder-block" style="height:${h}px"></div>
+    <span class="ladder-name">${t.name}</span>
+  `;
+  bar.onclick = () => {
+    const card = document.getElementById('tier-' + i);
+    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    toggleTier(i);
+  };
+  ladder.appendChild(bar);
+});
+
+const tiersWrap = document.getElementById('tiers');
+let openTier = null;
+tiers.forEach((t, i) => {
+  const card = document.createElement('div');
+  card.className = 'tier fade' + (t.highlight ? ' hl' : '');
+  card.id = 'tier-' + i;
+  card.dataset.delay = (i * 0.08).toFixed(2);
+
+  const delivHTML = t.deliverables.map(d => `
+    <div class="deliv${d.inherited ? ' inh' : ''}">
+      <div class="box">✓</div>
+      <div class="txt">${d.text}</div>
+    </div>
+  `).join('');
+
+  card.innerHTML = `
+    <div class="tier-head">
+      <div>
+        <div class="tier-name-row">
+          <h3 class="tier-name">${t.name}</h3>
+          ${t.badge ? `<span class="tier-badge">${t.badge}</span>` : ''}
+        </div>
+        <p class="tier-tagline">${t.tagline}</p>
+      </div>
+      <div class="tier-price-col">
+        <span class="tier-price">${t.price}</span>
+        <div class="tier-period">${t.period}</div>
+      </div>
+      <span class="tier-caret">▾</span>
+    </div>
+    <div class="tier-body">
+      <div class="tier-body-inner">
+        ${t.includes ? `<div class="tier-includes">↑ ${t.includes}</div>` : ''}
+        <div class="tier-deliv">${delivHTML}</div>
+        <div class="tier-foot">
+          <a href="#apply" class="tier-cta">${t.cta}</a>
+          ${i < 2 ? '<span class="tier-foot-note">or upgrade to a higher tier anytime</span>' : ''}
+        </div>
+      </div>
+    </div>
+  `;
+  card.querySelector('.tier-head').onclick = () => toggleTier(i);
+  tiersWrap.appendChild(card);
+  obs.observe(card);
+});
+
+function toggleTier(i) {
+  const card = document.getElementById('tier-' + i);
+  if (openTier === i) {
+    card.classList.remove('open');
+    openTier = null;
+  } else {
+    if (openTier !== null) document.getElementById('tier-' + openTier).classList.remove('open');
+    card.classList.add('open');
+    openTier = i;
+  }
+}
+</script>
+
+</body>
+</html>
