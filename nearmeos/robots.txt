@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nearmeos.io/sitemap.xml
