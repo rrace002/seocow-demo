@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,near me os,logo/home,"A1,A6,A10",
+/about-near-me-os/,COMP-HUB,/,about near me os,About menu,"A1,A10",
+/about-near-me-os/why-choose-us/,COMP-CHILD,/about-near-me-os/,why choose near me os,About menu,"A10,A12",
+/about-near-me-os/verticals-we-serve/,COMP-CHILD,/about-near-me-os/,near me verticals,About menu,D1,
+/contact/,COMP-CONTACT,/,contact near me os,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,near me os proposal,nav utility,I1,Request for Proposal
+/ai-readiness-assessment/,FORM-CONSULT,/,ai readiness assessment,nav utility (highlighted),I1,Consultation Request
+/near-me-seo-services/,SVC-HUB,/,near me seo services,Services menu,B (category),
+/near-me-seo-services/local-near-me-keyword-research/,SVC-CHILD,/near-me-seo-services/,local near me keyword research,Services menu > hub grid,B row,Request for Proposal
+/near-me-seo-services/on-page-seo-architecture/,SVC-CHILD,/near-me-seo-services/,on-page seo architecture,Services menu > hub grid,B row,Request for Proposal
+/near-me-seo-services/localbusiness-schema-markup/,SVC-CHILD,/near-me-seo-services/,localbusiness schema markup,Services menu > hub grid,B row,Request for Proposal
+/near-me-seo-services/google-business-profile-optimization/,SVC-CHILD,/near-me-seo-services/,google business profile optimization,Services menu > hub grid,B row,Request for Proposal
+/near-me-seo-services/core-web-vitals-optimization/,SVC-CHILD,/near-me-seo-services/,core web vitals optimization,Services menu > hub grid,B row,Request for Proposal
+/near-me-seo-services/geo-authority-content-calendar/,SVC-CHILD,/near-me-seo-services/,geo authority content calendar,Services menu > hub grid,B row,Request for Proposal
+/near-me-seo-services/local-backlink-opportunity-list/,SVC-CHILD,/near-me-seo-services/,local backlink opportunity list,Services menu > hub grid,B row,Request for Proposal
+/near-me-seo-services/competitor-gap-analysis/,SVC-CHILD,/near-me-seo-services/,competitor gap analysis,Services menu > hub grid,B row,Request for Proposal
+/near-me-seo-services/near-me-landing-page-optimization/,SVC-CHILD,/near-me-seo-services/,near me landing page optimization,Services menu > hub grid,B row,Request for Proposal
+/near-me-seo-services/multi-location-near-me-seo/,SVC-CHILD,/near-me-seo-services/,multi-location near me seo,Services menu > hub grid,B row,Request for Proposal
+/local-ppc-services/,SVC-HUB,/,local ppc services,Services menu,B (category),
+/local-ppc-services/google-ads-near-me-campaigns/,SVC-CHILD,/local-ppc-services/,google ads near me campaigns,Services menu > hub grid,B row,Request for Proposal
+/local-ppc-services/ctr-engagement-framework/,SVC-CHILD,/local-ppc-services/,ctr engagement framework,Services menu > hub grid,B row,Request for Proposal
+/local-ppc-services/retargeting-pixel-setup/,SVC-CHILD,/local-ppc-services/,retargeting pixel setup,Services menu > hub grid,B row,Request for Proposal
+/local-ppc-services/ppc-to-seo-signal-loop/,SVC-CHILD,/local-ppc-services/,ppc-to-seo signal loop,Services menu > hub grid,B row,Request for Proposal
+/local-ppc-services/keyword-intelligence-extraction/,SVC-CHILD,/local-ppc-services/,keyword intelligence extraction,Services menu > hub grid,B row,Request for Proposal
+/local-ppc-services/monthly-budget-optimization/,SVC-CHILD,/local-ppc-services/,monthly budget optimization,Services menu > hub grid,B row,Request for Proposal
+/local-ppc-services/landing-page-conversion-audit/,SVC-CHILD,/local-ppc-services/,landing page conversion audit,Services menu > hub grid,B row,Request for Proposal
+/local-ppc-services/retargeting-cpm-modeling/,SVC-CHILD,/local-ppc-services/,retargeting cpm modeling,Services menu > hub grid,B row,Request for Proposal
+/local-ppc-services/local-service-ads-strategy/,SVC-CHILD,/local-ppc-services/,local service ads strategy,Services menu > hub grid,B row,Request for Proposal
+/local-ppc-services/competitor-conquest-campaigns/,SVC-CHILD,/local-ppc-services/,competitor conquest campaigns,Services menu > hub grid,B row,Request for Proposal
+/directory-platform-build/,SVC-HUB,/,directory platform build,Services menu,B (category),
+/directory-platform-build/brilliant-directories-deployment/,SVC-CHILD,/directory-platform-build/,brilliant directories deployment,Services menu > hub grid,B row,Request for Proposal
+/directory-platform-build/operator-profile-pages/,SVC-CHILD,/directory-platform-build/,operator profile pages,Services menu > hub grid,B row,Request for Proposal
+/directory-platform-build/embedded-booking-engine/,SVC-CHILD,/directory-platform-build/,embedded booking engine,Services menu > hub grid,B row,Request for Proposal
+/directory-platform-build/backlink-flywheel-activation/,SVC-CHILD,/directory-platform-build/,backlink flywheel activation,Services menu > hub grid,B row,Request for Proposal
+/directory-platform-build/provider-onboarding-system/,SVC-CHILD,/directory-platform-build/,provider onboarding system,Services menu > hub grid,B row,Request for Proposal
+/directory-platform-build/territory-map-pricing/,SVC-CHILD,/directory-platform-build/,territory map & pricing,Services menu > hub grid,B row,Request for Proposal
+/directory-platform-build/stripe-connect-integration/,SVC-CHILD,/directory-platform-build/,stripe connect integration,Services menu > hub grid,B row,Request for Proposal
+/directory-platform-build/ghl-crm-pipeline-setup/,SVC-CHILD,/directory-platform-build/,gohighlevel crm pipeline,Services menu > hub grid,B row,Request for Proposal
+/directory-platform-build/ai-readiness-assessment-build/,SVC-CHILD,/directory-platform-build/,ai readiness assessment build,Services menu > hub grid,B row,Request for Proposal
+/directory-platform-build/post-assessment-email-nurture/,SVC-CHILD,/directory-platform-build/,post-assessment email nurture,Services menu > hub grid,B row,Request for Proposal
+/vip-full-system/,SVC-HUB,/,vip full system,Services menu,B (category),
+/vip-full-system/protected-local-territory/,SVC-CHILD,/vip-full-system/,protected local territory,Services menu > hub grid,B row,Request for Proposal
+/vip-full-system/ghl-automation-suite/,SVC-CHILD,/vip-full-system/,gohighlevel automation suite,Services menu > hub grid,B row,Request for Proposal
+/vip-full-system/cross-referral-engine/,SVC-CHILD,/vip-full-system/,cross-referral engine,Services menu > hub grid,B row,Request for Proposal
+/vip-full-system/n8n-production-workflows/,SVC-CHILD,/vip-full-system/,n8n production workflows,Services menu > hub grid,B row,Request for Proposal
+/vip-full-system/client-deployment-dashboard/,SVC-CHILD,/vip-full-system/,client deployment dashboard,Services menu > hub grid,B row,Request for Proposal
+/vip-full-system/sales-frameworks-training/,SVC-CHILD,/vip-full-system/,sales frameworks & training,Services menu > hub grid,B row,Request for Proposal
+/vip-full-system/platform-revenue-share/,SVC-CHILD,/vip-full-system/,platform revenue share,Services menu > hub grid,B row,Request for Proposal
+/vip-full-system/monthly-flywheel-review/,SVC-CHILD,/vip-full-system/,monthly flywheel review,Services menu > hub grid,B row,Request for Proposal
+/vip-full-system/ninety-day-launch-support/,SVC-CHILD,/vip-full-system/,90-day launch support,Services menu > hub grid,B row,Request for Proposal
+/vip-full-system/end-to-end-market-ownership/,SVC-CHILD,/vip-full-system/,end-to-end market ownership,Services menu > hub grid,B row,Request for Proposal
+/os-license-enterprise/,SVC-HUB,/,os license & enterprise,Services menu,B (category),
+/os-license-enterprise/state-wide-territory-rights/,SVC-CHILD,/os-license-enterprise/,state-wide territory rights,Services menu > hub grid,B row,Request for Proposal
+/os-license-enterprise/white-label-platform/,SVC-CHILD,/os-license-enterprise/,white-label platform,Services menu > hub grid,B row,Request for Proposal
+/os-license-enterprise/multi-vertical-deployment/,SVC-CHILD,/os-license-enterprise/,multi-vertical deployment,Services menu > hub grid,B row,Request for Proposal
+/os-license-enterprise/methodology-documentation/,SVC-CHILD,/os-license-enterprise/,methodology documentation,Services menu > hub grid,B row,Request for Proposal
+/os-license-enterprise/vertical-builder-toolkit/,SVC-CHILD,/os-license-enterprise/,vertical builder toolkit,Services menu > hub grid,B row,Request for Proposal
+/os-license-enterprise/custom-ai-development-access/,SVC-CHILD,/os-license-enterprise/,custom ai development access,Services menu > hub grid,B row,Request for Proposal
+/os-license-enterprise/priority-lead-routing/,SVC-CHILD,/os-license-enterprise/,priority lead routing,Services menu > hub grid,B row,Request for Proposal
+/os-license-enterprise/quarterly-strategy-sessions/,SVC-CHILD,/os-license-enterprise/,quarterly strategy sessions,Services menu > hub grid,B row,Request for Proposal
+/os-license-enterprise/platform-level-rev-share/,SVC-CHILD,/os-license-enterprise/,platform-level rev share,Services menu > hub grid,B row,Request for Proposal
+/os-license-enterprise/enterprise-onboarding/,SVC-CHILD,/os-license-enterprise/,enterprise onboarding,Services menu > hub grid,B row,Request for Proposal
+/ai-consultant-network/,SVC-HUB,/,ai consultant network,Services menu,B (category),
+/ai-consultant-network/ai-consultant-certification/,SVC-CHILD,/ai-consultant-network/,ai consultant certification,Services menu > hub grid,B row,Request for Proposal
+/ai-consultant-network/protected-consultant-territory/,SVC-CHILD,/ai-consultant-network/,protected consultant territory,Services menu > hub grid,B row,Request for Proposal
+/ai-consultant-network/lead-routing-crm-pipeline/,SVC-CHILD,/ai-consultant-network/,lead routing & crm pipeline,Services menu > hub grid,B row,Request for Proposal
+/ai-consultant-network/n8n-ghl-tech-stack/,SVC-CHILD,/ai-consultant-network/,n8n + gohighlevel tech stack,Services menu > hub grid,B row,Request for Proposal
+/ai-consultant-network/rev-share-closed-deals/,SVC-CHILD,/ai-consultant-network/,rev-share on closed deals,Services menu > hub grid,B row,Request for Proposal
+/ai-consultant-network/sales-training-frameworks/,SVC-CHILD,/ai-consultant-network/,sales training frameworks,Services menu > hub grid,B row,Request for Proposal
+/ai-consultant-network/local-business-ai-automation/,SVC-CHILD,/ai-consultant-network/,local business ai automation,Services menu > hub grid,B row,Request for Proposal
+/ai-consultant-network/assessment-to-pilot-funnel/,SVC-CHILD,/ai-consultant-network/,assessment-to-pilot funnel,Services menu > hub grid,B row,Request for Proposal
+/ai-consultant-network/consultant-community-support/,SVC-CHILD,/ai-consultant-network/,consultant community support,Services menu > hub grid,B row,Request for Proposal
+/ai-consultant-network/cross-referral-to-directories/,SVC-CHILD,/ai-consultant-network/,cross-referral to directories,Services menu > hub grid,B row,Request for Proposal
+/vertical-builder-services/,SVC-HUB,/,vertical builder services,Services menu,B (category),
+/vertical-builder-services/car-rental-near-me-vertical/,SVC-CHILD,/vertical-builder-services/,car rental near me vertical,Services menu > hub grid,B row,Request for Proposal
+/vertical-builder-services/tech-support-near-me-vertical/,SVC-CHILD,/vertical-builder-services/,tech support near me vertical,Services menu > hub grid,B row,Request for Proposal
+/vertical-builder-services/maid-services-near-me/,SVC-CHILD,/vertical-builder-services/,maid services near me,Services menu > hub grid,B row,Request for Proposal
+/vertical-builder-services/contractor-near-me-directory/,SVC-CHILD,/vertical-builder-services/,contractor near me directory,Services menu > hub grid,B row,Request for Proposal
+/vertical-builder-services/jersey-service-providers/,SVC-CHILD,/vertical-builder-services/,jersey service providers,Services menu > hub grid,B row,Request for Proposal
+/vertical-builder-services/turnkey-directory-platform/,SVC-CHILD,/vertical-builder-services/,turnkey directory platform,Services menu > hub grid,B row,Request for Proposal
+/vertical-builder-services/operator-self-serve-dashboards/,SVC-CHILD,/vertical-builder-services/,operator self-serve dashboards,Services menu > hub grid,B row,Request for Proposal
+/vertical-builder-services/vertical-pricing-models/,SVC-CHILD,/vertical-builder-services/,vertical pricing models,Services menu > hub grid,B row,Request for Proposal
+/vertical-builder-services/booking-to-review-loops/,SVC-CHILD,/vertical-builder-services/,booking-to-review loops,Services menu > hub grid,B row,Request for Proposal
+/vertical-builder-services/cross-referral-with-track-a/,SVC-CHILD,/vertical-builder-services/,cross-referral with track a,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/,SVC-HUB,/,ppc-to-seo flywheel,Services menu,B (category),
+/ppc-to-seo-flywheel/rank-capture-distribute-loop/,SVC-CHILD,/ppc-to-seo-flywheel/,rank → capture → distribute loop,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/engagement-signal-compounding/,SVC-CHILD,/ppc-to-seo-flywheel/,engagement signal compounding,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/organic-share-growth/,SVC-CHILD,/ppc-to-seo-flywheel/,organic share growth,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/cac-reduction-playbook/,SVC-CHILD,/ppc-to-seo-flywheel/,cac reduction playbook,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/branded-search-acceleration/,SVC-CHILD,/ppc-to-seo-flywheel/,branded search acceleration,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/reinvest-loop-budgeting/,SVC-CHILD,/ppc-to-seo-flywheel/,reinvest loop budgeting,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/flywheel-math-modeling/,SVC-CHILD,/ppc-to-seo-flywheel/,flywheel math modeling,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/signal-quality-monitoring/,SVC-CHILD,/ppc-to-seo-flywheel/,signal quality monitoring,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/competitor-rent-vs-own/,SVC-CHILD,/ppc-to-seo-flywheel/,competitor rent vs own,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/compounding-asset-reporting/,SVC-CHILD,/ppc-to-seo-flywheel/,compounding asset reporting,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/,SVC-HUB,/,territory licensing,Services menu,B (category),
+/territory-licensing/county-metro-exclusivity/,SVC-CHILD,/territory-licensing/,county & metro exclusivity,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/tier-1-territory-pricing/,SVC-CHILD,/territory-licensing/,tier 1 territory pricing,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/mid-tier-rural-zones/,SVC-CHILD,/territory-licensing/,mid-tier & rural zones,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/territory-sales-scripts/,SVC-CHILD,/territory-licensing/,territory sales scripts,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/operator-roll-up-structure/,SVC-CHILD,/territory-licensing/,operator roll-up structure,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/license-agreement-framework/,SVC-CHILD,/territory-licensing/,license agreement framework,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/market-density-scoring/,SVC-CHILD,/territory-licensing/,market density scoring,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/multi-territory-expansion/,SVC-CHILD,/territory-licensing/,multi-territory expansion,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/territory-performance-kpis/,SVC-CHILD,/territory-licensing/,territory performance kpis,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/founding-member-cohort/,SVC-CHILD,/territory-licensing/,founding member cohort,Services menu > hub grid,B row,Request for Proposal
+/market-automation-stack/,SVC-HUB,/,market automation stack,Services menu,B (category),
+/market-automation-stack/n8n-workflow-library/,SVC-CHILD,/market-automation-stack/,n8n workflow library,Services menu > hub grid,B row,Request for Proposal
+/market-automation-stack/gohighlevel-lifecycle-sms/,SVC-CHILD,/market-automation-stack/,gohighlevel lifecycle sms,Services menu > hub grid,B row,Request for Proposal
+/market-automation-stack/review-request-automation/,SVC-CHILD,/market-automation-stack/,review request automation,Services menu > hub grid,B row,Request for Proposal
+/market-automation-stack/payout-trigger-workflows/,SVC-CHILD,/market-automation-stack/,payout trigger workflows,Services menu > hub grid,B row,Request for Proposal
+/market-automation-stack/lead-routing-rules/,SVC-CHILD,/market-automation-stack/,lead routing rules,Services menu > hub grid,B row,Request for Proposal
+/market-automation-stack/retargeting-audience-sync/,SVC-CHILD,/market-automation-stack/,retargeting audience sync,Services menu > hub grid,B row,Request for Proposal
+/market-automation-stack/pricing-engine-automations/,SVC-CHILD,/market-automation-stack/,pricing engine automations,Services menu > hub grid,B row,Request for Proposal
+/market-automation-stack/demand-forecasting-hooks/,SVC-CHILD,/market-automation-stack/,demand forecasting hooks,Services menu > hub grid,B row,Request for Proposal
+/market-automation-stack/competitor-monitoring-alerts/,SVC-CHILD,/market-automation-stack/,competitor monitoring alerts,Services menu > hub grid,B row,Request for Proposal
+/market-automation-stack/supabase-data-schema/,SVC-CHILD,/market-automation-stack/,supabase data schema,Services menu > hub grid,B row,Request for Proposal
