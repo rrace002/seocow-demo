@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,car rental near me,logo/home,"A1,A6,A10",
+/about-car-rental-near-me/,COMP-HUB,/,about car rental near me,About menu,"A1,A10",
+/about-car-rental-near-me/why-choose-us/,COMP-CHILD,/about-car-rental-near-me/,why choose car rental near me,About menu,"A10,A12",
+/about-car-rental-near-me/who-we-serve/,COMP-CHILD,/about-car-rental-near-me/,car rental audiences,About menu,D1,
+/contact/,COMP-CONTACT,/,contact car rental near me,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,car rental operator proposal,nav utility,I1,Request for Proposal
+/get-a-rental-quote/,FORM-CONSULT,/,car rental quote,nav utility (highlighted),I1,Consultation Request
+/airport-car-rental/,SVC-HUB,/,airport car rental,Services menu,B (category),
+/airport-car-rental/newark-airport-car-rental/,SVC-CHILD,/airport-car-rental/,newark airport car rental,Services menu > hub grid,B row,Request for Proposal
+/airport-car-rental/jfk-airport-car-rental/,SVC-CHILD,/airport-car-rental/,jfk airport car rental,Services menu > hub grid,B row,Request for Proposal
+/airport-car-rental/lga-airport-car-rental/,SVC-CHILD,/airport-car-rental/,laguardia airport car rental,Services menu > hub grid,B row,Request for Proposal
+/airport-car-rental/airport-shuttle-pickup/,SVC-CHILD,/airport-car-rental/,airport shuttle pickup,Services menu > hub grid,B row,Request for Proposal
+/airport-car-rental/flight-delay-flexible-pickup/,SVC-CHILD,/airport-car-rental/,flight-delay flexible pickup,Services menu > hub grid,B row,Request for Proposal
+/airport-car-rental/after-hours-airport-pickup/,SVC-CHILD,/airport-car-rental/,after-hours airport pickup,Services menu > hub grid,B row,Request for Proposal
+/airport-car-rental/one-way-airport-dropoff/,SVC-CHILD,/airport-car-rental/,one-way airport drop-off,Services menu > hub grid,B row,Request for Proposal
+/airport-car-rental/airport-weekend-getaway-rentals/,SVC-CHILD,/airport-car-rental/,airport weekend getaway rentals,Services menu > hub grid,B row,Request for Proposal
+/airport-car-rental/family-airport-suv-rental/,SVC-CHILD,/airport-car-rental/,family airport suv rental,Services menu > hub grid,B row,Request for Proposal
+/airport-car-rental/business-traveler-airport-cars/,SVC-CHILD,/airport-car-rental/,business traveler airport cars,Services menu > hub grid,B row,Request for Proposal
+/city-car-rental/,SVC-HUB,/,city car rental,Services menu,B (category),
+/city-car-rental/downtown-car-rental/,SVC-CHILD,/city-car-rental/,downtown car rental,Services menu > hub grid,B row,Request for Proposal
+/city-car-rental/neighborhood-car-rental/,SVC-CHILD,/city-car-rental/,neighborhood car rental,Services menu > hub grid,B row,Request for Proposal
+/city-car-rental/same-day-city-rental/,SVC-CHILD,/city-car-rental/,same-day city rental,Services menu > hub grid,B row,Request for Proposal
+/city-car-rental/hourly-city-car-rental/,SVC-CHILD,/city-car-rental/,hourly city car rental,Services menu > hub grid,B row,Request for Proposal
+/city-car-rental/overnight-city-rental/,SVC-CHILD,/city-car-rental/,overnight city rental,Services menu > hub grid,B row,Request for Proposal
+/city-car-rental/grocery-run-car-rental/,SVC-CHILD,/city-car-rental/,grocery & errand rentals,Services menu > hub grid,B row,Request for Proposal
+/city-car-rental/visiting-family-city-cars/,SVC-CHILD,/city-car-rental/,visiting family city cars,Services menu > hub grid,B row,Request for Proposal
+/city-car-rental/city-suv-rental/,SVC-CHILD,/city-car-rental/,city suv rental,Services menu > hub grid,B row,Request for Proposal
+/city-car-rental/compact-economy-city-cars/,SVC-CHILD,/city-car-rental/,compact economy city cars,Services menu > hub grid,B row,Request for Proposal
+/city-car-rental/parking-friendly-city-rentals/,SVC-CHILD,/city-car-rental/,parking-friendly city rentals,Services menu > hub grid,B row,Request for Proposal
+/one-way-car-rental/,SVC-HUB,/,one-way car rental,Services menu,B (category),
+/one-way-car-rental/one-way-city-to-city/,SVC-CHILD,/one-way-car-rental/,one-way city-to-city,Services menu > hub grid,B row,Request for Proposal
+/one-way-car-rental/one-way-airport-to-city/,SVC-CHILD,/one-way-car-rental/,one-way airport to city,Services menu > hub grid,B row,Request for Proposal
+/one-way-car-rental/one-way-city-to-airport/,SVC-CHILD,/one-way-car-rental/,one-way city to airport,Services menu > hub grid,B row,Request for Proposal
+/one-way-car-rental/relocation-one-way-rentals/,SVC-CHILD,/one-way-car-rental/,relocation one-way rentals,Services menu > hub grid,B row,Request for Proposal
+/one-way-car-rental/college-move-one-way/,SVC-CHILD,/one-way-car-rental/,college move one-way,Services menu > hub grid,B row,Request for Proposal
+/one-way-car-rental/road-trip-one-way/,SVC-CHILD,/one-way-car-rental/,road trip one-way,Services menu > hub grid,B row,Request for Proposal
+/one-way-car-rental/one-way-suv-rental/,SVC-CHILD,/one-way-car-rental/,one-way suv rental,Services menu > hub grid,B row,Request for Proposal
+/one-way-car-rental/one-way-van-rental/,SVC-CHILD,/one-way-car-rental/,one-way van rental,Services menu > hub grid,B row,Request for Proposal
+/one-way-car-rental/low-fee-one-way-options/,SVC-CHILD,/one-way-car-rental/,low-fee one-way options,Services menu > hub grid,B row,Request for Proposal
+/one-way-car-rental/multi-stop-one-way-planning/,SVC-CHILD,/one-way-car-rental/,multi-stop one-way planning,Services menu > hub grid,B row,Request for Proposal
+/suv-truck-van-rental/,SVC-HUB,/,"suv, truck & van rental",Services menu,B (category),
+/suv-truck-van-rental/suv-rental-near-me/,SVC-CHILD,/suv-truck-van-rental/,suv rental near me,Services menu > hub grid,B row,Request for Proposal
+/suv-truck-van-rental/full-size-suv-rental/,SVC-CHILD,/suv-truck-van-rental/,full-size suv rental,Services menu > hub grid,B row,Request for Proposal
+/suv-truck-van-rental/pickup-truck-rental/,SVC-CHILD,/suv-truck-van-rental/,pickup truck rental,Services menu > hub grid,B row,Request for Proposal
+/suv-truck-van-rental/cargo-van-rental/,SVC-CHILD,/suv-truck-van-rental/,cargo van rental,Services menu > hub grid,B row,Request for Proposal
+/suv-truck-van-rental/passenger-van-rental/,SVC-CHILD,/suv-truck-van-rental/,passenger van rental,Services menu > hub grid,B row,Request for Proposal
+/suv-truck-van-rental/moving-truck-alternatives/,SVC-CHILD,/suv-truck-van-rental/,moving truck alternatives,Services menu > hub grid,B row,Request for Proposal
+/suv-truck-van-rental/ski-trip-suv-rental/,SVC-CHILD,/suv-truck-van-rental/,ski trip suv rental,Services menu > hub grid,B row,Request for Proposal
+/suv-truck-van-rental/furniture-pickup-truck-rental/,SVC-CHILD,/suv-truck-van-rental/,furniture pickup truck rental,Services menu > hub grid,B row,Request for Proposal
+/suv-truck-van-rental/contractor-day-truck-rental/,SVC-CHILD,/suv-truck-van-rental/,contractor day truck rental,Services menu > hub grid,B row,Request for Proposal
+/suv-truck-van-rental/family-road-trip-suv/,SVC-CHILD,/suv-truck-van-rental/,family road trip suv,Services menu > hub grid,B row,Request for Proposal
+/luxury-specialty-rentals/,SVC-HUB,/,luxury & specialty rentals,Services menu,B (category),
+/luxury-specialty-rentals/luxury-car-rental-near-me/,SVC-CHILD,/luxury-specialty-rentals/,luxury car rental near me,Services menu > hub grid,B row,Request for Proposal
+/luxury-specialty-rentals/convertible-rental/,SVC-CHILD,/luxury-specialty-rentals/,convertible rental,Services menu > hub grid,B row,Request for Proposal
+/luxury-specialty-rentals/sports-car-rental/,SVC-CHILD,/luxury-specialty-rentals/,sports car rental,Services menu > hub grid,B row,Request for Proposal
+/luxury-specialty-rentals/wedding-car-rental/,SVC-CHILD,/luxury-specialty-rentals/,wedding car rental,Services menu > hub grid,B row,Request for Proposal
+/luxury-specialty-rentals/executive-sedan-rental/,SVC-CHILD,/luxury-specialty-rentals/,executive sedan rental,Services menu > hub grid,B row,Request for Proposal
+/luxury-specialty-rentals/exotic-car-rental-inquiry/,SVC-CHILD,/luxury-specialty-rentals/,exotic car rental inquiry,Services menu > hub grid,B row,Request for Proposal
+/luxury-specialty-rentals/black-car-style-rentals/,SVC-CHILD,/luxury-specialty-rentals/,black-car style rentals,Services menu > hub grid,B row,Request for Proposal
+/luxury-specialty-rentals/anniversary-weekend-luxury/,SVC-CHILD,/luxury-specialty-rentals/,anniversary weekend luxury,Services menu > hub grid,B row,Request for Proposal
+/luxury-specialty-rentals/chauffeur-optional-add-on/,SVC-CHILD,/luxury-specialty-rentals/,chauffeur optional add-on,Services menu > hub grid,B row,Request for Proposal
+/luxury-specialty-rentals/photo-shoot-vehicle-rental/,SVC-CHILD,/luxury-specialty-rentals/,photo shoot vehicle rental,Services menu > hub grid,B row,Request for Proposal
+/business-fleet-rentals/,SVC-HUB,/,business & fleet rentals,Services menu,B (category),
+/business-fleet-rentals/corporate-car-rental-accounts/,SVC-CHILD,/business-fleet-rentals/,corporate car rental accounts,Services menu > hub grid,B row,Request for Proposal
+/business-fleet-rentals/employee-travel-car-rental/,SVC-CHILD,/business-fleet-rentals/,employee travel car rental,Services menu > hub grid,B row,Request for Proposal
+/business-fleet-rentals/fleet-surge-capacity/,SVC-CHILD,/business-fleet-rentals/,fleet surge capacity,Services menu > hub grid,B row,Request for Proposal
+/business-fleet-rentals/client-visit-car-rental/,SVC-CHILD,/business-fleet-rentals/,client visit car rental,Services menu > hub grid,B row,Request for Proposal
+/business-fleet-rentals/tradeshow-event-rentals/,SVC-CHILD,/business-fleet-rentals/,tradeshow & event rentals,Services menu > hub grid,B row,Request for Proposal
+/business-fleet-rentals/insurance-replacement-rentals/,SVC-CHILD,/business-fleet-rentals/,insurance replacement rentals,Services menu > hub grid,B row,Request for Proposal
+/business-fleet-rentals/nonprofit-group-rentals/,SVC-CHILD,/business-fleet-rentals/,nonprofit group rentals,Services menu > hub grid,B row,Request for Proposal
+/business-fleet-rentals/contractor-crew-rentals/,SVC-CHILD,/business-fleet-rentals/,contractor crew rentals,Services menu > hub grid,B row,Request for Proposal
+/business-fleet-rentals/monthly-business-lease-alts/,SVC-CHILD,/business-fleet-rentals/,monthly business rental alternatives,Services menu > hub grid,B row,Request for Proposal
+/business-fleet-rentals/expense-ready-invoicing/,SVC-CHILD,/business-fleet-rentals/,expense-ready invoicing,Services menu > hub grid,B row,Request for Proposal
+/booking-protection-services/,SVC-HUB,/,booking & protection services,Services menu,B (category),
+/booking-protection-services/online-car-rental-booking/,SVC-CHILD,/booking-protection-services/,online car rental booking,Services menu > hub grid,B row,Request for Proposal
+/booking-protection-services/instant-quote-car-rental/,SVC-CHILD,/booking-protection-services/,instant quote car rental,Services menu > hub grid,B row,Request for Proposal
+/booking-protection-services/damage-waiver-options/,SVC-CHILD,/booking-protection-services/,damage waiver options,Services menu > hub grid,B row,Request for Proposal
+/booking-protection-services/additional-driver-add-on/,SVC-CHILD,/booking-protection-services/,additional driver add-on,Services menu > hub grid,B row,Request for Proposal
+/booking-protection-services/child-seat-add-on/,SVC-CHILD,/booking-protection-services/,child seat add-on,Services menu > hub grid,B row,Request for Proposal
+/booking-protection-services/gps-navigation-add-on/,SVC-CHILD,/booking-protection-services/,gps navigation add-on,Services menu > hub grid,B row,Request for Proposal
+/booking-protection-services/roadside-assistance-add-on/,SVC-CHILD,/booking-protection-services/,roadside assistance add-on,Services menu > hub grid,B row,Request for Proposal
+/booking-protection-services/prepaid-fuel-options/,SVC-CHILD,/booking-protection-services/,prepaid fuel options,Services menu > hub grid,B row,Request for Proposal
+/booking-protection-services/cancellation-and-change-help/,SVC-CHILD,/booking-protection-services/,cancellation & change help,Services menu > hub grid,B row,Request for Proposal
+/booking-protection-services/rental-agreement-explained/,SVC-CHILD,/booking-protection-services/,rental agreement explained,Services menu > hub grid,B row,Request for Proposal
+/local-seo-ppc-growth/,SVC-HUB,/,local seo & ppc growth,Services menu,B (category),
+/local-seo-ppc-growth/car-rental-near-me-seo/,SVC-CHILD,/local-seo-ppc-growth/,car rental near me seo,Services menu > hub grid,B row,Request for Proposal
+/local-seo-ppc-growth/google-business-profile-rentals/,SVC-CHILD,/local-seo-ppc-growth/,google business profile for rentals,Services menu > hub grid,B row,Request for Proposal
+/local-seo-ppc-growth/airport-keyword-campaigns/,SVC-CHILD,/local-seo-ppc-growth/,airport keyword campaigns,Services menu > hub grid,B row,Request for Proposal
+/local-seo-ppc-growth/ppc-to-seo-rental-flywheel/,SVC-CHILD,/local-seo-ppc-growth/,ppc-to-seo rental flywheel,Services menu > hub grid,B row,Request for Proposal
+/local-seo-ppc-growth/retargeting-for-rental-shoppers/,SVC-CHILD,/local-seo-ppc-growth/,retargeting for rental shoppers,Services menu > hub grid,B row,Request for Proposal
+/local-seo-ppc-growth/local-landing-pages-rentals/,SVC-CHILD,/local-seo-ppc-growth/,local landing pages for rentals,Services menu > hub grid,B row,Request for Proposal
+/local-seo-ppc-growth/review-generation-for-lots/,SVC-CHILD,/local-seo-ppc-growth/,review generation for lots,Services menu > hub grid,B row,Request for Proposal
+/local-seo-ppc-growth/competitor-rental-gap-analysis/,SVC-CHILD,/local-seo-ppc-growth/,competitor rental gap analysis,Services menu > hub grid,B row,Request for Proposal
+/local-seo-ppc-growth/seasonal-demand-campaigns/,SVC-CHILD,/local-seo-ppc-growth/,seasonal demand campaigns,Services menu > hub grid,B row,Request for Proposal
+/local-seo-ppc-growth/booking-conversion-optimization/,SVC-CHILD,/local-seo-ppc-growth/,booking conversion optimization,Services menu > hub grid,B row,Request for Proposal
+/operator-territory-licensing/,SVC-HUB,/,operator & territory licensing,Services menu,B (category),
+/operator-territory-licensing/become-a-rental-operator/,SVC-CHILD,/operator-territory-licensing/,become a rental operator,Services menu > hub grid,B row,Request for Proposal
+/operator-territory-licensing/protected-rental-territory/,SVC-CHILD,/operator-territory-licensing/,protected rental territory,Services menu > hub grid,B row,Request for Proposal
+/operator-territory-licensing/tiered-territory-pricing/,SVC-CHILD,/operator-territory-licensing/,tiered territory pricing,Services menu > hub grid,B row,Request for Proposal
+/operator-territory-licensing/operator-profile-pages/,SVC-CHILD,/operator-territory-licensing/,operator profile pages,Services menu > hub grid,B row,Request for Proposal
+/operator-territory-licensing/fleet-onboarding-checklist/,SVC-CHILD,/operator-territory-licensing/,fleet onboarding checklist,Services menu > hub grid,B row,Request for Proposal
+/operator-territory-licensing/stripe-connect-payouts/,SVC-CHILD,/operator-territory-licensing/,stripe connect payouts,Services menu > hub grid,B row,Request for Proposal
+/operator-territory-licensing/operator-self-serve-dashboard/,SVC-CHILD,/operator-territory-licensing/,operator self-serve dashboard,Services menu > hub grid,B row,Request for Proposal
+/operator-territory-licensing/cross-referral-ai-consultants/,SVC-CHILD,/operator-territory-licensing/,cross-referral with ai consultants,Services menu > hub grid,B row,Request for Proposal
+/operator-territory-licensing/founding-operator-cohort/,SVC-CHILD,/operator-territory-licensing/,founding operator cohort,Services menu > hub grid,B row,Request for Proposal
+/operator-territory-licensing/multi-lot-expansion-playbook/,SVC-CHILD,/operator-territory-licensing/,multi-lot expansion playbook,Services menu > hub grid,B row,Request for Proposal
+/rental-automation-stack/,SVC-HUB,/,rental automation stack,Services menu,B (category),
+/rental-automation-stack/booking-to-crm-automation/,SVC-CHILD,/rental-automation-stack/,booking-to-crm automation,Services menu > hub grid,B row,Request for Proposal
+/rental-automation-stack/rental-sms-lifecycle/,SVC-CHILD,/rental-automation-stack/,rental sms lifecycle,Services menu > hub grid,B row,Request for Proposal
+/rental-automation-stack/review-request-after-return/,SVC-CHILD,/rental-automation-stack/,review request after return,Services menu > hub grid,B row,Request for Proposal
+/rental-automation-stack/no-show-reduction-workflows/,SVC-CHILD,/rental-automation-stack/,no-show reduction workflows,Services menu > hub grid,B row,Request for Proposal
+/rental-automation-stack/dynamic-pricing-hooks/,SVC-CHILD,/rental-automation-stack/,dynamic pricing hooks,Services menu > hub grid,B row,Request for Proposal
+/rental-automation-stack/fleet-availability-sync/,SVC-CHILD,/rental-automation-stack/,fleet availability sync,Services menu > hub grid,B row,Request for Proposal
+/rental-automation-stack/lead-routing-by-territory/,SVC-CHILD,/rental-automation-stack/,lead routing by territory,Services menu > hub grid,B row,Request for Proposal
+/rental-automation-stack/payout-trigger-automations/,SVC-CHILD,/rental-automation-stack/,payout trigger automations,Services menu > hub grid,B row,Request for Proposal
+/rental-automation-stack/retargeting-audience-sync/,SVC-CHILD,/rental-automation-stack/,retargeting audience sync,Services menu > hub grid,B row,Request for Proposal
+/rental-automation-stack/demand-forecast-alerts/,SVC-CHILD,/rental-automation-stack/,demand forecast alerts,Services menu > hub grid,B row,Request for Proposal
