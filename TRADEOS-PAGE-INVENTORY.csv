@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,trade os,logo/home,"A1,A6,A10",
+/about-trade-os/,COMP-HUB,/,about trade os,About menu,"A1,A10",
+/about-trade-os/why-choose-us/,COMP-CHILD,/about-trade-os/,why choose trade os,About menu,"A10,A12",
+/about-trade-os/verticals-we-serve/,COMP-CHILD,/about-trade-os/,trade verticals,About menu,D1,
+/contact/,COMP-CONTACT,/,contact trade os,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,trade os proposal,nav utility,I1,Request for Proposal
+/trade-readiness-assessment/,FORM-CONSULT,/,trade readiness assessment,nav utility (highlighted),I1,Consultation Request
+/trade-seo-services/,SVC-HUB,/,trade seo services,Services menu,B (category),
+/trade-seo-services/trade-keyword-research/,SVC-CHILD,/trade-seo-services/,trade keyword research,Services menu > hub grid,B row,Request for Proposal
+/trade-seo-services/contractor-on-page-architecture/,SVC-CHILD,/trade-seo-services/,contractor on-page architecture,Services menu > hub grid,B row,Request for Proposal
+/trade-seo-services/localbusiness-schema-for-trades/,SVC-CHILD,/trade-seo-services/,localbusiness schema for trades,Services menu > hub grid,B row,Request for Proposal
+/trade-seo-services/google-business-profile-for-contractors/,SVC-CHILD,/trade-seo-services/,google business profile for contractors,Services menu > hub grid,B row,Request for Proposal
+/trade-seo-services/core-web-vitals-for-trade-sites/,SVC-CHILD,/trade-seo-services/,core web vitals for trade sites,Services menu > hub grid,B row,Request for Proposal
+/trade-seo-services/geo-authority-content-calendar/,SVC-CHILD,/trade-seo-services/,geo authority content calendar,Services menu > hub grid,B row,Request for Proposal
+/trade-seo-services/local-trade-backlink-list/,SVC-CHILD,/trade-seo-services/,local trade backlink list,Services menu > hub grid,B row,Request for Proposal
+/trade-seo-services/competitor-gap-analysis/,SVC-CHILD,/trade-seo-services/,competitor gap analysis,Services menu > hub grid,B row,Request for Proposal
+/trade-seo-services/service-landing-page-optimization/,SVC-CHILD,/trade-seo-services/,service landing page optimization,Services menu > hub grid,B row,Request for Proposal
+/trade-seo-services/multi-location-trade-seo/,SVC-CHILD,/trade-seo-services/,multi-location trade seo,Services menu > hub grid,B row,Request for Proposal
+/local-trade-ppc/,SVC-HUB,/,local trade ppc,Services menu,B (category),
+/local-trade-ppc/google-ads-trade-campaigns/,SVC-CHILD,/local-trade-ppc/,google ads trade campaigns,Services menu > hub grid,B row,Request for Proposal
+/local-trade-ppc/ctr-engagement-framework/,SVC-CHILD,/local-trade-ppc/,ctr engagement framework,Services menu > hub grid,B row,Request for Proposal
+/local-trade-ppc/retargeting-pixel-setup/,SVC-CHILD,/local-trade-ppc/,retargeting pixel setup,Services menu > hub grid,B row,Request for Proposal
+/local-trade-ppc/ppc-to-seo-signal-loop/,SVC-CHILD,/local-trade-ppc/,ppc-to-seo signal loop,Services menu > hub grid,B row,Request for Proposal
+/local-trade-ppc/keyword-intelligence-extraction/,SVC-CHILD,/local-trade-ppc/,keyword intelligence extraction,Services menu > hub grid,B row,Request for Proposal
+/local-trade-ppc/monthly-budget-optimization/,SVC-CHILD,/local-trade-ppc/,monthly budget optimization,Services menu > hub grid,B row,Request for Proposal
+/local-trade-ppc/landing-page-conversion-audit/,SVC-CHILD,/local-trade-ppc/,landing page conversion audit,Services menu > hub grid,B row,Request for Proposal
+/local-trade-ppc/local-service-ads-for-trades/,SVC-CHILD,/local-trade-ppc/,local service ads for trades,Services menu > hub grid,B row,Request for Proposal
+/local-trade-ppc/competitor-conquest-campaigns/,SVC-CHILD,/local-trade-ppc/,competitor conquest campaigns,Services menu > hub grid,B row,Request for Proposal
+/local-trade-ppc/seasonal-trade-ad-calendars/,SVC-CHILD,/local-trade-ppc/,seasonal trade ad calendars,Services menu > hub grid,B row,Request for Proposal
+/contractor-directory-platform/,SVC-HUB,/,contractor directory platform,Services menu,B (category),
+/contractor-directory-platform/brilliant-directories-deployment/,SVC-CHILD,/contractor-directory-platform/,brilliant directories deployment,Services menu > hub grid,B row,Request for Proposal
+/contractor-directory-platform/contractor-profile-pages/,SVC-CHILD,/contractor-directory-platform/,contractor profile pages,Services menu > hub grid,B row,Request for Proposal
+/contractor-directory-platform/embedded-estimate-booking/,SVC-CHILD,/contractor-directory-platform/,embedded estimate & booking,Services menu > hub grid,B row,Request for Proposal
+/contractor-directory-platform/backlink-flywheel-activation/,SVC-CHILD,/contractor-directory-platform/,backlink flywheel activation,Services menu > hub grid,B row,Request for Proposal
+/contractor-directory-platform/contractor-onboarding-system/,SVC-CHILD,/contractor-directory-platform/,contractor onboarding system,Services menu > hub grid,B row,Request for Proposal
+/contractor-directory-platform/territory-map-pricing/,SVC-CHILD,/contractor-directory-platform/,territory map & pricing,Services menu > hub grid,B row,Request for Proposal
+/contractor-directory-platform/stripe-connect-integration/,SVC-CHILD,/contractor-directory-platform/,stripe connect integration,Services menu > hub grid,B row,Request for Proposal
+/contractor-directory-platform/ghl-crm-pipeline-setup/,SVC-CHILD,/contractor-directory-platform/,gohighlevel crm pipeline,Services menu > hub grid,B row,Request for Proposal
+/contractor-directory-platform/trade-readiness-assessment-build/,SVC-CHILD,/contractor-directory-platform/,trade readiness assessment build,Services menu > hub grid,B row,Request for Proposal
+/contractor-directory-platform/post-assessment-email-nurture/,SVC-CHILD,/contractor-directory-platform/,post-assessment email nurture,Services menu > hub grid,B row,Request for Proposal
+/vip-trade-system/,SVC-HUB,/,vip trade system,Services menu,B (category),
+/vip-trade-system/protected-metro-territory/,SVC-CHILD,/vip-trade-system/,protected metro territory,Services menu > hub grid,B row,Request for Proposal
+/vip-trade-system/ghl-automation-suite/,SVC-CHILD,/vip-trade-system/,gohighlevel automation suite,Services menu > hub grid,B row,Request for Proposal
+/vip-trade-system/cross-trade-referral-engine/,SVC-CHILD,/vip-trade-system/,cross-trade referral engine,Services menu > hub grid,B row,Request for Proposal
+/vip-trade-system/n8n-production-workflows/,SVC-CHILD,/vip-trade-system/,n8n production workflows,Services menu > hub grid,B row,Request for Proposal
+/vip-trade-system/contractor-deployment-dashboard/,SVC-CHILD,/vip-trade-system/,contractor deployment dashboard,Services menu > hub grid,B row,Request for Proposal
+/vip-trade-system/sales-frameworks-training/,SVC-CHILD,/vip-trade-system/,sales frameworks & training,Services menu > hub grid,B row,Request for Proposal
+/vip-trade-system/platform-revenue-share/,SVC-CHILD,/vip-trade-system/,platform revenue share,Services menu > hub grid,B row,Request for Proposal
+/vip-trade-system/monthly-flywheel-review/,SVC-CHILD,/vip-trade-system/,monthly flywheel review,Services menu > hub grid,B row,Request for Proposal
+/vip-trade-system/ninety-day-launch-support/,SVC-CHILD,/vip-trade-system/,90-day launch support,Services menu > hub grid,B row,Request for Proposal
+/vip-trade-system/end-to-end-trade-market-ownership/,SVC-CHILD,/vip-trade-system/,end-to-end trade market ownership,Services menu > hub grid,B row,Request for Proposal
+/trade-os-license-enterprise/,SVC-HUB,/,trade os license & enterprise,Services menu,B (category),
+/trade-os-license-enterprise/state-wide-territory-rights/,SVC-CHILD,/trade-os-license-enterprise/,state-wide territory rights,Services menu > hub grid,B row,Request for Proposal
+/trade-os-license-enterprise/white-label-trade-platform/,SVC-CHILD,/trade-os-license-enterprise/,white-label trade platform,Services menu > hub grid,B row,Request for Proposal
+/trade-os-license-enterprise/multi-trade-deployment/,SVC-CHILD,/trade-os-license-enterprise/,multi-trade deployment,Services menu > hub grid,B row,Request for Proposal
+/trade-os-license-enterprise/methodology-documentation/,SVC-CHILD,/trade-os-license-enterprise/,methodology documentation,Services menu > hub grid,B row,Request for Proposal
+/trade-os-license-enterprise/trade-builder-toolkit/,SVC-CHILD,/trade-os-license-enterprise/,trade builder toolkit,Services menu > hub grid,B row,Request for Proposal
+/trade-os-license-enterprise/custom-ai-development-access/,SVC-CHILD,/trade-os-license-enterprise/,custom ai development access,Services menu > hub grid,B row,Request for Proposal
+/trade-os-license-enterprise/priority-lead-routing/,SVC-CHILD,/trade-os-license-enterprise/,priority lead routing,Services menu > hub grid,B row,Request for Proposal
+/trade-os-license-enterprise/quarterly-strategy-sessions/,SVC-CHILD,/trade-os-license-enterprise/,quarterly strategy sessions,Services menu > hub grid,B row,Request for Proposal
+/trade-os-license-enterprise/platform-level-rev-share/,SVC-CHILD,/trade-os-license-enterprise/,platform-level rev share,Services menu > hub grid,B row,Request for Proposal
+/trade-os-license-enterprise/enterprise-onboarding/,SVC-CHILD,/trade-os-license-enterprise/,enterprise onboarding,Services menu > hub grid,B row,Request for Proposal
+/subcontractor-network/,SVC-HUB,/,subcontractor network,Services menu,B (category),
+/subcontractor-network/vetted-sub-onboarding/,SVC-CHILD,/subcontractor-network/,vetted sub onboarding,Services menu > hub grid,B row,Request for Proposal
+/subcontractor-network/capacity-and-availability-calendar/,SVC-CHILD,/subcontractor-network/,capacity & availability calendar,Services menu > hub grid,B row,Request for Proposal
+/subcontractor-network/job-lead-routing/,SVC-CHILD,/subcontractor-network/,job lead routing,Services menu > hub grid,B row,Request for Proposal
+/subcontractor-network/dispatch-notification-flows/,SVC-CHILD,/subcontractor-network/,dispatch notification flows,Services menu > hub grid,B row,Request for Proposal
+/subcontractor-network/estimate-handoff-protocols/,SVC-CHILD,/subcontractor-network/,estimate handoff protocols,Services menu > hub grid,B row,Request for Proposal
+/subcontractor-network/quality-score-tracking/,SVC-CHILD,/subcontractor-network/,quality score tracking,Services menu > hub grid,B row,Request for Proposal
+/subcontractor-network/rev-share-settlement/,SVC-CHILD,/subcontractor-network/,rev-share settlement,Services menu > hub grid,B row,Request for Proposal
+/subcontractor-network/sub-performance-dashboards/,SVC-CHILD,/subcontractor-network/,sub performance dashboards,Services menu > hub grid,B row,Request for Proposal
+/subcontractor-network/insurance-compliance-reminders/,SVC-CHILD,/subcontractor-network/,insurance compliance reminders,Services menu > hub grid,B row,Request for Proposal
+/subcontractor-network/overflow-capacity-pooling/,SVC-CHILD,/subcontractor-network/,overflow capacity pooling,Services menu > hub grid,B row,Request for Proposal
+/trade-vertical-markets/,SVC-HUB,/,trade vertical markets,Services menu,B (category),
+/trade-vertical-markets/plumbing-near-me-market/,SVC-CHILD,/trade-vertical-markets/,plumbing near me market,Services menu > hub grid,B row,Request for Proposal
+/trade-vertical-markets/electrical-contractor-market/,SVC-CHILD,/trade-vertical-markets/,electrical contractor market,Services menu > hub grid,B row,Request for Proposal
+/trade-vertical-markets/hvac-service-market/,SVC-CHILD,/trade-vertical-markets/,hvac service market,Services menu > hub grid,B row,Request for Proposal
+/trade-vertical-markets/roofing-contractor-market/,SVC-CHILD,/trade-vertical-markets/,roofing contractor market,Services menu > hub grid,B row,Request for Proposal
+/trade-vertical-markets/landscaping-outdoor-market/,SVC-CHILD,/trade-vertical-markets/,landscaping & outdoor market,Services menu > hub grid,B row,Request for Proposal
+/trade-vertical-markets/general-contractor-market/,SVC-CHILD,/trade-vertical-markets/,general contractor market,Services menu > hub grid,B row,Request for Proposal
+/trade-vertical-markets/painting-remodeling-market/,SVC-CHILD,/trade-vertical-markets/,painting & remodeling market,Services menu > hub grid,B row,Request for Proposal
+/trade-vertical-markets/pest-control-market/,SVC-CHILD,/trade-vertical-markets/,pest control market,Services menu > hub grid,B row,Request for Proposal
+/trade-vertical-markets/cleaning-janitorial-market/,SVC-CHILD,/trade-vertical-markets/,cleaning & janitorial market,Services menu > hub grid,B row,Request for Proposal
+/trade-vertical-markets/multi-trade-bundle-markets/,SVC-CHILD,/trade-vertical-markets/,multi-trade bundle markets,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/,SVC-HUB,/,ppc-to-seo flywheel,Services menu,B (category),
+/ppc-to-seo-flywheel/rank-capture-distribute-loop/,SVC-CHILD,/ppc-to-seo-flywheel/,rank → capture → distribute loop,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/engagement-signal-compounding/,SVC-CHILD,/ppc-to-seo-flywheel/,engagement signal compounding,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/organic-share-growth/,SVC-CHILD,/ppc-to-seo-flywheel/,organic share growth,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/cac-reduction-playbook/,SVC-CHILD,/ppc-to-seo-flywheel/,cac reduction playbook,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/branded-search-acceleration/,SVC-CHILD,/ppc-to-seo-flywheel/,branded search acceleration,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/reinvest-loop-budgeting/,SVC-CHILD,/ppc-to-seo-flywheel/,reinvest loop budgeting,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/flywheel-math-modeling/,SVC-CHILD,/ppc-to-seo-flywheel/,flywheel math modeling,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/signal-quality-monitoring/,SVC-CHILD,/ppc-to-seo-flywheel/,signal quality monitoring,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/competitor-rent-vs-own/,SVC-CHILD,/ppc-to-seo-flywheel/,competitor rent vs own,Services menu > hub grid,B row,Request for Proposal
+/ppc-to-seo-flywheel/compounding-asset-reporting/,SVC-CHILD,/ppc-to-seo-flywheel/,compounding asset reporting,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/,SVC-HUB,/,territory licensing,Services menu,B (category),
+/territory-licensing/county-metro-exclusivity/,SVC-CHILD,/territory-licensing/,county & metro exclusivity,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/tier-1-territory-pricing/,SVC-CHILD,/territory-licensing/,tier 1 territory pricing,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/mid-tier-rural-zones/,SVC-CHILD,/territory-licensing/,mid-tier & rural zones,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/territory-sales-scripts/,SVC-CHILD,/territory-licensing/,territory sales scripts,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/operator-roll-up-structure/,SVC-CHILD,/territory-licensing/,operator roll-up structure,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/license-agreement-framework/,SVC-CHILD,/territory-licensing/,license agreement framework,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/market-density-scoring/,SVC-CHILD,/territory-licensing/,market density scoring,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/multi-territory-expansion/,SVC-CHILD,/territory-licensing/,multi-territory expansion,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/territory-performance-kpis/,SVC-CHILD,/territory-licensing/,territory performance kpis,Services menu > hub grid,B row,Request for Proposal
+/territory-licensing/founding-member-cohort/,SVC-CHILD,/territory-licensing/,founding member cohort,Services menu > hub grid,B row,Request for Proposal
+/trade-automation-stack/,SVC-HUB,/,trade automation stack,Services menu,B (category),
+/trade-automation-stack/n8n-workflow-library/,SVC-CHILD,/trade-automation-stack/,n8n workflow library,Services menu > hub grid,B row,Request for Proposal
+/trade-automation-stack/gohighlevel-lifecycle-sms/,SVC-CHILD,/trade-automation-stack/,gohighlevel lifecycle sms,Services menu > hub grid,B row,Request for Proposal
+/trade-automation-stack/review-request-automation/,SVC-CHILD,/trade-automation-stack/,review request automation,Services menu > hub grid,B row,Request for Proposal
+/trade-automation-stack/payout-trigger-workflows/,SVC-CHILD,/trade-automation-stack/,payout trigger workflows,Services menu > hub grid,B row,Request for Proposal
+/trade-automation-stack/lead-routing-rules/,SVC-CHILD,/trade-automation-stack/,lead routing rules,Services menu > hub grid,B row,Request for Proposal
+/trade-automation-stack/retargeting-audience-sync/,SVC-CHILD,/trade-automation-stack/,retargeting audience sync,Services menu > hub grid,B row,Request for Proposal
+/trade-automation-stack/estimate-engine-automations/,SVC-CHILD,/trade-automation-stack/,estimate engine automations,Services menu > hub grid,B row,Request for Proposal
+/trade-automation-stack/demand-forecasting-hooks/,SVC-CHILD,/trade-automation-stack/,demand forecasting hooks,Services menu > hub grid,B row,Request for Proposal
+/trade-automation-stack/competitor-monitoring-alerts/,SVC-CHILD,/trade-automation-stack/,competitor monitoring alerts,Services menu > hub grid,B row,Request for Proposal
+/trade-automation-stack/supabase-data-schema/,SVC-CHILD,/trade-automation-stack/,supabase data schema,Services menu > hub grid,B row,Request for Proposal
