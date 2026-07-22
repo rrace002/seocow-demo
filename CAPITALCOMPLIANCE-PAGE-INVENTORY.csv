@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,capital compliance trucking,logo/home,"A1,A6,A10",
+/about-capital-compliance/,COMP-HUB,/,about capital compliance,About menu,"A1,A10",
+/about-capital-compliance/why-choose-us/,COMP-CHILD,/about-capital-compliance/,why choose capital compliance,About menu,"A10,A12",
+/about-capital-compliance/who-we-serve/,COMP-CHILD,/about-capital-compliance/,who capital compliance serves,About menu,D1,
+/contact/,COMP-CONTACT,/,contact capital compliance,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,capital compliance proposal,nav utility,I1,Request for Proposal
+/request-a-consultation/,FORM-CONSULT,/,request a consultation,nav utility (highlighted),I1,Consultation Request
+/business-formation-and-ein/,SVC-HUB,/,business formation & ein,Services menu,B (category),
+/business-formation-and-ein/llc-formation-for-carriers/,SVC-CHILD,/business-formation-and-ein/,llc formation for carriers,Services menu > hub grid,B row,Request for Proposal
+/business-formation-and-ein/ein-application-support/,SVC-CHILD,/business-formation-and-ein/,ein application support,Services menu > hub grid,B row,Request for Proposal
+/business-formation-and-ein/operating-name-and-dba-setup/,SVC-CHILD,/business-formation-and-ein/,operating name & dba setup,Services menu > hub grid,B row,Request for Proposal
+/business-formation-and-ein/owner-operator-entity-options/,SVC-CHILD,/business-formation-and-ein/,owner-operator entity options,Services menu > hub grid,B row,Request for Proposal
+/business-formation-and-ein/bank-ready-business-paperwork/,SVC-CHILD,/business-formation-and-ein/,bank-ready business paperwork,Services menu > hub grid,B row,Request for Proposal
+/business-formation-and-ein/multi-owner-carrier-setup/,SVC-CHILD,/business-formation-and-ein/,multi-owner carrier setup,Services menu > hub grid,B row,Request for Proposal
+/business-formation-and-ein/state-registration-basics/,SVC-CHILD,/business-formation-and-ein/,state registration basics,Services menu > hub grid,B row,Request for Proposal
+/business-formation-and-ein/address-and-mailing-setup/,SVC-CHILD,/business-formation-and-ein/,address & mailing setup,Services menu > hub grid,B row,Request for Proposal
+/business-formation-and-ein/formation-checklist-handoff/,SVC-CHILD,/business-formation-and-ein/,formation checklist handoff,Services menu > hub grid,B row,Request for Proposal
+/business-formation-and-ein/formation-to-authority-handoff/,SVC-CHILD,/business-formation-and-ein/,formation-to-authority handoff,Services menu > hub grid,B row,Request for Proposal
+/mc-dot-authority/,SVC-HUB,/,mc / dot authority,Services menu,B (category),
+/mc-dot-authority/new-dot-number-setup/,SVC-CHILD,/mc-dot-authority/,new dot number setup,Services menu > hub grid,B row,Request for Proposal
+/mc-dot-authority/mc-authority-applications/,SVC-CHILD,/mc-dot-authority/,mc authority applications,Services menu > hub grid,B row,Request for Proposal
+/mc-dot-authority/interstate-authority-guidance/,SVC-CHILD,/mc-dot-authority/,interstate authority guidance,Services menu > hub grid,B row,Request for Proposal
+/mc-dot-authority/authority-application-prep/,SVC-CHILD,/mc-dot-authority/,authority application prep,Services menu > hub grid,B row,Request for Proposal
+/mc-dot-authority/carrier-type-selection/,SVC-CHILD,/mc-dot-authority/,carrier type selection,Services menu > hub grid,B row,Request for Proposal
+/mc-dot-authority/insurance-filing-coordination/,SVC-CHILD,/mc-dot-authority/,insurance filing coordination,Services menu > hub grid,B row,Request for Proposal
+/mc-dot-authority/authority-status-tracking/,SVC-CHILD,/mc-dot-authority/,authority status tracking,Services menu > hub grid,B row,Request for Proposal
+/mc-dot-authority/reactivation-after-inactive-status/,SVC-CHILD,/mc-dot-authority/,reactivation after inactive status,Services menu > hub grid,B row,Request for Proposal
+/mc-dot-authority/authority-revocation-response/,SVC-CHILD,/mc-dot-authority/,authority revocation response,Services menu > hub grid,B row,Request for Proposal
+/mc-dot-authority/mc-dot-compliance-handoff/,SVC-CHILD,/mc-dot-authority/,mc/dot compliance handoff,Services menu > hub grid,B row,Request for Proposal
+/boc-3-and-process-agents/,SVC-HUB,/,boc-3 & process agents,Services menu,B (category),
+/boc-3-and-process-agents/boc-3-filing-support/,SVC-CHILD,/boc-3-and-process-agents/,boc-3 filing support,Services menu > hub grid,B row,Request for Proposal
+/boc-3-and-process-agents/process-agent-coverage-map/,SVC-CHILD,/boc-3-and-process-agents/,process agent coverage map,Services menu > hub grid,B row,Request for Proposal
+/boc-3-and-process-agents/multi-state-process-agent-setup/,SVC-CHILD,/boc-3-and-process-agents/,multi-state process agent setup,Services menu > hub grid,B row,Request for Proposal
+/boc-3-and-process-agents/boc-3-updates-after-moves/,SVC-CHILD,/boc-3-and-process-agents/,boc-3 updates after moves,Services menu > hub grid,B row,Request for Proposal
+/boc-3-and-process-agents/new-authority-boc-3-timing/,SVC-CHILD,/boc-3-and-process-agents/,new authority boc-3 timing,Services menu > hub grid,B row,Request for Proposal
+/boc-3-and-process-agents/process-agent-vendor-coordination/,SVC-CHILD,/boc-3-and-process-agents/,process agent vendor coordination,Services menu > hub grid,B row,Request for Proposal
+/boc-3-and-process-agents/boc-3-status-verification/,SVC-CHILD,/boc-3-and-process-agents/,boc-3 status verification,Services menu > hub grid,B row,Request for Proposal
+/boc-3-and-process-agents/legal-service-readiness/,SVC-CHILD,/boc-3-and-process-agents/,legal service readiness,Services menu > hub grid,B row,Request for Proposal
+/boc-3-and-process-agents/boc-3-for-fleet-growth/,SVC-CHILD,/boc-3-and-process-agents/,boc-3 for fleet growth,Services menu > hub grid,B row,Request for Proposal
+/boc-3-and-process-agents/boc-3-recordkeeping/,SVC-CHILD,/boc-3-and-process-agents/,boc-3 recordkeeping,Services menu > hub grid,B row,Request for Proposal
+/ucr-compliance/,SVC-HUB,/,ucr compliance,Services menu,B (category),
+/ucr-compliance/annual-ucr-registration/,SVC-CHILD,/ucr-compliance/,annual ucr registration,Services menu > hub grid,B row,Request for Proposal
+/ucr-compliance/ucr-fleet-size-reporting/,SVC-CHILD,/ucr-compliance/,ucr fleet-size reporting,Services menu > hub grid,B row,Request for Proposal
+/ucr-compliance/ucr-fee-guidance/,SVC-CHILD,/ucr-compliance/,ucr fee guidance,Services menu > hub grid,B row,Request for Proposal
+/ucr-compliance/ucr-for-new-carriers/,SVC-CHILD,/ucr-compliance/,ucr for new carriers,Services menu > hub grid,B row,Request for Proposal
+/ucr-compliance/ucr-renewal-reminders/,SVC-CHILD,/ucr-compliance/,ucr renewal reminders,Services menu > hub grid,B row,Request for Proposal
+/ucr-compliance/ucr-after-fleet-changes/,SVC-CHILD,/ucr-compliance/,ucr after fleet changes,Services menu > hub grid,B row,Request for Proposal
+/ucr-compliance/ucr-compliance-verification/,SVC-CHILD,/ucr-compliance/,ucr compliance verification,Services menu > hub grid,B row,Request for Proposal
+/ucr-compliance/ucr-and-interstate-ops/,SVC-CHILD,/ucr-compliance/,ucr and interstate ops,Services menu > hub grid,B row,Request for Proposal
+/ucr-compliance/ucr-record-retention/,SVC-CHILD,/ucr-compliance/,ucr record retention,Services menu > hub grid,B row,Request for Proposal
+/ucr-compliance/ucr-plan-onboarding/,SVC-CHILD,/ucr-compliance/,ucr plan onboarding,Services menu > hub grid,B row,Request for Proposal
+/irp-registration/,SVC-HUB,/,irp registration,Services menu,B (category),
+/irp-registration/irp-account-setup/,SVC-CHILD,/irp-registration/,irp account setup,Services menu > hub grid,B row,Request for Proposal
+/irp-registration/proportional-registration-basics/,SVC-CHILD,/irp-registration/,proportional registration basics,Services menu > hub grid,B row,Request for Proposal
+/irp-registration/irp-mileage-reporting/,SVC-CHILD,/irp-registration/,irp mileage reporting,Services menu > hub grid,B row,Request for Proposal
+/irp-registration/irp-plate-and-cab-card-support/,SVC-CHILD,/irp-registration/,irp plate & cab card support,Services menu > hub grid,B row,Request for Proposal
+/irp-registration/irp-renewals/,SVC-CHILD,/irp-registration/,irp renewals,Services menu > hub grid,B row,Request for Proposal
+/irp-registration/irp-fleet-additions/,SVC-CHILD,/irp-registration/,irp fleet additions,Services menu > hub grid,B row,Request for Proposal
+/irp-registration/irp-fleet-deletions/,SVC-CHILD,/irp-registration/,irp fleet deletions,Services menu > hub grid,B row,Request for Proposal
+/irp-registration/irp-for-owner-operators/,SVC-CHILD,/irp-registration/,irp for owner-operators,Services menu > hub grid,B row,Request for Proposal
+/irp-registration/irp-audit-readiness/,SVC-CHILD,/irp-registration/,irp audit readiness,Services menu > hub grid,B row,Request for Proposal
+/irp-registration/irp-and-ucr-coordination/,SVC-CHILD,/irp-registration/,irp and ucr coordination,Services menu > hub grid,B row,Request for Proposal
+/dot-monitoring-and-alerts/,SVC-HUB,/,dot monitoring & alerts,Services menu,B (category),
+/dot-monitoring-and-alerts/daily-dot-status-monitoring/,SVC-CHILD,/dot-monitoring-and-alerts/,daily dot status monitoring,Services menu > hub grid,B row,Request for Proposal
+/dot-monitoring-and-alerts/out-of-service-order-alerts/,SVC-CHILD,/dot-monitoring-and-alerts/,out-of-service order alerts,Services menu > hub grid,B row,Request for Proposal
+/dot-monitoring-and-alerts/inactive-dot-status-alerts/,SVC-CHILD,/dot-monitoring-and-alerts/,inactive dot status alerts,Services menu > hub grid,B row,Request for Proposal
+/dot-monitoring-and-alerts/authority-revocation-alerts/,SVC-CHILD,/dot-monitoring-and-alerts/,authority revocation alerts,Services menu > hub grid,B row,Request for Proposal
+/dot-monitoring-and-alerts/safety-score-watch/,SVC-CHILD,/dot-monitoring-and-alerts/,safety score watch,Services menu > hub grid,B row,Request for Proposal
+/dot-monitoring-and-alerts/monitoring-for-small-fleets/,SVC-CHILD,/dot-monitoring-and-alerts/,monitoring for small fleets,Services menu > hub grid,B row,Request for Proposal
+/dot-monitoring-and-alerts/monitoring-for-growing-fleets/,SVC-CHILD,/dot-monitoring-and-alerts/,monitoring for growing fleets,Services menu > hub grid,B row,Request for Proposal
+/dot-monitoring-and-alerts/alert-escalation-playbooks/,SVC-CHILD,/dot-monitoring-and-alerts/,alert escalation playbooks,Services menu > hub grid,B row,Request for Proposal
+/dot-monitoring-and-alerts/compliance-issue-triage/,SVC-CHILD,/dot-monitoring-and-alerts/,compliance issue triage,Services menu > hub grid,B row,Request for Proposal
+/dot-monitoring-and-alerts/monitoring-plan-onboarding/,SVC-CHILD,/dot-monitoring-and-alerts/,monitoring plan onboarding,Services menu > hub grid,B row,Request for Proposal
+/monthly-compliance-plans/,SVC-HUB,/,monthly compliance plans,Services menu,B (category),
+/monthly-compliance-plans/owner-operator-monthly-plans/,SVC-CHILD,/monthly-compliance-plans/,owner-operator monthly plans,Services menu > hub grid,B row,Request for Proposal
+/monthly-compliance-plans/small-fleet-monthly-plans/,SVC-CHILD,/monthly-compliance-plans/,small fleet monthly plans,Services menu > hub grid,B row,Request for Proposal
+/monthly-compliance-plans/large-fleet-monthly-plans/,SVC-CHILD,/monthly-compliance-plans/,large fleet monthly plans,Services menu > hub grid,B row,Request for Proposal
+/monthly-compliance-plans/customized-compliance-retainers/,SVC-CHILD,/monthly-compliance-plans/,customized compliance retainers,Services menu > hub grid,B row,Request for Proposal
+/monthly-compliance-plans/compliance-calendar-management/,SVC-CHILD,/monthly-compliance-plans/,compliance calendar management,Services menu > hub grid,B row,Request for Proposal
+/monthly-compliance-plans/document-vault-organization/,SVC-CHILD,/monthly-compliance-plans/,document vault organization,Services menu > hub grid,B row,Request for Proposal
+/monthly-compliance-plans/monthly-status-reviews/,SVC-CHILD,/monthly-compliance-plans/,monthly status reviews,Services menu > hub grid,B row,Request for Proposal
+/monthly-compliance-plans/roadside-readiness-checks/,SVC-CHILD,/monthly-compliance-plans/,roadside readiness checks,Services menu > hub grid,B row,Request for Proposal
+/monthly-compliance-plans/plan-upgrades-as-you-grow/,SVC-CHILD,/monthly-compliance-plans/,plan upgrades as you grow,Services menu > hub grid,B row,Request for Proposal
+/monthly-compliance-plans/onboarding-to-monthly-support/,SVC-CHILD,/monthly-compliance-plans/,onboarding to monthly support,Services menu > hub grid,B row,Request for Proposal
+/safety-and-fmcsa-readiness/,SVC-HUB,/,safety & fmcsa readiness,Services menu,B (category),
+/safety-and-fmcsa-readiness/fmcsa-portal-hygiene/,SVC-CHILD,/safety-and-fmcsa-readiness/,fmcsa portal hygiene,Services menu > hub grid,B row,Request for Proposal
+/safety-and-fmcsa-readiness/driver-qualification-file-basics/,SVC-CHILD,/safety-and-fmcsa-readiness/,driver qualification file basics,Services menu > hub grid,B row,Request for Proposal
+/safety-and-fmcsa-readiness/hours-of-service-awareness/,SVC-CHILD,/safety-and-fmcsa-readiness/,hours of service awareness,Services menu > hub grid,B row,Request for Proposal
+/safety-and-fmcsa-readiness/vehicle-maintenance-record-basics/,SVC-CHILD,/safety-and-fmcsa-readiness/,vehicle maintenance record basics,Services menu > hub grid,B row,Request for Proposal
+/safety-and-fmcsa-readiness/drug-and-alcohol-program-basics/,SVC-CHILD,/safety-and-fmcsa-readiness/,drug & alcohol program basics,Services menu > hub grid,B row,Request for Proposal
+/safety-and-fmcsa-readiness/accident-register-hygiene/,SVC-CHILD,/safety-and-fmcsa-readiness/,accident register hygiene,Services menu > hub grid,B row,Request for Proposal
+/safety-and-fmcsa-readiness/new-entrant-safety-prep/,SVC-CHILD,/safety-and-fmcsa-readiness/,new entrant safety prep,Services menu > hub grid,B row,Request for Proposal
+/safety-and-fmcsa-readiness/audit-response-support/,SVC-CHILD,/safety-and-fmcsa-readiness/,audit response support,Services menu > hub grid,B row,Request for Proposal
+/safety-and-fmcsa-readiness/corrective-action-plans/,SVC-CHILD,/safety-and-fmcsa-readiness/,corrective action plans,Services menu > hub grid,B row,Request for Proposal
+/safety-and-fmcsa-readiness/safety-culture-for-small-fleets/,SVC-CHILD,/safety-and-fmcsa-readiness/,safety culture for small fleets,Services menu > hub grid,B row,Request for Proposal
+/interstate-permits-and-credentials/,SVC-HUB,/,interstate permits & credentials,Services menu,B (category),
+/interstate-permits-and-credentials/interstate-credential-stack/,SVC-CHILD,/interstate-permits-and-credentials/,interstate credential stack,Services menu > hub grid,B row,Request for Proposal
+/interstate-permits-and-credentials/cab-card-and-plate-readiness/,SVC-CHILD,/interstate-permits-and-credentials/,cab card & plate readiness,Services menu > hub grid,B row,Request for Proposal
+/interstate-permits-and-credentials/insurance-certificate-tracking/,SVC-CHILD,/interstate-permits-and-credentials/,insurance certificate tracking,Services menu > hub grid,B row,Request for Proposal
+/interstate-permits-and-credentials/state-permit-coordination/,SVC-CHILD,/interstate-permits-and-credentials/,state permit coordination,Services menu > hub grid,B row,Request for Proposal
+/interstate-permits-and-credentials/oversize-overweight-awareness/,SVC-CHILD,/interstate-permits-and-credentials/,oversize/overweight awareness,Services menu > hub grid,B row,Request for Proposal
+/interstate-permits-and-credentials/hazmat-credential-awareness/,SVC-CHILD,/interstate-permits-and-credentials/,hazmat credential awareness,Services menu > hub grid,B row,Request for Proposal
+/interstate-permits-and-credentials/credential-expiration-tracking/,SVC-CHILD,/interstate-permits-and-credentials/,credential expiration tracking,Services menu > hub grid,B row,Request for Proposal
+/interstate-permits-and-credentials/multi-jurisdiction-ops-checklist/,SVC-CHILD,/interstate-permits-and-credentials/,multi-jurisdiction ops checklist,Services menu > hub grid,B row,Request for Proposal
+/interstate-permits-and-credentials/new-lane-credential-review/,SVC-CHILD,/interstate-permits-and-credentials/,new lane credential review,Services menu > hub grid,B row,Request for Proposal
+/interstate-permits-and-credentials/permits-plan-integration/,SVC-CHILD,/interstate-permits-and-credentials/,permits plan integration,Services menu > hub grid,B row,Request for Proposal
+/fleet-compliance-operations/,SVC-HUB,/,fleet compliance operations,Services menu,B (category),
+/fleet-compliance-operations/compliance-ops-playbooks/,SVC-CHILD,/fleet-compliance-operations/,compliance ops playbooks,Services menu > hub grid,B row,Request for Proposal
+/fleet-compliance-operations/dispatch-compliance-handoffs/,SVC-CHILD,/fleet-compliance-operations/,dispatch compliance handoffs,Services menu > hub grid,B row,Request for Proposal
+/fleet-compliance-operations/driver-onboarding-compliance/,SVC-CHILD,/fleet-compliance-operations/,driver onboarding compliance,Services menu > hub grid,B row,Request for Proposal
+/fleet-compliance-operations/unit-onboarding-compliance/,SVC-CHILD,/fleet-compliance-operations/,unit onboarding compliance,Services menu > hub grid,B row,Request for Proposal
+/fleet-compliance-operations/offboarding-drivers-and-units/,SVC-CHILD,/fleet-compliance-operations/,offboarding drivers & units,Services menu > hub grid,B row,Request for Proposal
+/fleet-compliance-operations/vendor-and-broker-paperwork/,SVC-CHILD,/fleet-compliance-operations/,vendor & broker paperwork,Services menu > hub grid,B row,Request for Proposal
+/fleet-compliance-operations/compliance-kpi-tracking/,SVC-CHILD,/fleet-compliance-operations/,compliance kpi tracking,Services menu > hub grid,B row,Request for Proposal
+/fleet-compliance-operations/owner-operator-ops-support/,SVC-CHILD,/fleet-compliance-operations/,owner-operator ops support,Services menu > hub grid,B row,Request for Proposal
+/fleet-compliance-operations/growth-ready-compliance-systems/,SVC-CHILD,/fleet-compliance-operations/,growth-ready compliance systems,Services menu > hub grid,B row,Request for Proposal
+/fleet-compliance-operations/road-to-success-planning/,SVC-CHILD,/fleet-compliance-operations/,road to success planning,Services menu > hub grid,B row,Request for Proposal
