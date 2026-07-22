@@ -874,19 +874,19 @@ def main() -> None:
             "contact",
             "Contact Us | Cryptocurrency Consulting",
             "Contact Cryptocurrency Consulting",
-            "Questions about coaching, the Paycheck Collector, or whether the academy fits your career schedule.",
+            "Questions about trading bots, smart contracts, node deployment, security audits, or digital asset consulting.",
         ),
         (
             "request-a-consultation",
             "Request a Consultation | Cryptocurrency Consulting",
             "Request a Consultation",
-            "No pressure pitch — a transparent conversation to see if Cryptocurrency Consulting is the right fit. Application required for professionals ready to trade with $15,000+.",
+            "Tell us what you are building or protecting — we will recommend a practical first step.",
         ),
         (
             "request-a-proposal",
             "Request a Proposal | Cryptocurrency Consulting",
-            "Request a Proposalrmation",
-            "Share your background and goals. We will point you to the right next step — usually a strategy call.",
+            "Request a Proposal",
+            "Share scope and constraints. We will return a scoped proposal you can compare.",
         ),
     ]:
         write(ROOT / slug / "index.html", cta_page(slug, title, h2, lead))
