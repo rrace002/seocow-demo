@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,capital compliance hipaa cmmc nist,logo/home,"A1,A6,A10",
+/about-capital-compliance/,COMP-HUB,/,about capital compliance,About menu,"A1,A10",
+/about-capital-compliance/why-choose-us/,COMP-CHILD,/about-capital-compliance/,why choose capital compliance,About menu,"A10,A12",
+/about-capital-compliance/who-we-serve/,COMP-CHILD,/about-capital-compliance/,who capital compliance serves,About menu,D1,
+/contact/,COMP-CONTACT,/,contact capital compliance,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,capital compliance proposal,nav utility,I1,Request for Proposal
+/request-a-consultation/,FORM-CONSULT,/,request a consultation,nav utility (highlighted),I1,Consultation Request
+/hipaa-compliance/,SVC-HUB,/,hipaa compliance,Services menu,B (category),
+/hipaa-compliance/hipaa-security-rule-readiness/,SVC-CHILD,/hipaa-compliance/,hipaa security rule readiness,Services menu > hub grid,B row,Request for Proposal
+/hipaa-compliance/hipaa-privacy-rule-support/,SVC-CHILD,/hipaa-compliance/,hipaa privacy rule support,Services menu > hub grid,B row,Request for Proposal
+/hipaa-compliance/hipaa-risk-analysis/,SVC-CHILD,/hipaa-compliance/,hipaa risk analysis,Services menu > hub grid,B row,Request for Proposal
+/hipaa-compliance/hipaa-gap-assessments/,SVC-CHILD,/hipaa-compliance/,hipaa gap assessments,Services menu > hub grid,B row,Request for Proposal
+/hipaa-compliance/business-associate-agreements/,SVC-CHILD,/hipaa-compliance/,business associate agreements,Services menu > hub grid,B row,Request for Proposal
+/hipaa-compliance/hipaa-policies-and-procedures/,SVC-CHILD,/hipaa-compliance/,hipaa policies & procedures,Services menu > hub grid,B row,Request for Proposal
+/hipaa-compliance/hipaa-workforce-training/,SVC-CHILD,/hipaa-compliance/,hipaa workforce training,Services menu > hub grid,B row,Request for Proposal
+/hipaa-compliance/breach-notification-readiness/,SVC-CHILD,/hipaa-compliance/,breach notification readiness,Services menu > hub grid,B row,Request for Proposal
+/hipaa-compliance/hipaa-audit-preparation/,SVC-CHILD,/hipaa-compliance/,hipaa audit preparation,Services menu > hub grid,B row,Request for Proposal
+/hipaa-compliance/ongoing-hipaa-program-support/,SVC-CHILD,/hipaa-compliance/,ongoing hipaa program support,Services menu > hub grid,B row,Request for Proposal
+/cmmc-compliance/,SVC-HUB,/,cmmc compliance,Services menu,B (category),
+/cmmc-compliance/cmmc-level-1-readiness/,SVC-CHILD,/cmmc-compliance/,cmmc level 1 readiness,Services menu > hub grid,B row,Request for Proposal
+/cmmc-compliance/cmmc-level-2-readiness/,SVC-CHILD,/cmmc-compliance/,cmmc level 2 readiness,Services menu > hub grid,B row,Request for Proposal
+/cmmc-compliance/cmmc-scoping-and-boundaries/,SVC-CHILD,/cmmc-compliance/,cmmc scoping & boundaries,Services menu > hub grid,B row,Request for Proposal
+/cmmc-compliance/dfars-7012-alignment/,SVC-CHILD,/cmmc-compliance/,dfars 7012 alignment,Services menu > hub grid,B row,Request for Proposal
+/cmmc-compliance/sprs-score-improvement/,SVC-CHILD,/cmmc-compliance/,sprs score improvement,Services menu > hub grid,B row,Request for Proposal
+/cmmc-compliance/cmmc-gap-assessments/,SVC-CHILD,/cmmc-compliance/,cmmc gap assessments,Services menu > hub grid,B row,Request for Proposal
+/cmmc-compliance/cui-handling-programs/,SVC-CHILD,/cmmc-compliance/,cui handling programs,Services menu > hub grid,B row,Request for Proposal
+/cmmc-compliance/cmmc-assessment-preparation/,SVC-CHILD,/cmmc-compliance/,cmmc assessment preparation,Services menu > hub grid,B row,Request for Proposal
+/cmmc-compliance/cmmc-for-supply-chain-partners/,SVC-CHILD,/cmmc-compliance/,cmmc for supply chain partners,Services menu > hub grid,B row,Request for Proposal
+/cmmc-compliance/cmmc-program-retainers/,SVC-CHILD,/cmmc-compliance/,cmmc program retainers,Services menu > hub grid,B row,Request for Proposal
+/nist-frameworks/,SVC-HUB,/,nist frameworks,Services menu,B (category),
+/nist-frameworks/nist-800-171-implementation/,SVC-CHILD,/nist-frameworks/,nist 800-171 implementation,Services menu > hub grid,B row,Request for Proposal
+/nist-frameworks/nist-csf-alignment/,SVC-CHILD,/nist-frameworks/,nist csf alignment,Services menu > hub grid,B row,Request for Proposal
+/nist-frameworks/nist-800-53-control-mapping/,SVC-CHILD,/nist-frameworks/,nist 800-53 control mapping,Services menu > hub grid,B row,Request for Proposal
+/nist-frameworks/nist-control-inheritance/,SVC-CHILD,/nist-frameworks/,nist control inheritance,Services menu > hub grid,B row,Request for Proposal
+/nist-frameworks/nist-baseline-selection/,SVC-CHILD,/nist-frameworks/,nist baseline selection,Services menu > hub grid,B row,Request for Proposal
+/nist-frameworks/nist-to-cmmc-crosswalks/,SVC-CHILD,/nist-frameworks/,nist to cmmc crosswalks,Services menu > hub grid,B row,Request for Proposal
+/nist-frameworks/nist-to-hipaa-crosswalks/,SVC-CHILD,/nist-frameworks/,nist to hipaa crosswalks,Services menu > hub grid,B row,Request for Proposal
+/nist-frameworks/secure-configuration-baselines/,SVC-CHILD,/nist-frameworks/,secure configuration baselines,Services menu > hub grid,B row,Request for Proposal
+/nist-frameworks/nist-documentation-packages/,SVC-CHILD,/nist-frameworks/,nist documentation packages,Services menu > hub grid,B row,Request for Proposal
+/nist-frameworks/nist-program-maintenance/,SVC-CHILD,/nist-frameworks/,nist program maintenance,Services menu > hub grid,B row,Request for Proposal
+/gap-assessments-and-readiness/,SVC-HUB,/,gap assessments & readiness,Services menu,B (category),
+/gap-assessments-and-readiness/multi-framework-gap-assessments/,SVC-CHILD,/gap-assessments-and-readiness/,multi-framework gap assessments,Services menu > hub grid,B row,Request for Proposal
+/gap-assessments-and-readiness/control-maturity-scoring/,SVC-CHILD,/gap-assessments-and-readiness/,control maturity scoring,Services menu > hub grid,B row,Request for Proposal
+/gap-assessments-and-readiness/technical-control-validation/,SVC-CHILD,/gap-assessments-and-readiness/,technical control validation,Services menu > hub grid,B row,Request for Proposal
+/gap-assessments-and-readiness/policy-vs-practice-reviews/,SVC-CHILD,/gap-assessments-and-readiness/,policy vs practice reviews,Services menu > hub grid,B row,Request for Proposal
+/gap-assessments-and-readiness/vendor-and-saas-gap-reviews/,SVC-CHILD,/gap-assessments-and-readiness/,vendor & saas gap reviews,Services menu > hub grid,B row,Request for Proposal
+/gap-assessments-and-readiness/readiness-roadmaps/,SVC-CHILD,/gap-assessments-and-readiness/,readiness roadmaps,Services menu > hub grid,B row,Request for Proposal
+/gap-assessments-and-readiness/executive-readiness-briefings/,SVC-CHILD,/gap-assessments-and-readiness/,executive readiness briefings,Services menu > hub grid,B row,Request for Proposal
+/gap-assessments-and-readiness/pre-audit-dress-rehearsals/,SVC-CHILD,/gap-assessments-and-readiness/,pre-audit dress rehearsals,Services menu > hub grid,B row,Request for Proposal
+/gap-assessments-and-readiness/reassessment-after-remediation/,SVC-CHILD,/gap-assessments-and-readiness/,reassessment after remediation,Services menu > hub grid,B row,Request for Proposal
+/gap-assessments-and-readiness/assessment-evidence-packages/,SVC-CHILD,/gap-assessments-and-readiness/,assessment evidence packages,Services menu > hub grid,B row,Request for Proposal
+/policies-ssp-and-documentation/,SVC-HUB,/,"policies, ssp & documentation",Services menu,B (category),
+/policies-ssp-and-documentation/system-security-plan-development/,SVC-CHILD,/policies-ssp-and-documentation/,system security plan development,Services menu > hub grid,B row,Request for Proposal
+/policies-ssp-and-documentation/policy-suite-development/,SVC-CHILD,/policies-ssp-and-documentation/,policy suite development,Services menu > hub grid,B row,Request for Proposal
+/policies-ssp-and-documentation/procedure-and-runbook-writing/,SVC-CHILD,/policies-ssp-and-documentation/,procedure & runbook writing,Services menu > hub grid,B row,Request for Proposal
+/policies-ssp-and-documentation/standards-and-baselines-docs/,SVC-CHILD,/policies-ssp-and-documentation/,standards & baselines docs,Services menu > hub grid,B row,Request for Proposal
+/policies-ssp-and-documentation/roles-and-responsibilities-matrices/,SVC-CHILD,/policies-ssp-and-documentation/,roles & responsibilities matrices,Services menu > hub grid,B row,Request for Proposal
+/policies-ssp-and-documentation/data-flow-and-boundary-diagrams/,SVC-CHILD,/policies-ssp-and-documentation/,data flow & boundary diagrams,Services menu > hub grid,B row,Request for Proposal
+/policies-ssp-and-documentation/policy-exception-management/,SVC-CHILD,/policies-ssp-and-documentation/,policy exception management,Services menu > hub grid,B row,Request for Proposal
+/policies-ssp-and-documentation/document-control-and-versioning/,SVC-CHILD,/policies-ssp-and-documentation/,document control & versioning,Services menu > hub grid,B row,Request for Proposal
+/policies-ssp-and-documentation/customer-questionnaire-response-support/,SVC-CHILD,/policies-ssp-and-documentation/,customer questionnaire response support,Services menu > hub grid,B row,Request for Proposal
+/policies-ssp-and-documentation/documentation-refresh-retainers/,SVC-CHILD,/policies-ssp-and-documentation/,documentation refresh retainers,Services menu > hub grid,B row,Request for Proposal
+/poam-and-remediation/,SVC-HUB,/,poa&m and remediation,Services menu,B (category),
+/poam-and-remediation/poam-development/,SVC-CHILD,/poam-and-remediation/,poa&m development,Services menu > hub grid,B row,Request for Proposal
+/poam-and-remediation/remediation-prioritization/,SVC-CHILD,/poam-and-remediation/,remediation prioritization,Services menu > hub grid,B row,Request for Proposal
+/poam-and-remediation/technical-remediation-coordination/,SVC-CHILD,/poam-and-remediation/,technical remediation coordination,Services menu > hub grid,B row,Request for Proposal
+/poam-and-remediation/compensating-controls-design/,SVC-CHILD,/poam-and-remediation/,compensating controls design,Services menu > hub grid,B row,Request for Proposal
+/poam-and-remediation/milestone-tracking-and-reporting/,SVC-CHILD,/poam-and-remediation/,milestone tracking & reporting,Services menu > hub grid,B row,Request for Proposal
+/poam-and-remediation/evidence-of-closure/,SVC-CHILD,/poam-and-remediation/,evidence of closure,Services menu > hub grid,B row,Request for Proposal
+/poam-and-remediation/risk-acceptance-workflows/,SVC-CHILD,/poam-and-remediation/,risk acceptance workflows,Services menu > hub grid,B row,Request for Proposal
+/poam-and-remediation/finding-lifecycle-management/,SVC-CHILD,/poam-and-remediation/,finding lifecycle management,Services menu > hub grid,B row,Request for Proposal
+/poam-and-remediation/retest-and-validation-cycles/,SVC-CHILD,/poam-and-remediation/,retest & validation cycles,Services menu > hub grid,B row,Request for Proposal
+/poam-and-remediation/poam-program-retainers/,SVC-CHILD,/poam-and-remediation/,poa&m program retainers,Services menu > hub grid,B row,Request for Proposal
+/evidence-and-audit-readiness/,SVC-HUB,/,evidence & audit readiness,Services menu,B (category),
+/evidence-and-audit-readiness/evidence-library-design/,SVC-CHILD,/evidence-and-audit-readiness/,evidence library design,Services menu > hub grid,B row,Request for Proposal
+/evidence-and-audit-readiness/continuous-evidence-collection/,SVC-CHILD,/evidence-and-audit-readiness/,continuous evidence collection,Services menu > hub grid,B row,Request for Proposal
+/evidence-and-audit-readiness/control-to-artifact-mapping/,SVC-CHILD,/evidence-and-audit-readiness/,control-to-artifact mapping,Services menu > hub grid,B row,Request for Proposal
+/evidence-and-audit-readiness/audit-interview-coaching/,SVC-CHILD,/evidence-and-audit-readiness/,audit interview coaching,Services menu > hub grid,B row,Request for Proposal
+/evidence-and-audit-readiness/sample-set-preparation/,SVC-CHILD,/evidence-and-audit-readiness/,sample set preparation,Services menu > hub grid,B row,Request for Proposal
+/evidence-and-audit-readiness/customer-and-regulator-audits/,SVC-CHILD,/evidence-and-audit-readiness/,customer & regulator audits,Services menu > hub grid,B row,Request for Proposal
+/evidence-and-audit-readiness/soc2-adjacent-evidence-reuse/,SVC-CHILD,/evidence-and-audit-readiness/,soc 2-adjacent evidence reuse,Services menu > hub grid,B row,Request for Proposal
+/evidence-and-audit-readiness/pci-adjacent-evidence-reuse/,SVC-CHILD,/evidence-and-audit-readiness/,pci-adjacent evidence reuse,Services menu > hub grid,B row,Request for Proposal
+/evidence-and-audit-readiness/audit-war-room-support/,SVC-CHILD,/evidence-and-audit-readiness/,audit war-room support,Services menu > hub grid,B row,Request for Proposal
+/evidence-and-audit-readiness/post-audit-response-support/,SVC-CHILD,/evidence-and-audit-readiness/,post-audit response support,Services menu > hub grid,B row,Request for Proposal
+/risk-management-and-governance/,SVC-HUB,/,risk management & governance,Services menu,B (category),
+/risk-management-and-governance/enterprise-risk-assessments/,SVC-CHILD,/risk-management-and-governance/,enterprise risk assessments,Services menu > hub grid,B row,Request for Proposal
+/risk-management-and-governance/governance-committee-support/,SVC-CHILD,/risk-management-and-governance/,governance committee support,Services menu > hub grid,B row,Request for Proposal
+/risk-management-and-governance/vendor-risk-management/,SVC-CHILD,/risk-management-and-governance/,vendor risk management,Services menu > hub grid,B row,Request for Proposal
+/risk-management-and-governance/access-governance-reviews/,SVC-CHILD,/risk-management-and-governance/,access governance reviews,Services menu > hub grid,B row,Request for Proposal
+/risk-management-and-governance/incident-response-governance/,SVC-CHILD,/risk-management-and-governance/,incident response governance,Services menu > hub grid,B row,Request for Proposal
+/risk-management-and-governance/change-and-configuration-governance/,SVC-CHILD,/risk-management-and-governance/,change & configuration governance,Services menu > hub grid,B row,Request for Proposal
+/risk-management-and-governance/metrics-and-compliance-kpis/,SVC-CHILD,/risk-management-and-governance/,metrics & compliance kpis,Services menu > hub grid,B row,Request for Proposal
+/risk-management-and-governance/board-and-executive-reporting/,SVC-CHILD,/risk-management-and-governance/,board & executive reporting,Services menu > hub grid,B row,Request for Proposal
+/risk-management-and-governance/policy-exception-governance/,SVC-CHILD,/risk-management-and-governance/,policy exception governance,Services menu > hub grid,B row,Request for Proposal
+/risk-management-and-governance/grc-operating-model-design/,SVC-CHILD,/risk-management-and-governance/,grc operating model design,Services menu > hub grid,B row,Request for Proposal
+/security-controls-implementation/,SVC-HUB,/,security controls implementation,Services menu,B (category),
+/security-controls-implementation/identity-and-access-controls/,SVC-CHILD,/security-controls-implementation/,identity & access controls,Services menu > hub grid,B row,Request for Proposal
+/security-controls-implementation/endpoint-and-malware-protections/,SVC-CHILD,/security-controls-implementation/,endpoint & malware protections,Services menu > hub grid,B row,Request for Proposal
+/security-controls-implementation/logging-and-monitoring-controls/,SVC-CHILD,/security-controls-implementation/,logging & monitoring controls,Services menu > hub grid,B row,Request for Proposal
+/security-controls-implementation/encryption-and-data-protection/,SVC-CHILD,/security-controls-implementation/,encryption & data protection,Services menu > hub grid,B row,Request for Proposal
+/security-controls-implementation/backup-and-recovery-controls/,SVC-CHILD,/security-controls-implementation/,backup & recovery controls,Services menu > hub grid,B row,Request for Proposal
+/security-controls-implementation/network-segmentation-for-scope/,SVC-CHILD,/security-controls-implementation/,network segmentation for scope,Services menu > hub grid,B row,Request for Proposal
+/security-controls-implementation/secure-remote-access/,SVC-CHILD,/security-controls-implementation/,secure remote access,Services menu > hub grid,B row,Request for Proposal
+/security-controls-implementation/vulnerability-management-programs/,SVC-CHILD,/security-controls-implementation/,vulnerability management programs,Services menu > hub grid,B row,Request for Proposal
+/security-controls-implementation/email-and-collaboration-hardening/,SVC-CHILD,/security-controls-implementation/,email & collaboration hardening,Services menu > hub grid,B row,Request for Proposal
+/security-controls-implementation/control-implementation-playbooks/,SVC-CHILD,/security-controls-implementation/,control implementation playbooks,Services menu > hub grid,B row,Request for Proposal
+/multi-framework-compliance-programs/,SVC-HUB,/,multi-framework compliance programs,Services menu,B (category),
+/multi-framework-compliance-programs/unified-control-framework-mapping/,SVC-CHILD,/multi-framework-compliance-programs/,unified control framework mapping,Services menu > hub grid,B row,Request for Proposal
+/multi-framework-compliance-programs/cross-framework-evidence-reuse/,SVC-CHILD,/multi-framework-compliance-programs/,cross-framework evidence reuse,Services menu > hub grid,B row,Request for Proposal
+/multi-framework-compliance-programs/program-build-for-regulated-industries/,SVC-CHILD,/multi-framework-compliance-programs/,program build for regulated industries,Services menu > hub grid,B row,Request for Proposal
+/multi-framework-compliance-programs/compliance-calendar-and-cadence/,SVC-CHILD,/multi-framework-compliance-programs/,compliance calendar & cadence,Services menu > hub grid,B row,Request for Proposal
+/multi-framework-compliance-programs/managed-compliance-retainers/,SVC-CHILD,/multi-framework-compliance-programs/,managed compliance retainers,Services menu > hub grid,B row,Request for Proposal
+/multi-framework-compliance-programs/framework-expansion-planning/,SVC-CHILD,/multi-framework-compliance-programs/,framework expansion planning,Services menu > hub grid,B row,Request for Proposal
+/multi-framework-compliance-programs/msp-and-mssp-compliance-partnerships/,SVC-CHILD,/multi-framework-compliance-programs/,msp & mssp compliance partnerships,Services menu > hub grid,B row,Request for Proposal
+/multi-framework-compliance-programs/compliance-for-growth-and-contracts/,SVC-CHILD,/multi-framework-compliance-programs/,compliance for growth & contracts,Services menu > hub grid,B row,Request for Proposal
+/multi-framework-compliance-programs/training-and-awareness-programs/,SVC-CHILD,/multi-framework-compliance-programs/,training & awareness programs,Services menu > hub grid,B row,Request for Proposal
+/multi-framework-compliance-programs/one-stop-compliance-onboarding/,SVC-CHILD,/multi-framework-compliance-programs/,one-stop compliance onboarding,Services menu > hub grid,B row,Request for Proposal
