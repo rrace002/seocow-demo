@@ -776,6 +776,7 @@ def main() -> None:
     keep = {
         ".git",
         "scripts",
+        "seocow-demo-site.zip",
         "TRADEOS-QUESTIONNAIRE-ANSWERS.md",
         "TRADEOS-PAGE-INVENTORY.csv",
         "TRADEOS-NOTES.md",
