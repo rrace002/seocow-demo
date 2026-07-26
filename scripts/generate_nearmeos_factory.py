@@ -69,13 +69,13 @@ header.main .wrap{display:flex;align-items:center;justify-content:space-between;
 nav.nav{background:#0b1220}
 nav.nav ul{list-style:none;display:flex;flex-wrap:wrap}
 nav.nav>.wrap>ul>li{position:relative}
-nav.nav a{display:block;color:#fff;padding:12px 15px;font-size:13.5px;font-weight:600}
-nav.nav a:hover{background:#111c30;text-decoration:none}
+nav.nav>div.wrap>ul>li>a{display:block;color:#fff;padding:12px 15px;font-size:13.5px;font-weight:600}
+nav.nav>div.wrap>ul>li>a:hover{background:#111c30;text-decoration:none}
 nav.nav li:hover>.dd{display:block}
 .dd{display:none;position:absolute;top:100%;left:0;background:#fff;min-width:270px;box-shadow:0 8px 22px rgba(11,18,32,.18);border-top:3px solid #f59e0b;z-index:60}
-.dd a{color:#0b1220;padding:10px 15px;font-weight:500;border-bottom:1px solid #e6eaf1}
-.dd a:hover{background:#f4f6fa}
-.nav .em a{background:#f59e0b;color:#0b1220}.nav .em a:hover{background:#d97706;color:#fff}
+nav.nav .dd a{display:block;color:#0b1220;padding:10px 15px;font-size:13.5px;font-weight:500;border-bottom:1px solid #e6eaf1;background:#fff}
+nav.nav .dd a:hover{background:#f4f6fa;color:#0b1220;text-decoration:none}
+.nav .em>a{background:#f59e0b;color:#0b1220}.nav .em>a:hover{background:#d97706;color:#fff}
 .hero{background:linear-gradient(rgba(11,18,32,.86),rgba(11,18,32,.86)),repeating-linear-gradient(45deg,#0b1220 0 14px,#111c30 14px 28px);color:#fff;text-align:center;padding:74px 0 64px}
 .hero h1{font-size:34px;max-width:820px;margin:0 auto 14px;line-height:1.25}
 .hero p{color:#f4f6fa;font:600 15px 'Segoe UI',sans-serif;letter-spacing:.5px}
