@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,near me os,logo/home,"A1,A6,A10",
+/about-near-me-os/,COMP-HUB,/,about near me os,About menu,"A1,A10",
+/about-near-me-os/why-choose-us/,COMP-CHILD,/about-near-me-os/,why choose near me os,About menu,"A10,A12",
+/about-near-me-os/verticals-we-serve/,COMP-CHILD,/about-near-me-os/,local service website industries,About menu,D1,
+/contact/,COMP-CONTACT,/,contact near me os,Contact menu,"A3,A4,A5,I1",Contact Request
+/request-a-proposal/,FORM-PROPOSAL,/,near me os proposal,nav utility,I1,Request for Proposal
+/book-a-call/,FORM-CONSULT,/,book a free call near me os,nav highlighted,I1,Consultation Request
+/website-build-packages/,SVC-HUB,/,website build packages,Packages menu,B (category),
+/website-build-packages/local-launch-40-pages/,SVC-CHILD,/website-build-packages/,local launch 40 pages,Packages menu > hub grid,B row,Book a Free Call
+/website-build-packages/service-area-pro-80-pages/,SVC-CHILD,/website-build-packages/,service area pro 80 pages,Packages menu > hub grid,B row,Book a Free Call
+/website-build-packages/market-dominator-120-pages/,SVC-CHILD,/website-build-packages/,market dominator 120 pages,Packages menu > hub grid,B row,Book a Free Call
+/website-build-packages/one-time-ownership-buyout/,SVC-CHILD,/website-build-packages/,one-time ownership buyout,Packages menu > hub grid,B row,Book a Free Call
+/website-build-packages/setup-plus-monthly-plans/,SVC-CHILD,/website-build-packages/,setup plus monthly plans,Packages menu > hub grid,B row,Book a Free Call
+/website-build-packages/domain-content-ownership/,SVC-CHILD,/website-build-packages/,domain content ownership,Packages menu > hub grid,B row,Book a Free Call
+/website-build-packages/days-not-months-launch/,SVC-CHILD,/website-build-packages/,days-not-months launch,Packages menu > hub grid,B row,Book a Free Call
+/website-build-packages/preview-before-you-pay/,SVC-CHILD,/website-build-packages/,preview before you pay,Packages menu > hub grid,B row,Book a Free Call
+/website-build-packages/quote-form-on-every-page/,SVC-CHILD,/website-build-packages/,quote form on every page,Packages menu > hub grid,B row,Book a Free Call
+/website-build-packages/contractor-website-packages/,SVC-CHILD,/website-build-packages/,contractor website packages,Packages menu > hub grid,B row,Book a Free Call
+/service-page-architecture/,SVC-HUB,/,service page architecture,Packages menu,B (category),
+/service-page-architecture/dedicated-service-pages/,SVC-CHILD,/service-page-architecture/,dedicated service pages,Packages menu > hub grid,B row,Book a Free Call
+/service-page-architecture/high-profit-job-landing-pages/,SVC-CHILD,/service-page-architecture/,high-profit job landing pages,Packages menu > hub grid,B row,Book a Free Call
+/service-page-architecture/emergency-same-day-pages/,SVC-CHILD,/service-page-architecture/,emergency same-day pages,Packages menu > hub grid,B row,Book a Free Call
+/service-page-architecture/seasonal-service-pages/,SVC-CHILD,/service-page-architecture/,seasonal service pages,Packages menu > hub grid,B row,Book a Free Call
+/service-page-architecture/faq-buying-guide-pages/,SVC-CHILD,/service-page-architecture/,faq buying guide pages,Packages menu > hub grid,B row,Book a Free Call
+/service-page-architecture/review-showcase-pages/,SVC-CHILD,/service-page-architecture/,review showcase pages,Packages menu > hub grid,B row,Book a Free Call
+/service-page-architecture/project-photo-pages/,SVC-CHILD,/service-page-architecture/,project photo pages,Packages menu > hub grid,B row,Book a Free Call
+/service-page-architecture/competitor-gap-pages/,SVC-CHILD,/service-page-architecture/,competitor gap pages,Packages menu > hub grid,B row,Book a Free Call
+/service-page-architecture/service-list-expansion/,SVC-CHILD,/service-page-architecture/,service list expansion,Packages menu > hub grid,B row,Book a Free Call
+/service-page-architecture/how-much-does-pages/,SVC-CHILD,/service-page-architecture/,how-much-does pages,Packages menu > hub grid,B row,Book a Free Call
+/town-coverage-system/,SVC-HUB,/,town coverage system,Packages menu,B (category),
+/town-coverage-system/home-town-service-area-pages/,SVC-CHILD,/town-coverage-system/,home town service area pages,Packages menu > hub grid,B row,Book a Free Call
+/town-coverage-system/multi-town-coverage/,SVC-CHILD,/town-coverage-system/,multi-town coverage,Packages menu > hub grid,B row,Book a Free Call
+/town-coverage-system/town-times-service-matrix/,SVC-CHILD,/town-coverage-system/,town times service matrix,Packages menu > hub grid,B row,Book a Free Call
+/town-coverage-system/next-town-over-pages/,SVC-CHILD,/town-coverage-system/,next town over pages,Packages menu > hub grid,B row,Book a Free Call
+/town-coverage-system/county-wide-coverage/,SVC-CHILD,/town-coverage-system/,county-wide coverage,Packages menu > hub grid,B row,Book a Free Call
+/town-coverage-system/geo-specific-quote-ctas/,SVC-CHILD,/town-coverage-system/,geo-specific quote ctas,Packages menu > hub grid,B row,Book a Free Call
+/town-coverage-system/local-proof-blocks/,SVC-CHILD,/town-coverage-system/,local proof blocks,Packages menu > hub grid,B row,Book a Free Call
+/town-coverage-system/service-area-map-pages/,SVC-CHILD,/town-coverage-system/,service area map pages,Packages menu > hub grid,B row,Book a Free Call
+/town-coverage-system/surrounding-suburb-pages/,SVC-CHILD,/town-coverage-system/,surrounding suburb pages,Packages menu > hub grid,B row,Book a Free Call
+/town-coverage-system/anti-doorway-town-structure/,SVC-CHILD,/town-coverage-system/,anti-doorway town structure,Packages menu > hub grid,B row,Book a Free Call
+/local-seo-foundation/,SVC-HUB,/,local seo foundation,Packages menu,B (category),
+/local-seo-foundation/local-keyword-research/,SVC-CHILD,/local-seo-foundation/,local keyword research,Packages menu > hub grid,B row,Book a Free Call
+/local-seo-foundation/on-page-seo-architecture/,SVC-CHILD,/local-seo-foundation/,on-page seo architecture,Packages menu > hub grid,B row,Book a Free Call
+/local-seo-foundation/localbusiness-schema-markup/,SVC-CHILD,/local-seo-foundation/,localbusiness schema markup,Packages menu > hub grid,B row,Book a Free Call
+/local-seo-foundation/core-web-vitals-speed/,SVC-CHILD,/local-seo-foundation/,core web vitals speed,Packages menu > hub grid,B row,Book a Free Call
+/local-seo-foundation/mobile-first-builds/,SVC-CHILD,/local-seo-foundation/,mobile-first builds,Packages menu > hub grid,B row,Book a Free Call
+/local-seo-foundation/internal-linking-plans/,SVC-CHILD,/local-seo-foundation/,internal linking plans,Packages menu > hub grid,B row,Book a Free Call
+/local-seo-foundation/title-and-meta-systems/,SVC-CHILD,/local-seo-foundation/,title and meta systems,Packages menu > hub grid,B row,Book a Free Call
+/local-seo-foundation/competitor-seo-gap-analysis/,SVC-CHILD,/local-seo-foundation/,competitor seo gap analysis,Packages menu > hub grid,B row,Book a Free Call
+/local-seo-foundation/near-me-landing-optimization/,SVC-CHILD,/local-seo-foundation/,near me landing optimization,Packages menu > hub grid,B row,Book a Free Call
+/local-seo-foundation/technical-seo-checklist/,SVC-CHILD,/local-seo-foundation/,technical seo checklist,Packages menu > hub grid,B row,Book a Free Call
+/google-business-profile/,SVC-HUB,/,google business profile,Packages menu,B (category),
+/google-business-profile/gbp-setup/,SVC-CHILD,/google-business-profile/,gbp setup,Packages menu > hub grid,B row,Book a Free Call
+/google-business-profile/category-optimization/,SVC-CHILD,/google-business-profile/,category optimization,Packages menu > hub grid,B row,Book a Free Call
+/google-business-profile/photo-strategy/,SVC-CHILD,/google-business-profile/,photo strategy,Packages menu > hub grid,B row,Book a Free Call
+/google-business-profile/gbp-posts-cadence/,SVC-CHILD,/google-business-profile/,gbp posts cadence,Packages menu > hub grid,B row,Book a Free Call
+/google-business-profile/review-request-setup/,SVC-CHILD,/google-business-profile/,review request setup,Packages menu > hub grid,B row,Book a Free Call
+/google-business-profile/maps-visibility-basics/,SVC-CHILD,/google-business-profile/,maps visibility basics,Packages menu > hub grid,B row,Book a Free Call
+/google-business-profile/nap-consistency/,SVC-CHILD,/google-business-profile/,nap consistency,Packages menu > hub grid,B row,Book a Free Call
+/google-business-profile/services-attributes/,SVC-CHILD,/google-business-profile/,services attributes,Packages menu > hub grid,B row,Book a Free Call
+/google-business-profile/local-pack-readiness/,SVC-CHILD,/google-business-profile/,local pack readiness,Packages menu > hub grid,B row,Book a Free Call
+/google-business-profile/gbp-to-website-sync/,SVC-CHILD,/google-business-profile/,gbp to website sync,Packages menu > hub grid,B row,Book a Free Call
+/lead-capture-tracking/,SVC-HUB,/,lead capture tracking,Packages menu,B (category),
+/lead-capture-tracking/quote-forms-every-page/,SVC-CHILD,/lead-capture-tracking/,quote forms every page,Packages menu > hub grid,B row,Book a Free Call
+/lead-capture-tracking/call-tracking-setup/,SVC-CHILD,/lead-capture-tracking/,call tracking setup,Packages menu > hub grid,B row,Book a Free Call
+/lead-capture-tracking/lead-notification-routing/,SVC-CHILD,/lead-capture-tracking/,lead notification routing,Packages menu > hub grid,B row,Book a Free Call
+/lead-capture-tracking/form-to-crm-handoff/,SVC-CHILD,/lead-capture-tracking/,form to crm handoff,Packages menu > hub grid,B row,Book a Free Call
+/lead-capture-tracking/click-to-call-ctas/,SVC-CHILD,/lead-capture-tracking/,click-to-call ctas,Packages menu > hub grid,B row,Book a Free Call
+/lead-capture-tracking/thank-you-page-tracking/,SVC-CHILD,/lead-capture-tracking/,thank-you page tracking,Packages menu > hub grid,B row,Book a Free Call
+/lead-capture-tracking/spam-protection-basics/,SVC-CHILD,/lead-capture-tracking/,spam protection basics,Packages menu > hub grid,B row,Book a Free Call
+/lead-capture-tracking/multi-location-lead-tags/,SVC-CHILD,/lead-capture-tracking/,multi-location lead tags,Packages menu > hub grid,B row,Book a Free Call
+/lead-capture-tracking/page-level-lead-attribution/,SVC-CHILD,/lead-capture-tracking/,page-level lead attribution,Packages menu > hub grid,B row,Book a Free Call
+/lead-capture-tracking/monthly-lead-report/,SVC-CHILD,/lead-capture-tracking/,monthly lead report,Packages menu > hub grid,B row,Book a Free Call
+/content-and-onboarding/,SVC-HUB,/,content and onboarding,Packages menu,B (category),
+/content-and-onboarding/business-questionnaire-intake/,SVC-CHILD,/content-and-onboarding/,business questionnaire intake,Packages menu > hub grid,B row,Book a Free Call
+/content-and-onboarding/professional-page-writing/,SVC-CHILD,/content-and-onboarding/,professional page writing,Packages menu > hub grid,B row,Book a Free Call
+/content-and-onboarding/photo-integration/,SVC-CHILD,/content-and-onboarding/,photo integration,Packages menu > hub grid,B row,Book a Free Call
+/content-and-onboarding/owner-review-workflow/,SVC-CHILD,/content-and-onboarding/,owner review workflow,Packages menu > hub grid,B row,Book a Free Call
+/content-and-onboarding/no-homework-content-model/,SVC-CHILD,/content-and-onboarding/,no homework content model,Packages menu > hub grid,B row,Book a Free Call
+/content-and-onboarding/brand-voice-capture/,SVC-CHILD,/content-and-onboarding/,brand voice capture,Packages menu > hub grid,B row,Book a Free Call
+/content-and-onboarding/faq-interview-process/,SVC-CHILD,/content-and-onboarding/,faq interview process,Packages menu > hub grid,B row,Book a Free Call
+/content-and-onboarding/service-scope-documentation/,SVC-CHILD,/content-and-onboarding/,service scope documentation,Packages menu > hub grid,B row,Book a Free Call
+/content-and-onboarding/launch-checklist/,SVC-CHILD,/content-and-onboarding/,launch checklist,Packages menu > hub grid,B row,Book a Free Call
+/content-and-onboarding/revision-rounds/,SVC-CHILD,/content-and-onboarding/,revision rounds,Packages menu > hub grid,B row,Book a Free Call
+/vertical-website-builds/,SVC-HUB,/,vertical website builds,Packages menu,B (category),
+/vertical-website-builds/plumbing-website-builds/,SVC-CHILD,/vertical-website-builds/,plumbing website builds,Packages menu > hub grid,B row,Book a Free Call
+/vertical-website-builds/electrical-website-builds/,SVC-CHILD,/vertical-website-builds/,electrical website builds,Packages menu > hub grid,B row,Book a Free Call
+/vertical-website-builds/hvac-website-builds/,SVC-CHILD,/vertical-website-builds/,hvac website builds,Packages menu > hub grid,B row,Book a Free Call
+/vertical-website-builds/handyman-website-builds/,SVC-CHILD,/vertical-website-builds/,handyman website builds,Packages menu > hub grid,B row,Book a Free Call
+/vertical-website-builds/roofing-website-builds/,SVC-CHILD,/vertical-website-builds/,roofing website builds,Packages menu > hub grid,B row,Book a Free Call
+/vertical-website-builds/landscaping-website-builds/,SVC-CHILD,/vertical-website-builds/,landscaping website builds,Packages menu > hub grid,B row,Book a Free Call
+/vertical-website-builds/painting-website-builds/,SVC-CHILD,/vertical-website-builds/,painting website builds,Packages menu > hub grid,B row,Book a Free Call
+/vertical-website-builds/cleaning-services-websites/,SVC-CHILD,/vertical-website-builds/,cleaning services websites,Packages menu > hub grid,B row,Book a Free Call
+/vertical-website-builds/garage-door-websites/,SVC-CHILD,/vertical-website-builds/,garage door websites,Packages menu > hub grid,B row,Book a Free Call
+/vertical-website-builds/pest-control-websites/,SVC-CHILD,/vertical-website-builds/,pest control websites,Packages menu > hub grid,B row,Book a Free Call
+/hosting-growth-plans/,SVC-HUB,/,hosting growth plans,Packages menu,B (category),
+/hosting-growth-plans/managed-hosting-security/,SVC-CHILD,/hosting-growth-plans/,managed hosting security,Packages menu > hub grid,B row,Book a Free Call
+/hosting-growth-plans/unlimited-content-edits/,SVC-CHILD,/hosting-growth-plans/,unlimited content edits,Packages menu > hub grid,B row,Book a Free Call
+/hosting-growth-plans/monthly-performance-reports/,SVC-CHILD,/hosting-growth-plans/,monthly performance reports,Packages menu > hub grid,B row,Book a Free Call
+/hosting-growth-plans/quarterly-page-expansion/,SVC-CHILD,/hosting-growth-plans/,quarterly page expansion,Packages menu > hub grid,B row,Book a Free Call
+/hosting-growth-plans/monthly-page-expansion/,SVC-CHILD,/hosting-growth-plans/,monthly page expansion,Packages menu > hub grid,B row,Book a Free Call
+/hosting-growth-plans/review-request-automation/,SVC-CHILD,/hosting-growth-plans/,review request automation,Packages menu > hub grid,B row,Book a Free Call
+/hosting-growth-plans/optional-hosting-49-month/,SVC-CHILD,/hosting-growth-plans/,optional hosting 49 month,Packages menu > hub grid,B row,Book a Free Call
+/hosting-growth-plans/site-ownership-transfer/,SVC-CHILD,/hosting-growth-plans/,site ownership transfer,Packages menu > hub grid,B row,Book a Free Call
+/hosting-growth-plans/uptime-monitoring/,SVC-CHILD,/hosting-growth-plans/,uptime monitoring,Packages menu > hub grid,B row,Book a Free Call
+/hosting-growth-plans/post-launch-support/,SVC-CHILD,/hosting-growth-plans/,post-launch support,Packages menu > hub grid,B row,Book a Free Call
+/migration-and-launch/,SVC-HUB,/,migration and launch,Packages menu,B (category),
+/migration-and-launch/keep-existing-domain/,SVC-CHILD,/migration-and-launch/,keep existing domain,Packages menu > hub grid,B row,Book a Free Call
+/migration-and-launch/fresh-domain-launch/,SVC-CHILD,/migration-and-launch/,fresh domain launch,Packages menu > hub grid,B row,Book a Free Call
+/migration-and-launch/dns-cutover-support/,SVC-CHILD,/migration-and-launch/,dns cutover support,Packages menu > hub grid,B row,Book a Free Call
+/migration-and-launch/existing-site-migration/,SVC-CHILD,/migration-and-launch/,existing site migration,Packages menu > hub grid,B row,Book a Free Call
+/migration-and-launch/staging-preview-launch/,SVC-CHILD,/migration-and-launch/,staging preview launch,Packages menu > hub grid,B row,Book a Free Call
+/migration-and-launch/go-live-qa-checklist/,SVC-CHILD,/migration-and-launch/,go-live qa checklist,Packages menu > hub grid,B row,Book a Free Call
+/migration-and-launch/404-redirect-mapping/,SVC-CHILD,/migration-and-launch/,404 redirect mapping,Packages menu > hub grid,B row,Book a Free Call
+/migration-and-launch/analytics-installation/,SVC-CHILD,/migration-and-launch/,analytics installation,Packages menu > hub grid,B row,Book a Free Call
+/migration-and-launch/search-console-setup/,SVC-CHILD,/migration-and-launch/,search console setup,Packages menu > hub grid,B row,Book a Free Call
+/migration-and-launch/post-launch-stabilization/,SVC-CHILD,/migration-and-launch/,post-launch stabilization,Packages menu > hub grid,B row,Book a Free Call
