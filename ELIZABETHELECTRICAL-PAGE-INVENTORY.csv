@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,elizabeth electrical services,logo/home,"A1,A6,A10",
+/about-elizabeth-electrical-services/,COMP-HUB,/,about elizabeth electrical services,About menu,"A1,A10",
+/about-elizabeth-electrical-services/why-choose-us/,COMP-CHILD,/about-elizabeth-electrical-services/,why choose elizabeth electrical services,About menu,"A10,A12",
+/about-elizabeth-electrical-services/service-areas/,COMP-CHILD,/about-elizabeth-electrical-services/,elizabeth nj electrical service areas,About menu,F1,
+/contact/,COMP-CONTACT,/,contact elizabeth electrical services,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,electrical proposal elizabeth nj,nav utility,I1,Request for Proposal
+/request-a-quote/,FORM-CONSULT,/,electrical quote elizabeth nj,nav utility (highlighted),I1,Consultation Request
+/residential-electrical/,SVC-HUB,/,residential electrical,Services menu,B (category),
+/residential-electrical/home-wiring-installation/,SVC-CHILD,/residential-electrical/,home wiring installation,Services menu > hub grid,B row,Request for Proposal
+/residential-electrical/kitchen-electrical-upgrades/,SVC-CHILD,/residential-electrical/,kitchen electrical upgrades,Services menu > hub grid,B row,Request for Proposal
+/residential-electrical/bathroom-electrical-upgrades/,SVC-CHILD,/residential-electrical/,bathroom electrical upgrades,Services menu > hub grid,B row,Request for Proposal
+/residential-electrical/basement-electrical-wiring/,SVC-CHILD,/residential-electrical/,basement electrical wiring,Services menu > hub grid,B row,Request for Proposal
+/residential-electrical/attic-electrical-work/,SVC-CHILD,/residential-electrical/,attic electrical work,Services menu > hub grid,B row,Request for Proposal
+/residential-electrical/smoke-carbon-monoxide-detectors/,SVC-CHILD,/residential-electrical/,smoke & co detector wiring,Services menu > hub grid,B row,Request for Proposal
+/residential-electrical/doorbell-transformer-wiring/,SVC-CHILD,/residential-electrical/,doorbell & transformer wiring,Services menu > hub grid,B row,Request for Proposal
+/residential-electrical/home-electrical-safety-inspection/,SVC-CHILD,/residential-electrical/,home electrical safety inspection,Services menu > hub grid,B row,Request for Proposal
+/residential-electrical/code-compliance-residential/,SVC-CHILD,/residential-electrical/,residential code compliance,Services menu > hub grid,B row,Request for Proposal
+/residential-electrical/new-home-electrical-rough-in/,SVC-CHILD,/residential-electrical/,new home electrical rough-in,Services menu > hub grid,B row,Request for Proposal
+/commercial-electrical/,SVC-HUB,/,commercial electrical,Services menu,B (category),
+/commercial-electrical/retail-storefront-electrical/,SVC-CHILD,/commercial-electrical/,retail storefront electrical,Services menu > hub grid,B row,Request for Proposal
+/commercial-electrical/office-suite-electrical/,SVC-CHILD,/commercial-electrical/,office suite electrical,Services menu > hub grid,B row,Request for Proposal
+/commercial-electrical/warehouse-shop-power/,SVC-CHILD,/commercial-electrical/,warehouse & shop power,Services menu > hub grid,B row,Request for Proposal
+/commercial-electrical/restaurant-kitchen-electrical/,SVC-CHILD,/commercial-electrical/,restaurant kitchen electrical,Services menu > hub grid,B row,Request for Proposal
+/commercial-electrical/tenant-fit-out-electrical/,SVC-CHILD,/commercial-electrical/,tenant fit-out electrical,Services menu > hub grid,B row,Request for Proposal
+/commercial-electrical/commercial-lighting-retrofit/,SVC-CHILD,/commercial-electrical/,commercial lighting retrofit,Services menu > hub grid,B row,Request for Proposal
+/commercial-electrical/three-phase-power-service/,SVC-CHILD,/commercial-electrical/,three-phase power service,Services menu > hub grid,B row,Request for Proposal
+/commercial-electrical/commercial-panel-maintenance/,SVC-CHILD,/commercial-electrical/,commercial panel maintenance,Services menu > hub grid,B row,Request for Proposal
+/commercial-electrical/signage-and-exterior-power/,SVC-CHILD,/commercial-electrical/,signage & exterior power,Services menu > hub grid,B row,Request for Proposal
+/commercial-electrical/small-business-electrical-upgrades/,SVC-CHILD,/commercial-electrical/,small business electrical upgrades,Services menu > hub grid,B row,Request for Proposal
+/panel-service-upgrades/,SVC-HUB,/,panel & service upgrades,Services menu,B (category),
+/panel-service-upgrades/electrical-panel-replacement/,SVC-CHILD,/panel-service-upgrades/,electrical panel replacement,Services menu > hub grid,B row,Request for Proposal
+/panel-service-upgrades/100-amp-to-200-amp-upgrade/,SVC-CHILD,/panel-service-upgrades/,100-amp to 200-amp upgrade,Services menu > hub grid,B row,Request for Proposal
+/panel-service-upgrades/main-breaker-replacement/,SVC-CHILD,/panel-service-upgrades/,main breaker replacement,Services menu > hub grid,B row,Request for Proposal
+/panel-service-upgrades/subpanel-installation/,SVC-CHILD,/panel-service-upgrades/,subpanel installation,Services menu > hub grid,B row,Request for Proposal
+/panel-service-upgrades/federal-pacific-panel-replacement/,SVC-CHILD,/panel-service-upgrades/,federal pacific panel replacement,Services menu > hub grid,B row,Request for Proposal
+/panel-service-upgrades/zinsco-panel-replacement/,SVC-CHILD,/panel-service-upgrades/,zinsco panel replacement,Services menu > hub grid,B row,Request for Proposal
+/panel-service-upgrades/meter-socket-upgrade/,SVC-CHILD,/panel-service-upgrades/,meter socket upgrade,Services menu > hub grid,B row,Request for Proposal
+/panel-service-upgrades/circuit-breaker-upgrades/,SVC-CHILD,/panel-service-upgrades/,circuit breaker upgrades,Services menu > hub grid,B row,Request for Proposal
+/panel-service-upgrades/load-calculation-service/,SVC-CHILD,/panel-service-upgrades/,load calculation service,Services menu > hub grid,B row,Request for Proposal
+/panel-service-upgrades/service-entrance-cable-upgrade/,SVC-CHILD,/panel-service-upgrades/,service entrance cable upgrade,Services menu > hub grid,B row,Request for Proposal
+/lighting-installation/,SVC-HUB,/,lighting installation,Services menu,B (category),
+/lighting-installation/recessed-lighting-installation/,SVC-CHILD,/lighting-installation/,recessed lighting installation,Services menu > hub grid,B row,Request for Proposal
+/lighting-installation/led-lighting-conversion/,SVC-CHILD,/lighting-installation/,led lighting conversion,Services menu > hub grid,B row,Request for Proposal
+/lighting-installation/outdoor-landscape-lighting/,SVC-CHILD,/lighting-installation/,outdoor landscape lighting,Services menu > hub grid,B row,Request for Proposal
+/lighting-installation/security-lighting-installation/,SVC-CHILD,/lighting-installation/,security lighting installation,Services menu > hub grid,B row,Request for Proposal
+/lighting-installation/under-cabinet-kitchen-lighting/,SVC-CHILD,/lighting-installation/,under-cabinet kitchen lighting,Services menu > hub grid,B row,Request for Proposal
+/lighting-installation/chandelier-pendant-hanging/,SVC-CHILD,/lighting-installation/,chandelier & pendant hanging,Services menu > hub grid,B row,Request for Proposal
+/lighting-installation/dimmer-switch-lighting-control/,SVC-CHILD,/lighting-installation/,dimmer & lighting control,Services menu > hub grid,B row,Request for Proposal
+/lighting-installation/garage-workshop-lighting/,SVC-CHILD,/lighting-installation/,garage & workshop lighting,Services menu > hub grid,B row,Request for Proposal
+/lighting-installation/porch-entryway-lighting/,SVC-CHILD,/lighting-installation/,porch & entryway lighting,Services menu > hub grid,B row,Request for Proposal
+/lighting-installation/commercial-interior-lighting/,SVC-CHILD,/lighting-installation/,commercial interior lighting,Services menu > hub grid,B row,Request for Proposal
+/outlets-switches/,SVC-HUB,/,outlets & switches,Services menu,B (category),
+/outlets-switches/gfci-outlet-installation/,SVC-CHILD,/outlets-switches/,gfci outlet installation,Services menu > hub grid,B row,Request for Proposal
+/outlets-switches/usb-outlet-installation/,SVC-CHILD,/outlets-switches/,usb outlet installation,Services menu > hub grid,B row,Request for Proposal
+/outlets-switches/dedicated-appliance-circuits/,SVC-CHILD,/outlets-switches/,dedicated appliance circuits,Services menu > hub grid,B row,Request for Proposal
+/outlets-switches/outdoor-weatherproof-outlets/,SVC-CHILD,/outlets-switches/,outdoor weatherproof outlets,Services menu > hub grid,B row,Request for Proposal
+/outlets-switches/three-way-switch-installation/,SVC-CHILD,/outlets-switches/,three-way switch installation,Services menu > hub grid,B row,Request for Proposal
+/outlets-switches/smart-switch-installation/,SVC-CHILD,/outlets-switches/,smart switch installation,Services menu > hub grid,B row,Request for Proposal
+/outlets-switches/outlet-relocation-addition/,SVC-CHILD,/outlets-switches/,outlet relocation & addition,Services menu > hub grid,B row,Request for Proposal
+/outlets-switches/tamper-resistant-outlet-upgrade/,SVC-CHILD,/outlets-switches/,tamper-resistant outlet upgrade,Services menu > hub grid,B row,Request for Proposal
+/outlets-switches/floor-outlet-installation/,SVC-CHILD,/outlets-switches/,floor outlet installation,Services menu > hub grid,B row,Request for Proposal
+/outlets-switches/switch-plate-dimmer-upgrades/,SVC-CHILD,/outlets-switches/,switch plate & dimmer upgrades,Services menu > hub grid,B row,Request for Proposal
+/ceiling-fans-fixtures/,SVC-HUB,/,ceiling fans & fixtures,Services menu,B (category),
+/ceiling-fans-fixtures/ceiling-fan-installation/,SVC-CHILD,/ceiling-fans-fixtures/,ceiling fan installation,Services menu > hub grid,B row,Request for Proposal
+/ceiling-fans-fixtures/ceiling-fan-replacement/,SVC-CHILD,/ceiling-fans-fixtures/,ceiling fan replacement,Services menu > hub grid,B row,Request for Proposal
+/ceiling-fans-fixtures/fan-rated-box-upgrade/,SVC-CHILD,/ceiling-fans-fixtures/,fan-rated box upgrade,Services menu > hub grid,B row,Request for Proposal
+/ceiling-fans-fixtures/remote-control-fan-wiring/,SVC-CHILD,/ceiling-fans-fixtures/,remote control fan wiring,Services menu > hub grid,B row,Request for Proposal
+/ceiling-fans-fixtures/light-fixture-replacement/,SVC-CHILD,/ceiling-fans-fixtures/,light fixture replacement,Services menu > hub grid,B row,Request for Proposal
+/ceiling-fans-fixtures/flush-mount-fixture-install/,SVC-CHILD,/ceiling-fans-fixtures/,flush-mount fixture install,Services menu > hub grid,B row,Request for Proposal
+/ceiling-fans-fixtures/bathroom-vanity-light-install/,SVC-CHILD,/ceiling-fans-fixtures/,bathroom vanity light install,Services menu > hub grid,B row,Request for Proposal
+/ceiling-fans-fixtures/dining-room-fixture-hanging/,SVC-CHILD,/ceiling-fans-fixtures/,dining room fixture hanging,Services menu > hub grid,B row,Request for Proposal
+/ceiling-fans-fixtures/garage-shop-fan-install/,SVC-CHILD,/ceiling-fans-fixtures/,garage & shop fan install,Services menu > hub grid,B row,Request for Proposal
+/ceiling-fans-fixtures/outdoor-ceiling-fan-install/,SVC-CHILD,/ceiling-fans-fixtures/,outdoor ceiling fan install,Services menu > hub grid,B row,Request for Proposal
+/electrical-repairs/,SVC-HUB,/,electrical repairs & troubleshooting,Services menu,B (category),
+/electrical-repairs/breaker-trip-troubleshooting/,SVC-CHILD,/electrical-repairs/,breaker trip troubleshooting,Services menu > hub grid,B row,Request for Proposal
+/electrical-repairs/flickering-lights-repair/,SVC-CHILD,/electrical-repairs/,flickering lights repair,Services menu > hub grid,B row,Request for Proposal
+/electrical-repairs/dead-outlet-repair/,SVC-CHILD,/electrical-repairs/,dead outlet repair,Services menu > hub grid,B row,Request for Proposal
+/electrical-repairs/burning-smell-electrical-check/,SVC-CHILD,/electrical-repairs/,burning smell electrical check,Services menu > hub grid,B row,Request for Proposal
+/electrical-repairs/aluminum-wiring-remediation/,SVC-CHILD,/electrical-repairs/,aluminum wiring remediation,Services menu > hub grid,B row,Request for Proposal
+/electrical-repairs/grounding-bonding-repairs/,SVC-CHILD,/electrical-repairs/,grounding & bonding repairs,Services menu > hub grid,B row,Request for Proposal
+/electrical-repairs/junction-box-repairs/,SVC-CHILD,/electrical-repairs/,junction box repairs,Services menu > hub grid,B row,Request for Proposal
+/electrical-repairs/knob-and-tube-assessment/,SVC-CHILD,/electrical-repairs/,knob-and-tube assessment,Services menu > hub grid,B row,Request for Proposal
+/electrical-repairs/power-surge-damage-assessment/,SVC-CHILD,/electrical-repairs/,power surge damage assessment,Services menu > hub grid,B row,Request for Proposal
+/electrical-repairs/electrical-noise-interference-fix/,SVC-CHILD,/electrical-repairs/,electrical noise / interference fix,Services menu > hub grid,B row,Request for Proposal
+/ev-charger-installation/,SVC-HUB,/,ev charger installation,Services menu,B (category),
+/ev-charger-installation/level-2-home-ev-charger/,SVC-CHILD,/ev-charger-installation/,level 2 home ev charger,Services menu > hub grid,B row,Request for Proposal
+/ev-charger-installation/garage-ev-charger-install/,SVC-CHILD,/ev-charger-installation/,garage ev charger install,Services menu > hub grid,B row,Request for Proposal
+/ev-charger-installation/driveway-ev-charger-install/,SVC-CHILD,/ev-charger-installation/,driveway ev charger install,Services menu > hub grid,B row,Request for Proposal
+/ev-charger-installation/tesla-wall-connector-install/,SVC-CHILD,/ev-charger-installation/,tesla wall connector install,Services menu > hub grid,B row,Request for Proposal
+/ev-charger-installation/universal-evse-install/,SVC-CHILD,/ev-charger-installation/,universal evse install,Services menu > hub grid,B row,Request for Proposal
+/ev-charger-installation/ev-charger-circuit-run/,SVC-CHILD,/ev-charger-installation/,ev charger circuit run,Services menu > hub grid,B row,Request for Proposal
+/ev-charger-installation/panel-upgrade-for-ev/,SVC-CHILD,/ev-charger-installation/,panel upgrade for ev,Services menu > hub grid,B row,Request for Proposal
+/ev-charger-installation/dual-ev-charger-prep/,SVC-CHILD,/ev-charger-installation/,dual ev charger prep,Services menu > hub grid,B row,Request for Proposal
+/ev-charger-installation/condo-hoa-ev-charger-consult/,SVC-CHILD,/ev-charger-installation/,condo / hoa ev charger consult,Services menu > hub grid,B row,Request for Proposal
+/ev-charger-installation/commercial-workplace-ev-charging/,SVC-CHILD,/ev-charger-installation/,workplace ev charging,Services menu > hub grid,B row,Request for Proposal
+/generator-installation/,SVC-HUB,/,generator installation,Services menu,B (category),
+/generator-installation/standby-generator-installation/,SVC-CHILD,/generator-installation/,standby generator installation,Services menu > hub grid,B row,Request for Proposal
+/generator-installation/automatic-transfer-switch/,SVC-CHILD,/generator-installation/,automatic transfer switch,Services menu > hub grid,B row,Request for Proposal
+/generator-installation/manual-transfer-switch/,SVC-CHILD,/generator-installation/,manual transfer switch,Services menu > hub grid,B row,Request for Proposal
+/generator-installation/portable-generator-interlock/,SVC-CHILD,/generator-installation/,portable generator interlock,Services menu > hub grid,B row,Request for Proposal
+/generator-installation/generator-subpanel-critical-loads/,SVC-CHILD,/generator-installation/,critical loads subpanel,Services menu > hub grid,B row,Request for Proposal
+/generator-installation/generator-pad-and-wiring/,SVC-CHILD,/generator-installation/,generator pad & wiring,Services menu > hub grid,B row,Request for Proposal
+/generator-installation/generator-maintenance-electrical/,SVC-CHILD,/generator-installation/,generator electrical maintenance,Services menu > hub grid,B row,Request for Proposal
+/generator-installation/natural-gas-generator-hookup-electrical/,SVC-CHILD,/generator-installation/,natural gas generator electrical,Services menu > hub grid,B row,Request for Proposal
+/generator-installation/propane-generator-electrical/,SVC-CHILD,/generator-installation/,propane generator electrical,Services menu > hub grid,B row,Request for Proposal
+/generator-installation/storm-preparedness-generator-plan/,SVC-CHILD,/generator-installation/,storm preparedness generator plan,Services menu > hub grid,B row,Request for Proposal
+/emergency-electrical/,SVC-HUB,/,emergency electrical services,Services menu,B (category),
+/emergency-electrical/no-power-emergency-call/,SVC-CHILD,/emergency-electrical/,no power emergency call,Services menu > hub grid,B row,Request for Proposal
+/emergency-electrical/sparking-outlet-emergency/,SVC-CHILD,/emergency-electrical/,sparking outlet emergency,Services menu > hub grid,B row,Request for Proposal
+/emergency-electrical/burning-panel-emergency/,SVC-CHILD,/emergency-electrical/,burning panel emergency,Services menu > hub grid,B row,Request for Proposal
+/emergency-electrical/storm-damage-electrical/,SVC-CHILD,/emergency-electrical/,storm damage electrical,Services menu > hub grid,B row,Request for Proposal
+/emergency-electrical/water-damage-electrical-safety/,SVC-CHILD,/emergency-electrical/,water damage electrical safety,Services menu > hub grid,B row,Request for Proposal
+/emergency-electrical/exposed-wiring-make-safe/,SVC-CHILD,/emergency-electrical/,exposed wiring make-safe,Services menu > hub grid,B row,Request for Proposal
+/emergency-electrical/after-hours-electrician/,SVC-CHILD,/emergency-electrical/,after-hours electrician,Services menu > hub grid,B row,Request for Proposal
+/emergency-electrical/landlord-tenant-electrical-emergency/,SVC-CHILD,/emergency-electrical/,landlord / tenant electrical emergency,Services menu > hub grid,B row,Request for Proposal
+/emergency-electrical/commercial-emergency-electrical/,SVC-CHILD,/emergency-electrical/,commercial emergency electrical,Services menu > hub grid,B row,Request for Proposal
+/emergency-electrical/temporary-power-restoration/,SVC-CHILD,/emergency-electrical/,temporary power restoration,Services menu > hub grid,B row,Request for Proposal
