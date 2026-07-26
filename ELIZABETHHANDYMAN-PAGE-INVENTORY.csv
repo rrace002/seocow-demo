@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_questionnaire_field,booking_type
+/,HOME,,elizabeth handyman home improvements,logo/home,"A1,A6,A10",
+/about-elizabeth-handyman/,COMP-HUB,/,about elizabeth handyman home improvements,About menu,"A1,A10",
+/about-elizabeth-handyman/why-choose-us/,COMP-CHILD,/about-elizabeth-handyman/,why choose elizabeth handyman home improvements,About menu,"A10,A12",
+/about-elizabeth-handyman/service-areas/,COMP-CHILD,/about-elizabeth-handyman/,elizabeth nj handyman service areas,About menu,F1,
+/contact/,COMP-CONTACT,/,contact elizabeth handyman,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,home improvement proposal elizabeth nj,nav utility,I1,Request for Proposal
+/request-a-quote/,FORM-CONSULT,/,handyman quote elizabeth nj,nav utility (highlighted),I1,Consultation Request
+/home-additions/,SVC-HUB,/,home additions elizabeth nj,Services menu,B (category),
+/home-additions/room-addition-planning/,SVC-CHILD,/home-additions/,room addition planning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/home-additions/single-room-addition/,SVC-CHILD,/home-additions/,single-room addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/home-additions/family-room-addition/,SVC-CHILD,/home-additions/,family room addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/home-additions/sunroom-addition/,SVC-CHILD,/home-additions/,sunroom addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/home-additions/second-story-addition/,SVC-CHILD,/home-additions/,second-story addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/home-additions/garage-conversion-addition/,SVC-CHILD,/home-additions/,garage conversion addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/home-additions/addition-foundation-prep/,SVC-CHILD,/home-additions/,addition foundation prep elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/home-additions/addition-framing-shell/,SVC-CHILD,/home-additions/,addition framing & shell elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/home-additions/addition-finish-carpentry/,SVC-CHILD,/home-additions/,addition finish carpentry elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/home-additions/addition-remodel-coordination/,SVC-CHILD,/home-additions/,addition remodel coordination elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-building-repair/,SVC-HUB,/,deck building & repair elizabeth nj,Services menu,B (category),
+/deck-building-repair/new-deck-construction/,SVC-CHILD,/deck-building-repair/,new deck construction elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-building-repair/deck-repair/,SVC-CHILD,/deck-building-repair/,deck repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-building-repair/deck-board-replacement/,SVC-CHILD,/deck-building-repair/,deck board replacement elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-building-repair/deck-railing-install-repair/,SVC-CHILD,/deck-building-repair/,deck railing install & repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-building-repair/deck-stair-building/,SVC-CHILD,/deck-building-repair/,deck stair building elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-building-repair/composite-deck-install/,SVC-CHILD,/deck-building-repair/,composite deck installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-building-repair/wood-deck-refinishing/,SVC-CHILD,/deck-building-repair/,wood deck refinishing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-building-repair/deck-footing-framing-repair/,SVC-CHILD,/deck-building-repair/,deck footing & framing repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-building-repair/deck-lighting-prep/,SVC-CHILD,/deck-building-repair/,deck lighting prep elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-building-repair/small-porch-deck-refresh/,SVC-CHILD,/deck-building-repair/,small porch & deck refresh elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/basement-finishing/,SVC-HUB,/,basement finishing elizabeth nj,Services menu,B (category),
+/basement-finishing/basement-finishing-planning/,SVC-CHILD,/basement-finishing/,basement finishing planning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/basement-finishing/basement-framing/,SVC-CHILD,/basement-finishing/,basement framing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/basement-finishing/basement-drywall-finish/,SVC-CHILD,/basement-finishing/,basement drywall & finish elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/basement-finishing/basement-ceiling-options/,SVC-CHILD,/basement-finishing/,basement ceiling options elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/basement-finishing/basement-flooring-install/,SVC-CHILD,/basement-finishing/,basement flooring installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/basement-finishing/basement-bathroom-rough-in-support/,SVC-CHILD,/basement-finishing/,basement bathroom rough-in support elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/basement-finishing/basement-egress-window-prep/,SVC-CHILD,/basement-finishing/,basement egress window prep elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/basement-finishing/basement-storage-built-ins/,SVC-CHILD,/basement-finishing/,basement storage built-ins elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/basement-finishing/basement-rec-room-finish/,SVC-CHILD,/basement-finishing/,basement rec room finish elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/basement-finishing/partial-basement-refresh/,SVC-CHILD,/basement-finishing/,partial basement refresh elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-remodeling/,SVC-HUB,/,kitchen remodeling elizabeth nj,Services menu,B (category),
+/kitchen-remodeling/kitchen-remodel-planning/,SVC-CHILD,/kitchen-remodeling/,kitchen remodel planning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-remodeling/kitchen-cabinet-install/,SVC-CHILD,/kitchen-remodeling/,kitchen cabinet installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-remodeling/kitchen-countertop-prep/,SVC-CHILD,/kitchen-remodeling/,kitchen countertop prep elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-remodeling/kitchen-backsplash-install/,SVC-CHILD,/kitchen-remodeling/,kitchen backsplash installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-remodeling/kitchen-island-build/,SVC-CHILD,/kitchen-remodeling/,kitchen island build elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-remodeling/kitchen-flooring-remodel/,SVC-CHILD,/kitchen-remodeling/,kitchen flooring remodel elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-remodeling/kitchen-trim-finish-work/,SVC-CHILD,/kitchen-remodeling/,kitchen trim & finish work elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-remodeling/kitchen-appliance-opening-prep/,SVC-CHILD,/kitchen-remodeling/,kitchen appliance opening prep elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-remodeling/small-kitchen-refresh/,SVC-CHILD,/kitchen-remodeling/,small kitchen refresh elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-remodeling/kitchen-pantry-carpentry/,SVC-CHILD,/kitchen-remodeling/,kitchen pantry carpentry elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-remodeling/,SVC-HUB,/,bathroom remodeling elizabeth nj,Services menu,B (category),
+/bathroom-remodeling/bathroom-remodel-planning/,SVC-CHILD,/bathroom-remodeling/,bathroom remodel planning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-remodeling/bathroom-vanity-install/,SVC-CHILD,/bathroom-remodeling/,bathroom vanity installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-remodeling/bathroom-tile-install/,SVC-CHILD,/bathroom-remodeling/,bathroom tile installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-remodeling/shower-surround-refresh/,SVC-CHILD,/bathroom-remodeling/,shower surround refresh elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-remodeling/bathroom-flooring-remodel/,SVC-CHILD,/bathroom-remodeling/,bathroom flooring remodel elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-remodeling/bathroom-trim-finish/,SVC-CHILD,/bathroom-remodeling/,bathroom trim & finish elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-remodeling/half-bath-remodel/,SVC-CHILD,/bathroom-remodeling/,half-bath remodel elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-remodeling/master-bath-refresh/,SVC-CHILD,/bathroom-remodeling/,master bath refresh elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-remodeling/bathroom-accessibility-updates/,SVC-CHILD,/bathroom-remodeling/,bathroom accessibility updates elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-remodeling/bathroom-lighting-vent-prep/,SVC-CHILD,/bathroom-remodeling/,bathroom lighting & vent prep elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/general-handyman-services/,SVC-HUB,/,general handyman services elizabeth nj,Services menu,B (category),
+/general-handyman-services/punch-list-repairs/,SVC-CHILD,/general-handyman-services/,punch-list repairs elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/general-handyman-services/furniture-assembly-mounting/,SVC-CHILD,/general-handyman-services/,furniture assembly & mounting elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/general-handyman-services/tv-shelf-mounting/,SVC-CHILD,/general-handyman-services/,tv & shelf mounting elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/general-handyman-services/door-hinge-hardware-fixes/,SVC-CHILD,/general-handyman-services/,door hinge & hardware fixes elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/general-handyman-services/caulking-weatherstripping/,SVC-CHILD,/general-handyman-services/,caulking & weatherstripping elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/general-handyman-services/drywall-patch-small-repairs/,SVC-CHILD,/general-handyman-services/,drywall patch & small repairs elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/general-handyman-services/closet-organizer-install/,SVC-CHILD,/general-handyman-services/,closet organizer installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/general-handyman-services/gutter-downspout-touch-ups/,SVC-CHILD,/general-handyman-services/,gutter & downspout touch-ups elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/general-handyman-services/seasonal-home-prep/,SVC-CHILD,/general-handyman-services/,seasonal home prep elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/general-handyman-services/property-walkthrough-fix/,SVC-CHILD,/general-handyman-services/,property walkthrough fixes elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drywall-painting/,SVC-HUB,/,drywall & painting elizabeth nj,Services menu,B (category),
+/drywall-painting/drywall-hanging/,SVC-CHILD,/drywall-painting/,drywall hanging elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drywall-painting/drywall-taping-finishing/,SVC-CHILD,/drywall-painting/,drywall taping & finishing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drywall-painting/drywall-water-damage-repair/,SVC-CHILD,/drywall-painting/,drywall water-damage repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drywall-painting/ceiling-drywall-repair/,SVC-CHILD,/drywall-painting/,ceiling drywall repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drywall-painting/interior-painting/,SVC-CHILD,/drywall-painting/,interior painting elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drywall-painting/trim-door-painting/,SVC-CHILD,/drywall-painting/,trim & door painting elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drywall-painting/accent-wall-painting/,SVC-CHILD,/drywall-painting/,accent wall painting elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drywall-painting/texture-match-repairs/,SVC-CHILD,/drywall-painting/,texture match repairs elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drywall-painting/primer-stain-blocking/,SVC-CHILD,/drywall-painting/,primer & stain blocking elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drywall-painting/paint-refresh-packages/,SVC-CHILD,/drywall-painting/,paint refresh packages elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/flooring-carpentry/,SVC-HUB,/,flooring & carpentry elizabeth nj,Services menu,B (category),
+/flooring-carpentry/laminate-flooring-install/,SVC-CHILD,/flooring-carpentry/,laminate flooring installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/flooring-carpentry/vinyl-plank-flooring-install/,SVC-CHILD,/flooring-carpentry/,vinyl plank flooring installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/flooring-carpentry/hardwood-floor-repair/,SVC-CHILD,/flooring-carpentry/,hardwood floor repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/flooring-carpentry/subfloor-repair/,SVC-CHILD,/flooring-carpentry/,subfloor repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/flooring-carpentry/baseboard-casing-install/,SVC-CHILD,/flooring-carpentry/,baseboard & casing installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/flooring-carpentry/custom-shelving-carpentry/,SVC-CHILD,/flooring-carpentry/,custom shelving carpentry elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/flooring-carpentry/stair-tread-riser-work/,SVC-CHILD,/flooring-carpentry/,stair tread & riser work elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/flooring-carpentry/closet-carpentry/,SVC-CHILD,/flooring-carpentry/,closet carpentry elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/flooring-carpentry/trim-carpentry-packages/,SVC-CHILD,/flooring-carpentry/,trim carpentry packages elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/flooring-carpentry/threshold-transition-install/,SVC-CHILD,/flooring-carpentry/,threshold & transition installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/doors-windows-trim/,SVC-HUB,/,"doors, windows & trim elizabeth nj",Services menu,B (category),
+/doors-windows-trim/interior-door-installation/,SVC-CHILD,/doors-windows-trim/,interior door installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/doors-windows-trim/exterior-door-installation/,SVC-CHILD,/doors-windows-trim/,exterior door installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/doors-windows-trim/door-frame-repair/,SVC-CHILD,/doors-windows-trim/,door frame repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/doors-windows-trim/window-trim-casing/,SVC-CHILD,/doors-windows-trim/,window trim & casing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/doors-windows-trim/window-sill-repair/,SVC-CHILD,/doors-windows-trim/,window sill repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/doors-windows-trim/storm-screen-door-service/,SVC-CHILD,/doors-windows-trim/,storm & screen door service elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/doors-windows-trim/closet-bifold-door-install/,SVC-CHILD,/doors-windows-trim/,closet & bifold door install elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/doors-windows-trim/door-hardware-upgrades/,SVC-CHILD,/doors-windows-trim/,door hardware upgrades elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/doors-windows-trim/trim-molding-install/,SVC-CHILD,/doors-windows-trim/,trim & molding installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/doors-windows-trim/window-door-weatherseal/,SVC-CHILD,/doors-windows-trim/,window & door weatherseal elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-home-improvements/,SVC-HUB,/,outdoor home improvements elizabeth nj,Services menu,B (category),
+/outdoor-home-improvements/fence-repair-sections/,SVC-CHILD,/outdoor-home-improvements/,fence repair sections elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-home-improvements/gate-install-repair/,SVC-CHILD,/outdoor-home-improvements/,gate install & repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-home-improvements/outdoor-steps-railings/,SVC-CHILD,/outdoor-home-improvements/,outdoor steps & railings elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-home-improvements/pergola-shade-structure/,SVC-CHILD,/outdoor-home-improvements/,pergola & shade structure elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-home-improvements/shed-repair-refresh/,SVC-CHILD,/outdoor-home-improvements/,shed repair & refresh elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-home-improvements/exterior-trim-repair/,SVC-CHILD,/outdoor-home-improvements/,exterior trim repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-home-improvements/porch-post-beam-repair/,SVC-CHILD,/outdoor-home-improvements/,porch post & beam repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-home-improvements/outdoor-bench-built-ins/,SVC-CHILD,/outdoor-home-improvements/,outdoor bench built-ins elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-home-improvements/curb-appeal-carpentry/,SVC-CHILD,/outdoor-home-improvements/,curb appeal carpentry elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-home-improvements/patio-transition-carpentry/,SVC-CHILD,/outdoor-home-improvements/,patio transition carpentry elizabeth nj,Services menu > hub grid,B row,Request for Proposal
