@@ -1,18 +1,18 @@
-# Near Me OS — Product Landing (publishable)
+# Near Me OS — Integrated Sales Home + Factory
 
-Single-page sales site from the Near Me OS landing page (`More Pages. More Searches. More Jobs.`).
+Publishable Near Me OS site with one shared chrome across home and all factory pages.
 
 ## Production notes
 
 - **Canonical / sitemap:** `https://nearmeos.io/`
-- **Staging Netlify:** https://near-me-os.netlify.app/ (indexable; no staging banner)
+- **Staging Netlify:** https://near-me-os.netlify.app/
 - **Phone:** `(862) 295-0011` → `tel:+18622950011`
-- **Email:** `hello@nearmeos.com` — confirm mailbox/DNS before go-live on custom domain
-- **CTA:** primary contact button dials the phone number; pricing CTAs scroll to `#contact`
-- **Factory pages:** `scripts/generate_nearmeos_factory.py` now preserves this landing at `/index.html` byte-for-byte and adds the 40/80/120-page product factory pages beneath it.
+- **Email:** `hello@nearmeos.com`
+- **Home:** sales narrative (hero, pricing, compare, FAQ) using the same utility bar / logo / Packages nav / footer as every inner page
+- **Factory:** Gate 1 10×10 (~117 pages) via `scripts/generate_nearmeos_factory.py`
 
-## Go-live checklist
+## Regenerate
 
-1. Point `nearmeos.io` DNS to this Netlify site
-2. Confirm `hello@nearmeos.com` (or swap to final inbox)
-3. Optional: replace tel CTA with a calendar booking URL when ready
+```bash
+python3 scripts/generate_nearmeos_factory.py
+```

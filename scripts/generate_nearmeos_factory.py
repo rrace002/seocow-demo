@@ -1,14 +1,10 @@
 #!/usr/bin/env python3
-"""Generate the Near Me OS factory pages below the preserved landing page.
+"""Generate the Near Me OS site: sales home + Gate 1 factory pages.
 
 Gate 1 architecture:
-- 10 product-aligned hubs
-- 10 service children per hub = 100 SVC-CHILD pages
-- About, contact, and form pages for roughly 107+ total index pages on disk
-
-The public product landing is maintained separately as /index.html. This
-generator preserves its bytes, removes generated site output, writes the
-factory pages, and restores the original landing unchanged.
+- Shared chrome (utility bar, logo/phone, nav, footer) on every page including home
+- Home keeps the sales narrative (hero, pricing, compare, FAQ) in factory styling
+- 10 hubs × 10 children = 100 SVC-CHILD pages + about/contact/forms ≈ 117 pages
 """
 
 from __future__ import annotations
@@ -143,6 +139,66 @@ footer ul{list-style:none}footer li{margin-bottom:7px}footer a{color:#cbd5e1}
 .cols3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
 .audit{background:#f59e0b;color:#0b1220;text-align:center;padding:32px 0}
 .audit h2{color:#0b1220;margin-bottom:8px}.audit a.btn{background:#fff;color:#0b1220}
+.hero-home{text-align:left;padding:56px 0 48px;background:linear-gradient(160deg,#0b1220 0%,#111c31 55%,#16233c 100%)}
+.hero-home .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.hero-home h1{font-size:clamp(1.9rem,3.8vw,2.7rem);max-width:none;margin:0 0 16px;line-height:1.15;font-family:'Segoe UI',Arial,Helvetica,sans-serif}
+.hero-home h1 em{color:#f59e0b;font-style:normal}
+.hero-home .hero-sub{color:#b9c3d4;font:400 1.05rem Georgia,'Times New Roman',serif;letter-spacing:0;max-width:34rem;margin-bottom:22px;line-height:1.6}
+.hero-home .hero-sub b{color:#fff}
+.hero-home .eyebrow{display:inline-block;background:rgba(245,158,11,.14);color:#f59e0b;font:700 .78rem 'Segoe UI',sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:6px 12px;border-radius:99px;margin-bottom:16px}
+.hero-home .hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.hero-home .hero-ctas .btn{margin-top:0}
+.hero-home .btn.ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.35)}
+.hero-home .btn.ghost:hover{border-color:#fff;background:rgba(255,255,255,.06);color:#fff}
+.hero-home .hero-note{font-size:.88rem;color:#8d99ad;margin:0}
+.hero-home .hero-note strong{color:#c8d0dc}
+.pagegrid-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:22px;text-align:center}
+.pagegrid-title{font:600 .78rem 'Segoe UI',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#8d99ad;margin-bottom:14px}
+.pg{display:grid;grid-template-columns:repeat(12,1fr);gap:4px;margin-bottom:12px}
+.pg i{display:block;aspect-ratio:1;border-radius:2px;background:#f59e0b}
+.pg i.dim{background:#2c3a52}
+.pg-caption{font-size:.85rem;color:#b9c3d4;margin:0}
+.pg-caption b{color:#fff}
+.kicker{color:#d97706;font:700 .82rem 'Segoe UI',sans-serif;letter-spacing:.09em;text-transform:uppercase;margin-bottom:10px}
+.center{text-align:center}.center .lead{margin-left:auto;margin-right:auto}
+.search-demo{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.search-card{background:#fff;border:1px solid #dfe5ee;border-radius:8px;padding:18px;text-align:left}
+.search-pill{display:flex;align-items:center;gap:8px;background:#f4f6fa;border:1px solid #dfe5ee;border-radius:99px;padding:8px 14px;font:500 .88rem 'Segoe UI',sans-serif;color:#1a2436;margin-bottom:12px}
+.search-verdict{font-size:.88rem;color:#5b6779;margin:0}
+.search-verdict b.yes{color:#16a34a}.search-verdict b.no{color:#dc2626}
+.step-num{width:36px;height:36px;border-radius:8px;background:#0b1220;color:#f59e0b;font:800 1rem 'Segoe UI',sans-serif;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.step .time{display:inline-block;margin-top:10px;font:700 .75rem 'Segoe UI',sans-serif;color:#d97706;background:rgba(245,158,11,.12);padding:4px 10px;border-radius:99px}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px;align-items:stretch}
+.tier{background:#fff;border:1px solid #dfe5ee;border-radius:10px;padding:24px;display:flex;flex-direction:column;position:relative}
+.tier.popular{border:2px solid #f59e0b;box-shadow:0 12px 28px rgba(245,158,11,.12)}
+.pop-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:#f59e0b;color:#0b1220;font:800 .7rem 'Segoe UI',sans-serif;letter-spacing:.06em;text-transform:uppercase;padding:5px 12px;border-radius:99px;white-space:nowrap}
+.tier-name{font:800 1.15rem 'Segoe UI',sans-serif}
+.tier-for{font-size:.85rem;color:#5b6779;margin:4px 0 14px}
+.tier-pages{display:flex;align-items:baseline;gap:8px;margin-bottom:8px}
+.tier-pages .n{font:800 2.6rem 'Segoe UI',sans-serif;letter-spacing:-.03em;line-height:1}
+.tier-pages .l{font:600 .9rem 'Segoe UI',sans-serif;color:#5b6779}
+.minigrid{display:grid;grid-template-columns:repeat(20,1fr);gap:2px;margin:12px 0 18px}
+.minigrid i{display:block;aspect-ratio:1;border-radius:1px;background:#f59e0b}
+.minigrid i.dim{background:#e3e8f0}
+.price-row{display:flex;justify-content:space-between;gap:10px;font:600 .9rem 'Segoe UI',sans-serif;margin-bottom:6px}
+.price-row .amt{font-weight:800}.price-row .amt small{font-weight:600;color:#5b6779}
+.or-divider{text-align:center;font:700 .7rem 'Segoe UI',sans-serif;color:#5b6779;margin:8px 0;letter-spacing:.08em}
+.tier ul{list-style:none;margin:14px 0 18px;flex:1}
+.tier li{padding:6px 0 6px 22px;position:relative;font-size:.9rem;border-bottom:1px dashed #eef1f6}
+.tier li:before{content:"\2713";position:absolute;left:0;color:#d97706;font-weight:800}
+.tier li.hd{border:none;padding-top:12px;font:700 .78rem 'Segoe UI',sans-serif;color:#5b6779;text-transform:uppercase;letter-spacing:.04em}
+.tier li.hd:before{content:""}
+.tier .btn{text-align:center;margin-top:auto}
+.own-note{margin-top:22px;font-size:.95rem;color:#5b6779;text-align:center}
+.cmp-scroll{overflow-x:auto;margin-top:22px}
+table.cmp{width:100%;border-collapse:collapse;font-size:.9rem;min-width:720px}
+table.cmp th,table.cmp td{border:1px solid #dfe5ee;padding:12px 10px;text-align:left;vertical-align:top}
+table.cmp th{background:#0b1220;color:#fff;font:700 .82rem 'Segoe UI',sans-serif}
+table.cmp th.you,table.cmp td.you{background:#fff8ed}
+table.cmp th.you{background:#f59e0b;color:#0b1220}
+table.cmp .rowlbl{font-weight:700;font-family:'Segoe UI',sans-serif;background:#f4f6fa}
+table.cmp .pos{color:#16a34a;font-weight:700}table.cmp .neg{color:#dc2626;font-weight:700}
+@media(max-width:900px){.hero-home .hero-grid,.search-demo,.tiers{grid-template-columns:1fr}.hero-home{text-align:center}.hero-home .hero-sub{margin-left:auto;margin-right:auto}.hero-home .hero-ctas{justify-content:center}}
 """
 
 
@@ -378,13 +434,24 @@ def write(path: Path, content: str) -> None:
     path.write_text(content, encoding="utf-8")
 
 
-def head(title: str, desc: str) -> str:
+def head(title: str, desc: str, *, canonical: str | None = None) -> str:
+    canon = canonical or ""
+    canon_tag = (
+        f'<link rel="canonical" href="{escape(canon)}">\n'
+        f'<meta property="og:type" content="website">\n'
+        f'<meta property="og:title" content="{escape(title)}">\n'
+        f'<meta property="og:description" content="{escape(trunc(desc))}">\n'
+        f'<meta property="og:url" content="{escape(canon)}">\n'
+        f'<meta property="og:site_name" content="Near Me OS">\n'
+        if canon
+        else ""
+    )
     return f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="robots" content="index, follow">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{escape(title)}</title>
 <meta name="description" content="{escape(trunc(desc))}">
-<style>
+{canon_tag}<style>
 {FACTORY_CSS}
 </style></head><body>
 """
@@ -528,8 +595,230 @@ def package_cards() -> str:
 
 
 def home() -> str:
-    """The product landing at /index.html is preserved, so this is intentionally unused."""
-    return ""
+    hub_cards = []
+    for h in HUBS:
+        kids = "".join(
+            f'<li><a href="{h["slug"]}/{s}/index.html">{escape(n)}</a></li>'
+            for s, n, _ in h["children"][:3]
+        )
+        hub_cards.append(
+            f'<div class="hubcard"><h3><a href="{h["slug"]}/index.html">{escape(h["name"])}</a></h3>'
+            f"<p>{escape(h['blurb'])}</p><ul>{kids}</ul>"
+            f'<a href="{h["slug"]}/index.html" style="font:600 13px \'Segoe UI\',sans-serif">'
+            f"Explore {escape(h['short']).lower()} &rarr;</a></div>"
+        )
+
+    tiers = []
+    tier_meta = [
+        (
+            "Local Launch",
+            "One town, full service list",
+            "40",
+            "$2,495",
+            "$495 + $249",
+            False,
+            [
+                "A dedicated page for every service you offer",
+                "Service-area pages for your home town",
+                "Quote form on every single page",
+                "Schema markup, mobile-first, fast-loading",
+                "Google Business Profile setup",
+                "hd:Monthly plan adds:",
+                "Hosting, security & unlimited edits",
+                "Monthly performance report",
+            ],
+        ),
+        (
+            "Service Area Pro",
+            "Multiple towns, high-value jobs",
+            "80",
+            "$4,495",
+            "$495 + $349",
+            True,
+            [
+                "Everything in Local Launch, plus:",
+                "Town × service pages across your service area",
+                "Landing pages for highest-profit jobs",
+                "FAQ & buying-guide pages",
+                "Review & project-photo showcase pages",
+                "hd:Monthly plan adds:",
+                "Hosting, edits, monthly report",
+                "Quarterly new-page expansion",
+            ],
+        ),
+        (
+            "Market Dominator",
+            "Own your whole county",
+            "120",
+            "$6,495",
+            "$495 + $499",
+            False,
+            [
+                "Everything in Service Area Pro, plus:",
+                "Full town × service coverage matrix",
+                "Emergency & same-day service pages",
+                "Seasonal and competitor-gap pages",
+                "hd:Monthly plan adds:",
+                "Hosting, edits, monthly report",
+                "Monthly new-page expansion",
+                "Review-request automation",
+            ],
+        ),
+    ]
+    for name, fit, pages, one_time, monthly, popular, bullets in tier_meta:
+        lis = []
+        for b in bullets:
+            if b.startswith("hd:"):
+                lis.append(f'<li class="hd">{escape(b[3:])}</li>')
+            else:
+                lis.append(f"<li>{escape(b)}</li>")
+        pop = ' popular' if popular else ""
+        badge = '<span class="pop-badge">Most Popular</span>' if popular else ""
+        tiers.append(
+            f"""<div class="tier{pop}">{badge}
+<div class="tier-name">{escape(name)}</div>
+<div class="tier-for">{escape(fit)}</div>
+<div class="tier-pages"><span class="n">{escape(pages)}</span><span class="l">pages</span></div>
+<div class="minigrid" data-count="{escape(pages)}"></div>
+<div class="price-row"><span class="lbl">Own it outright</span><span class="amt">{escape(one_time)} <small>one-time</small></span></div>
+<div class="or-divider"><span>OR</span></div>
+<div class="price-row alt"><span class="lbl">Setup + monthly</span><span class="amt">{escape(monthly)}<small>/mo</small></span></div>
+<ul>{''.join(lis)}</ul>
+<a class="btn" href="book-a-call/index.html">Start with {escape(pages)} Pages</a>
+</div>"""
+        )
+
+    desc = (
+        "Near Me OS builds 40, 80, or 120-page websites for local service businesses — "
+        "a page for every service in every town you serve. You own everything. Live in days."
+    )
+    return (
+        head(
+            "Near Me OS — More Pages. More Searches. More Jobs.",
+            desc,
+            canonical=f"{BASE}/",
+        )
+        + chrome(0)
+        + f"""
+<div class="hero hero-home"><div class="wrap hero-grid">
+<div>
+<span class="eyebrow">Near Me OS · Websites for Local Service Businesses</span>
+<h1>Your competitor has 5 pages on Google.<br>You're about to have <em>120</em>.</h1>
+<p class="hero-sub">Homeowners don't search "handyman" — they search <b>"drywall repair in your town."</b> Google sends that call to whoever has a page for it. We build you a page for every service you offer, in every town you serve.</p>
+<div class="hero-ctas">
+<a class="btn" href="#pricing">See Plans &amp; Pricing</a>
+<a class="btn ghost" href="#how">How It Works</a>
+<a class="btn alt" href="book-a-call/index.html">Book a Free Call</a>
+</div>
+<p class="hero-note"><strong>You own everything</strong> — domain, content, site. Live in days, not months.</p>
+</div>
+<div class="pagegrid-card">
+<div class="pagegrid-title">Every square = a page that can win a search</div>
+<div class="pg" id="heroGrid"></div>
+<p class="pg-caption"><b>Their site</b> (gray) vs. <b>your site</b> (gold)</p>
+</div>
+</div></div>
+
+<section class="tint" id="problem"><div class="wrap center">
+<div class="kicker">Why size wins</div>
+<h2>Google matches searches to pages — not to businesses.</h2>
+<p class="lead">Every job you do is a search someone types. If your site doesn't have a page answering that exact search in that exact town, the competitor who does gets the call.</p>
+<div class="search-demo">
+<div class="search-card"><div class="search-pill">water heater replacement [your town]</div>
+<p class="search-verdict">Typical 5-page site: <b class="no">no page = invisible</b><br>Your site: <b class="yes">dedicated page, quote form included</b></p></div>
+<div class="search-card"><div class="search-pill">deck repair near me</div>
+<p class="search-verdict">Typical 5-page site: <b class="no">buried in a services list</b><br>Your site: <b class="yes">full page with photos &amp; FAQs</b></p></div>
+<div class="search-card"><div class="search-pill">emergency drywall patch [next town over]</div>
+<p class="search-verdict">Typical 5-page site: <b class="no">wrong town, no page</b><br>Your site: <b class="yes">town-specific service page</b></p></div>
+</div></div></section>
+
+<section id="how"><div class="wrap center">
+<div class="kicker">How it works</div>
+<h2>You answer questions once. We build everything.</h2>
+<p class="lead">No homework, no writing, no "send us content" limbo. The Near Me OS engine does what agencies do by hand — which is why we deliver in days at a fraction of agency prices.</p>
+<div class="steps" style="text-align:left;margin-top:28px">
+<div class="card"><div class="step-num">1</div><h3>Tell us about your business</h3><p>One guided questionnaire: your services, your towns, your photos, how you want the phone answered.</p><span class="time">~45 minutes of your time</span></div>
+<div class="card"><div class="step-num">2</div><h3>We build your entire site</h3><p>Every service page and town page — professionally written with schema, speed, and mobile structure Google rewards. You review before launch.</p><span class="time">Days — not months</span></div>
+<div class="card"><div class="step-num">3</div><h3>Launch, track, own</h3><p>Live on your domain with a quote form on every page and lead tracking. It's all yours from day one.</p><span class="time">You own 100% of it</span></div>
+</div></div></section>
+
+<section class="tint" id="pricing"><div class="wrap">
+<div class="center">
+<div class="kicker">Plans &amp; pricing</div>
+<h2>Pick your footprint. Pay once — or start small and go monthly.</h2>
+<p class="lead">Every tier includes the same build quality. The difference is how much of your market you cover.</p>
+</div>
+<div class="tiers">{''.join(tiers)}</div>
+<p class="own-note"><b>Every plan:</b> you own the domain, the content, and the site — in writing. Monthly plans are 12 months, then month-to-month. One-time buyers: optional hosting &amp; updates, $49/mo.</p>
+</div></section>
+
+<section id="packages"><div class="wrap">
+<div class="center"><div class="kicker">Factory map</div>
+<h2>Explore the full Near Me OS package library</h2>
+<p class="lead">Same navigation as every other page — packages, industries, and launch paths under one factory.</p></div>
+<div class="cols3" style="margin-top:28px">{''.join(hub_cards)}</div>
+</div></section>
+
+<section class="tint" id="compare"><div class="wrap">
+<div class="center"><div class="kicker">The honest comparison</div>
+<h2>Where the money goes everywhere else</h2></div>
+<div class="cmp-scroll"><table class="cmp">
+<thead><tr><th></th><th>DIY Builder<br><small>(Wix / Squarespace)</small></th><th>Traditional Agency</th><th>Big Marketing Firms</th><th class="you">Near Me OS</th></tr></thead>
+<tbody>
+<tr><td class="rowlbl">Upfront cost</td><td>$0–$500 + 20–40 hrs of your time</td><td>$5,000–$10,000+</td><td>$0–$3,000</td><td class="you">$495 – $6,495</td></tr>
+<tr><td class="rowlbl">Ongoing cost</td><td>$20–$50/mo</td><td>Hourly for every change</td><td><span class="neg">$1,500–$5,000/mo</span></td><td class="you">$0 – $499/mo</td></tr>
+<tr><td class="rowlbl">Pages you end up with</td><td>5–10 (you write them)</td><td>10–20</td><td>10–30</td><td class="you">40 / 80 / 120</td></tr>
+<tr><td class="rowlbl">Time to launch</td><td>Whenever you finish it</td><td>2–4 months</td><td>4–8 weeks</td><td class="you"><span class="pos">Days</span></td></tr>
+<tr><td class="rowlbl">Who owns the site?</td><td>You (locked to their platform)</td><td>Usually you</td><td><span class="neg">Often them</span></td><td class="you"><span class="pos">You. Always. In writing.</span></td></tr>
+</tbody></table></div>
+</div></section>
+"""
+        + faqs(
+            [
+                (
+                    "Why would I need 80 or 120 pages?",
+                    "You don't read them — Google does. Each page answers one specific search. More pages means you're entered in more races. Your workload is identical at every tier: one questionnaire.",
+                ),
+                (
+                    "Do I have to write anything?",
+                    "No. You answer questions about your business once (about 45 minutes). We produce every page. You review and approve before anything goes live.",
+                ),
+                (
+                    "Who owns the website?",
+                    "You do — domain, content, design, everything, whether you paid one-time or monthly. It's written into the agreement.",
+                ),
+                (
+                    "Will it guarantee me leads?",
+                    "No honest company guarantees rankings. We guarantee the infrastructure: pages built the way Google rewards, a quote form on every one, and tracking so you can see which pages produce calls.",
+                ),
+                (
+                    "What if I already have a website?",
+                    "We can build on your existing domain or launch fresh. If your current site is under 10 pages, you now know why the phone is quiet.",
+                ),
+            ]
+        )
+        + f"""
+<div class="ctastrip" id="contact"><div class="wrap">
+<h2>The next "near me" search in your town is going somewhere.</h2>
+<p style="max-width:720px;margin:0 auto 18px;color:#cbd5e1">One recovered job a month pays for the site. Tell us your services and towns — we'll show you a live preview before you pay a dollar.</p>
+<a class="btn" href="book-a-call/index.html">Book a Free 15-Minute Call</a>
+<a class="btn alt" href="tel:{PHONE_TEL}" style="margin-left:8px">Call {escape(PHONE)}</a>
+<p style="margin-top:14px;font-size:.9rem;color:#94a3b8"><a href="mailto:{EMAIL}" style="color:#f4f6fa">{escape(EMAIL)}</a></p>
+</div></div>
+<script>
+(function(){{
+  var g=document.getElementById('heroGrid');
+  if(g){{for(var i=0;i<120;i++){{var s=document.createElement('i');if(i<6)s.classList.add('dim');g.appendChild(s);}}}}
+  document.querySelectorAll('.minigrid').forEach(function(el){{
+    var lit=parseInt(el.getAttribute('data-count'),10)||0;
+    for(var i=0;i<120;i++){{var s=document.createElement('i');if(i>=lit)s.classList.add('dim');el.appendChild(s);}}
+  }});
+}})();
+</script>
+"""
+        + org_schema()
+        + footer(0)
+    )
 
 
 def hub_page(h: dict) -> str:
@@ -871,7 +1160,7 @@ def write_questionnaire() -> None:
         ROOT / "NEARMEOS-QUESTIONNAIRE-ANSWERS.md",
         f"""# S1 Business Questionnaire - Near Me OS Factory Pages
 
-Factory pages added below the preserved product landing at `/index.html`.
+Home page and factory pages share one chrome (utility bar, logo/phone, Packages nav, footer).
 
 ## A - Business identity
 | Field | Value | Source |
@@ -911,7 +1200,7 @@ Factory pages added below the preserved product landing at `/index.html`.
 - Factory pages use `index, follow`.
 - `robots.txt` allows crawling and points to the sitemap.
 - `netlify.toml` contains security headers only; no X-Robots-Tag indexing block.
-- The product landing is preserved separately and restored byte-for-byte by the generator.
+- Home is generated with the same chrome as hub/leaf pages so navigation is seamless site-wide.
 """,
     )
 
@@ -959,74 +1248,67 @@ def cleanup_generated_site() -> None:
 
 
 def main() -> None:
-    landing_path = ROOT / "index.html"
-    landing_bytes = landing_path.read_bytes() if landing_path.exists() else None
-    if landing_bytes is not None:
-        Path("/tmp/nearmeos-landing-preserve.html").write_bytes(landing_bytes)
-
     urls = ["/"]
-    try:
-        cleanup_generated_site()
+    cleanup_generated_site()
 
-        for h in HUBS:
-            write(ROOT / h["slug"] / "index.html", hub_page(h))
-            urls.append(f"/{h['slug']}/")
-            for child in h["children"]:
-                write(ROOT / h["slug"] / child[0] / "index.html", leaf_page(h, child))
-                urls.append(f"/{h['slug']}/{child[0]}/")
+    write(ROOT / "index.html", home())
 
-        write(ROOT / "about-near-me-os" / "index.html", about_page())
-        urls.append("/about-near-me-os/")
-        write(ROOT / "about-near-me-os" / "why-choose-us" / "index.html", why_page())
-        urls.append("/about-near-me-os/why-choose-us/")
-        write(ROOT / "about-near-me-os" / "verticals-we-serve" / "index.html", verticals_page())
-        urls.append("/about-near-me-os/verticals-we-serve/")
+    for h in HUBS:
+        write(ROOT / h["slug"] / "index.html", hub_page(h))
+        urls.append(f"/{h['slug']}/")
+        for child in h["children"]:
+            write(ROOT / h["slug"] / child[0] / "index.html", leaf_page(h, child))
+            urls.append(f"/{h['slug']}/{child[0]}/")
 
-        for slug, title, h2, lead, button in [
-            (
-                "contact",
-                "Contact Us | Near Me OS",
-                "Contact Near Me OS",
-                "Call, email, or send a message about 40/80/120-page website packages for your local service business.",
-                "Contact Near Me OS",
-            ),
-            (
-                "request-a-proposal",
-                "Request a Proposal | Near Me OS",
-                "Request a Near Me OS Proposal",
-                "Tell us your services, towns, and current website. We will recommend Local Launch, Service Area Pro, or Market Dominator with pricing in writing.",
-                "Request a Proposal",
-            ),
-            (
-                "book-a-call",
-                "Book a Free Call | Near Me OS",
-                "Book a Free Call",
-                "Talk through your service area, page count, ownership option, and launch timing before you commit.",
-                "Book a Free Call",
-            ),
-        ]:
-            write(ROOT / slug / "index.html", cta_page(slug, title, h2, lead, button))
-            urls.append(f"/{slug}/")
+    write(ROOT / "about-near-me-os" / "index.html", about_page())
+    urls.append("/about-near-me-os/")
+    write(ROOT / "about-near-me-os" / "why-choose-us" / "index.html", why_page())
+    urls.append("/about-near-me-os/why-choose-us/")
+    write(ROOT / "about-near-me-os" / "verticals-we-serve" / "index.html", verticals_page())
+    urls.append("/about-near-me-os/verticals-we-serve/")
 
-        write(
-            ROOT / "404.html",
-            head("Page Not Found | Near Me OS", "Page not found.")
-            + chrome(0)
-            + """
+    for slug, title, h2, lead, button in [
+        (
+            "contact",
+            "Contact Us | Near Me OS",
+            "Contact Near Me OS",
+            "Call, email, or send a message about 40/80/120-page website packages for your local service business.",
+            "Contact Near Me OS",
+        ),
+        (
+            "request-a-proposal",
+            "Request a Proposal | Near Me OS",
+            "Request a Near Me OS Proposal",
+            "Tell us your services, towns, and current website. We will recommend Local Launch, Service Area Pro, or Market Dominator with pricing in writing.",
+            "Request a Proposal",
+        ),
+        (
+            "book-a-call",
+            "Book a Free Call | Near Me OS",
+            "Book a Free Call",
+            "Talk through your service area, page count, ownership option, and launch timing before you commit.",
+            "Book a Free Call",
+        ),
+    ]:
+        write(ROOT / slug / "index.html", cta_page(slug, title, h2, lead, button))
+        urls.append(f"/{slug}/")
+
+    write(
+        ROOT / "404.html",
+        head("Page Not Found | Near Me OS", "Page not found.")
+        + chrome(0)
+        + """
 <section style="padding:72px 0"><div class="wrap"><h2 style="font-size:28px">Page not found</h2>
-<p class="lead">That URL is not in the Near Me OS factory map. Try the landing page or book a free call.</p>
+<p class="lead">That URL is not in the Near Me OS factory map. Head home or book a free call.</p>
 <p><a class="btn" href="index.html">Back to Home</a> <a class="btn alt" href="book-a-call/index.html">Book a Free Call</a></p>
 </div></section>
 """
-            + footer(0),
-        )
+        + footer(0),
+    )
 
-        write_static_files(urls)
-        write_inventory(urls)
-        write_questionnaire()
-    finally:
-        if landing_bytes is not None:
-            landing_path.write_bytes(landing_bytes)
+    write_static_files(urls)
+    write_inventory(urls)
+    write_questionnaire()
 
     pages = list(ROOT.rglob("index.html"))
     inventory_children = 0
@@ -1039,7 +1321,7 @@ def main() -> None:
     print(f"Sitemap URLs: {len(urls)}")
     print(f"Hubs: {len(HUBS)}")
     print(f"SVC-CHILD inventory rows: {inventory_children}")
-    print("Landing restored: yes" if landing_bytes is not None else "Landing restored: no landing present")
+    print("Home uses shared factory chrome: yes")
 
 
 if __name__ == "__main__":

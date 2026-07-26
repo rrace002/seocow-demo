@@ -1,6 +1,6 @@
 # S1 Business Questionnaire - Near Me OS Factory Pages
 
-Factory pages added below the preserved product landing at `/index.html`.
+Home page and factory pages share one chrome (utility bar, logo/phone, Packages nav, footer).
 
 ## A - Business identity
 | Field | Value | Source |
@@ -42,4 +42,4 @@ Plumbing, Electrical, HVAC, Handyman & Remodel, Roofing, Landscaping, Painting, 
 - Factory pages use `index, follow`.
 - `robots.txt` allows crawling and points to the sitemap.
 - `netlify.toml` contains security headers only; no X-Robots-Tag indexing block.
-- The product landing is preserved separately and restored byte-for-byte by the generator.
+- Home is generated with the same chrome as hub/leaf pages so navigation is seamless site-wide.

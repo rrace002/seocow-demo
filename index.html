@@ -1,455 +1,326 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Near Me OS — More Pages. More Searches. More Jobs.</title>
-<meta name="description" content="Near Me OS builds 40, 80, or 120-page websites for local service businesses — a page for every service in every town you serve. You own everything. Live in days.">
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Near Me OS — More Pages. More Searches. More Jobs.</title>
+<meta name="description" content="Near Me OS builds 40, 80, or 120-page websites for local service businesses — a page for every service in every town you serve. You own everything. Live...">
 <link rel="canonical" href="https://nearmeos.io/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Near Me OS — More Pages. More Searches. More Jobs.">
-<meta property="og:description" content="Near Me OS builds 40, 80, or 120-page websites for local service businesses — a page for every service in every town you serve. You own everything. Live in days.">
+<meta property="og:description" content="Near Me OS builds 40, 80, or 120-page websites for local service businesses — a page for every service in every town you serve. You own everything. Live...">
 <meta property="og:url" content="https://nearmeos.io/">
 <meta property="og:site_name" content="Near Me OS">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Near Me OS — More Pages. More Searches. More Jobs.">
-<meta name="twitter:description" content="Near Me OS builds 40, 80, or 120-page websites for local service businesses — a page for every service in every town you serve. You own everything. Live in days.">
 <style>
-  :root{
-    --ink:#0b1220;
-    --ink-2:#1a2436;
-    --paper:#ffffff;
-    --mist:#f4f6fa;
-    --line:#e3e8f0;
-    --accent:#f59e0b;
-    --accent-dark:#d97706;
-    --good:#16a34a;
-    --muted:#5b6779;
-    --radius:14px;
-  }
-  *{margin:0;padding:0;box-sizing:border-box}
-  html{scroll-behavior:smooth}
-  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
-  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
 
-  /* ===== NAV ===== */
-  nav{position:sticky;top:0;background:rgba(11,18,32,.92);backdrop-filter:blur(8px);z-index:50;border-bottom:1px solid rgba(255,255,255,.08)}
-  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
-  .brand{color:#fff;font-weight:800;font-size:1.15rem;letter-spacing:.02em;text-decoration:none}
-  .brand span{color:var(--accent)}
-  .nav-links{display:flex;gap:26px;align-items:center}
-  .nav-links a{color:#c8d0dc;text-decoration:none;font-size:.92rem;font-weight:500}
-  .nav-links a:hover{color:#fff}
-  .btn{display:inline-block;background:var(--accent);color:#151004;font-weight:700;text-decoration:none;padding:11px 22px;border-radius:9px;font-size:.95rem;transition:transform .12s ease, background .12s ease}
-  .btn:hover{background:var(--accent-dark);transform:translateY(-1px)}
-  .btn.big{padding:15px 32px;font-size:1.05rem}
-  .btn.ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.35)}
-  .btn.ghost:hover{border-color:#fff;background:rgba(255,255,255,.06)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;color:#0b1220;line-height:1.65;background:#fff}
+h1,h2,h3,.nav,.btn,.card h3,.utility{font-family:'Segoe UI',Arial,Helvetica,sans-serif}
+a{color:#d97706;text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.utility{background:#0b1220;color:#f4f6fa;font-size:12.5px;padding:5px 0}
+.utility .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+header.main{background:#fff;border-bottom:3px solid #f59e0b;position:relative;z-index:50}
+header.main .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px;flex-wrap:wrap;gap:10px}
+.logo{font:800 22px 'Segoe UI',sans-serif;color:#0b1220}.logo span{color:#f59e0b}
+.logo small{display:block;font:600 10.5px 'Segoe UI',sans-serif;color:#5b6779;letter-spacing:1.5px;text-transform:uppercase}
+.phone-cta{text-align:right;font-family:'Segoe UI',sans-serif}
+.phone-cta a{font-size:19px;font-weight:800;color:#0b1220}
+.phone-cta small{display:block;color:#5b6779;font-size:11px}
+nav.nav{background:#0b1220}
+nav.nav ul{list-style:none;display:flex;flex-wrap:wrap}
+nav.nav>.wrap>ul>li{position:relative}
+nav.nav a{display:block;color:#fff;padding:12px 15px;font-size:13.5px;font-weight:600}
+nav.nav a:hover{background:#111c30;text-decoration:none}
+nav.nav li:hover>.dd{display:block}
+.dd{display:none;position:absolute;top:100%;left:0;background:#fff;min-width:270px;box-shadow:0 8px 22px rgba(11,18,32,.18);border-top:3px solid #f59e0b;z-index:60}
+.dd a{color:#0b1220;padding:10px 15px;font-weight:500;border-bottom:1px solid #e6eaf1}
+.dd a:hover{background:#f4f6fa}
+.nav .em a{background:#f59e0b;color:#0b1220}.nav .em a:hover{background:#d97706;color:#fff}
+.hero{background:linear-gradient(rgba(11,18,32,.86),rgba(11,18,32,.86)),repeating-linear-gradient(45deg,#0b1220 0 14px,#111c30 14px 28px);color:#fff;text-align:center;padding:74px 0 64px}
+.hero h1{font-size:34px;max-width:820px;margin:0 auto 14px;line-height:1.25}
+.hero p{color:#f4f6fa;font:600 15px 'Segoe UI',sans-serif;letter-spacing:.5px}
+.hero .btn{margin-top:26px}
+.btn{display:inline-block;background:#f59e0b;color:#0b1220;font:700 14px 'Segoe UI',sans-serif;padding:13px 28px;border-radius:4px;border:none;cursor:pointer}
+.btn:hover{background:#d97706;color:#fff;text-decoration:none}
+.btn.alt{background:#0b1220;color:#fff}.btn.alt:hover{background:#1b2a45}
+section{padding:44px 0}
+section.tint{background:#f4f6fa}
+section h2{font-size:25px;color:#0b1220;margin-bottom:16px;line-height:1.3}
+section p{margin-bottom:14px;font-size:16.5px}
+.lead{font-size:17px}
+ul.checks{list-style:none;margin:10px 0 6px}
+ul.checks li{padding:7px 0 7px 30px;position:relative;font-size:16px}
+ul.checks li:before{content:"\2713";position:absolute;left:4px;color:#d97706;font-weight:800;font-family:'Segoe UI',sans-serif}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+@media(max-width:760px){.cols2{grid-template-columns:1fr}.hero h1{font-size:26px}.phone-cta{text-align:left}}
+.card{background:#fff;border:1px solid #dfe5ee;border-radius:6px;padding:24px;box-shadow:0 2px 6px rgba(11,18,32,.06)}
+.card h3{color:#0b1220;font-size:18px;margin-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;margin-top:20px}
+.gcard{background:#fff;border:1px solid #dfe5ee;border-left:4px solid #f59e0b;border-radius:6px;padding:20px}
+.gcard h3{font-size:16px;margin-bottom:8px}.gcard h3 a{color:#0b1220}
+.gcard p{font-size:14px;color:#5b6779;margin:0}
+.gcard .tag{display:inline-block;margin-top:10px;font:600 10.5px 'Segoe UI',sans-serif;letter-spacing:.6px;text-transform:uppercase;color:#d97706}
+.ctastrip{background:#0b1220;color:#fff;text-align:center;padding:36px 0}
+.ctastrip h2{color:#fff;margin-bottom:14px}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid #dfe5ee;border-radius:6px;overflow:hidden;margin-top:18px}
+.vs .col{padding:24px}
+.vs .col.bad{background:#f4f6fa}.vs .col.good{background:#fff8ed}
+.vs h3{font-size:16px;margin-bottom:12px;color:#0b1220}
+.vs ul{list-style:none}.vs li{padding:8px 0 8px 26px;position:relative;font-size:15px;border-bottom:1px dashed #dfe5ee}
+.vs .bad li:before{content:"\2717";position:absolute;left:2px;color:#b42318;font-weight:800}
+.vs .good li:before{content:"\2713";position:absolute;left:2px;color:#d97706;font-weight:800}
+@media(max-width:760px){.vs{grid-template-columns:1fr}}
+details{border:1px solid #dfe5ee;border-radius:5px;margin-bottom:10px;background:#fff}
+details summary{cursor:pointer;padding:14px 18px;font:600 15px 'Segoe UI',sans-serif;color:#0b1220;list-style:none}
+details summary:before{content:"+ ";color:#f59e0b;font-weight:800}
+details[open] summary:before{content:"\2013 "}
+details div{padding:0 18px 16px;font-size:15.5px}
+.formbox{background:#fff;border:1px solid #dfe5ee;border-top:4px solid #f59e0b;border-radius:6px;padding:28px;max-width:640px}
+.formbox label{display:block;font:600 12.5px 'Segoe UI',sans-serif;color:#5b6779;margin:12px 0 4px}
+.formbox input,.formbox select,.formbox textarea{width:100%;padding:10px;border:1px solid #b8c2d1;border-radius:4px;font:14px 'Segoe UI',sans-serif}
+.formbox textarea{min-height:90px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin:22px 0}
+.crumb{font:12.5px 'Segoe UI',sans-serif;color:#5b6779;padding:14px 0 0}
+.crumb a{color:#5b6779}
+footer{background:#0b1220;color:#cbd5e1;padding:44px 0 26px;margin-top:30px;font-size:13.5px}
+footer h4{color:#fff;font:700 13px 'Segoe UI',sans-serif;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px}
+footer ul{list-style:none}footer li{margin-bottom:7px}footer a{color:#cbd5e1}
+.fcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:26px}
+.copy{border-top:1px solid #24344f;margin-top:30px;padding-top:16px;text-align:center;font-size:12px;color:#94a3b8}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px;margin-top:8px}
+.stat{background:#fff;border:1px solid #dfe5ee;border-top:4px solid #f59e0b;border-radius:6px;padding:18px;text-align:center}
+.stat b{display:block;font:800 20px 'Segoe UI',sans-serif;color:#0b1220}
+.stat span{font:600 12px 'Segoe UI',sans-serif;color:#5b6779;letter-spacing:.4px;text-transform:uppercase}
+.hubcard{background:#fff;border:1px solid #dfe5ee;border-radius:8px;padding:22px;box-shadow:0 3px 10px rgba(11,18,32,.07)}
+.hubcard h3{font-size:17px;margin-bottom:6px}.hubcard h3 a{color:#0b1220}
+.hubcard ul{list-style:none;margin:10px 0}
+.hubcard li{padding:4px 0 4px 22px;position:relative;font-size:13.5px}
+.hubcard li:before{content:"\2192";position:absolute;left:2px;color:#f59e0b;font-weight:700}
+.cols3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.audit{background:#f59e0b;color:#0b1220;text-align:center;padding:32px 0}
+.audit h2{color:#0b1220;margin-bottom:8px}.audit a.btn{background:#fff;color:#0b1220}
+.hero-home{text-align:left;padding:56px 0 48px;background:linear-gradient(160deg,#0b1220 0%,#111c31 55%,#16233c 100%)}
+.hero-home .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.hero-home h1{font-size:clamp(1.9rem,3.8vw,2.7rem);max-width:none;margin:0 0 16px;line-height:1.15;font-family:'Segoe UI',Arial,Helvetica,sans-serif}
+.hero-home h1 em{color:#f59e0b;font-style:normal}
+.hero-home .hero-sub{color:#b9c3d4;font:400 1.05rem Georgia,'Times New Roman',serif;letter-spacing:0;max-width:34rem;margin-bottom:22px;line-height:1.6}
+.hero-home .hero-sub b{color:#fff}
+.hero-home .eyebrow{display:inline-block;background:rgba(245,158,11,.14);color:#f59e0b;font:700 .78rem 'Segoe UI',sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:6px 12px;border-radius:99px;margin-bottom:16px}
+.hero-home .hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.hero-home .hero-ctas .btn{margin-top:0}
+.hero-home .btn.ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.35)}
+.hero-home .btn.ghost:hover{border-color:#fff;background:rgba(255,255,255,.06);color:#fff}
+.hero-home .hero-note{font-size:.88rem;color:#8d99ad;margin:0}
+.hero-home .hero-note strong{color:#c8d0dc}
+.pagegrid-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:22px;text-align:center}
+.pagegrid-title{font:600 .78rem 'Segoe UI',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#8d99ad;margin-bottom:14px}
+.pg{display:grid;grid-template-columns:repeat(12,1fr);gap:4px;margin-bottom:12px}
+.pg i{display:block;aspect-ratio:1;border-radius:2px;background:#f59e0b}
+.pg i.dim{background:#2c3a52}
+.pg-caption{font-size:.85rem;color:#b9c3d4;margin:0}
+.pg-caption b{color:#fff}
+.kicker{color:#d97706;font:700 .82rem 'Segoe UI',sans-serif;letter-spacing:.09em;text-transform:uppercase;margin-bottom:10px}
+.center{text-align:center}.center .lead{margin-left:auto;margin-right:auto}
+.search-demo{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.search-card{background:#fff;border:1px solid #dfe5ee;border-radius:8px;padding:18px;text-align:left}
+.search-pill{display:flex;align-items:center;gap:8px;background:#f4f6fa;border:1px solid #dfe5ee;border-radius:99px;padding:8px 14px;font:500 .88rem 'Segoe UI',sans-serif;color:#1a2436;margin-bottom:12px}
+.search-verdict{font-size:.88rem;color:#5b6779;margin:0}
+.search-verdict b.yes{color:#16a34a}.search-verdict b.no{color:#dc2626}
+.step-num{width:36px;height:36px;border-radius:8px;background:#0b1220;color:#f59e0b;font:800 1rem 'Segoe UI',sans-serif;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.step .time{display:inline-block;margin-top:10px;font:700 .75rem 'Segoe UI',sans-serif;color:#d97706;background:rgba(245,158,11,.12);padding:4px 10px;border-radius:99px}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px;align-items:stretch}
+.tier{background:#fff;border:1px solid #dfe5ee;border-radius:10px;padding:24px;display:flex;flex-direction:column;position:relative}
+.tier.popular{border:2px solid #f59e0b;box-shadow:0 12px 28px rgba(245,158,11,.12)}
+.pop-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:#f59e0b;color:#0b1220;font:800 .7rem 'Segoe UI',sans-serif;letter-spacing:.06em;text-transform:uppercase;padding:5px 12px;border-radius:99px;white-space:nowrap}
+.tier-name{font:800 1.15rem 'Segoe UI',sans-serif}
+.tier-for{font-size:.85rem;color:#5b6779;margin:4px 0 14px}
+.tier-pages{display:flex;align-items:baseline;gap:8px;margin-bottom:8px}
+.tier-pages .n{font:800 2.6rem 'Segoe UI',sans-serif;letter-spacing:-.03em;line-height:1}
+.tier-pages .l{font:600 .9rem 'Segoe UI',sans-serif;color:#5b6779}
+.minigrid{display:grid;grid-template-columns:repeat(20,1fr);gap:2px;margin:12px 0 18px}
+.minigrid i{display:block;aspect-ratio:1;border-radius:1px;background:#f59e0b}
+.minigrid i.dim{background:#e3e8f0}
+.price-row{display:flex;justify-content:space-between;gap:10px;font:600 .9rem 'Segoe UI',sans-serif;margin-bottom:6px}
+.price-row .amt{font-weight:800}.price-row .amt small{font-weight:600;color:#5b6779}
+.or-divider{text-align:center;font:700 .7rem 'Segoe UI',sans-serif;color:#5b6779;margin:8px 0;letter-spacing:.08em}
+.tier ul{list-style:none;margin:14px 0 18px;flex:1}
+.tier li{padding:6px 0 6px 22px;position:relative;font-size:.9rem;border-bottom:1px dashed #eef1f6}
+.tier li:before{content:"\2713";position:absolute;left:0;color:#d97706;font-weight:800}
+.tier li.hd{border:none;padding-top:12px;font:700 .78rem 'Segoe UI',sans-serif;color:#5b6779;text-transform:uppercase;letter-spacing:.04em}
+.tier li.hd:before{content:""}
+.tier .btn{text-align:center;margin-top:auto}
+.own-note{margin-top:22px;font-size:.95rem;color:#5b6779;text-align:center}
+.cmp-scroll{overflow-x:auto;margin-top:22px}
+table.cmp{width:100%;border-collapse:collapse;font-size:.9rem;min-width:720px}
+table.cmp th,table.cmp td{border:1px solid #dfe5ee;padding:12px 10px;text-align:left;vertical-align:top}
+table.cmp th{background:#0b1220;color:#fff;font:700 .82rem 'Segoe UI',sans-serif}
+table.cmp th.you,table.cmp td.you{background:#fff8ed}
+table.cmp th.you{background:#f59e0b;color:#0b1220}
+table.cmp .rowlbl{font-weight:700;font-family:'Segoe UI',sans-serif;background:#f4f6fa}
+table.cmp .pos{color:#16a34a;font-weight:700}table.cmp .neg{color:#dc2626;font-weight:700}
+@media(max-width:900px){.hero-home .hero-grid,.search-demo,.tiers{grid-template-columns:1fr}.hero-home{text-align:center}.hero-home .hero-sub{margin-left:auto;margin-right:auto}.hero-home .hero-ctas{justify-content:center}}
 
-  /* ===== HERO ===== */
-  header{background:linear-gradient(160deg,#0b1220 0%,#111c31 55%,#16233c 100%);color:#fff;padding:88px 0 72px;overflow:hidden;position:relative}
-  .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
-  .eyebrow{display:inline-block;background:rgba(245,158,11,.14);color:var(--accent);font-weight:700;font-size:.8rem;letter-spacing:.09em;text-transform:uppercase;padding:6px 14px;border-radius:99px;margin-bottom:20px}
-  h1{font-size:clamp(2.1rem,4.4vw,3.3rem);line-height:1.12;font-weight:800;letter-spacing:-.02em;margin-bottom:20px}
-  h1 em{color:var(--accent);font-style:normal}
-  .hero-sub{font-size:1.15rem;color:#b9c3d4;max-width:34rem;margin-bottom:32px}
-  .hero-ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:26px}
-  .hero-note{font-size:.85rem;color:#8d99ad}
-  .hero-note strong{color:#c8d0dc}
+</style></head><body>
+<div class="utility"><div class="wrap"><span>More Pages. More Searches. More Jobs.</span><span>Elizabeth, NJ &middot; hello@nearmeos.com</span></div></div>
+<header class="main"><div class="wrap">
+<div class="logo">Near Me <span>OS</span><small>Local Service Website Factory</small></div>
+<div class="phone-cta"><a href="tel:+18622950011">(862) 295-0011</a><small>40/80/120-page websites for local service businesses</small></div>
+</div></header>
+<nav class="nav"><div class="wrap"><ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="website-build-packages/index.html">Packages &#9662;</a><div class="dd"><a href="website-build-packages/index.html">Website Build Packages</a><a href="service-page-architecture/index.html">Service Page Architecture</a><a href="town-coverage-system/index.html">Town Coverage System</a><a href="local-seo-foundation/index.html">Local SEO Foundation</a><a href="google-business-profile/index.html">Google Business Profile</a><a href="lead-capture-tracking/index.html">Lead Capture Tracking</a><a href="content-and-onboarding/index.html">Content And Onboarding</a><a href="vertical-website-builds/index.html">Vertical Website Builds</a><a href="hosting-growth-plans/index.html">Hosting Growth Plans</a><a href="migration-and-launch/index.html">Migration And Launch</a></div></li>
+<li><a href="about-near-me-os/index.html">About &#9662;</a><div class="dd">
+<a href="about-near-me-os/index.html">About Near Me OS</a>
+<a href="about-near-me-os/why-choose-us/index.html">Why Choose Us</a>
+<a href="about-near-me-os/verticals-we-serve/index.html">Industries We Serve</a>
+</div></li>
+<li><a href="request-a-proposal/index.html">Request a Proposal</a></li>
+<li><a href="contact/index.html">Contact</a></li>
+<li class="em"><a href="book-a-call/index.html">Book a Free Call</a></li>
+</ul></div></nav>
 
-  /* page-grid visual */
-  .pagegrid-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius);padding:26px;text-align:center}
-  .pagegrid-title{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:#8d99ad;margin-bottom:18px}
-  .pg{display:grid;grid-template-columns:repeat(12,1fr);gap:5px;margin-bottom:14px}
-  .pg i{display:block;aspect-ratio:1;border-radius:2.5px;background:var(--accent);opacity:.9;animation:pop .4s ease both}
-  .pg i.dim{background:#2c3a52;opacity:1}
-  @keyframes pop{from{transform:scale(.3);opacity:0}to{transform:scale(1)}}
-  .pg-caption{font-size:.85rem;color:#b9c3d4}
-  .pg-caption b{color:#fff}
+<div class="hero hero-home"><div class="wrap hero-grid">
+<div>
+<span class="eyebrow">Near Me OS · Websites for Local Service Businesses</span>
+<h1>Your competitor has 5 pages on Google.<br>You're about to have <em>120</em>.</h1>
+<p class="hero-sub">Homeowners don't search "handyman" — they search <b>"drywall repair in your town."</b> Google sends that call to whoever has a page for it. We build you a page for every service you offer, in every town you serve.</p>
+<div class="hero-ctas">
+<a class="btn" href="#pricing">See Plans &amp; Pricing</a>
+<a class="btn ghost" href="#how">How It Works</a>
+<a class="btn alt" href="book-a-call/index.html">Book a Free Call</a>
+</div>
+<p class="hero-note"><strong>You own everything</strong> — domain, content, site. Live in days, not months.</p>
+</div>
+<div class="pagegrid-card">
+<div class="pagegrid-title">Every square = a page that can win a search</div>
+<div class="pg" id="heroGrid"></div>
+<p class="pg-caption"><b>Their site</b> (gray) vs. <b>your site</b> (gold)</p>
+</div>
+</div></div>
 
-  /* ===== SECTIONS ===== */
-  section{padding:76px 0}
-  .kicker{color:var(--accent-dark);font-weight:700;font-size:.82rem;letter-spacing:.09em;text-transform:uppercase;margin-bottom:12px}
-  h2{font-size:clamp(1.6rem,3vw,2.3rem);font-weight:800;letter-spacing:-.01em;line-height:1.2;margin-bottom:14px}
-  .lead{color:var(--muted);font-size:1.08rem;max-width:44rem}
-  .center{text-align:center}
-  .center .lead{margin:0 auto}
+<section class="tint" id="problem"><div class="wrap center">
+<div class="kicker">Why size wins</div>
+<h2>Google matches searches to pages — not to businesses.</h2>
+<p class="lead">Every job you do is a search someone types. If your site doesn't have a page answering that exact search in that exact town, the competitor who does gets the call.</p>
+<div class="search-demo">
+<div class="search-card"><div class="search-pill">water heater replacement [your town]</div>
+<p class="search-verdict">Typical 5-page site: <b class="no">no page = invisible</b><br>Your site: <b class="yes">dedicated page, quote form included</b></p></div>
+<div class="search-card"><div class="search-pill">deck repair near me</div>
+<p class="search-verdict">Typical 5-page site: <b class="no">buried in a services list</b><br>Your site: <b class="yes">full page with photos &amp; FAQs</b></p></div>
+<div class="search-card"><div class="search-pill">emergency drywall patch [next town over]</div>
+<p class="search-verdict">Typical 5-page site: <b class="no">wrong town, no page</b><br>Your site: <b class="yes">town-specific service page</b></p></div>
+</div></div></section>
 
-  /* problem strip */
-  .strip{background:var(--mist);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-  .search-demo{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
-  .search-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px}
-  .search-pill{display:flex;align-items:center;gap:10px;background:var(--mist);border:1px solid var(--line);border-radius:99px;padding:9px 16px;font-size:.9rem;color:var(--ink-2);margin-bottom:14px;font-weight:500}
-  .search-pill svg{flex:none}
-  .search-verdict{font-size:.88rem;color:var(--muted)}
-  .search-verdict b.yes{color:var(--good)}
-  .search-verdict b.no{color:#dc2626}
+<section id="how"><div class="wrap center">
+<div class="kicker">How it works</div>
+<h2>You answer questions once. We build everything.</h2>
+<p class="lead">No homework, no writing, no "send us content" limbo. The Near Me OS engine does what agencies do by hand — which is why we deliver in days at a fraction of agency prices.</p>
+<div class="steps" style="text-align:left;margin-top:28px">
+<div class="card"><div class="step-num">1</div><h3>Tell us about your business</h3><p>One guided questionnaire: your services, your towns, your photos, how you want the phone answered.</p><span class="time">~45 minutes of your time</span></div>
+<div class="card"><div class="step-num">2</div><h3>We build your entire site</h3><p>Every service page and town page — professionally written with schema, speed, and mobile structure Google rewards. You review before launch.</p><span class="time">Days — not months</span></div>
+<div class="card"><div class="step-num">3</div><h3>Launch, track, own</h3><p>Live on your domain with a quote form on every page and lead tracking. It's all yours from day one.</p><span class="time">You own 100% of it</span></div>
+</div></div></section>
 
-  /* how it works */
-  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
-  .step{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;position:relative}
-  .step-num{width:38px;height:38px;border-radius:10px;background:var(--ink);color:var(--accent);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:1.05rem;margin-bottom:16px}
-  .step h3{font-size:1.12rem;margin-bottom:8px}
-  .step p{font-size:.93rem;color:var(--muted)}
-  .step .time{display:inline-block;margin-top:14px;font-size:.78rem;font-weight:700;color:var(--accent-dark);background:rgba(245,158,11,.12);padding:4px 10px;border-radius:99px}
+<section class="tint" id="pricing"><div class="wrap">
+<div class="center">
+<div class="kicker">Plans &amp; pricing</div>
+<h2>Pick your footprint. Pay once — or start small and go monthly.</h2>
+<p class="lead">Every tier includes the same build quality. The difference is how much of your market you cover.</p>
+</div>
+<div class="tiers"><div class="tier">
+<div class="tier-name">Local Launch</div>
+<div class="tier-for">One town, full service list</div>
+<div class="tier-pages"><span class="n">40</span><span class="l">pages</span></div>
+<div class="minigrid" data-count="40"></div>
+<div class="price-row"><span class="lbl">Own it outright</span><span class="amt">$2,495 <small>one-time</small></span></div>
+<div class="or-divider"><span>OR</span></div>
+<div class="price-row alt"><span class="lbl">Setup + monthly</span><span class="amt">$495 + $249<small>/mo</small></span></div>
+<ul><li>A dedicated page for every service you offer</li><li>Service-area pages for your home town</li><li>Quote form on every single page</li><li>Schema markup, mobile-first, fast-loading</li><li>Google Business Profile setup</li><li class="hd">Monthly plan adds:</li><li>Hosting, security &amp; unlimited edits</li><li>Monthly performance report</li></ul>
+<a class="btn" href="book-a-call/index.html">Start with 40 Pages</a>
+</div><div class="tier popular"><span class="pop-badge">Most Popular</span>
+<div class="tier-name">Service Area Pro</div>
+<div class="tier-for">Multiple towns, high-value jobs</div>
+<div class="tier-pages"><span class="n">80</span><span class="l">pages</span></div>
+<div class="minigrid" data-count="80"></div>
+<div class="price-row"><span class="lbl">Own it outright</span><span class="amt">$4,495 <small>one-time</small></span></div>
+<div class="or-divider"><span>OR</span></div>
+<div class="price-row alt"><span class="lbl">Setup + monthly</span><span class="amt">$495 + $349<small>/mo</small></span></div>
+<ul><li>Everything in Local Launch, plus:</li><li>Town × service pages across your service area</li><li>Landing pages for highest-profit jobs</li><li>FAQ &amp; buying-guide pages</li><li>Review &amp; project-photo showcase pages</li><li class="hd">Monthly plan adds:</li><li>Hosting, edits, monthly report</li><li>Quarterly new-page expansion</li></ul>
+<a class="btn" href="book-a-call/index.html">Start with 80 Pages</a>
+</div><div class="tier">
+<div class="tier-name">Market Dominator</div>
+<div class="tier-for">Own your whole county</div>
+<div class="tier-pages"><span class="n">120</span><span class="l">pages</span></div>
+<div class="minigrid" data-count="120"></div>
+<div class="price-row"><span class="lbl">Own it outright</span><span class="amt">$6,495 <small>one-time</small></span></div>
+<div class="or-divider"><span>OR</span></div>
+<div class="price-row alt"><span class="lbl">Setup + monthly</span><span class="amt">$495 + $499<small>/mo</small></span></div>
+<ul><li>Everything in Service Area Pro, plus:</li><li>Full town × service coverage matrix</li><li>Emergency &amp; same-day service pages</li><li>Seasonal and competitor-gap pages</li><li class="hd">Monthly plan adds:</li><li>Hosting, edits, monthly report</li><li>Monthly new-page expansion</li><li>Review-request automation</li></ul>
+<a class="btn" href="book-a-call/index.html">Start with 120 Pages</a>
+</div></div>
+<p class="own-note"><b>Every plan:</b> you own the domain, the content, and the site — in writing. Monthly plans are 12 months, then month-to-month. One-time buyers: optional hosting &amp; updates, $49/mo.</p>
+</div></section>
 
-  /* ===== PRICING ===== */
-  #pricing{background:linear-gradient(180deg,var(--paper) 0%,var(--mist) 18%)}
-  .tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:48px;align-items:stretch}
-  .tier{background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px 28px;display:flex;flex-direction:column;position:relative;transition:transform .15s ease, box-shadow .15s ease}
-  .tier:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(11,18,32,.09)}
-  .tier.popular{border:2px solid var(--accent);box-shadow:0 18px 44px rgba(245,158,11,.14)}
-  .pop-badge{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--accent);color:#151004;font-size:.72rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;padding:6px 16px;border-radius:99px;white-space:nowrap}
-  .tier-name{font-size:1.2rem;font-weight:800}
-  .tier-for{font-size:.85rem;color:var(--muted);margin:4px 0 18px}
-  .tier-pages{display:flex;align-items:baseline;gap:8px;margin-bottom:6px}
-  .tier-pages .n{font-size:3rem;font-weight:800;letter-spacing:-.03em;line-height:1}
-  .tier-pages .l{font-size:.95rem;color:var(--muted);font-weight:600}
-  .minigrid{display:grid;grid-template-columns:repeat(20,1fr);gap:2.5px;margin:14px 0 22px}
-  .minigrid i{display:block;aspect-ratio:1;border-radius:1.5px;background:var(--accent)}
-  .minigrid i.dim{background:#e3e8f0}
+<section id="packages"><div class="wrap">
+<div class="center"><div class="kicker">Factory map</div>
+<h2>Explore the full Near Me OS package library</h2>
+<p class="lead">Same navigation as every other page — packages, industries, and launch paths under one factory.</p></div>
+<div class="cols3" style="margin-top:28px"><div class="hubcard"><h3><a href="website-build-packages/index.html">Website Build Packages</a></h3><p>40, 80, and 120 page website builds for local service businesses that need more pages, more searches, and more jobs.</p><ul><li><a href="website-build-packages/local-launch-40-pages/index.html">Local Launch 40 Pages</a></li><li><a href="website-build-packages/service-area-pro-80-pages/index.html">Service Area Pro 80 Pages</a></li><li><a href="website-build-packages/market-dominator-120-pages/index.html">Market Dominator 120 Pages</a></li></ul><a href="website-build-packages/index.html" style="font:600 13px 'Segoe UI',sans-serif">Explore website build packages &rarr;</a></div><div class="hubcard"><h3><a href="service-page-architecture/index.html">Service Page Architecture</a></h3><p>Dedicated pages for the services, job types, questions, and proof that turn local searchers into quote requests.</p><ul><li><a href="service-page-architecture/dedicated-service-pages/index.html">Dedicated Service Pages</a></li><li><a href="service-page-architecture/high-profit-job-landing-pages/index.html">High-Profit Job Landing Pages</a></li><li><a href="service-page-architecture/emergency-same-day-pages/index.html">Emergency Same-Day Pages</a></li></ul><a href="service-page-architecture/index.html" style="font:600 13px 'Segoe UI',sans-serif">Explore service page architecture &rarr;</a></div><div class="hubcard"><h3><a href="town-coverage-system/index.html">Town Coverage System</a></h3><p>A service-area structure that covers real towns with useful local proof instead of thin doorway pages.</p><ul><li><a href="town-coverage-system/home-town-service-area-pages/index.html">Home Town Service Area Pages</a></li><li><a href="town-coverage-system/multi-town-coverage/index.html">Multi-Town Coverage</a></li><li><a href="town-coverage-system/town-times-service-matrix/index.html">Town Times Service Matrix</a></li></ul><a href="town-coverage-system/index.html" style="font:600 13px 'Segoe UI',sans-serif">Explore town coverage system &rarr;</a></div><div class="hubcard"><h3><a href="local-seo-foundation/index.html">Local SEO Foundation</a></h3><p>Technical and content foundations that help a larger local website get discovered, crawled, and converted.</p><ul><li><a href="local-seo-foundation/local-keyword-research/index.html">Local Keyword Research</a></li><li><a href="local-seo-foundation/on-page-seo-architecture/index.html">On-Page SEO Architecture</a></li><li><a href="local-seo-foundation/localbusiness-schema-markup/index.html">LocalBusiness Schema Markup</a></li></ul><a href="local-seo-foundation/index.html" style="font:600 13px 'Segoe UI',sans-serif">Explore local seo foundation &rarr;</a></div><div class="hubcard"><h3><a href="google-business-profile/index.html">Google Business Profile</a></h3><p>Google Business Profile setup and sync work that supports Maps visibility and sends searchers to deeper website pages.</p><ul><li><a href="google-business-profile/gbp-setup/index.html">GBP Setup</a></li><li><a href="google-business-profile/category-optimization/index.html">Category Optimization</a></li><li><a href="google-business-profile/photo-strategy/index.html">Photo Strategy</a></li></ul><a href="google-business-profile/index.html" style="font:600 13px 'Segoe UI',sans-serif">Explore google business profile &rarr;</a></div><div class="hubcard"><h3><a href="lead-capture-tracking/index.html">Lead Capture Tracking</a></h3><p>Forms, calls, routing, and reporting that show which pages create real local service leads.</p><ul><li><a href="lead-capture-tracking/quote-forms-every-page/index.html">Quote Forms Every Page</a></li><li><a href="lead-capture-tracking/call-tracking-setup/index.html">Call Tracking Setup</a></li><li><a href="lead-capture-tracking/lead-notification-routing/index.html">Lead Notification Routing</a></li></ul><a href="lead-capture-tracking/index.html" style="font:600 13px 'Segoe UI',sans-serif">Explore lead capture tracking &rarr;</a></div><div class="hubcard"><h3><a href="content-and-onboarding/index.html">Content And Onboarding</a></h3><p>A questionnaire-first process that turns one business intake into professional pages without weeks of homework.</p><ul><li><a href="content-and-onboarding/business-questionnaire-intake/index.html">Business Questionnaire Intake</a></li><li><a href="content-and-onboarding/professional-page-writing/index.html">Professional Page Writing</a></li><li><a href="content-and-onboarding/photo-integration/index.html">Photo Integration</a></li></ul><a href="content-and-onboarding/index.html" style="font:600 13px 'Segoe UI',sans-serif">Explore content and onboarding &rarr;</a></div><div class="hubcard"><h3><a href="vertical-website-builds/index.html">Vertical Website Builds</a></h3><p>Website factory patterns tuned for the local service trades that need calls, forms, photos, reviews, and town coverage.</p><ul><li><a href="vertical-website-builds/plumbing-website-builds/index.html">Plumbing Website Builds</a></li><li><a href="vertical-website-builds/electrical-website-builds/index.html">Electrical Website Builds</a></li><li><a href="vertical-website-builds/hvac-website-builds/index.html">HVAC Website Builds</a></li></ul><a href="vertical-website-builds/index.html" style="font:600 13px 'Segoe UI',sans-serif">Explore vertical website builds &rarr;</a></div><div class="hubcard"><h3><a href="hosting-growth-plans/index.html">Hosting Growth Plans</a></h3><p>Optional hosting, support, edit, reporting, and expansion plans for contractors who want the site managed after launch.</p><ul><li><a href="hosting-growth-plans/managed-hosting-security/index.html">Managed Hosting Security</a></li><li><a href="hosting-growth-plans/unlimited-content-edits/index.html">Unlimited Content Edits</a></li><li><a href="hosting-growth-plans/monthly-performance-reports/index.html">Monthly Performance Reports</a></li></ul><a href="hosting-growth-plans/index.html" style="font:600 13px 'Segoe UI',sans-serif">Explore hosting growth plans &rarr;</a></div><div class="hubcard"><h3><a href="migration-and-launch/index.html">Migration And Launch</a></h3><p>Domain, DNS, migration, analytics, redirect, and launch QA support so a new 40/80/120 page site goes live cleanly.</p><ul><li><a href="migration-and-launch/keep-existing-domain/index.html">Keep Existing Domain</a></li><li><a href="migration-and-launch/fresh-domain-launch/index.html">Fresh Domain Launch</a></li><li><a href="migration-and-launch/dns-cutover-support/index.html">DNS Cutover Support</a></li></ul><a href="migration-and-launch/index.html" style="font:600 13px 'Segoe UI',sans-serif">Explore migration and launch &rarr;</a></div></div>
+</div></section>
 
-  .price-block{border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:20px}
-  .price-row{padding:14px 16px;display:flex;justify-content:space-between;align-items:center;gap:10px}
-  .price-row + .price-row{border-top:1px dashed var(--line)}
-  .price-row .lbl{font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
-  .price-row .amt{font-size:1.28rem;font-weight:800;white-space:nowrap}
-  .price-row .amt small{font-size:.8rem;font-weight:600;color:var(--muted)}
-  .price-row.alt{background:var(--mist)}
-  .or-divider{text-align:center;font-size:.72rem;font-weight:800;letter-spacing:.12em;color:var(--muted);background:#fff;position:relative;padding:0}
-  .or-divider span{position:relative;top:-1px;background:#fff;padding:0 10px}
-
-  .tier ul{list-style:none;margin:0 0 26px;flex:1}
-  .tier li{font-size:.9rem;padding:7px 0 7px 28px;position:relative;color:var(--ink-2)}
-  .tier li::before{content:"";position:absolute;left:2px;top:12px;width:16px;height:16px;border-radius:50%;background:rgba(22,163,74,.12)}
-  .tier li::after{content:"";position:absolute;left:6.5px;top:15.5px;width:7px;height:4.5px;border-left:2px solid var(--good);border-bottom:2px solid var(--good);transform:rotate(-45deg)}
-  .tier li.hd{font-weight:700;color:var(--ink);padding-left:0;margin-top:6px}
-  .tier li.hd::before,.tier li.hd::after{display:none}
-  .tier .btn{text-align:center}
-  .own-note{text-align:center;margin-top:34px;font-size:.95rem;color:var(--ink-2)}
-  .own-note b{color:var(--accent-dark)}
-
-  /* ===== COMPARISON ===== */
-  .cmp-scroll{overflow-x:auto;margin-top:44px;border:1px solid var(--line);border-radius:var(--radius);background:#fff}
-  table{width:100%;border-collapse:collapse;min-width:760px}
-  th,td{padding:15px 18px;text-align:left;font-size:.92rem;border-bottom:1px solid var(--line)}
-  thead th{background:var(--ink);color:#fff;font-size:.85rem;letter-spacing:.03em}
-  thead th.you{background:var(--accent);color:#151004}
-  tbody tr:last-child td{border-bottom:none}
-  td.you{background:rgba(245,158,11,.08);font-weight:700}
-  td .neg{color:#dc2626;font-weight:600}
-  td .pos{color:var(--good);font-weight:700}
-  .rowlbl{font-weight:700;color:var(--ink)}
-
-  /* ===== FAQ ===== */
-  .faq{max-width:760px;margin:44px auto 0}
-  details{background:#fff;border:1px solid var(--line);border-radius:12px;margin-bottom:12px;overflow:hidden}
-  summary{cursor:pointer;padding:18px 22px;font-weight:700;font-size:1rem;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px}
-  summary::-webkit-details-marker{display:none}
-  summary::after{content:"+";font-size:1.4rem;font-weight:600;color:var(--accent-dark);flex:none;transition:transform .18s ease}
-  details[open] summary::after{transform:rotate(45deg)}
-  details p{padding:0 22px 20px;color:var(--muted);font-size:.95rem}
-
-  /* ===== FINAL CTA ===== */
-  .final{background:linear-gradient(160deg,#0b1220 0%,#16233c 100%);color:#fff;text-align:center;padding:90px 0}
-  .final h2{color:#fff;max-width:40rem;margin:0 auto 16px}
-  .final p{color:#b9c3d4;max-width:34rem;margin:0 auto 34px;font-size:1.08rem}
-  .final .sub{margin-top:22px;font-size:.9rem;color:#8d99ad}
-
-  footer{background:#0b1220;color:#8d99ad;font-size:.85rem;padding:28px 0;border-top:1px solid rgba(255,255,255,.08)}
-  .foot-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
-
-  @media (max-width:900px){
-    .hero-grid{grid-template-columns:1fr}
-    .search-demo,.steps,.tiers{grid-template-columns:1fr}
-    .tier.popular{order:-1}
-    .nav-links a:not(.btn){display:none}
-  }
-</style>
-</head>
-<body>
-
-<nav>
-  <div class="wrap nav-inner">
-    <a class="brand" href="/" style="display:flex;align-items:center;gap:9px">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2C7.6 2 4 5.6 4 10c0 5.6 7 11.4 7.7 11.9a.5.5 0 0 0 .6 0C13 21.4 20 15.6 20 10c0-4.4-3.6-8-8-8z" fill="#f59e0b"/><circle cx="12" cy="10" r="3.2" fill="#0b1220"/></svg>
-      NEAR&nbsp;ME&nbsp;<span>OS</span>
-    </a>
-    <div class="nav-links">
-      <a href="#how">How It Works</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#compare">Compare</a>
-      <a href="#faq">FAQ</a>
-      <a class="btn" href="#contact">Get My Site</a>
-    </div>
-  </div>
-</nav>
-
-<header>
-  <div class="wrap hero-grid">
-    <div>
-      <span class="eyebrow">Near Me OS &nbsp;·&nbsp; Websites for Local Service Businesses</span>
-      <h1>Your competitor has 5 pages on Google.<br>You're about to have <em>120</em>.</h1>
-      <p class="hero-sub">Homeowners don't search "handyman" — they search <b>"drywall repair in your town."</b> Google sends that call to whoever has a page for it. We build you a page for every service you offer, in every town you serve.</p>
-      <div class="hero-ctas">
-        <a class="btn big" href="#pricing">See Plans &amp; Pricing</a>
-        <a class="btn big ghost" href="#how">How It Works</a>
-      </div>
-      <p class="hero-note"><strong>You own everything</strong> — domain, content, site. Live in days, not months.</p>
-    </div>
-    <div class="pagegrid-card">
-      <div class="pagegrid-title">Every square = a page that can win a search</div>
-      <div class="pg" id="heroGrid"></div>
-      <p class="pg-caption"><b>Their site</b> (gray) vs. <b>your site</b> (gold)</p>
-    </div>
-  </div>
-</header>
-
-<!-- PROBLEM -->
-<section class="strip" id="problem">
-  <div class="wrap center">
-    <div class="kicker">Why size wins</div>
-    <h2>Google matches searches to pages — not to businesses.</h2>
-    <p class="lead">Every job you do is a search someone types. If your site doesn't have a page answering that exact search in that exact town, the competitor who does gets the call. A 5-page site is entered in 5 races.</p>
-    <div class="search-demo">
-      <div class="search-card">
-        <div class="search-pill"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#5b6779" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>water heater replacement [your town]</div>
-        <p class="search-verdict">Typical 5-page site: <b class="no">no page = invisible</b><br>Your site: <b class="yes">dedicated page, quote form included</b></p>
-      </div>
-      <div class="search-card">
-        <div class="search-pill"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#5b6779" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>deck repair near me</div>
-        <p class="search-verdict">Typical 5-page site: <b class="no">buried in a services list</b><br>Your site: <b class="yes">full page with photos &amp; FAQs</b></p>
-      </div>
-      <div class="search-card">
-        <div class="search-pill"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#5b6779" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>emergency drywall patch [next town over]</div>
-        <p class="search-verdict">Typical 5-page site: <b class="no">wrong town, no page</b><br>Your site: <b class="yes">town-specific service page</b></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- HOW IT WORKS -->
-<section id="how">
-  <div class="wrap center">
-    <div class="kicker">How it works</div>
-    <h2>You answer questions once. We build everything.</h2>
-    <p class="lead">No homework, no writing, no "send us content" limbo. The Near Me OS engine does what agencies do by hand — which is why we deliver in days at a fraction of agency prices.</p>
-    <div class="steps" style="text-align:left">
-      <div class="step">
-        <div class="step-num">1</div>
-        <h3>Tell us about your business</h3>
-        <p>One guided questionnaire: your services, your towns, your photos, how you want the phone answered. That's your total workload.</p>
-        <span class="time">~45 minutes of your time</span>
-      </div>
-      <div class="step">
-        <div class="step-num">2</div>
-        <h3>We build your entire site</h3>
-        <p>Every service page, every town page — professionally written and structured with the technical SEO (schema, speed, mobile) Google rewards. You review before launch.</p>
-        <span class="time">Days — not months</span>
-      </div>
-      <div class="step">
-        <div class="step-num">3</div>
-        <h3>Launch, track, own</h3>
-        <p>Live on your domain with a quote form on every page and call/lead tracking, so you see exactly which pages bring jobs. It's all yours from day one.</p>
-        <span class="time">You own 100% of it</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- PRICING -->
-<section id="pricing">
-  <div class="wrap">
-    <div class="center">
-      <div class="kicker">Plans &amp; pricing</div>
-      <h2>Pick your footprint. Pay once — or start small and go monthly.</h2>
-      <p class="lead">Every tier includes the same build quality. The difference is how much of your market you cover.</p>
-    </div>
-
-    <div class="tiers">
-      <!-- TIER 1 -->
-      <div class="tier">
-        <div class="tier-name">Local Launch</div>
-        <div class="tier-for">One town, full service list</div>
-        <div class="tier-pages"><span class="n">40</span><span class="l">pages</span></div>
-        <div class="minigrid" data-count="40"></div>
-        <div class="price-block">
-          <div class="price-row"><span class="lbl">Own it outright</span><span class="amt">$2,495 <small>one-time</small></span></div>
-          <div class="or-divider"><span>OR</span></div>
-          <div class="price-row alt"><span class="lbl">Setup + monthly</span><span class="amt">$495 + $249<small>/mo</small></span></div>
-        </div>
-        <ul>
-          <li>A dedicated page for every service you offer</li>
-          <li>Service-area pages for your home town</li>
-          <li>Quote form on every single page</li>
-          <li>Schema markup, mobile-first, fast-loading</li>
-          <li>Google Business Profile setup</li>
-          <li class="hd">Monthly plan adds:</li>
-          <li>Hosting, security &amp; unlimited edits</li>
-          <li>Monthly performance report</li>
-        </ul>
-        <a class="btn" href="#contact">Start with 40 Pages</a>
-      </div>
-
-      <!-- TIER 2 -->
-      <div class="tier popular">
-        <span class="pop-badge">Most Popular</span>
-        <div class="tier-name">Service Area Pro</div>
-        <div class="tier-for">Multiple towns, high-value jobs</div>
-        <div class="tier-pages"><span class="n">80</span><span class="l">pages</span></div>
-        <div class="minigrid" data-count="80"></div>
-        <div class="price-block">
-          <div class="price-row"><span class="lbl">Own it outright</span><span class="amt">$4,495 <small>one-time</small></span></div>
-          <div class="or-divider"><span>OR</span></div>
-          <div class="price-row alt"><span class="lbl">Setup + monthly</span><span class="amt">$495 + $349<small>/mo</small></span></div>
-        </div>
-        <ul>
-          <li><b>Everything in Local Launch</b>, plus:</li>
-          <li>Town × service pages across your full service area</li>
-          <li>Dedicated landing pages for your highest-profit jobs</li>
-          <li>FAQ &amp; buying-guide pages that capture "how much does…" searches</li>
-          <li>Review &amp; project-photo showcase pages</li>
-          <li class="hd">Monthly plan adds:</li>
-          <li>Hosting, edits, monthly report</li>
-          <li>Quarterly new-page expansion</li>
-        </ul>
-        <a class="btn" href="#contact">Start with 80 Pages</a>
-      </div>
-
-      <!-- TIER 3 -->
-      <div class="tier">
-        <div class="tier-name">Market Dominator</div>
-        <div class="tier-for">Own your whole county</div>
-        <div class="tier-pages"><span class="n">120</span><span class="l">pages</span></div>
-        <div class="minigrid" data-count="120"></div>
-        <div class="price-block">
-          <div class="price-row"><span class="lbl">Own it outright</span><span class="amt">$6,495 <small>one-time</small></span></div>
-          <div class="or-divider"><span>OR</span></div>
-          <div class="price-row alt"><span class="lbl">Setup + monthly</span><span class="amt">$495 + $499<small>/mo</small></span></div>
-        </div>
-        <ul>
-          <li><b>Everything in Service Area Pro</b>, plus:</li>
-          <li>Full town × service coverage matrix</li>
-          <li>Emergency &amp; same-day service pages</li>
-          <li>Seasonal pages (gutter season, storm repair, winterization)</li>
-          <li>Competitor-gap pages for searches nobody else answers</li>
-          <li class="hd">Monthly plan adds:</li>
-          <li>Hosting, edits, monthly report</li>
-          <li>Monthly new-page expansion</li>
-          <li>Review-request automation</li>
-        </ul>
-        <a class="btn" href="#contact">Start with 120 Pages</a>
-      </div>
-    </div>
-
-    <p class="own-note"><b>Every plan, either way you pay:</b> you own the domain, the content, and the site — in writing. Monthly plans are 12 months, then month-to-month. Cancel and keep everything. One-time buyers: optional hosting &amp; updates, $49/mo.</p>
-  </div>
-</section>
-
-<!-- COMPARISON -->
-<section class="strip" id="compare">
-  <div class="wrap">
-    <div class="center">
-      <div class="kicker">The honest comparison</div>
-      <h2>Where the money goes everywhere else</h2>
-    </div>
-    <div class="cmp-scroll">
-      <table>
-        <thead>
-          <tr>
-            <th></th>
-            <th>DIY Builder<br><small>(Wix / Squarespace)</small></th>
-            <th>Traditional Agency</th>
-            <th>Big Marketing Firms</th>
-            <th class="you">Near Me OS</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td class="rowlbl">Upfront cost</td><td>$0–$500 + 20–40 hrs of your time</td><td>$5,000–$10,000+</td><td>$0–$3,000</td><td class="you">$495 – $6,495</td></tr>
-          <tr><td class="rowlbl">Ongoing cost</td><td>$20–$50/mo</td><td>Hourly for every change</td><td><span class="neg">$1,500–$5,000/mo</span></td><td class="you">$0 – $499/mo</td></tr>
-          <tr><td class="rowlbl">Pages you end up with</td><td>5–10 (you write them)</td><td>10–20</td><td>10–30</td><td class="you">40 / 80 / 120</td></tr>
-          <tr><td class="rowlbl">Time to launch</td><td>Whenever you finish it</td><td>2–4 months</td><td>4–8 weeks</td><td class="you"><span class="pos">Days</span></td></tr>
-          <tr><td class="rowlbl">Who owns the site?</td><td>You (sort of — locked to their platform)</td><td>Usually you</td><td><span class="neg">Often them — leave and lose it</span></td><td class="you"><span class="pos">You. Always. In writing.</span></td></tr>
-          <tr><td class="rowlbl">Contract</td><td>None</td><td>Per project</td><td><span class="neg">12-month lock-in, auto-renew</span></td><td class="you">One-time, or 12 mo then month-to-month</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-
-<!-- FAQ -->
-<section id="faq">
-  <div class="wrap center">
-    <div class="kicker">Questions contractors actually ask</div>
-    <h2>Straight answers</h2>
-    <div class="faq" style="text-align:left">
-      <details open>
-        <summary>Why would I need 80 or 120 pages?</summary>
-        <p>You don't read them — Google does. Each page is built to answer one specific search ("faucet repair in [town]"). More pages means you're entered in more races. Your workload is identical at every tier: one questionnaire.</p>
-      </details>
-      <details>
-        <summary>Do I have to write anything?</summary>
-        <p>No. You answer questions about your business once (about 45 minutes). We produce every page, professionally written and structured. You review and approve before anything goes live.</p>
-      </details>
-      <details>
-        <summary>Who owns the website?</summary>
-        <p>You do — domain, content, design, everything, whether you paid one-time or monthly. It's written into the agreement. This is the question the big marketing firms hope you never ask them.</p>
-      </details>
-      <details>
-        <summary>How is it this fast and this affordable?</summary>
-        <p>Your site is built on the Near Me OS engine: the structure, technical SEO, and page architecture are engineered once, at production quality, instead of rebuilt by hand for every client the way agencies do. Your details make it yours; the engine keeps the cost down. The savings go to you.</p>
-      </details>
-      <details>
-        <summary>Will it guarantee me leads?</summary>
-        <p>No honest company guarantees rankings — walk away from anyone who does. What we guarantee is the infrastructure: pages built the way Google rewards, a quote form on every one, and tracking so you can see exactly which pages produce calls. You can't win searches you don't have pages for.</p>
-      </details>
-      <details>
-        <summary>What if I already have a website?</summary>
-        <p>We can build on your existing domain so you keep any history it has — or launch fresh alongside it. Either way, count your current pages first. If it's under 10, you now know why the phone is quiet.</p>
-      </details>
-    </div>
-  </div>
-</section>
-
-<!-- FINAL CTA -->
-<section class="final" id="contact">
-  <div class="wrap">
-    <h2>The next "handyman near me" search in your town is going somewhere.</h2>
-    <p>One recovered job a month pays for the site. Everything after that is profit. Tell us your services and your towns — we'll show you a live preview before you pay a dollar.</p>
-    <a class="btn big" href="tel:+18622950011">Book a Free 15-Minute Call</a>
-    <p class="sub">Or call <a href="tel:+18622950011" style="color:#fff;font-weight:700;text-decoration:none">(862) 295-0011</a> &nbsp;·&nbsp; <a href="mailto:hello@nearmeos.com" style="color:#fff;text-decoration:none">hello@nearmeos.com</a></p>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap foot-inner">
-    <span>© 2026 Near Me OS. All rights reserved.</span>
-    <span>The operating system for local search visibility — built in days, owned by you.</span>
-  </div>
-</footer>
-
+<section class="tint" id="compare"><div class="wrap">
+<div class="center"><div class="kicker">The honest comparison</div>
+<h2>Where the money goes everywhere else</h2></div>
+<div class="cmp-scroll"><table class="cmp">
+<thead><tr><th></th><th>DIY Builder<br><small>(Wix / Squarespace)</small></th><th>Traditional Agency</th><th>Big Marketing Firms</th><th class="you">Near Me OS</th></tr></thead>
+<tbody>
+<tr><td class="rowlbl">Upfront cost</td><td>$0–$500 + 20–40 hrs of your time</td><td>$5,000–$10,000+</td><td>$0–$3,000</td><td class="you">$495 – $6,495</td></tr>
+<tr><td class="rowlbl">Ongoing cost</td><td>$20–$50/mo</td><td>Hourly for every change</td><td><span class="neg">$1,500–$5,000/mo</span></td><td class="you">$0 – $499/mo</td></tr>
+<tr><td class="rowlbl">Pages you end up with</td><td>5–10 (you write them)</td><td>10–20</td><td>10–30</td><td class="you">40 / 80 / 120</td></tr>
+<tr><td class="rowlbl">Time to launch</td><td>Whenever you finish it</td><td>2–4 months</td><td>4–8 weeks</td><td class="you"><span class="pos">Days</span></td></tr>
+<tr><td class="rowlbl">Who owns the site?</td><td>You (locked to their platform)</td><td>Usually you</td><td><span class="neg">Often them</span></td><td class="you"><span class="pos">You. Always. In writing.</span></td></tr>
+</tbody></table></div>
+</div></section>
+<section class="tint"><div class="wrap"><h2>Frequently Asked Questions</h2>
+<details><summary>Why would I need 80 or 120 pages?</summary><div><p>You don&#x27;t read them — Google does. Each page answers one specific search. More pages means you&#x27;re entered in more races. Your workload is identical at every tier: one questionnaire.</p></div></details>
+<details><summary>Do I have to write anything?</summary><div><p>No. You answer questions about your business once (about 45 minutes). We produce every page. You review and approve before anything goes live.</p></div></details>
+<details><summary>Who owns the website?</summary><div><p>You do — domain, content, design, everything, whether you paid one-time or monthly. It&#x27;s written into the agreement.</p></div></details>
+<details><summary>Will it guarantee me leads?</summary><div><p>No honest company guarantees rankings. We guarantee the infrastructure: pages built the way Google rewards, a quote form on every one, and tracking so you can see which pages produce calls.</p></div></details>
+<details><summary>What if I already have a website?</summary><div><p>We can build on your existing domain or launch fresh. If your current site is under 10 pages, you now know why the phone is quiet.</p></div></details>
+</div></section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why would I need 80 or 120 pages?", "acceptedAnswer": {"@type": "Answer", "text": "You don't read them \u2014 Google does. Each page answers one specific search. More pages means you're entered in more races. Your workload is identical at every tier: one questionnaire."}}, {"@type": "Question", "name": "Do I have to write anything?", "acceptedAnswer": {"@type": "Answer", "text": "No. You answer questions about your business once (about 45 minutes). We produce every page. You review and approve before anything goes live."}}, {"@type": "Question", "name": "Who owns the website?", "acceptedAnswer": {"@type": "Answer", "text": "You do \u2014 domain, content, design, everything, whether you paid one-time or monthly. It's written into the agreement."}}, {"@type": "Question", "name": "Will it guarantee me leads?", "acceptedAnswer": {"@type": "Answer", "text": "No honest company guarantees rankings. We guarantee the infrastructure: pages built the way Google rewards, a quote form on every one, and tracking so you can see which pages produce calls."}}, {"@type": "Question", "name": "What if I already have a website?", "acceptedAnswer": {"@type": "Answer", "text": "We can build on your existing domain or launch fresh. If your current site is under 10 pages, you now know why the phone is quiet."}}]}</script>
+<div class="ctastrip" id="contact"><div class="wrap">
+<h2>The next "near me" search in your town is going somewhere.</h2>
+<p style="max-width:720px;margin:0 auto 18px;color:#cbd5e1">One recovered job a month pays for the site. Tell us your services and towns — we'll show you a live preview before you pay a dollar.</p>
+<a class="btn" href="book-a-call/index.html">Book a Free 15-Minute Call</a>
+<a class="btn alt" href="tel:+18622950011" style="margin-left:8px">Call (862) 295-0011</a>
+<p style="margin-top:14px;font-size:.9rem;color:#94a3b8"><a href="mailto:hello@nearmeos.com" style="color:#f4f6fa">hello@nearmeos.com</a></p>
+</div></div>
 <script>
-  // Hero grid: 120 squares, first 8 "their site" gray handled by caption colors — show 120 gold vs sparse gray
-  (function(){
-    const g = document.getElementById('heroGrid');
-    const total = 120, theirs = 6;
-    for (let i = 0; i < total; i++){
-      const s = document.createElement('i');
-      if (i < theirs) s.classList.add('dim');
-      s.style.animationDelay = (i * 8) + 'ms';
-      g.appendChild(s);
-    }
-  })();
-  // Tier mini-grids: fill to 120 cells, light up data-count
-  document.querySelectorAll('.minigrid').forEach(el => {
-    const lit = parseInt(el.dataset.count, 10);
-    for (let i = 0; i < 120; i++){
-      const s = document.createElement('i');
-      if (i >= lit) s.classList.add('dim');
-      el.appendChild(s);
-    }
+(function(){
+  var g=document.getElementById('heroGrid');
+  if(g){for(var i=0;i<120;i++){var s=document.createElement('i');if(i<6)s.classList.add('dim');g.appendChild(s);}}
+  document.querySelectorAll('.minigrid').forEach(function(el){
+    var lit=parseInt(el.getAttribute('data-count'),10)||0;
+    for(var i=0;i<120;i++){var s=document.createElement('i');if(i>=lit)s.classList.add('dim');el.appendChild(s);}
   });
+})();
 </script>
-</body>
-</html>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "Near Me OS", "legalName": "Race Computer Services, LLC", "telephone": "+18622950011", "email": "hello@nearmeos.com", "url": "https://nearmeos.io/", "slogan": "More Pages. More Searches. More Jobs.", "address": {"@type": "PostalAddress", "streetAddress": "12 Sayre St", "addressLocality": "Elizabeth", "addressRegion": "NJ", "postalCode": "07208", "addressCountry": "US"}}</script><footer><div class="wrap"><div class="fcols">
+<div><h4>Factory Pages</h4><ul><li><a href="website-build-packages/index.html">Website Build Packages</a></li><li><a href="service-page-architecture/index.html">Service Page Architecture</a></li><li><a href="town-coverage-system/index.html">Town Coverage System</a></li><li><a href="local-seo-foundation/index.html">Local SEO Foundation</a></li><li><a href="google-business-profile/index.html">Google Business Profile</a></li><li><a href="lead-capture-tracking/index.html">Lead Capture Tracking</a></li><li><a href="content-and-onboarding/index.html">Content And Onboarding</a></li><li><a href="vertical-website-builds/index.html">Vertical Website Builds</a></li><li><a href="hosting-growth-plans/index.html">Hosting Growth Plans</a></li><li><a href="migration-and-launch/index.html">Migration And Launch</a></li></ul></div>
+<div><h4>Company</h4><ul>
+<li><a href="about-near-me-os/index.html">About Near Me OS</a></li>
+<li><a href="about-near-me-os/why-choose-us/index.html">Why Choose Us</a></li>
+<li><a href="about-near-me-os/verticals-we-serve/index.html">Industries We Serve</a></li>
+<li><a href="contact/index.html">Contact Us</a></li>
+</ul></div>
+<div><h4>Get Started</h4><ul>
+<li><a href="book-a-call/index.html">Book a Free Call</a></li>
+<li><a href="request-a-proposal/index.html">Request a Proposal</a></li>
+<li><a href="tel:+18622950011">(862) 295-0011</a></li>
+<li><a href="mailto:hello@nearmeos.com">hello@nearmeos.com</a></li>
+</ul></div>
+<div><h4>Ownership</h4><ul><li>You own the domain, content, and finished site files.</li><li>Operated by Race Computer Services, LLC</li><li>12 Sayre St, Elizabeth, NJ 07208</li></ul></div>
+</div>
+<div class="copy">Near Me OS &middot; Race Computer Services, LLC &middot; Elizabeth, NJ &middot; (862) 295-0011<br>
+Copyright &copy; 2026. Near Me OS. All rights reserved.</div></div></footer>
+</body></html>
