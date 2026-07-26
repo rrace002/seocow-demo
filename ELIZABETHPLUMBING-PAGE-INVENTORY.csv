@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_questionnaire_field,booking_type
+/,HOME,,elizabeth plumbing stop,logo/home,"A1,A6,A10",
+/about-elizabeth-plumbing-stop/,COMP-HUB,/,about the elizabeth plumbing stop,About menu,"A1,A10",
+/about-elizabeth-plumbing-stop/why-choose-us/,COMP-CHILD,/about-elizabeth-plumbing-stop/,why choose the elizabeth plumbing stop,About menu,"A10,A12",
+/about-elizabeth-plumbing-stop/service-areas/,COMP-CHILD,/about-elizabeth-plumbing-stop/,elizabeth nj plumbing service areas,About menu,F1,
+/contact/,COMP-CONTACT,/,contact elizabeth plumbing stop,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,plumbing proposal elizabeth nj,nav utility,I1,Request for Proposal
+/request-a-quote/,FORM-CONSULT,/,plumbing quote elizabeth nj,nav utility (highlighted),I1,Consultation Request
+/drain-cleaning/,SVC-HUB,/,drain cleaning elizabeth nj,Services menu,B (category),
+/drain-cleaning/clogged-sink-drain-cleaning/,SVC-CHILD,/drain-cleaning/,clogged sink drain cleaning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drain-cleaning/bathtub-shower-drain-cleaning/,SVC-CHILD,/drain-cleaning/,bathtub & shower drain cleaning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drain-cleaning/main-line-drain-cleaning/,SVC-CHILD,/drain-cleaning/,main line drain cleaning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drain-cleaning/floor-drain-cleaning/,SVC-CHILD,/drain-cleaning/,floor drain cleaning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drain-cleaning/grease-trap-drain-cleaning/,SVC-CHILD,/drain-cleaning/,grease trap drain cleaning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drain-cleaning/hydro-jetting-drain-cleaning/,SVC-CHILD,/drain-cleaning/,hydro jetting drain cleaning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drain-cleaning/camera-inspection-drain-cleaning/,SVC-CHILD,/drain-cleaning/,camera inspection drain cleaning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drain-cleaning/slow-drain-diagnosis/,SVC-CHILD,/drain-cleaning/,slow drain diagnosis elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drain-cleaning/recurring-clog-solutions/,SVC-CHILD,/drain-cleaning/,recurring clog solutions elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/drain-cleaning/emergency-drain-cleaning/,SVC-CHILD,/drain-cleaning/,emergency drain cleaning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/emergency-plumbing/,SVC-HUB,/,emergency plumbing elizabeth nj,Services menu,B (category),
+/emergency-plumbing/burst-pipe-emergency/,SVC-CHILD,/emergency-plumbing/,burst pipe emergency elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/emergency-plumbing/sewer-backup-emergency/,SVC-CHILD,/emergency-plumbing/,sewer backup emergency elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/emergency-plumbing/no-water-emergency/,SVC-CHILD,/emergency-plumbing/,no water emergency elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/emergency-plumbing/overflowing-toilet-emergency/,SVC-CHILD,/emergency-plumbing/,overflowing toilet emergency elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/emergency-plumbing/water-heater-leak-emergency/,SVC-CHILD,/emergency-plumbing/,water heater leak emergency elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/emergency-plumbing/frozen-pipe-emergency/,SVC-CHILD,/emergency-plumbing/,frozen pipe emergency elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/emergency-plumbing/gas-smell-plumbing-response/,SVC-CHILD,/emergency-plumbing/,gas smell plumbing response elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/emergency-plumbing/after-hours-plumber-elizabeth/,SVC-CHILD,/emergency-plumbing/,after-hours plumber elizabeth elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/emergency-plumbing/flooding-fixture-shutdown/,SVC-CHILD,/emergency-plumbing/,flooding fixture shutdown elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/emergency-plumbing/same-day-emergency-dispatch/,SVC-CHILD,/emergency-plumbing/,same-day emergency dispatch elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-heater-services/,SVC-HUB,/,water heater services elizabeth nj,Services menu,B (category),
+/water-heater-services/tank-water-heater-repair/,SVC-CHILD,/water-heater-services/,tank water heater repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-heater-services/tankless-water-heater-repair/,SVC-CHILD,/water-heater-services/,tankless water heater repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-heater-services/water-heater-installation/,SVC-CHILD,/water-heater-services/,water heater installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-heater-services/water-heater-replacement/,SVC-CHILD,/water-heater-services/,water heater replacement elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-heater-services/water-heater-flush-maintenance/,SVC-CHILD,/water-heater-services/,water heater flush & maintenance elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-heater-services/hot-water-not-working/,SVC-CHILD,/water-heater-services/,hot water not working elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-heater-services/water-heater-expansion-tank/,SVC-CHILD,/water-heater-services/,water heater expansion tank elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-heater-services/electric-water-heater-service/,SVC-CHILD,/water-heater-services/,electric water heater service elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-heater-services/gas-water-heater-service/,SVC-CHILD,/water-heater-services/,gas water heater service elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-heater-services/commercial-water-heater-service/,SVC-CHILD,/water-heater-services/,commercial water heater service elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/leak-detection-repair/,SVC-HUB,/,leak detection & repair elizabeth nj,Services menu,B (category),
+/leak-detection-repair/slab-leak-detection/,SVC-CHILD,/leak-detection-repair/,slab leak detection elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/leak-detection-repair/wall-ceiling-leak-detection/,SVC-CHILD,/leak-detection-repair/,wall & ceiling leak detection elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/leak-detection-repair/faucet-leak-repair/,SVC-CHILD,/leak-detection-repair/,faucet leak repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/leak-detection-repair/toilet-leak-repair/,SVC-CHILD,/leak-detection-repair/,toilet leak repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/leak-detection-repair/pipe-joint-leak-repair/,SVC-CHILD,/leak-detection-repair/,pipe joint leak repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/leak-detection-repair/water-meter-leak-check/,SVC-CHILD,/leak-detection-repair/,water meter leak check elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/leak-detection-repair/irrigation-leak-repair/,SVC-CHILD,/leak-detection-repair/,irrigation leak repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/leak-detection-repair/appliance-supply-line-leaks/,SVC-CHILD,/leak-detection-repair/,appliance supply line leaks elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/leak-detection-repair/pressure-related-leak-diagnosis/,SVC-CHILD,/leak-detection-repair/,pressure-related leak diagnosis elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/leak-detection-repair/emergency-leak-containment/,SVC-CHILD,/leak-detection-repair/,emergency leak containment elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/toilet-fixture-plumbing/,SVC-HUB,/,toilet & fixture plumbing elizabeth nj,Services menu,B (category),
+/toilet-fixture-plumbing/toilet-installation/,SVC-CHILD,/toilet-fixture-plumbing/,toilet installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/toilet-fixture-plumbing/toilet-replacement/,SVC-CHILD,/toilet-fixture-plumbing/,toilet replacement elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/toilet-fixture-plumbing/running-toilet-repair/,SVC-CHILD,/toilet-fixture-plumbing/,running toilet repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/toilet-fixture-plumbing/toilet-clog-removal/,SVC-CHILD,/toilet-fixture-plumbing/,toilet clog removal elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/toilet-fixture-plumbing/faucet-installation/,SVC-CHILD,/toilet-fixture-plumbing/,faucet installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/toilet-fixture-plumbing/faucet-cartridge-repair/,SVC-CHILD,/toilet-fixture-plumbing/,faucet cartridge repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/toilet-fixture-plumbing/shower-valve-repair/,SVC-CHILD,/toilet-fixture-plumbing/,shower valve repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/toilet-fixture-plumbing/garbage-disposal-install-repair/,SVC-CHILD,/toilet-fixture-plumbing/,garbage disposal install & repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/toilet-fixture-plumbing/shutoff-valve-replacement/,SVC-CHILD,/toilet-fixture-plumbing/,shutoff valve replacement elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/toilet-fixture-plumbing/fixture-upgrade-packages/,SVC-CHILD,/toilet-fixture-plumbing/,fixture upgrade packages elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/sewer-line-services/,SVC-HUB,/,sewer line services elizabeth nj,Services menu,B (category),
+/sewer-line-services/sewer-line-camera-inspection/,SVC-CHILD,/sewer-line-services/,sewer line camera inspection elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/sewer-line-services/sewer-line-cleaning/,SVC-CHILD,/sewer-line-services/,sewer line cleaning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/sewer-line-services/sewer-line-repair/,SVC-CHILD,/sewer-line-services/,sewer line repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/sewer-line-services/sewer-line-replacement/,SVC-CHILD,/sewer-line-services/,sewer line replacement elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/sewer-line-services/root-intrusion-sewer-clearing/,SVC-CHILD,/sewer-line-services/,root intrusion sewer clearing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/sewer-line-services/sewer-cleanout-install/,SVC-CHILD,/sewer-line-services/,sewer cleanout installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/sewer-line-services/collapsed-sewer-diagnosis/,SVC-CHILD,/sewer-line-services/,collapsed sewer diagnosis elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/sewer-line-services/sewer-smell-investigation/,SVC-CHILD,/sewer-line-services/,sewer smell investigation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/sewer-line-services/commercial-sewer-service/,SVC-CHILD,/sewer-line-services/,commercial sewer service elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/sewer-line-services/preventive-sewer-maintenance/,SVC-CHILD,/sewer-line-services/,preventive sewer maintenance elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/pipe-repair-repiping/,SVC-HUB,/,pipe repair & repiping elizabeth nj,Services menu,B (category),
+/pipe-repair-repiping/copper-pipe-repair/,SVC-CHILD,/pipe-repair-repiping/,copper pipe repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/pipe-repair-repiping/pex-pipe-repair/,SVC-CHILD,/pipe-repair-repiping/,pex pipe repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/pipe-repair-repiping/galvanized-pipe-replacement/,SVC-CHILD,/pipe-repair-repiping/,galvanized pipe replacement elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/pipe-repair-repiping/whole-home-repiping/,SVC-CHILD,/pipe-repair-repiping/,whole-home repiping elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/pipe-repair-repiping/partial-repiping/,SVC-CHILD,/pipe-repair-repiping/,partial repiping elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/pipe-repair-repiping/pipe-insulation-freeze-protection/,SVC-CHILD,/pipe-repair-repiping/,pipe insulation & freeze protection elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/pipe-repair-repiping/water-supply-line-reroute/,SVC-CHILD,/pipe-repair-repiping/,water supply line reroute elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/pipe-repair-repiping/pin-hole-leak-pipe-repair/,SVC-CHILD,/pipe-repair-repiping/,pinhole leak pipe repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/pipe-repair-repiping/basement-pipe-repair/,SVC-CHILD,/pipe-repair-repiping/,basement pipe repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/pipe-repair-repiping/code-upgrade-repiping/,SVC-CHILD,/pipe-repair-repiping/,code-upgrade repiping elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-plumbing/,SVC-HUB,/,bathroom plumbing elizabeth nj,Services menu,B (category),
+/bathroom-plumbing/bathroom-remodel-plumbing/,SVC-CHILD,/bathroom-plumbing/,bathroom remodel plumbing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-plumbing/bathtub-installation-plumbing/,SVC-CHILD,/bathroom-plumbing/,bathtub installation plumbing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-plumbing/shower-installation-plumbing/,SVC-CHILD,/bathroom-plumbing/,shower installation plumbing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-plumbing/bathroom-sink-install/,SVC-CHILD,/bathroom-plumbing/,bathroom sink installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-plumbing/bathroom-drain-repair/,SVC-CHILD,/bathroom-plumbing/,bathroom drain repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-plumbing/toilet-flange-repair/,SVC-CHILD,/bathroom-plumbing/,toilet flange repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-plumbing/bathroom-shutoff-upgrades/,SVC-CHILD,/bathroom-plumbing/,bathroom shutoff upgrades elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-plumbing/accessible-bathroom-plumbing/,SVC-CHILD,/bathroom-plumbing/,accessible bathroom plumbing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-plumbing/half-bath-plumbing/,SVC-CHILD,/bathroom-plumbing/,half-bath plumbing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/bathroom-plumbing/master-bath-fixture-package/,SVC-CHILD,/bathroom-plumbing/,master bath fixture package elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-plumbing/,SVC-HUB,/,kitchen plumbing elizabeth nj,Services menu,B (category),
+/kitchen-plumbing/kitchen-sink-installation/,SVC-CHILD,/kitchen-plumbing/,kitchen sink installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-plumbing/kitchen-faucet-upgrade/,SVC-CHILD,/kitchen-plumbing/,kitchen faucet upgrade elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-plumbing/dishwasher-install-hookup/,SVC-CHILD,/kitchen-plumbing/,dishwasher install & hookup elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-plumbing/garbage-disposal-kitchen-service/,SVC-CHILD,/kitchen-plumbing/,garbage disposal kitchen service elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-plumbing/kitchen-drain-repair/,SVC-CHILD,/kitchen-plumbing/,kitchen drain repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-plumbing/instant-hot-water-faucet/,SVC-CHILD,/kitchen-plumbing/,instant hot water faucet elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-plumbing/reverse-osmosis-faucet-hookup/,SVC-CHILD,/kitchen-plumbing/,reverse osmosis faucet hookup elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-plumbing/kitchen-supply-line-replacement/,SVC-CHILD,/kitchen-plumbing/,kitchen supply line replacement elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-plumbing/island-sink-plumbing/,SVC-CHILD,/kitchen-plumbing/,island sink plumbing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/kitchen-plumbing/commercial-kitchen-plumbing/,SVC-CHILD,/kitchen-plumbing/,commercial kitchen plumbing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-main-pressure/,SVC-HUB,/,water main & pressure services elizabeth nj,Services menu,B (category),
+/water-main-pressure/water-main-shutoff-repair/,SVC-CHILD,/water-main-pressure/,water main shutoff repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-main-pressure/low-water-pressure-diagnosis/,SVC-CHILD,/water-main-pressure/,low water pressure diagnosis elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-main-pressure/high-water-pressure-regulation/,SVC-CHILD,/water-main-pressure/,high water pressure regulation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-main-pressure/pressure-reducing-valve-service/,SVC-CHILD,/water-main-pressure/,pressure reducing valve service elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-main-pressure/water-service-line-repair/,SVC-CHILD,/water-main-pressure/,water service line repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-main-pressure/water-meter-area-issues/,SVC-CHILD,/water-main-pressure/,water meter area issues elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-main-pressure/whole-home-pressure-boost/,SVC-CHILD,/water-main-pressure/,whole-home pressure boost elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-main-pressure/outdoor-spigot-main-tie-in/,SVC-CHILD,/water-main-pressure/,outdoor spigot & main tie-in elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-main-pressure/water-hammer-arrestor-install/,SVC-CHILD,/water-main-pressure/,water hammer arrestor install elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/water-main-pressure/main-line-leak-investigation/,SVC-CHILD,/water-main-pressure/,main line leak investigation elizabeth nj,Services menu > hub grid,B row,Request for Proposal

@@ -1,0 +1,36 @@
+# S1 Business Questionnaire — The Elizabeth Plumbing Stop (FACTORY BUILD · Gate 1 10×10)
+
+**Build uses NearMe OS Website Factory instructions-template (SEO Cow staging engine) · category: plumbing & drain services · Elizabeth NJ local trade · Race Computer Services S1 defaults · [confirm] = needs owner verification**
+
+## A — Business identity
+| Field | Value | Source |
+|---|---|---|
+| A1 business_name | The Elizabeth Plumbing Stop (operated by Race Computer Services, LLC) | this build [confirm] |
+| A2 domain | elizabethplumbingstop.com | [confirm] |
+| A3 phone | (862) 295-0011 | Race CS / S1 (same operator) |
+| A4 email | info@elizabethplumbingstop.com | [confirm] |
+| A5 address | 12 Sayre St, Elizabeth, NJ 07208 | Race CS default [confirm] |
+| A6 trade | Plumbing & drain services | this build |
+| A7 founded | not stated — omitted | — |
+| A10 value_proposition | One-stop shop for plumbing and drain services in Elizabeth, NJ | this build |
+| A11 tagline | Your One-Stop Shop for Plumbing & Drain Services in Elizabeth, NJ | this build |
+| A12 competitor_type | national plumbing brands, marketplace lead-gen, unclassified local plumbers | [confirm] |
+| A13 hours | not stated — omitted | — |
+
+## B — Services: 10 categories × 10 children
+drain-cleaning · emergency-plumbing · water-heater-services · leak-detection-repair · toilet-fixture-plumbing · sewer-line-services · pipe-repair-repiping · bathroom-plumbing · kitchen-plumbing · water-main-pressure — full map in ELIZABETHPLUMBING-PAGE-INVENTORY.csv.
+FORM-CONSULT = `request-a-quote` · FORM-PRICING = `request-a-proposal`.
+
+## C–I
+- D1 audiences: homeowners, landlords, small commercial, remodel partners
+- F1 service_area: Elizabeth NJ primary; nearby Union County communities listed (no LOC doorway pages)
+- F2/F3: no LOC doorway pages in this build
+- I1 form_destination: OPEN — demo shells
+- Staging: noindex + STAGING PREVIEW banner
+- Domain / email / NAP: marked [confirm]
+
+| Metric | Value |
+|---|---|
+| hubs | 10 |
+| svc children | 100 |
+| staging | noindex + STAGING PREVIEW banner |
