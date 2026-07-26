@@ -464,7 +464,7 @@ def chrome(depth: int) -> str:
     )
     return f"""<div class="utility"><div class="wrap"><span>{escape(TAGLINE)}</span><span>{escape(HQ)} &middot; {escape(EMAIL)}</span></div></div>
 <header class="main"><div class="wrap">
-<div class="logo">Near Me <span>OS</span><small>Local Service Website Factory</small></div>
+<a class="logo" href="{p}index.html" style="text-decoration:none">Near Me <span>OS</span><small>Local Service Website Factory</small></a>
 <div class="phone-cta"><a href="tel:{PHONE_TEL}">{escape(PHONE)}</a><small>40/80/120-page websites for local service businesses</small></div>
 </div></header>
 <nav class="nav"><div class="wrap"><ul>
