@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,abner herrman brock,logo/home,"A1,A6,A10",
+/about-ahb/,COMP-HUB,/,about abner herrman brock,About menu,"A1,A5,A6",
+/about-ahb/why-choose-ahb/,COMP-CHILD,/about-ahb/,why choose ahb,About menu,"A10,A12",
+/about-ahb/who-we-serve/,COMP-CHILD,/about-ahb/,who ahb serves,About menu,"C1,C2,C3",
+/contact/,COMP-CONTACT,/,contact ahb,Contact menu,"A3,A4,A5",Contact Request
+/request-a-proposal/,FORM-PROPOSAL,/,ahb proposal,nav utility,I1,Request for Proposal
+/schedule-a-call/,FORM-CONSULT,/,schedule call ahb,nav highlighted,I1,Consultation Request
+/core-equity-sma/,SVC-HUB,/,core equity sma,Services menu,B (category),
+/core-equity-sma/large-cap-core-equity/,SVC-CHILD,/core-equity-sma/,large-cap core equity,Services menu > hub grid,B row,Schedule a Call
+/core-equity-sma/high-quality-value-stocks/,SVC-CHILD,/core-equity-sma/,high-quality value stocks,Services menu > hub grid,B row,Schedule a Call
+/core-equity-sma/growth-stock-selection/,SVC-CHILD,/core-equity-sma/,growth stock selection,Services menu > hub grid,B row,Schedule a Call
+/core-equity-sma/dividend-growth-equities/,SVC-CHILD,/core-equity-sma/,dividend growth equities,Services menu > hub grid,B row,Schedule a Call
+/core-equity-sma/equity-concentration-limits/,SVC-CHILD,/core-equity-sma/,equity concentration limits,Services menu > hub grid,B row,Schedule a Call
+/core-equity-sma/sector-allocation-oversight/,SVC-CHILD,/core-equity-sma/,sector allocation oversight,Services menu > hub grid,B row,Schedule a Call
+/core-equity-sma/equity-risk-parameters/,SVC-CHILD,/core-equity-sma/,equity risk parameters,Services menu > hub grid,B row,Schedule a Call
+/core-equity-sma/equity-research-process/,SVC-CHILD,/core-equity-sma/,equity research process,Services menu > hub grid,B row,Schedule a Call
+/core-equity-sma/equity-rebalancing-discipline/,SVC-CHILD,/core-equity-sma/,equity rebalancing discipline,Services menu > hub grid,B row,Schedule a Call
+/core-equity-sma/equity-separate-accounts/,SVC-CHILD,/core-equity-sma/,equity separate accounts,Services menu > hub grid,B row,Schedule a Call
+/taxable-bond-portfolios/,SVC-HUB,/,taxable bond portfolios,Services menu,B (category),
+/taxable-bond-portfolios/investment-grade-taxable-bonds/,SVC-CHILD,/taxable-bond-portfolios/,investment-grade taxable bonds,Services menu > hub grid,B row,Schedule a Call
+/taxable-bond-portfolios/corporate-bond-portfolios/,SVC-CHILD,/taxable-bond-portfolios/,corporate bond portfolios,Services menu > hub grid,B row,Schedule a Call
+/taxable-bond-portfolios/government-bond-strategies/,SVC-CHILD,/taxable-bond-portfolios/,government bond strategies,Services menu > hub grid,B row,Schedule a Call
+/taxable-bond-portfolios/income-generation-focus/,SVC-CHILD,/taxable-bond-portfolios/,income generation focus,Services menu > hub grid,B row,Schedule a Call
+/taxable-bond-portfolios/capital-preservation-bonds/,SVC-CHILD,/taxable-bond-portfolios/,capital preservation bonds,Services menu > hub grid,B row,Schedule a Call
+/taxable-bond-portfolios/duration-management/,SVC-CHILD,/taxable-bond-portfolios/,duration management,Services menu > hub grid,B row,Schedule a Call
+/taxable-bond-portfolios/credit-quality-screening/,SVC-CHILD,/taxable-bond-portfolios/,credit quality screening,Services menu > hub grid,B row,Schedule a Call
+/taxable-bond-portfolios/laddered-bond-portfolios/,SVC-CHILD,/taxable-bond-portfolios/,laddered bond portfolios,Services menu > hub grid,B row,Schedule a Call
+/taxable-bond-portfolios/taxable-fixed-income-smas/,SVC-CHILD,/taxable-bond-portfolios/,taxable fixed income smas,Services menu > hub grid,B row,Schedule a Call
+/taxable-bond-portfolios/bond-portfolio-customization/,SVC-CHILD,/taxable-bond-portfolios/,bond portfolio customization,Services menu > hub grid,B row,Schedule a Call
+/municipal-bond-strategies/,SVC-HUB,/,municipal bond strategies,Services menu,B (category),
+/municipal-bond-strategies/tax-exempt-municipal-bonds/,SVC-CHILD,/municipal-bond-strategies/,tax-exempt municipal bonds,Services menu > hub grid,B row,Schedule a Call
+/municipal-bond-strategies/state-specific-muni-portfolios/,SVC-CHILD,/municipal-bond-strategies/,state-specific muni portfolios,Services menu > hub grid,B row,Schedule a Call
+/municipal-bond-strategies/national-muni-strategies/,SVC-CHILD,/municipal-bond-strategies/,national muni strategies,Services menu > hub grid,B row,Schedule a Call
+/municipal-bond-strategies/high-quality-muni-credit/,SVC-CHILD,/municipal-bond-strategies/,high-quality muni credit,Services menu > hub grid,B row,Schedule a Call
+/municipal-bond-strategies/muni-income-planning/,SVC-CHILD,/municipal-bond-strategies/,muni income planning,Services menu > hub grid,B row,Schedule a Call
+/municipal-bond-strategies/after-tax-yield-focus/,SVC-CHILD,/municipal-bond-strategies/,after-tax yield focus,Services menu > hub grid,B row,Schedule a Call
+/municipal-bond-strategies/muni-duration-control/,SVC-CHILD,/municipal-bond-strategies/,muni duration control,Services menu > hub grid,B row,Schedule a Call
+/municipal-bond-strategies/essential-service-munis/,SVC-CHILD,/municipal-bond-strategies/,essential-service munis,Services menu > hub grid,B row,Schedule a Call
+/municipal-bond-strategies/muni-ladder-construction/,SVC-CHILD,/municipal-bond-strategies/,muni ladder construction,Services menu > hub grid,B row,Schedule a Call
+/municipal-bond-strategies/municipal-bond-smas/,SVC-CHILD,/municipal-bond-strategies/,municipal bond smas,Services menu > hub grid,B row,Schedule a Call
+/core-balanced-solutions/,SVC-HUB,/,core balanced solutions,Services menu,B (category),
+/core-balanced-solutions/equity-and-bond-blends/,SVC-CHILD,/core-balanced-solutions/,equity and bond blends,Services menu > hub grid,B row,Schedule a Call
+/core-balanced-solutions/balanced-asset-allocation/,SVC-CHILD,/core-balanced-solutions/,balanced asset allocation,Services menu > hub grid,B row,Schedule a Call
+/core-balanced-solutions/risk-targeted-balanced-portfolios/,SVC-CHILD,/core-balanced-solutions/,risk-targeted balanced portfolios,Services menu > hub grid,B row,Schedule a Call
+/core-balanced-solutions/municipal-balanced-options/,SVC-CHILD,/core-balanced-solutions/,municipal balanced options,Services menu > hub grid,B row,Schedule a Call
+/core-balanced-solutions/taxable-balanced-options/,SVC-CHILD,/core-balanced-solutions/,taxable balanced options,Services menu > hub grid,B row,Schedule a Call
+/core-balanced-solutions/income-plus-growth-balance/,SVC-CHILD,/core-balanced-solutions/,income plus growth balance,Services menu > hub grid,B row,Schedule a Call
+/core-balanced-solutions/conservative-balanced-mix/,SVC-CHILD,/core-balanced-solutions/,conservative balanced mix,Services menu > hub grid,B row,Schedule a Call
+/core-balanced-solutions/moderate-balanced-mix/,SVC-CHILD,/core-balanced-solutions/,moderate balanced mix,Services menu > hub grid,B row,Schedule a Call
+/core-balanced-solutions/dynamic-rebalancing/,SVC-CHILD,/core-balanced-solutions/,dynamic rebalancing,Services menu > hub grid,B row,Schedule a Call
+/core-balanced-solutions/custom-balanced-mandates/,SVC-CHILD,/core-balanced-solutions/,custom balanced mandates,Services menu > hub grid,B row,Schedule a Call
+/separately-managed-accounts/,SVC-HUB,/,separately managed accounts,Services menu,B (category),
+/separately-managed-accounts/customized-sma-portfolios/,SVC-CHILD,/separately-managed-accounts/,customized sma portfolios,Services menu > hub grid,B row,Schedule a Call
+/separately-managed-accounts/direct-stock-and-bond-ownership/,SVC-CHILD,/separately-managed-accounts/,direct stock and bond ownership,Services menu > hub grid,B row,Schedule a Call
+/separately-managed-accounts/discretionary-account-management/,SVC-CHILD,/separately-managed-accounts/,discretionary account management,Services menu > hub grid,B row,Schedule a Call
+/separately-managed-accounts/non-discretionary-advisory-options/,SVC-CHILD,/separately-managed-accounts/,non-discretionary advisory options,Services menu > hub grid,B row,Schedule a Call
+/separately-managed-accounts/wrap-platform-availability/,SVC-CHILD,/separately-managed-accounts/,wrap platform availability,Services menu > hub grid,B row,Schedule a Call
+/separately-managed-accounts/sma-minimum-account-guidance/,SVC-CHILD,/separately-managed-accounts/,sma minimum account guidance,Services menu > hub grid,B row,Schedule a Call
+/separately-managed-accounts/transparent-holdings-reporting/,SVC-CHILD,/separately-managed-accounts/,transparent holdings reporting,Services menu > hub grid,B row,Schedule a Call
+/separately-managed-accounts/personalized-investment-guidelines/,SVC-CHILD,/separately-managed-accounts/,personalized investment guidelines,Services menu > hub grid,B row,Schedule a Call
+/separately-managed-accounts/multi-account-household-management/,SVC-CHILD,/separately-managed-accounts/,multi-account household management,Services menu > hub grid,B row,Schedule a Call
+/separately-managed-accounts/sma-onboarding-process/,SVC-CHILD,/separately-managed-accounts/,sma onboarding process,Services menu > hub grid,B row,Schedule a Call
+/financial-advisor-solutions/,SVC-HUB,/,financial advisor solutions,Services menu,B (category),
+/financial-advisor-solutions/advisor-sma-partnerships/,SVC-CHILD,/financial-advisor-solutions/,advisor sma partnerships,Services menu > hub grid,B row,Schedule a Call
+/financial-advisor-solutions/broker-dealer-wrap-access/,SVC-CHILD,/financial-advisor-solutions/,broker-dealer wrap access,Services menu > hub grid,B row,Schedule a Call
+/financial-advisor-solutions/ria-platform-availability/,SVC-CHILD,/financial-advisor-solutions/,ria platform availability,Services menu > hub grid,B row,Schedule a Call
+/financial-advisor-solutions/advisor-model-portfolios/,SVC-CHILD,/financial-advisor-solutions/,advisor model portfolios,Services menu > hub grid,B row,Schedule a Call
+/financial-advisor-solutions/advisor-client-proposals/,SVC-CHILD,/financial-advisor-solutions/,advisor client proposals,Services menu > hub grid,B row,Schedule a Call
+/financial-advisor-solutions/existing-portfolio-reviews-for-advisors/,SVC-CHILD,/financial-advisor-solutions/,existing portfolio reviews for advisors,Services menu > hub grid,B row,Schedule a Call
+/financial-advisor-solutions/tax-efficient-transitions-for-advisors/,SVC-CHILD,/financial-advisor-solutions/,tax-efficient transitions for advisors,Services menu > hub grid,B row,Schedule a Call
+/financial-advisor-solutions/advisor-support-desk/,SVC-CHILD,/financial-advisor-solutions/,advisor support desk,Services menu > hub grid,B row,Schedule a Call
+/financial-advisor-solutions/co-branded-client-experience/,SVC-CHILD,/financial-advisor-solutions/,co-branded client experience,Services menu > hub grid,B row,Schedule a Call
+/financial-advisor-solutions/nationwide-advisor-coverage/,SVC-CHILD,/financial-advisor-solutions/,nationwide advisor coverage,Services menu > hub grid,B row,Schedule a Call
+/high-net-worth-wealth-management/,SVC-HUB,/,high-net-worth wealth management,Services menu,B (category),
+/high-net-worth-wealth-management/high-net-worth-smas/,SVC-CHILD,/high-net-worth-wealth-management/,high-net-worth smas,Services menu > hub grid,B row,Schedule a Call
+/high-net-worth-wealth-management/family-portfolio-customization/,SVC-CHILD,/high-net-worth-wealth-management/,family portfolio customization,Services menu > hub grid,B row,Schedule a Call
+/high-net-worth-wealth-management/trust-and-estate-accounts/,SVC-CHILD,/high-net-worth-wealth-management/,trust and estate accounts,Services menu > hub grid,B row,Schedule a Call
+/high-net-worth-wealth-management/concentrated-stock-management/,SVC-CHILD,/high-net-worth-wealth-management/,concentrated stock management,Services menu > hub grid,B row,Schedule a Call
+/high-net-worth-wealth-management/tax-sensitive-hnw-portfolios/,SVC-CHILD,/high-net-worth-wealth-management/,tax-sensitive hnw portfolios,Services menu > hub grid,B row,Schedule a Call
+/high-net-worth-wealth-management/multi-generational-wealth-mandates/,SVC-CHILD,/high-net-worth-wealth-management/,multi-generational wealth mandates,Services menu > hub grid,B row,Schedule a Call
+/high-net-worth-wealth-management/charitable-giving-coordination/,SVC-CHILD,/high-net-worth-wealth-management/,charitable giving coordination,Services menu > hub grid,B row,Schedule a Call
+/high-net-worth-wealth-management/liquidity-planning-support/,SVC-CHILD,/high-net-worth-wealth-management/,liquidity planning support,Services menu > hub grid,B row,Schedule a Call
+/high-net-worth-wealth-management/personalized-risk-budgets/,SVC-CHILD,/high-net-worth-wealth-management/,personalized risk budgets,Services menu > hub grid,B row,Schedule a Call
+/high-net-worth-wealth-management/dedicated-client-service-model/,SVC-CHILD,/high-net-worth-wealth-management/,dedicated client service model,Services menu > hub grid,B row,Schedule a Call
+/institutional-nonprofit-portfolios/,SVC-HUB,/,institutional & nonprofit portfolios,Services menu,B (category),
+/institutional-nonprofit-portfolios/nonprofit-endowment-management/,SVC-CHILD,/institutional-nonprofit-portfolios/,nonprofit endowment management,Services menu > hub grid,B row,Schedule a Call
+/institutional-nonprofit-portfolios/foundation-investment-mandates/,SVC-CHILD,/institutional-nonprofit-portfolios/,foundation investment mandates,Services menu > hub grid,B row,Schedule a Call
+/institutional-nonprofit-portfolios/corporate-treasury-portfolios/,SVC-CHILD,/institutional-nonprofit-portfolios/,corporate treasury portfolios,Services menu > hub grid,B row,Schedule a Call
+/institutional-nonprofit-portfolios/pension-and-profit-sharing-plans/,SVC-CHILD,/institutional-nonprofit-portfolios/,pension and profit-sharing plans,Services menu > hub grid,B row,Schedule a Call
+/institutional-nonprofit-portfolios/fiduciary-focused-portfolios/,SVC-CHILD,/institutional-nonprofit-portfolios/,fiduciary-focused portfolios,Services menu > hub grid,B row,Schedule a Call
+/institutional-nonprofit-portfolios/board-and-trustee-reporting/,SVC-CHILD,/institutional-nonprofit-portfolios/,board and trustee reporting,Services menu > hub grid,B row,Schedule a Call
+/institutional-nonprofit-portfolios/spending-policy-alignment/,SVC-CHILD,/institutional-nonprofit-portfolios/,spending policy alignment,Services menu > hub grid,B row,Schedule a Call
+/institutional-nonprofit-portfolios/institutional-fixed-income/,SVC-CHILD,/institutional-nonprofit-portfolios/,institutional fixed income,Services menu > hub grid,B row,Schedule a Call
+/institutional-nonprofit-portfolios/institutional-equity-mandates/,SVC-CHILD,/institutional-nonprofit-portfolios/,institutional equity mandates,Services menu > hub grid,B row,Schedule a Call
+/institutional-nonprofit-portfolios/organization-portfolio-reviews/,SVC-CHILD,/institutional-nonprofit-portfolios/,organization portfolio reviews,Services menu > hub grid,B row,Schedule a Call
+/tax-efficient-portfolio-management/,SVC-HUB,/,tax-efficient portfolio management,Services menu,B (category),
+/tax-efficient-portfolio-management/tax-lot-awareness/,SVC-CHILD,/tax-efficient-portfolio-management/,tax-lot awareness,Services menu > hub grid,B row,Schedule a Call
+/tax-efficient-portfolio-management/tax-efficient-security-transitions/,SVC-CHILD,/tax-efficient-portfolio-management/,tax-efficient security transitions,Services menu > hub grid,B row,Schedule a Call
+/tax-efficient-portfolio-management/municipal-vs-taxable-placement/,SVC-CHILD,/tax-efficient-portfolio-management/,municipal vs taxable placement,Services menu > hub grid,B row,Schedule a Call
+/tax-efficient-portfolio-management/after-tax-outcome-focus/,SVC-CHILD,/tax-efficient-portfolio-management/,after-tax outcome focus,Services menu > hub grid,B row,Schedule a Call
+/tax-efficient-portfolio-management/realized-gain-budgeting/,SVC-CHILD,/tax-efficient-portfolio-management/,realized gain budgeting,Services menu > hub grid,B row,Schedule a Call
+/tax-efficient-portfolio-management/loss-harvesting-discipline/,SVC-CHILD,/tax-efficient-portfolio-management/,loss harvesting discipline,Services menu > hub grid,B row,Schedule a Call
+/tax-efficient-portfolio-management/tax-transition-proposals/,SVC-CHILD,/tax-efficient-portfolio-management/,tax transition proposals,Services menu > hub grid,B row,Schedule a Call
+/tax-efficient-portfolio-management/wash-sale-awareness-process/,SVC-CHILD,/tax-efficient-portfolio-management/,wash-sale awareness process,Services menu > hub grid,B row,Schedule a Call
+/tax-efficient-portfolio-management/custodial-tax-reporting-support/,SVC-CHILD,/tax-efficient-portfolio-management/,custodial tax reporting support,Services menu > hub grid,B row,Schedule a Call
+/tax-efficient-portfolio-management/year-end-tax-coordination/,SVC-CHILD,/tax-efficient-portfolio-management/,year-end tax coordination,Services menu > hub grid,B row,Schedule a Call
+/portfolio-review-transition-services/,SVC-HUB,/,portfolio review & transition services,Services menu,B (category),
+/portfolio-review-transition-services/existing-portfolio-review/,SVC-CHILD,/portfolio-review-transition-services/,existing portfolio review,Services menu > hub grid,B row,Schedule a Call
+/portfolio-review-transition-services/formal-investment-proposal/,SVC-CHILD,/portfolio-review-transition-services/,formal investment proposal,Services menu > hub grid,B row,Schedule a Call
+/portfolio-review-transition-services/custodian-transition-support/,SVC-CHILD,/portfolio-review-transition-services/,custodian transition support,Services menu > hub grid,B row,Schedule a Call
+/portfolio-review-transition-services/security-in-kind-transfers/,SVC-CHILD,/portfolio-review-transition-services/,security-in-kind transfers,Services menu > hub grid,B row,Schedule a Call
+/portfolio-review-transition-services/cash-raise-planning/,SVC-CHILD,/portfolio-review-transition-services/,cash raise planning,Services menu > hub grid,B row,Schedule a Call
+/portfolio-review-transition-services/benchmark-and-mandate-fit/,SVC-CHILD,/portfolio-review-transition-services/,benchmark and mandate fit,Services menu > hub grid,B row,Schedule a Call
+/portfolio-review-transition-services/risk-tolerance-alignment/,SVC-CHILD,/portfolio-review-transition-services/,risk tolerance alignment,Services menu > hub grid,B row,Schedule a Call
+/portfolio-review-transition-services/investment-policy-guidelines/,SVC-CHILD,/portfolio-review-transition-services/,investment policy guidelines,Services menu > hub grid,B row,Schedule a Call
+/portfolio-review-transition-services/onboarding-timeline-planning/,SVC-CHILD,/portfolio-review-transition-services/,onboarding timeline planning,Services menu > hub grid,B row,Schedule a Call
+/portfolio-review-transition-services/ongoing-portfolio-monitoring/,SVC-CHILD,/portfolio-review-transition-services/,ongoing portfolio monitoring,Services menu > hub grid,B row,Schedule a Call
