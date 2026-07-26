@@ -9,48 +9,61 @@
 <meta property="og:description" content="Portfolio Review &amp; Transition Services from Abner Herrman &amp; Brock. Review, proposal, transition, and onboarding support for clients moving from existing...">
 <meta property="og:url" content="https://ahbi.com/portfolio-review-transition-services/">
 <meta property="og:site_name" content="Abner Herrman &amp; Brock">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--navy:#0b1f3a;--navy2:#12345a;--gold:#c9a227;--gold2:#a8841f;--cream:#f8f4ea;--mist:#eef3f5;--ink:#172033;--muted:#607086;--line:#d8e0e6}
-body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.65;background:#fff}
-h1,h2,h3,h4,.nav,.utility,.btn,.logo{font-family:"Segoe UI",Arial,Helvetica,sans-serif}
+:root{--navy:#0b1f3a;--navy2:#12345a;--gold:#c9a227;--gold2:#a8841f;--cream:#f7f2e8;--mist:#eef3f5;--ink:#172033;--muted:#607086;--line:#d8e0e6}
+body{font-family:"Source Sans 3",Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.65;background:#fff}
+h1,h2,h3,h4,.logo-name,.phone-cta a{font-family:"Libre Baskerville",Georgia,"Times New Roman",serif}
+.nav,.utility,.btn,.logo small,.eyebrow,.kicker,.tag,.stat span,footer h4{font-family:"Source Sans 3",Arial,Helvetica,sans-serif}
 a{color:var(--navy2);text-decoration:none}a:hover{text-decoration:underline}
 .wrap{max-width:1120px;margin:0 auto;padding:0 22px}
-.stage{background:#6b1f1f;color:#fff;font:800 12px "Segoe UI",sans-serif;letter-spacing:.04em;text-transform:uppercase;text-align:center;padding:8px 12px}
-.utility{background:#071629;color:#dfe8f0;font-size:12.5px;padding:6px 0}
+.stage{background:repeating-linear-gradient(-45deg,#6b1f1f 0 10px,#5a1919 10px 20px);color:#fff;font:700 11.5px "Source Sans 3",sans-serif;letter-spacing:.05em;text-transform:uppercase;text-align:center;padding:9px 12px}
+.utility{background:#071629;color:#dfe8f0;font-size:12.5px;padding:7px 0}
 .utility .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
-header.main{background:#fff;border-bottom:3px solid var(--gold);position:relative;z-index:50}
-header.main .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:16px;padding-bottom:16px}
-.logo{display:inline-flex;align-items:center;gap:12px;color:var(--navy);font-weight:850;font-size:25px;letter-spacing:.02em;text-decoration:none}
-.logo-mark{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border:2px solid var(--gold);border-radius:2px;background:var(--navy);color:var(--gold);font-weight:900}
-.logo small{display:block;font-size:10.5px;color:var(--muted);font-weight:700;letter-spacing:1.4px;text-transform:uppercase;margin-top:1px}
-.phone-cta{text-align:right;font-family:"Segoe UI",Arial,sans-serif}
-.phone-cta a{font-size:19px;font-weight:850;color:var(--navy)}
-.phone-cta small{display:block;color:var(--muted);font-size:11.5px}
+header.main{background:#fff;border-bottom:1px solid var(--line);position:relative;z-index:50}
+header.main .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:18px;padding-bottom:18px}
+.logo{display:inline-flex;align-items:center;gap:14px;color:var(--navy);font-weight:700;font-size:1.55rem;letter-spacing:.01em;text-decoration:none}
+.logo-mark{display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:3px;background:var(--navy);color:var(--gold);font:700 1rem "Libre Baskerville",Georgia,serif;letter-spacing:.04em;flex:none}
+.logo-name{display:block;line-height:1.15}
+.logo small{display:block;font-size:10.5px;color:var(--muted);font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-top:4px}
+.phone-cta{text-align:right}
+.phone-cta a{font-size:1.45rem;font-weight:700;color:var(--navy)}
+.phone-cta small{display:block;color:var(--muted);font-size:12px;margin-top:3px;font-family:"Source Sans 3",sans-serif}
 nav.nav{background:var(--navy)}
-nav.nav ul{list-style:none;display:flex;flex-wrap:wrap}
+nav.nav ul{list-style:none;display:flex;flex-wrap:wrap;align-items:center;width:100%}
 nav.nav>.wrap>ul>li{position:relative}
-nav.nav>div.wrap>ul>li>a{display:block;color:#fff;padding:12px 15px;font-size:13.5px;font-weight:700}
+nav.nav>div.wrap>ul>li>a{display:block;color:#fff;padding:13px 16px;font-size:14px;font-weight:700}
 nav.nav>div.wrap>ul>li>a:hover{background:#142c4d;text-decoration:none}
 nav.nav li:hover>.dd{display:block}
 .dd{display:none;position:absolute;top:100%;left:0;background:#fff;min-width:292px;box-shadow:0 12px 26px rgba(8,22,41,.22);border-top:3px solid var(--gold);z-index:60}
 nav.nav .dd a{display:block;color:var(--ink);padding:10px 15px;font-size:13.5px;font-weight:600;border-bottom:1px solid var(--line);background:#fff}
 nav.nav .dd a:hover{background:var(--mist);color:var(--navy);text-decoration:none}
-.nav .em>a{background:var(--gold);color:#071629}.nav .em>a:hover{background:var(--gold2);color:#fff}
-.hero{background:linear-gradient(135deg,rgba(11,31,58,.94),rgba(11,31,58,.87)),linear-gradient(45deg,#0b1f3a,#173b62);color:#fff;padding:72px 0 62px}
-.hero h1{font-size:clamp(2rem,4vw,3.05rem);line-height:1.12;max-width:850px;margin-bottom:18px}
-.hero p{max-width:780px;color:#dfe8f0;font-size:17px}
-.hero .eyebrow,.kicker{display:inline-block;color:var(--gold);font:800 12px "Segoe UI",sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px}
-.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
-.btn{display:inline-block;background:var(--gold);color:#071629;font:800 14px "Segoe UI",sans-serif;padding:12px 24px;border-radius:3px;border:0;cursor:pointer}
+.nav .em{margin-left:auto}
+.nav .em>a{background:var(--gold);color:#071629;margin:6px 0 6px 8px;padding:9px 18px;border-radius:3px}.nav .em>a:hover{background:var(--gold2);color:#fff}
+.hero{position:relative;background:
+  radial-gradient(circle at 18% 22%,rgba(201,162,39,.10),transparent 42%),
+  radial-gradient(circle at 82% 70%,rgba(255,255,255,.05),transparent 35%),
+  linear-gradient(145deg,#0a1a32 0%,#0f2a4d 48%,#0b1f3a 100%);
+color:#fff;padding:78px 0 68px;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1px),linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:28px 28px,56px 56px,56px 56px;opacity:.55;pointer-events:none}
+.hero .wrap{position:relative;z-index:1}
+.hero h1{font-size:clamp(2.05rem,4.2vw,3.15rem);line-height:1.14;max-width:880px;margin-bottom:18px;font-weight:700}
+.hero p{max-width:760px;color:#d7e1ec;font-size:1.08rem;line-height:1.7}
+.hero .eyebrow,.kicker{display:inline-flex;align-items:center;gap:12px;color:var(--gold);font:700 12px "Source Sans 3",sans-serif;letter-spacing:.14em;text-transform:uppercase;margin-bottom:14px}
+.hero .eyebrow:before,.kicker:before{content:"";display:inline-block;width:28px;height:2px;background:var(--gold);flex:none}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-block;background:var(--gold);color:#071629;font:700 14px "Source Sans 3",sans-serif;padding:13px 24px;border-radius:3px;border:0;cursor:pointer}
 .btn:hover{background:var(--gold2);color:#fff;text-decoration:none}
 .btn.alt{background:var(--navy);color:#fff}.btn.alt:hover{background:#173b62}
-.btn.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}.btn.ghost:hover{background:rgba(255,255,255,.08);color:#fff}
+.btn.ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.45)}.btn.ghost:hover{background:rgba(255,255,255,.08);color:#fff}
 section{padding:46px 0}
 section.tint{background:var(--mist)}
 section.cream{background:var(--cream)}
-section h2{font-size:27px;color:var(--navy);line-height:1.25;margin-bottom:15px}
+section h2{font-size:clamp(1.7rem,3vw,2.15rem);color:var(--navy);line-height:1.25;margin-bottom:15px;font-weight:700}
 section p{margin-bottom:14px;font-size:16.5px}
 .lead{font-size:18px;color:#334155;max-width:840px}
 .crumb{font-size:12.5px;color:var(--muted);padding:15px 0 0}.crumb a{color:var(--muted)}
@@ -75,13 +88,13 @@ details{border:1px solid var(--line);border-radius:5px;margin-bottom:10px;backgr
 footer{background:#071629;color:#c5d0dc;padding:42px 0 24px;margin-top:30px;font-size:13.5px}
 footer h4{color:#fff;font:800 12.5px "Segoe UI",sans-serif;letter-spacing:.09em;text-transform:uppercase;margin-bottom:12px}footer ul{list-style:none}footer li{margin-bottom:7px}footer a{color:#dfe8f0}
 .fcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:26px}.disclaimer{border-top:1px solid #223955;margin-top:28px;padding-top:16px;color:#aebdca;font-size:12.5px}.copy{margin-top:12px;text-align:center;color:#8fa0b2;font-size:12px}
-@media(max-width:780px){.cols2,.vs{grid-template-columns:1fr}.phone-cta{text-align:left}.hero{padding:54px 0}.dd{position:static;box-shadow:none}.nav.nav li:hover>.dd{display:block}}
+@media(max-width:780px){.cols2,.vs{grid-template-columns:1fr}.phone-cta{text-align:left}.hero{padding:54px 0}.dd{position:static;box-shadow:none}.nav .em{margin-left:0;width:100%}.nav .em>a{margin:8px 12px;text-align:center}}
 
 </style></head><body>
 <div class="stage">STAGING PREVIEW — ahbi.com factory build · Abner Herrman &amp; Brock · content pending owner review · not the live AHB website</div>
 <div class="utility"><div class="wrap"><span>SEC-registered investment adviser · Jersey City, NJ · Founded 1981</span><span><a style="color:#dfe8f0" href="mailto:info@ahbi.com">info@ahbi.com</a></span></div></div>
 <header class="main"><div class="wrap">
-<a class="logo" href="../index.html"><span class="logo-mark">AHB</span><span>Abner Herrman &amp; Brock<small>Customized SMA portfolio management</small></span></a>
+<a class="logo" href="../index.html"><span class="logo-mark">AHB</span><span><span class="logo-name">Abner Herrman &amp; Brock</span><small>Customized SMA portfolio management</small></span></a>
 <div class="phone-cta"><a href="tel:+12014842000">(201) 484-2000</a><small>Harborside, Jersey City · Nationwide via advisor platforms</small></div>
 </div></header>
 <nav class="nav"><div class="wrap"><ul>
