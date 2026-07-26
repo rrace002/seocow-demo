@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,trade os trading systems,logo/home,"A1,A6,A10",
+/about-trade-os/,COMP-HUB,/,about trade os,About menu,"A1,A10",
+/about-trade-os/why-choose-us/,COMP-CHILD,/about-trade-os/,why choose trade os,About menu,"A10,A12",
+/about-trade-os/markets-we-cover/,COMP-CHILD,/about-trade-os/,markets trade os covers,About menu,D1,
+/contact/,COMP-CONTACT,/,contact trade os,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,trade os proposal,nav utility,I1,Request for Proposal
+/request-a-consultation/,FORM-CONSULT,/,request a consultation,nav utility (highlighted),I1,Consultation Request
+/tradingview-integration/,SVC-HUB,/,tradingview integration,Services menu,B (category),
+/tradingview-integration/tradingview-indicator-overlays/,SVC-CHILD,/tradingview-integration/,tradingview indicator overlays,Services menu > hub grid,B row,Request for Proposal
+/tradingview-integration/tradingview-alert-setup/,SVC-CHILD,/tradingview-integration/,tradingview alert setup,Services menu > hub grid,B row,Request for Proposal
+/tradingview-integration/pine-script-indicator-hooks/,SVC-CHILD,/tradingview-integration/,pine script indicator hooks,Services menu > hub grid,B row,Request for Proposal
+/tradingview-integration/multi-timeframe-tv-layouts/,SVC-CHILD,/tradingview-integration/,multi-timeframe tv layouts,Services menu > hub grid,B row,Request for Proposal
+/tradingview-integration/tv-webhook-alert-bridges/,SVC-CHILD,/tradingview-integration/,tv webhook alert bridges,Services menu > hub grid,B row,Request for Proposal
+/tradingview-integration/watchlist-and-symbol-sync/,SVC-CHILD,/tradingview-integration/,watchlist & symbol sync,Services menu > hub grid,B row,Request for Proposal
+/tradingview-integration/chart-template-standardization/,SVC-CHILD,/tradingview-integration/,chart template standardization,Services menu > hub grid,B row,Request for Proposal
+/tradingview-integration/tv-to-trade-call-handoff/,SVC-CHILD,/tradingview-integration/,tv-to-trade-call handoff,Services menu > hub grid,B row,Request for Proposal
+/tradingview-integration/indicator-visibility-controls/,SVC-CHILD,/tradingview-integration/,indicator visibility controls,Services menu > hub grid,B row,Request for Proposal
+/tradingview-integration/tradingview-workspace-onboarding/,SVC-CHILD,/tradingview-integration/,tradingview workspace onboarding,Services menu > hub grid,B row,Request for Proposal
+/custom-trading-indicators/,SVC-HUB,/,custom trading indicators,Services menu,B (category),
+/custom-trading-indicators/momentum-and-trend-indicators/,SVC-CHILD,/custom-trading-indicators/,momentum & trend indicators,Services menu > hub grid,B row,Request for Proposal
+/custom-trading-indicators/volatility-band-indicators/,SVC-CHILD,/custom-trading-indicators/,volatility band indicators,Services menu > hub grid,B row,Request for Proposal
+/custom-trading-indicators/volume-profile-style-reads/,SVC-CHILD,/custom-trading-indicators/,volume profile–style reads,Services menu > hub grid,B row,Request for Proposal
+/custom-trading-indicators/order-flow-aware-indicators/,SVC-CHILD,/custom-trading-indicators/,order-flow-aware indicators,Services menu > hub grid,B row,Request for Proposal
+/custom-trading-indicators/multi-asset-indicator-packs/,SVC-CHILD,/custom-trading-indicators/,multi-asset indicator packs,Services menu > hub grid,B row,Request for Proposal
+/custom-trading-indicators/alertable-custom-signals/,SVC-CHILD,/custom-trading-indicators/,alertable custom signals,Services menu > hub grid,B row,Request for Proposal
+/custom-trading-indicators/indicator-parameter-playbooks/,SVC-CHILD,/custom-trading-indicators/,indicator parameter playbooks,Services menu > hub grid,B row,Request for Proposal
+/custom-trading-indicators/regime-filter-indicators/,SVC-CHILD,/custom-trading-indicators/,regime filter indicators,Services menu > hub grid,B row,Request for Proposal
+/custom-trading-indicators/indicator-qa-and-versioning/,SVC-CHILD,/custom-trading-indicators/,indicator qa & versioning,Services menu > hub grid,B row,Request for Proposal
+/custom-trading-indicators/desk-ready-indicator-docs/,SVC-CHILD,/custom-trading-indicators/,desk-ready indicator docs,Services menu > hub grid,B row,Request for Proposal
+/order-book-analysis/,SVC-HUB,/,order book analysis,Services menu,B (category),
+/order-book-analysis/depth-and-liquidity-reads/,SVC-CHILD,/order-book-analysis/,depth & liquidity reads,Services menu > hub grid,B row,Request for Proposal
+/order-book-analysis/bid-ask-imbalance-views/,SVC-CHILD,/order-book-analysis/,bid-ask imbalance views,Services menu > hub grid,B row,Request for Proposal
+/order-book-analysis/wall-and-spoof-awareness/,SVC-CHILD,/order-book-analysis/,wall & spoof awareness,Services menu > hub grid,B row,Request for Proposal
+/order-book-analysis/spread-and-microstructure-basics/,SVC-CHILD,/order-book-analysis/,spread & microstructure basics,Services menu > hub grid,B row,Request for Proposal
+/order-book-analysis/book-heatmaps-for-majors/,SVC-CHILD,/order-book-analysis/,book heatmaps for majors,Services menu > hub grid,B row,Request for Proposal
+/order-book-analysis/liquidity-void-identification/,SVC-CHILD,/order-book-analysis/,liquidity void identification,Services menu > hub grid,B row,Request for Proposal
+/order-book-analysis/session-liquidity-comparisons/,SVC-CHILD,/order-book-analysis/,session liquidity comparisons,Services menu > hub grid,B row,Request for Proposal
+/order-book-analysis/order-book-plus-indicator-stack/,SVC-CHILD,/order-book-analysis/,order book + indicator stack,Services menu > hub grid,B row,Request for Proposal
+/order-book-analysis/book-alert-triggers/,SVC-CHILD,/order-book-analysis/,book alert triggers,Services menu > hub grid,B row,Request for Proposal
+/order-book-analysis/order-book-research-notes/,SVC-CHILD,/order-book-analysis/,order book research notes,Services menu > hub grid,B row,Request for Proposal
+/cryptocurrency-trade-calls/,SVC-HUB,/,cryptocurrency trade calls,Services menu,B (category),
+/cryptocurrency-trade-calls/structured-crypto-trade-calls/,SVC-CHILD,/cryptocurrency-trade-calls/,structured crypto trade calls,Services menu > hub grid,B row,Request for Proposal
+/cryptocurrency-trade-calls/entry-and-invalidation-framing/,SVC-CHILD,/cryptocurrency-trade-calls/,entry & invalidation framing,Services menu > hub grid,B row,Request for Proposal
+/cryptocurrency-trade-calls/multi-timeframe-call-context/,SVC-CHILD,/cryptocurrency-trade-calls/,multi-timeframe call context,Services menu > hub grid,B row,Request for Proposal
+/cryptocurrency-trade-calls/risk-size-and-position-notes/,SVC-CHILD,/cryptocurrency-trade-calls/,risk size & position notes,Services menu > hub grid,B row,Request for Proposal
+/cryptocurrency-trade-calls/bitcoin-and-alt-call-coverage/,SVC-CHILD,/cryptocurrency-trade-calls/,bitcoin & alt call coverage,Services menu > hub grid,B row,Request for Proposal
+/cryptocurrency-trade-calls/call-delivery-channels/,SVC-CHILD,/cryptocurrency-trade-calls/,call delivery channels,Services menu > hub grid,B row,Request for Proposal
+/cryptocurrency-trade-calls/post-call-review-process/,SVC-CHILD,/cryptocurrency-trade-calls/,post-call review process,Services menu > hub grid,B row,Request for Proposal
+/cryptocurrency-trade-calls/trade-call-alert-hygiene/,SVC-CHILD,/cryptocurrency-trade-calls/,trade call alert hygiene,Services menu > hub grid,B row,Request for Proposal
+/cryptocurrency-trade-calls/indicator-backed-call-rationale/,SVC-CHILD,/cryptocurrency-trade-calls/,indicator-backed call rationale,Services menu > hub grid,B row,Request for Proposal
+/cryptocurrency-trade-calls/disclaimer-forward-call-comms/,SVC-CHILD,/cryptocurrency-trade-calls/,disclaimer-forward call comms,Services menu > hub grid,B row,Request for Proposal
+/bitcoin-trading-systems/,SVC-HUB,/,bitcoin trading systems,Services menu,B (category),
+/bitcoin-trading-systems/btc-trend-following-systems/,SVC-CHILD,/bitcoin-trading-systems/,btc trend-following systems,Services menu > hub grid,B row,Request for Proposal
+/bitcoin-trading-systems/btc-range-and-mean-reversion/,SVC-CHILD,/bitcoin-trading-systems/,btc range & mean reversion,Services menu > hub grid,B row,Request for Proposal
+/bitcoin-trading-systems/btc-volatility-breakout-rules/,SVC-CHILD,/bitcoin-trading-systems/,btc volatility breakout rules,Services menu > hub grid,B row,Request for Proposal
+/bitcoin-trading-systems/bitcoin-indicator-suite/,SVC-CHILD,/bitcoin-trading-systems/,bitcoin indicator suite,Services menu > hub grid,B row,Request for Proposal
+/bitcoin-trading-systems/btc-order-book-context/,SVC-CHILD,/bitcoin-trading-systems/,btc order book context,Services menu > hub grid,B row,Request for Proposal
+/bitcoin-trading-systems/btc-session-and-event-playbooks/,SVC-CHILD,/bitcoin-trading-systems/,btc session & event playbooks,Services menu > hub grid,B row,Request for Proposal
+/bitcoin-trading-systems/bitcoin-alert-stacks/,SVC-CHILD,/bitcoin-trading-systems/,bitcoin alert stacks,Services menu > hub grid,B row,Request for Proposal
+/bitcoin-trading-systems/btc-system-parameter-guides/,SVC-CHILD,/bitcoin-trading-systems/,btc system parameter guides,Services menu > hub grid,B row,Request for Proposal
+/bitcoin-trading-systems/bitcoin-research-briefs/,SVC-CHILD,/bitcoin-trading-systems/,bitcoin research briefs,Services menu > hub grid,B row,Request for Proposal
+/bitcoin-trading-systems/btc-to-alt-correlation-notes/,SVC-CHILD,/bitcoin-trading-systems/,btc-to-alt correlation notes,Services menu > hub grid,B row,Request for Proposal
+/ethereum-trading-systems/,SVC-HUB,/,ethereum trading systems,Services menu,B (category),
+/ethereum-trading-systems/eth-trend-system-frameworks/,SVC-CHILD,/ethereum-trading-systems/,eth trend system frameworks,Services menu > hub grid,B row,Request for Proposal
+/ethereum-trading-systems/eth-btc-relative-strength/,SVC-CHILD,/ethereum-trading-systems/,eth/btc relative strength,Services menu > hub grid,B row,Request for Proposal
+/ethereum-trading-systems/ethereum-indicator-overlays/,SVC-CHILD,/ethereum-trading-systems/,ethereum indicator overlays,Services menu > hub grid,B row,Request for Proposal
+/ethereum-trading-systems/eth-order-book-analysis/,SVC-CHILD,/ethereum-trading-systems/,eth order book analysis,Services menu > hub grid,B row,Request for Proposal
+/ethereum-trading-systems/eth-volatility-and-expansion/,SVC-CHILD,/ethereum-trading-systems/,eth volatility & expansion,Services menu > hub grid,B row,Request for Proposal
+/ethereum-trading-systems/ethereum-trade-call-coverage/,SVC-CHILD,/ethereum-trading-systems/,ethereum trade call coverage,Services menu > hub grid,B row,Request for Proposal
+/ethereum-trading-systems/eth-multi-timeframe-layouts/,SVC-CHILD,/ethereum-trading-systems/,eth multi-timeframe layouts,Services menu > hub grid,B row,Request for Proposal
+/ethereum-trading-systems/gas-and-network-context-notes/,SVC-CHILD,/ethereum-trading-systems/,gas & network context notes,Services menu > hub grid,B row,Request for Proposal
+/ethereum-trading-systems/eth-alert-and-research-loop/,SVC-CHILD,/ethereum-trading-systems/,eth alert & research loop,Services menu > hub grid,B row,Request for Proposal
+/ethereum-trading-systems/ethereum-system-documentation/,SVC-CHILD,/ethereum-trading-systems/,ethereum system documentation,Services menu > hub grid,B row,Request for Proposal
+/xrp-sol-sui-markets/,SVC-HUB,/,"xrp, solana & sui markets",Services menu,B (category),
+/xrp-sol-sui-markets/xrp-trading-systems/,SVC-CHILD,/xrp-sol-sui-markets/,xrp trading systems,Services menu > hub grid,B row,Request for Proposal
+/xrp-sol-sui-markets/solana-trading-systems/,SVC-CHILD,/xrp-sol-sui-markets/,solana trading systems,Services menu > hub grid,B row,Request for Proposal
+/xrp-sol-sui-markets/sui-market-frameworks/,SVC-CHILD,/xrp-sol-sui-markets/,sui market frameworks,Services menu > hub grid,B row,Request for Proposal
+/xrp-sol-sui-markets/xrp-sol-sui-indicator-packs/,SVC-CHILD,/xrp-sol-sui-markets/,xrp / sol / sui indicator packs,Services menu > hub grid,B row,Request for Proposal
+/xrp-sol-sui-markets/alt-order-book-reads/,SVC-CHILD,/xrp-sol-sui-markets/,alt order book reads,Services menu > hub grid,B row,Request for Proposal
+/xrp-sol-sui-markets/cross-asset-rotation-notes/,SVC-CHILD,/xrp-sol-sui-markets/,cross-asset rotation notes,Services menu > hub grid,B row,Request for Proposal
+/xrp-sol-sui-markets/alt-volatility-playbooks/,SVC-CHILD,/xrp-sol-sui-markets/,alt volatility playbooks,Services menu > hub grid,B row,Request for Proposal
+/xrp-sol-sui-markets/tradingview-alt-layouts/,SVC-CHILD,/xrp-sol-sui-markets/,tradingview alt layouts,Services menu > hub grid,B row,Request for Proposal
+/xrp-sol-sui-markets/alt-trade-call-coverage/,SVC-CHILD,/xrp-sol-sui-markets/,alt trade call coverage,Services menu > hub grid,B row,Request for Proposal
+/xrp-sol-sui-markets/liquidity-aware-alt-sizing/,SVC-CHILD,/xrp-sol-sui-markets/,liquidity-aware alt sizing,Services menu > hub grid,B row,Request for Proposal
+/multi-crypto-coverage/,SVC-HUB,/,multi-crypto market coverage,Services menu,B (category),
+/multi-crypto-coverage/major-pair-universe-design/,SVC-CHILD,/multi-crypto-coverage/,major pair universe design,Services menu > hub grid,B row,Request for Proposal
+/multi-crypto-coverage/cross-market-indicator-consistency/,SVC-CHILD,/multi-crypto-coverage/,cross-market indicator consistency,Services menu > hub grid,B row,Request for Proposal
+/multi-crypto-coverage/multi-asset-watchlist-ops/,SVC-CHILD,/multi-crypto-coverage/,multi-asset watchlist ops,Services menu > hub grid,B row,Request for Proposal
+/multi-crypto-coverage/correlation-and-beta-context/,SVC-CHILD,/multi-crypto-coverage/,correlation & beta context,Services menu > hub grid,B row,Request for Proposal
+/multi-crypto-coverage/liquidity-tiering-for-coverage/,SVC-CHILD,/multi-crypto-coverage/,liquidity tiering for coverage,Services menu > hub grid,B row,Request for Proposal
+/multi-crypto-coverage/multi-crypto-alert-routing/,SVC-CHILD,/multi-crypto-coverage/,multi-crypto alert routing,Services menu > hub grid,B row,Request for Proposal
+/multi-crypto-coverage/coverage-research-cadence/,SVC-CHILD,/multi-crypto-coverage/,coverage research cadence,Services menu > hub grid,B row,Request for Proposal
+/multi-crypto-coverage/new-asset-onboarding-checklist/,SVC-CHILD,/multi-crypto-coverage/,new asset onboarding checklist,Services menu > hub grid,B row,Request for Proposal
+/multi-crypto-coverage/weekend-and-offhours-coverage/,SVC-CHILD,/multi-crypto-coverage/,weekend & off-hours coverage,Services menu > hub grid,B row,Request for Proposal
+/multi-crypto-coverage/universe-review-governance/,SVC-CHILD,/multi-crypto-coverage/,universe review governance,Services menu > hub grid,B row,Request for Proposal
+/trading-system-automation/,SVC-HUB,/,trading system automation,Services menu,B (category),
+/trading-system-automation/alert-to-action-pipelines/,SVC-CHILD,/trading-system-automation/,alert-to-action pipelines,Services menu > hub grid,B row,Request for Proposal
+/trading-system-automation/semi-automated-execution-hooks/,SVC-CHILD,/trading-system-automation/,semi-automated execution hooks,Services menu > hub grid,B row,Request for Proposal
+/trading-system-automation/webhook-and-notification-bridges/,SVC-CHILD,/trading-system-automation/,webhook & notification bridges,Services menu > hub grid,B row,Request for Proposal
+/trading-system-automation/system-runbook-automation/,SVC-CHILD,/trading-system-automation/,system runbook automation,Services menu > hub grid,B row,Request for Proposal
+/trading-system-automation/kill-switch-and-fail-safes/,SVC-CHILD,/trading-system-automation/,kill switch & fail-safes,Services menu > hub grid,B row,Request for Proposal
+/trading-system-automation/paper-mode-system-rehearsal/,SVC-CHILD,/trading-system-automation/,paper-mode system rehearsal,Services menu > hub grid,B row,Request for Proposal
+/trading-system-automation/parameter-update-workflows/,SVC-CHILD,/trading-system-automation/,parameter update workflows,Services menu > hub grid,B row,Request for Proposal
+/trading-system-automation/uptime-and-feed-monitoring/,SVC-CHILD,/trading-system-automation/,uptime & feed monitoring,Services menu > hub grid,B row,Request for Proposal
+/trading-system-automation/automation-audit-logging/,SVC-CHILD,/trading-system-automation/,automation audit logging,Services menu > hub grid,B row,Request for Proposal
+/trading-system-automation/human-in-the-loop-controls/,SVC-CHILD,/trading-system-automation/,human-in-the-loop controls,Services menu > hub grid,B row,Request for Proposal
+/strategy-research-alerts/,SVC-HUB,/,"strategy, research & alerts",Services menu,B (category),
+/strategy-research-alerts/strategy-research-briefs/,SVC-CHILD,/strategy-research-alerts/,strategy research briefs,Services menu > hub grid,B row,Request for Proposal
+/strategy-research-alerts/hypothesis-and-invalidation-logs/,SVC-CHILD,/strategy-research-alerts/,hypothesis & invalidation logs,Services menu > hub grid,B row,Request for Proposal
+/strategy-research-alerts/alert-taxonomy-design/,SVC-CHILD,/strategy-research-alerts/,alert taxonomy design,Services menu > hub grid,B row,Request for Proposal
+/strategy-research-alerts/multi-channel-alert-delivery/,SVC-CHILD,/strategy-research-alerts/,multi-channel alert delivery,Services menu > hub grid,B row,Request for Proposal
+/strategy-research-alerts/regime-change-monitoring/,SVC-CHILD,/strategy-research-alerts/,regime change monitoring,Services menu > hub grid,B row,Request for Proposal
+/strategy-research-alerts/post-trade-and-post-call-reviews/,SVC-CHILD,/strategy-research-alerts/,post-trade & post-call reviews,Services menu > hub grid,B row,Request for Proposal
+/strategy-research-alerts/indicator-research-collaboration/,SVC-CHILD,/strategy-research-alerts/,indicator research collaboration,Services menu > hub grid,B row,Request for Proposal
+/strategy-research-alerts/desk-playbook-documentation/,SVC-CHILD,/strategy-research-alerts/,desk playbook documentation,Services menu > hub grid,B row,Request for Proposal
+/strategy-research-alerts/research-to-system-handoff/,SVC-CHILD,/strategy-research-alerts/,research-to-system handoff,Services menu > hub grid,B row,Request for Proposal
+/strategy-research-alerts/compliance-minded-comms/,SVC-CHILD,/strategy-research-alerts/,compliance-minded comms,Services menu > hub grid,B row,Request for Proposal
