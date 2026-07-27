@@ -844,8 +844,6 @@ def cleanup_generated_site() -> None:
     for child in list(ROOT.iterdir()):
         if child.name in keep_names:
             continue
-        if child.name.startswith("."):
-            continue
         if child.is_file() or child.is_symlink():
             child.unlink()
         elif child.is_dir():
