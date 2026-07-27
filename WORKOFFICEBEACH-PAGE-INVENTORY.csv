@@ -1,0 +1,85 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,work office at the beach,logo/home,"A1,A2,A3,A10",
+/about/,COMP-HUB,/,about work office at the beach,About menu,"A1,A6,A10",
+/about/why-work-near-the-water/,COMP-CHILD,/about/,why work near the water,About menu,"A10,D",
+/about/south-beach-location/,COMP-CHILD,/about/,south beach location,About menu,"A6,D",
+/contact/,COMP-CONTACT,/,contact work office at the beach,Contact menu,"A3,A4,A5",Contact Request
+/request-a-tour/,FORM-STAY,/,request a stay south beach,nav utility,I1,Request a Stay
+/book-a-tour/,FORM-TOUR,/,book a tour work office beach,nav highlighted,I1,Book a Tour
+/beachside-coworking.html,SVC-HUB,/,beachside coworking,Services menu,B (category),
+/beachside-coworking/hot-desk-memberships/,SVC-CHILD,/beachside-coworking.html,hot desk memberships,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beachside-coworking/dedicated-desk-plans/,SVC-CHILD,/beachside-coworking.html,dedicated desk plans,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beachside-coworking/day-passes/,SVC-CHILD,/beachside-coworking.html,day passes,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beachside-coworking/ocean-view-workstations/,SVC-CHILD,/beachside-coworking.html,ocean-view workstations,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beachside-coworking/quiet-focus-zones/,SVC-CHILD,/beachside-coworking.html,quiet focus zones,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beachside-coworking/high-speed-wifi-workspace/,SVC-CHILD,/beachside-coworking.html,high-speed wifi workspace,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beachside-coworking/printing-and-admin-support/,SVC-CHILD,/beachside-coworking.html,printing and admin support,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beachside-coworking/member-networking-events/,SVC-CHILD,/beachside-coworking.html,member networking events,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beachside-coworking/tourist-professional-day-access/,SVC-CHILD,/beachside-coworking.html,tourist professional day access,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beachside-coworking/flexible-monthly-memberships/,SVC-CHILD,/beachside-coworking.html,flexible monthly memberships,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/private-offices-suites.html,SVC-HUB,/,private offices & suites,Services menu,B (category),
+/private-offices-suites/private-single-offices/,SVC-CHILD,/private-offices-suites.html,private single offices,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/private-offices-suites/team-office-suites/,SVC-CHILD,/private-offices-suites.html,team office suites,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/private-offices-suites/lockable-private-suites/,SVC-CHILD,/private-offices-suites.html,lockable private suites,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/private-offices-suites/furnished-office-options/,SVC-CHILD,/private-offices-suites.html,furnished office options,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/private-offices-suites/window-offices/,SVC-CHILD,/private-offices-suites.html,window offices,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/private-offices-suites/long-term-office-leases/,SVC-CHILD,/private-offices-suites.html,long-term office leases,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/private-offices-suites/month-to-month-private-offices/,SVC-CHILD,/private-offices-suites.html,month-to-month private offices,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/private-offices-suites/startup-team-suites/,SVC-CHILD,/private-offices-suites.html,startup team suites,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/private-offices-suites/executive-corner-offices/,SVC-CHILD,/private-offices-suites.html,executive corner offices,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/private-offices-suites/secure-access-suites/,SVC-CHILD,/private-offices-suites.html,secure access suites,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/meeting-rooms-events.html,SVC-HUB,/,meeting rooms & events,Services menu,B (category),
+/meeting-rooms-events/boardroom-rentals/,SVC-CHILD,/meeting-rooms-events.html,boardroom rentals,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/meeting-rooms-events/small-huddle-rooms/,SVC-CHILD,/meeting-rooms-events.html,small huddle rooms,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/meeting-rooms-events/client-presentation-rooms/,SVC-CHILD,/meeting-rooms-events.html,client presentation rooms,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/meeting-rooms-events/zoom-ready-meeting-rooms/,SVC-CHILD,/meeting-rooms-events.html,zoom-ready meeting rooms,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/meeting-rooms-events/half-day-room-bookings/,SVC-CHILD,/meeting-rooms-events.html,half-day room bookings,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/meeting-rooms-events/full-day-event-spaces/,SVC-CHILD,/meeting-rooms-events.html,full-day event spaces,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/meeting-rooms-events/workshop-hosting/,SVC-CHILD,/meeting-rooms-events.html,workshop hosting,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/meeting-rooms-events/networking-mixer-spaces/,SVC-CHILD,/meeting-rooms-events.html,networking mixer spaces,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/meeting-rooms-events/podcast-interview-rooms/,SVC-CHILD,/meeting-rooms-events.html,podcast interview rooms,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/meeting-rooms-events/hybrid-meeting-support/,SVC-CHILD,/meeting-rooms-events.html,hybrid meeting support,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beach-amenities-lifestyle.html,SVC-HUB,/,beach amenities & lifestyle,Services menu,B (category),
+/beach-amenities-lifestyle/work-with-ocean-views/,SVC-CHILD,/beach-amenities-lifestyle.html,work with ocean views,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beach-amenities-lifestyle/steps-to-the-sand/,SVC-CHILD,/beach-amenities-lifestyle.html,steps to the sand,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beach-amenities-lifestyle/sunrise-work-sessions/,SVC-CHILD,/beach-amenities-lifestyle.html,sunrise work sessions,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beach-amenities-lifestyle/outdoor-patio-work-zones/,SVC-CHILD,/beach-amenities-lifestyle.html,outdoor patio work zones,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beach-amenities-lifestyle/cafe-break-areas/,SVC-CHILD,/beach-amenities-lifestyle.html,cafe break areas,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beach-amenities-lifestyle/bike-storage-access/,SVC-CHILD,/beach-amenities-lifestyle.html,bike storage access,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beach-amenities-lifestyle/showers-after-beach/,SVC-CHILD,/beach-amenities-lifestyle.html,showers after beach,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beach-amenities-lifestyle/wellness-break-spaces/,SVC-CHILD,/beach-amenities-lifestyle.html,wellness break spaces,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beach-amenities-lifestyle/south-beach-location-perks/,SVC-CHILD,/beach-amenities-lifestyle.html,south beach location perks,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/beach-amenities-lifestyle/scenic-focus-environment/,SVC-CHILD,/beach-amenities-lifestyle.html,scenic focus environment,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/luxury-condo-residences.html,SVC-HUB,/,luxury condo residences,Services menu,B (category),
+/luxury-condo-residences/luxury-condo-listings-support/,SVC-CHILD,/luxury-condo-residences.html,luxury condo listings support,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/luxury-condo-residences/oceanfront-condo-living/,SVC-CHILD,/luxury-condo-residences.html,oceanfront condo living,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/luxury-condo-residences/designer-interior-condos/,SVC-CHILD,/luxury-condo-residences.html,designer interior condos,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/luxury-condo-residences/condo-concierge-services/,SVC-CHILD,/luxury-condo-residences.html,condo concierge services,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/luxury-condo-residences/resident-amenity-access/,SVC-CHILD,/luxury-condo-residences.html,resident amenity access,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/luxury-condo-residences/long-stay-condo-options/,SVC-CHILD,/luxury-condo-residences.html,long-stay condo options,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/luxury-condo-residences/furnished-luxury-condos/,SVC-CHILD,/luxury-condo-residences.html,furnished luxury condos,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/luxury-condo-residences/condo-owner-partnerships/,SVC-CHILD,/luxury-condo-residences.html,condo owner partnerships,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/luxury-condo-residences/move-in-ready-residences/,SVC-CHILD,/luxury-condo-residences.html,move-in ready residences,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/luxury-condo-residences/premium-building-access/,SVC-CHILD,/luxury-condo-residences.html,premium building access,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/short-term-rentals.html,SVC-HUB,/,short-term rentals,Services menu,B (category),
+/short-term-rentals/short-term-vacation-rentals/,SVC-CHILD,/short-term-rentals.html,short-term vacation rentals,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/short-term-rentals/weekly-beach-stays/,SVC-CHILD,/short-term-rentals.html,weekly beach stays,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/short-term-rentals/monthly-furnished-rentals/,SVC-CHILD,/short-term-rentals.html,monthly furnished rentals,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/short-term-rentals/business-travel-stays/,SVC-CHILD,/short-term-rentals.html,business travel stays,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/short-term-rentals/extended-stay-suites/,SVC-CHILD,/short-term-rentals.html,extended stay suites,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/short-term-rentals/weekend-getaway-rentals/,SVC-CHILD,/short-term-rentals.html,weekend getaway rentals,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/short-term-rentals/fully-stocked-rentals/,SVC-CHILD,/short-term-rentals.html,fully stocked rentals,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/short-term-rentals/self-check-in-stays/,SVC-CHILD,/short-term-rentals.html,self check-in stays,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/short-term-rentals/group-travel-rentals/,SVC-CHILD,/short-term-rentals.html,group travel rentals,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/short-term-rentals/workcation-package-stays/,SVC-CHILD,/short-term-rentals.html,workcation package stays,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/workcation-packages.html,SVC-HUB,/,workcation packages,Services menu,B (category),
+/workcation-packages/work-plus-stay-bundles/,SVC-CHILD,/workcation-packages.html,work plus stay bundles,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/workcation-packages/condo-plus-coworking-packages/,SVC-CHILD,/workcation-packages.html,condo plus coworking packages,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/workcation-packages/weekly-workcation-plans/,SVC-CHILD,/workcation-packages.html,weekly workcation plans,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/workcation-packages/monthly-remote-work-packages/,SVC-CHILD,/workcation-packages.html,monthly remote-work packages,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/workcation-packages/team-offsite-packages/,SVC-CHILD,/workcation-packages.html,team offsite packages,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/workcation-packages/advisor-retreat-packages/,SVC-CHILD,/workcation-packages.html,advisor retreat packages,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/workcation-packages/digital-nomad-memberships/,SVC-CHILD,/workcation-packages.html,digital nomad memberships,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/workcation-packages/fly-in-work-weeks/,SVC-CHILD,/workcation-packages.html,fly-in work weeks,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/workcation-packages/stay-and-meet-packages/,SVC-CHILD,/workcation-packages.html,stay and meet packages,Services menu > hub grid,B row,Book a Tour / Request a Stay
+/workcation-packages/scenic-productivity-packages/,SVC-CHILD,/workcation-packages.html,scenic productivity packages,Services menu > hub grid,B row,Book a Tour / Request a Stay
