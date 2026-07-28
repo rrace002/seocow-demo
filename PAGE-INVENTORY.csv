@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,online psychiatrists,logo/home,"A1,A2,A3,A10",
+/about/,COMP-HUB,/,about online psychiatrists,About menu,"A1,A6,A10",
+/about/why-choose-online-psychiatrists/,COMP-CHILD,/about/,why choose online psychiatrists,About menu,"A10,D",
+/about/dr-zlatin-ivanov/,COMP-CHILD,/about/,dr zlatin ivanov,About menu,"A2,A8",
+/contact/,COMP-CONTACT,/,contact online psychiatrists,Contact menu,"A3,A4,A5",Contact Request
+/request-a-consultation/,FORM-CONSULT,/,request psychiatric consultation,nav utility,I1,Consultation Request
+/schedule-a-visit/,FORM-SCHEDULE,/,schedule psychiatry visit,nav highlighted,I1,Schedule a Visit
+/telepsychiatry-video-visits/,SVC-HUB,/,telepsychiatry & video visits,Services menu,B (category),
+/telepsychiatry-video-visits/hipaa-compliant-video-psychiatry/,SVC-CHILD,/telepsychiatry-video-visits/,hipaa-compliant video psychiatry,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/telepsychiatry-video-visits/same-day-virtual-consultations/,SVC-CHILD,/telepsychiatry-video-visits/,same-day virtual consultations,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/telepsychiatry-video-visits/next-day-psychiatry-appointments/,SVC-CHILD,/telepsychiatry-video-visits/,next-day psychiatry appointments,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/telepsychiatry-video-visits/secure-encrypted-sessions/,SVC-CHILD,/telepsychiatry-video-visits/,secure encrypted sessions,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/telepsychiatry-video-visits/smartphone-psychiatry-visits/,SVC-CHILD,/telepsychiatry-video-visits/,smartphone psychiatry visits,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/telepsychiatry-video-visits/computer-video-appointments/,SVC-CHILD,/telepsychiatry-video-visits/,computer video appointments,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/telepsychiatry-video-visits/first-virtual-evaluation/,SVC-CHILD,/telepsychiatry-video-visits/,first virtual evaluation,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/telepsychiatry-video-visits/follow-up-video-visits/,SVC-CHILD,/telepsychiatry-video-visits/,follow-up video visits,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/telepsychiatry-video-visits/private-home-telepsychiatry/,SVC-CHILD,/telepsychiatry-video-visits/,private home telepsychiatry,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/telepsychiatry-video-visits/integrative-online-psychiatry/,SVC-CHILD,/telepsychiatry-video-visits/,integrative online psychiatry,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/medication-management/,SVC-HUB,/,virtual medication management,Services menu,B (category),
+/medication-management/online-prescription-management/,SVC-CHILD,/medication-management/,online prescription management,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/medication-management/controlled-substance-telemedicine/,SVC-CHILD,/medication-management/,controlled substance telemedicine,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/medication-management/ryan-haight-act-compliant-prescribing/,SVC-CHILD,/medication-management/,ryan haight act compliant prescribing,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/medication-management/pharmacy-e-prescriptions/,SVC-CHILD,/medication-management/,pharmacy e-prescriptions,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/medication-management/adhd-medication-management/,SVC-CHILD,/medication-management/,adhd medication management,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/medication-management/antidepressant-management/,SVC-CHILD,/medication-management/,antidepressant management,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/medication-management/anxiety-medication-plans/,SVC-CHILD,/medication-management/,anxiety medication plans,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/medication-management/mood-stabilizer-monitoring/,SVC-CHILD,/medication-management/,mood stabilizer monitoring,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/medication-management/refill-coordination-support/,SVC-CHILD,/medication-management/,refill coordination support,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/medication-management/medication-follow-up-visits/,SVC-CHILD,/medication-management/,medication follow-up visits,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/adhd-add-treatment/,SVC-HUB,/,adhd & add treatment,Services menu,B (category),
+/adhd-add-treatment/adult-adhd-evaluation/,SVC-CHILD,/adhd-add-treatment/,adult adhd evaluation,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/adhd-add-treatment/adhd-diagnosis-online/,SVC-CHILD,/adhd-add-treatment/,adhd diagnosis online,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/adhd-add-treatment/focus-and-attention-treatment/,SVC-CHILD,/adhd-add-treatment/,focus and attention treatment,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/adhd-add-treatment/work-performance-adhd-care/,SVC-CHILD,/adhd-add-treatment/,work performance adhd care,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/adhd-add-treatment/student-adhd-support/,SVC-CHILD,/adhd-add-treatment/,student adhd support,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/adhd-add-treatment/adhd-medication-options/,SVC-CHILD,/adhd-add-treatment/,adhd medication options,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/adhd-add-treatment/adhd-therapy-support/,SVC-CHILD,/adhd-add-treatment/,adhd therapy support,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/adhd-add-treatment/executive-function-coaching-psychiatry/,SVC-CHILD,/adhd-add-treatment/,executive function coaching psychiatry,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/adhd-add-treatment/adhd-follow-up-care/,SVC-CHILD,/adhd-add-treatment/,adhd follow-up care,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/adhd-add-treatment/telepsychiatry-for-adhd/,SVC-CHILD,/adhd-add-treatment/,telepsychiatry for adhd,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/anxiety-panic-disorders/,SVC-HUB,/,anxiety & panic disorders,Services menu,B (category),
+/anxiety-panic-disorders/generalized-anxiety-disorder-care/,SVC-CHILD,/anxiety-panic-disorders/,generalized anxiety disorder care,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/anxiety-panic-disorders/panic-attack-treatment/,SVC-CHILD,/anxiety-panic-disorders/,panic attack treatment,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/anxiety-panic-disorders/social-anxiety-treatment/,SVC-CHILD,/anxiety-panic-disorders/,social anxiety treatment,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/anxiety-panic-disorders/phobia-related-anxiety-care/,SVC-CHILD,/anxiety-panic-disorders/,phobia-related anxiety care,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/anxiety-panic-disorders/worry-and-tension-management/,SVC-CHILD,/anxiety-panic-disorders/,worry and tension management,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/anxiety-panic-disorders/anxiety-medication-management/,SVC-CHILD,/anxiety-panic-disorders/,anxiety medication management,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/anxiety-panic-disorders/anxiety-psychotherapy-online/,SVC-CHILD,/anxiety-panic-disorders/,anxiety psychotherapy online,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/anxiety-panic-disorders/performance-anxiety-support/,SVC-CHILD,/anxiety-panic-disorders/,performance anxiety support,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/anxiety-panic-disorders/acute-anxiety-evaluations/,SVC-CHILD,/anxiety-panic-disorders/,acute anxiety evaluations,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/anxiety-panic-disorders/long-term-anxiety-care/,SVC-CHILD,/anxiety-panic-disorders/,long-term anxiety care,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/depression-mood-disorders/,SVC-HUB,/,depression & mood disorders,Services menu,B (category),
+/depression-mood-disorders/major-depression-treatment/,SVC-CHILD,/depression-mood-disorders/,major depression treatment,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/depression-mood-disorders/mood-disorder-evaluation/,SVC-CHILD,/depression-mood-disorders/,mood disorder evaluation,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/depression-mood-disorders/persistent-depressive-symptoms/,SVC-CHILD,/depression-mood-disorders/,persistent depressive symptoms,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/depression-mood-disorders/depression-medication-management/,SVC-CHILD,/depression-mood-disorders/,depression medication management,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/depression-mood-disorders/depression-psychotherapy-online/,SVC-CHILD,/depression-mood-disorders/,depression psychotherapy online,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/depression-mood-disorders/energy-and-motivation-support/,SVC-CHILD,/depression-mood-disorders/,energy and motivation support,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/depression-mood-disorders/treatment-resistant-depression-review/,SVC-CHILD,/depression-mood-disorders/,treatment-resistant depression review,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/depression-mood-disorders/mood-fluctuation-care/,SVC-CHILD,/depression-mood-disorders/,mood fluctuation care,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/depression-mood-disorders/telepsychiatry-for-depression/,SVC-CHILD,/depression-mood-disorders/,telepsychiatry for depression,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/depression-mood-disorders/follow-up-mood-monitoring/,SVC-CHILD,/depression-mood-disorders/,follow-up mood monitoring,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/bipolar-ocd-ptsd/,SVC-HUB,/,"bipolar, ocd & ptsd",Services menu,B (category),
+/bipolar-ocd-ptsd/bipolar-disorder-management/,SVC-CHILD,/bipolar-ocd-ptsd/,bipolar disorder management,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/bipolar-ocd-ptsd/mood-stabilization-care/,SVC-CHILD,/bipolar-ocd-ptsd/,mood stabilization care,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/bipolar-ocd-ptsd/ocd-treatment-online/,SVC-CHILD,/bipolar-ocd-ptsd/,ocd treatment online,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/bipolar-ocd-ptsd/compulsion-and-intrusive-thought-care/,SVC-CHILD,/bipolar-ocd-ptsd/,compulsion and intrusive thought care,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/bipolar-ocd-ptsd/ptsd-treatment-online/,SVC-CHILD,/bipolar-ocd-ptsd/,ptsd treatment online,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/bipolar-ocd-ptsd/trauma-informed-psychiatry/,SVC-CHILD,/bipolar-ocd-ptsd/,trauma-informed psychiatry,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/bipolar-ocd-ptsd/flashback-and-hyperarousal-support/,SVC-CHILD,/bipolar-ocd-ptsd/,flashback and hyperarousal support,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/bipolar-ocd-ptsd/obsessive-thought-management/,SVC-CHILD,/bipolar-ocd-ptsd/,obsessive thought management,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/bipolar-ocd-ptsd/long-term-specialty-follow-up/,SVC-CHILD,/bipolar-ocd-ptsd/,long-term specialty follow-up,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/bipolar-ocd-ptsd/complex-condition-coordination/,SVC-CHILD,/bipolar-ocd-ptsd/,complex condition coordination,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/addiction-psychiatry/,SVC-HUB,/,addiction psychiatry,Services menu,B (category),
+/addiction-psychiatry/addiction-psychiatry-consults/,SVC-CHILD,/addiction-psychiatry/,addiction psychiatry consults,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/addiction-psychiatry/buprenorphine-maintenance-support/,SVC-CHILD,/addiction-psychiatry/,buprenorphine maintenance support,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/addiction-psychiatry/substance-use-evaluation/,SVC-CHILD,/addiction-psychiatry/,substance use evaluation,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/addiction-psychiatry/dual-diagnosis-care/,SVC-CHILD,/addiction-psychiatry/,dual diagnosis care,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/addiction-psychiatry/alcohol-use-disorder-support/,SVC-CHILD,/addiction-psychiatry/,alcohol use disorder support,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/addiction-psychiatry/opioid-use-disorder-care/,SVC-CHILD,/addiction-psychiatry/,opioid use disorder care,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/addiction-psychiatry/relapse-prevention-planning/,SVC-CHILD,/addiction-psychiatry/,relapse prevention planning,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/addiction-psychiatry/addiction-psychotherapy-online/,SVC-CHILD,/addiction-psychiatry/,addiction psychotherapy online,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/addiction-psychiatry/medication-assisted-treatment-support/,SVC-CHILD,/addiction-psychiatry/,medication-assisted treatment support,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/addiction-psychiatry/confidential-addiction-follow-up/,SVC-CHILD,/addiction-psychiatry/,confidential addiction follow-up,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/psychotherapy-counseling/,SVC-HUB,/,psychotherapy & counseling,Services menu,B (category),
+/psychotherapy-counseling/one-on-one-video-psychotherapy/,SVC-CHILD,/psychotherapy-counseling/,one-on-one video psychotherapy,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/psychotherapy-counseling/integrative-talk-therapy/,SVC-CHILD,/psychotherapy-counseling/,integrative talk therapy,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/psychotherapy-counseling/relationship-stress-counseling/,SVC-CHILD,/psychotherapy-counseling/,relationship stress counseling,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/psychotherapy-counseling/job-loss-coping-support/,SVC-CHILD,/psychotherapy-counseling/,job loss coping support,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/psychotherapy-counseling/daily-stressor-therapy/,SVC-CHILD,/psychotherapy-counseling/,daily stressor therapy,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/psychotherapy-counseling/personalized-therapy-plans/,SVC-CHILD,/psychotherapy-counseling/,personalized therapy plans,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/psychotherapy-counseling/supportive-counseling-visits/,SVC-CHILD,/psychotherapy-counseling/,supportive counseling visits,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/psychotherapy-counseling/insight-oriented-psychotherapy/,SVC-CHILD,/psychotherapy-counseling/,insight-oriented psychotherapy,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/psychotherapy-counseling/skills-based-coping-sessions/,SVC-CHILD,/psychotherapy-counseling/,skills-based coping sessions,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/psychotherapy-counseling/continuity-of-care-therapy/,SVC-CHILD,/psychotherapy-counseling/,continuity of care therapy,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/ny-nj-fl-telehealth/,SVC-HUB,/,"ny, nj & fl telehealth",Services menu,B (category),
+/ny-nj-fl-telehealth/new-york-telepsychiatry/,SVC-CHILD,/ny-nj-fl-telehealth/,new york telepsychiatry,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/ny-nj-fl-telehealth/manhattan-psychiatry-access/,SVC-CHILD,/ny-nj-fl-telehealth/,manhattan psychiatry access,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/ny-nj-fl-telehealth/brooklyn-queens-bronx-care/,SVC-CHILD,/ny-nj-fl-telehealth/,brooklyn queens bronx care,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/ny-nj-fl-telehealth/long-island-telepsychiatry/,SVC-CHILD,/ny-nj-fl-telehealth/,long island telepsychiatry,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/ny-nj-fl-telehealth/westchester-and-upstate-ny-care/,SVC-CHILD,/ny-nj-fl-telehealth/,westchester and upstate ny care,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/ny-nj-fl-telehealth/new-jersey-telepsychiatry/,SVC-CHILD,/ny-nj-fl-telehealth/,new jersey telepsychiatry,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/ny-nj-fl-telehealth/princeton-nj-psychiatry-access/,SVC-CHILD,/ny-nj-fl-telehealth/,princeton nj psychiatry access,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/ny-nj-fl-telehealth/florida-telepsychiatry/,SVC-CHILD,/ny-nj-fl-telehealth/,florida telepsychiatry,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/ny-nj-fl-telehealth/miami-psychiatry-access/,SVC-CHILD,/ny-nj-fl-telehealth/,miami psychiatry access,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/ny-nj-fl-telehealth/multi-state-licensed-care/,SVC-CHILD,/ny-nj-fl-telehealth/,multi-state licensed care,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/scheduling-insurance-intake/,SVC-HUB,/,"scheduling, insurance & intake",Services menu,B (category),
+/scheduling-insurance-intake/schedule-video-consultation/,SVC-CHILD,/scheduling-insurance-intake/,schedule video consultation,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/scheduling-insurance-intake/same-day-appointment-requests/,SVC-CHILD,/scheduling-insurance-intake/,same-day appointment requests,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/scheduling-insurance-intake/out-of-network-benefits-guidance/,SVC-CHILD,/scheduling-insurance-intake/,out-of-network benefits guidance,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/scheduling-insurance-intake/superbill-reimbursement-support/,SVC-CHILD,/scheduling-insurance-intake/,superbill reimbursement support,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/scheduling-insurance-intake/new-patient-intake-process/,SVC-CHILD,/scheduling-insurance-intake/,new patient intake process,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/scheduling-insurance-intake/insurance-verification-guidance/,SVC-CHILD,/scheduling-insurance-intake/,insurance verification guidance,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/scheduling-insurance-intake/concierge-scheduling-support/,SVC-CHILD,/scheduling-insurance-intake/,concierge scheduling support,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/scheduling-insurance-intake/urgent-evaluation-requests/,SVC-CHILD,/scheduling-insurance-intake/,urgent evaluation requests,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/scheduling-insurance-intake/continuity-of-care-onboarding/,SVC-CHILD,/scheduling-insurance-intake/,continuity of care onboarding,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
+/scheduling-insurance-intake/patient-portal-visit-prep/,SVC-CHILD,/scheduling-insurance-intake/,patient portal visit prep,Services menu > hub grid,B row,Schedule a Visit / Request a Consultation
