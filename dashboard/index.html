@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Near Me OS · Launch Base</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <p class="brand-kicker">Race Computer Services</p>
+        <h1>Near Me OS <em>Launch Base</em></h1>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <label class="search-wrap">
+        <span class="sr-only">Filter projects</span>
+        <input id="search" type="search" placeholder="Filter projects…" autocomplete="off" />
+      </label>
+      <button type="button" class="btn ghost" id="btn-export" title="Export checklist progress">Export</button>
+      <button type="button" class="btn ghost" id="btn-import" title="Import checklist progress">Import</button>
+      <button type="button" class="btn solid" id="btn-settings">Basecamp</button>
+      <input id="import-file" type="file" accept="application/json,.json" hidden />
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero-board" aria-labelledby="board-title">
+      <div class="hero-copy">
+        <h2 id="board-title">Factory launch board</h2>
+        <p>Track every Gate 1 staging site through the same go-live checklist — locally now, sync to Basecamp when you’re ready.</p>
+      </div>
+      <div class="hero-metrics" id="metrics" aria-live="polite"></div>
+    </section>
+
+    <section class="toolbar" aria-label="Board filters">
+      <div class="chips" id="status-filters">
+        <button type="button" class="chip active" data-status="all">All</button>
+        <button type="button" class="chip" data-status="staging">Staging</button>
+        <button type="button" class="chip" data-status="ready">Ready</button>
+        <button type="button" class="chip" data-status="live">Live</button>
+      </div>
+      <p class="hint" id="save-hint">Progress saves in this browser.</p>
+    </section>
+
+    <section class="board" id="board" aria-label="Projects"></section>
+  </main>
+
+  <dialog id="settings-dialog" class="modal">
+    <form method="dialog" class="modal-card" id="settings-form">
+      <header>
+        <h3>Basecamp connection</h3>
+        <p>Optional. Store account details for the sync script. Tokens stay in this browser only — never committed.</p>
+      </header>
+      <label>
+        Account ID
+        <input name="accountId" id="bc-account" placeholder="e.g. 9999999" autocomplete="off" />
+      </label>
+      <label>
+        Access token
+        <input name="token" id="bc-token" type="password" placeholder="OAuth or personal token" autocomplete="off" />
+      </label>
+      <label>
+        User agent (required by Basecamp)
+        <input name="userAgent" id="bc-ua" placeholder="NearMeOS LaunchBase (you@example.com)" autocomplete="off" />
+      </label>
+      <p class="modal-note">
+        API docs: <a href="https://github.com/basecamp/bc-api" target="_blank" rel="noopener">basecamp/bc-api</a>.
+        Then run <code>python scripts/basecamp_sync.py --dry-run</code> with env vars from Export config.
+      </p>
+      <footer class="modal-actions">
+        <button type="button" class="btn ghost" id="btn-copy-env">Copy env snippet</button>
+        <button type="submit" class="btn solid" value="save">Save</button>
+        <button type="submit" class="btn ghost" value="cancel">Close</button>
+      </footer>
+    </form>
+  </dialog>
+
+  <dialog id="project-dialog" class="modal wide">
+    <div class="modal-card checklist-panel">
+      <header class="checklist-head">
+        <div>
+          <p class="eyebrow" id="dlg-type"></p>
+          <h3 id="dlg-name"></h3>
+          <p id="dlg-meta"></p>
+        </div>
+        <button type="button" class="btn ghost" id="dlg-close">Close</button>
+      </header>
+      <div class="checklist-progress">
+        <div class="bar"><span id="dlg-bar"></span></div>
+        <p id="dlg-count"></p>
+      </div>
+      <div id="dlg-groups" class="groups"></div>
+      <footer class="checklist-foot">
+        <a id="dlg-url" class="btn solid" target="_blank" rel="noopener">Open staging</a>
+        <a id="dlg-pr" class="btn ghost" target="_blank" rel="noopener">GitHub PR</a>
+        <button type="button" class="btn ghost" id="dlg-reset">Reset checklist</button>
+      </footer>
+    </div>
+  </dialog>
+
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
