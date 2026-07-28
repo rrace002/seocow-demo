@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_type
+/,HOME,,white plains tech support,logo/home,"A1,A3,A4,A9",
+/about/,COMP-HUB,/,about white plains tech support,About menu,"A1,A2,A7,A9",
+/about/why-choose-us/,COMP-CHILD,/about/,why choose white plains tech support,About menu,"A9,D",
+/about/westchester-service-area/,COMP-CHILD,/about/,westchester it support service area,About menu,"A8,A9",
+/contact/,COMP-CONTACT,/,contact white plains tech support,Contact menu,"A4,A5,A6,A7",Contact Request
+/request-a-proposal/,FORM-PROPOSAL,/,request an it proposal,nav utility,I1,Proposal Request
+/schedule-a-consultation/,FORM-SCHEDULE,/,schedule it consultation,nav highlighted,I1,Schedule a Consultation
+/managed-it-services/,SVC-HUB,/,managed it services,Services menu,B (category),
+/managed-it-services/managed-it-for-small-business/,SVC-CHILD,/managed-it-services/,managed it for small business,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-it-services/proactive-it-services/,SVC-CHILD,/managed-it-services/,proactive it services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-it-services/managed-helpdesk-support/,SVC-CHILD,/managed-it-services/,managed helpdesk support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-it-services/remote-network-management/,SVC-CHILD,/managed-it-services/,remote network management,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-it-services/server-management-services/,SVC-CHILD,/managed-it-services/,server management services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-it-services/unlimited-tech-support/,SVC-CHILD,/managed-it-services/,unlimited tech support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-it-services/co-managed-it-services/,SVC-CHILD,/managed-it-services/,co-managed it services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-it-services/it-vendor-management/,SVC-CHILD,/managed-it-services/,it vendor management,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-it-services/virtual-cio-services/,SVC-CHILD,/managed-it-services/,virtual cio services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-it-services/complete-it-outsourcing/,SVC-CHILD,/managed-it-services/,complete it outsourcing,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/small-business-it-support/,SVC-HUB,/,small business it support,Services menu,B (category),
+/small-business-it-support/onsite-technical-services/,SVC-CHILD,/small-business-it-support/,onsite technical services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/small-business-it-support/remote-support-services/,SVC-CHILD,/small-business-it-support/,remote support services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/small-business-it-support/outsourced-tech-support/,SVC-CHILD,/small-business-it-support/,outsourced tech support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/small-business-it-support/server-installation-and-setup/,SVC-CHILD,/small-business-it-support/,server installation and setup,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/small-business-it-support/windows-server-administration/,SVC-CHILD,/small-business-it-support/,windows server administration,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/small-business-it-support/linux-administration-support/,SVC-CHILD,/small-business-it-support/,linux administration support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/small-business-it-support/apple-mac-it-support/,SVC-CHILD,/small-business-it-support/,apple mac it support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/small-business-it-support/data-migration-services/,SVC-CHILD,/small-business-it-support/,data migration services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/small-business-it-support/data-recovery-services/,SVC-CHILD,/small-business-it-support/,data recovery services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/small-business-it-support/business-continuity-planning/,SVC-CHILD,/small-business-it-support/,business continuity planning,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/cybersecurity-services/,SVC-HUB,/,cybersecurity services,Services menu,B (category),
+/cybersecurity-services/cybersecurity-consulting/,SVC-CHILD,/cybersecurity-services/,cybersecurity consulting,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/cybersecurity-services/cyber-risk-assessment/,SVC-CHILD,/cybersecurity-services/,cyber risk assessment,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/cybersecurity-services/vulnerability-assessment/,SVC-CHILD,/cybersecurity-services/,vulnerability assessment,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/cybersecurity-services/network-penetration-testing/,SVC-CHILD,/cybersecurity-services/,network penetration testing,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/cybersecurity-services/firewall-installation-configuration/,SVC-CHILD,/cybersecurity-services/,firewall installation configuration,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/cybersecurity-services/malware-removal-services/,SVC-CHILD,/cybersecurity-services/,malware removal services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/cybersecurity-services/ransomware-remediation/,SVC-CHILD,/cybersecurity-services/,ransomware remediation,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/cybersecurity-services/multi-factor-authentication-setup/,SVC-CHILD,/cybersecurity-services/,multi-factor authentication setup,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/cybersecurity-services/security-awareness-training/,SVC-CHILD,/cybersecurity-services/,security awareness training,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/cybersecurity-services/incident-response-support/,SVC-CHILD,/cybersecurity-services/,incident response support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/compliance-services/,SVC-HUB,/,compliance services,Services menu,B (category),
+/compliance-services/hipaa-compliance-consulting/,SVC-CHILD,/compliance-services/,hipaa compliance consulting,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/compliance-services/hipaa-security-risk-assessment/,SVC-CHILD,/compliance-services/,hipaa security risk assessment,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/compliance-services/hipaa-gap-analysis/,SVC-CHILD,/compliance-services/,hipaa gap analysis,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/compliance-services/pci-dss-compliance-consulting/,SVC-CHILD,/compliance-services/,pci-dss compliance consulting,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/compliance-services/cmmc-compliance-consulting/,SVC-CHILD,/compliance-services/,cmmc compliance consulting,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/compliance-services/cmmc-gap-analysis/,SVC-CHILD,/compliance-services/,cmmc gap analysis,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/compliance-services/nist-800-171-consulting/,SVC-CHILD,/compliance-services/,nist 800-171 consulting,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/compliance-services/proactively-managed-compliance/,SVC-CHILD,/compliance-services/,proactively managed compliance,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/compliance-services/mips-consulting-support/,SVC-CHILD,/compliance-services/,mips consulting support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/compliance-services/compliance-remediation-services/,SVC-CHILD,/compliance-services/,compliance remediation services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cybersecurity/,SVC-HUB,/,managed cybersecurity,Services menu,B (category),
+/managed-cybersecurity/managed-endpoint-protection/,SVC-CHILD,/managed-cybersecurity/,managed endpoint protection,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cybersecurity/managed-antivirus-solutions/,SVC-CHILD,/managed-cybersecurity/,managed antivirus solutions,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cybersecurity/managed-firewall-service/,SVC-CHILD,/managed-cybersecurity/,managed firewall service,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cybersecurity/managed-email-security/,SVC-CHILD,/managed-cybersecurity/,managed email security,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cybersecurity/network-security-monitoring/,SVC-CHILD,/managed-cybersecurity/,network security monitoring,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cybersecurity/patch-management-services/,SVC-CHILD,/managed-cybersecurity/,patch management services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cybersecurity/managed-encryption-services/,SVC-CHILD,/managed-cybersecurity/,managed encryption services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cybersecurity/data-leak-prevention/,SVC-CHILD,/managed-cybersecurity/,data leak prevention,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cybersecurity/automated-threat-detection/,SVC-CHILD,/managed-cybersecurity/,automated threat detection,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cybersecurity/managed-cybersecurity-services/,SVC-CHILD,/managed-cybersecurity/,managed cybersecurity services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cloud-services/,SVC-HUB,/,managed cloud services,Services menu,B (category),
+/managed-cloud-services/managed-cloud-computing/,SVC-CHILD,/managed-cloud-services/,managed cloud computing,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cloud-services/microsoft-365-administration/,SVC-CHILD,/managed-cloud-services/,microsoft 365 administration,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cloud-services/managed-email-service/,SVC-CHILD,/managed-cloud-services/,managed email service,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cloud-services/managed-aws-services/,SVC-CHILD,/managed-cloud-services/,managed aws services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cloud-services/google-cloud-platform-support/,SVC-CHILD,/managed-cloud-services/,google cloud platform support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cloud-services/managed-private-cloud/,SVC-CHILD,/managed-cloud-services/,managed private cloud,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cloud-services/remote-cloud-backup/,SVC-CHILD,/managed-cloud-services/,remote cloud backup,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cloud-services/disaster-recovery-as-a-service/,SVC-CHILD,/managed-cloud-services/,disaster recovery as a service,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cloud-services/managed-cloud-infrastructure/,SVC-CHILD,/managed-cloud-services/,managed cloud infrastructure,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/managed-cloud-services/cloud-service-provider-support/,SVC-CHILD,/managed-cloud-services/,cloud service provider support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/data-center-cloud/,SVC-HUB,/,data center & cloud infrastructure,Services menu,B (category),
+/data-center-cloud/server-virtualization-services/,SVC-CHILD,/data-center-cloud/,server virtualization services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/data-center-cloud/vdi-deployment-services/,SVC-CHILD,/data-center-cloud/,vdi deployment services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/data-center-cloud/vdi-management-services/,SVC-CHILD,/data-center-cloud/,vdi management services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/data-center-cloud/infrastructure-as-a-service/,SVC-CHILD,/data-center-cloud/,infrastructure as a service,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/data-center-cloud/private-cloud-deployment/,SVC-CHILD,/data-center-cloud/,private cloud deployment,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/data-center-cloud/datacenter-consulting/,SVC-CHILD,/data-center-cloud/,datacenter consulting,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/data-center-cloud/datacenter-colocation-support/,SVC-CHILD,/data-center-cloud/,datacenter colocation support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/data-center-cloud/data-storage-solutions/,SVC-CHILD,/data-center-cloud/,data storage solutions,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/data-center-cloud/cloud-deployment-rollout/,SVC-CHILD,/data-center-cloud/,cloud deployment rollout,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/data-center-cloud/virtual-desktop-infrastructure/,SVC-CHILD,/data-center-cloud/,virtual desktop infrastructure,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/enterprise-it-solutions/,SVC-HUB,/,enterprise it solutions,Services menu,B (category),
+/enterprise-it-solutions/managed-enterprise-it/,SVC-CHILD,/enterprise-it-solutions/,managed enterprise it,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/enterprise-it-solutions/multi-office-network-support/,SVC-CHILD,/enterprise-it-solutions/,multi-office network support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/enterprise-it-solutions/enterprise-cybersecurity-consulting/,SVC-CHILD,/enterprise-it-solutions/,enterprise cybersecurity consulting,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/enterprise-it-solutions/enterprise-mobility-management/,SVC-CHILD,/enterprise-it-solutions/,enterprise mobility management,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/enterprise-it-solutions/enterprise-endpoint-protection/,SVC-CHILD,/enterprise-it-solutions/,enterprise endpoint protection,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/enterprise-it-solutions/large-scale-data-storage/,SVC-CHILD,/enterprise-it-solutions/,large-scale data storage,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/enterprise-it-solutions/erp-solutions-consulting/,SVC-CHILD,/enterprise-it-solutions/,erp solutions consulting,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/enterprise-it-solutions/network-penetration-testing-enterprise/,SVC-CHILD,/enterprise-it-solutions/,network penetration testing enterprise,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/enterprise-it-solutions/on-demand-enterprise-tech-support/,SVC-CHILD,/enterprise-it-solutions/,on-demand enterprise tech support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/enterprise-it-solutions/enterprise-project-delivery/,SVC-CHILD,/enterprise-it-solutions/,enterprise project delivery,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/microsoft-platforms-support/,SVC-HUB,/,microsoft & platform support,Services menu,B (category),
+/microsoft-platforms-support/microsoft-partner-it-solutions/,SVC-CHILD,/microsoft-platforms-support/,microsoft partner it solutions,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/microsoft-platforms-support/office-365-business-support/,SVC-CHILD,/microsoft-platforms-support/,office 365 business support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/microsoft-platforms-support/windows-server-support/,SVC-CHILD,/microsoft-platforms-support/,windows server support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/microsoft-platforms-support/windows-server-essentials-setup/,SVC-CHILD,/microsoft-platforms-support/,windows server essentials setup,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/microsoft-platforms-support/hosted-exchange-support/,SVC-CHILD,/microsoft-platforms-support/,hosted exchange support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/microsoft-platforms-support/cisco-partner-solutions/,SVC-CHILD,/microsoft-platforms-support/,cisco partner solutions,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/microsoft-platforms-support/dell-partner-support/,SVC-CHILD,/microsoft-platforms-support/,dell partner support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/microsoft-platforms-support/hpe-hardware-support/,SVC-CHILD,/microsoft-platforms-support/,hpe hardware support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/microsoft-platforms-support/linux-and-unix-consulting/,SVC-CHILD,/microsoft-platforms-support/,linux and unix consulting,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/microsoft-platforms-support/platform-migration-support/,SVC-CHILD,/microsoft-platforms-support/,platform migration support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/industries-we-serve/,SVC-HUB,/,industries we serve,Services menu,B (category),
+/industries-we-serve/it-support-for-law-offices/,SVC-CHILD,/industries-we-serve/,it support for law offices,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/industries-we-serve/it-solutions-for-healthcare/,SVC-CHILD,/industries-we-serve/,it solutions for healthcare,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/industries-we-serve/it-support-for-financial-services/,SVC-CHILD,/industries-we-serve/,it support for financial services,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/industries-we-serve/cybersecurity-for-banks/,SVC-CHILD,/industries-we-serve/,cybersecurity for banks,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/industries-we-serve/it-support-for-real-estate/,SVC-CHILD,/industries-we-serve/,it support for real estate,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/industries-we-serve/it-support-for-construction/,SVC-CHILD,/industries-we-serve/,it support for construction,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/industries-we-serve/it-support-for-advertising-media/,SVC-CHILD,/industries-we-serve/,it support for advertising media,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/industries-we-serve/it-support-for-call-centers/,SVC-CHILD,/industries-we-serve/,it support for call centers,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/industries-we-serve/it-services-for-government-agencies/,SVC-CHILD,/industries-we-serve/,it services for government agencies,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
+/industries-we-serve/industry-specific-msp-support/,SVC-CHILD,/industries-we-serve/,industry-specific msp support,Services menu > hub grid,B row,Schedule a Consultation / Request a Proposal
