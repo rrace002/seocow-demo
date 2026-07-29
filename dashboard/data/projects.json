@@ -1,23 +1,67 @@
 {
   "meta": {
-    "title": "Near Me OS · Launch Base",
+    "title": "Near Me OS \u00b7 Launch Base",
     "operator": "Race Computer Services, LLC",
     "phone": "(862) 295-0011",
-    "updated": "2026-07-28",
+    "updated": "2026-07-29",
     "basecampDocs": "https://github.com/basecamp/bc-api"
   },
   "checklistTemplate": [
-    { "id": "dns", "label": "Point domain DNS to Netlify", "group": "Go-live must" },
-    { "id": "staging", "label": "Remove staging banners / noindex / X-Robots-Tag", "group": "Go-live must" },
-    { "id": "nap", "label": "Confirm NAP (name, address, phone, email)", "group": "Go-live must" },
-    { "id": "forms", "label": "Wire contact forms to real inbox / CRM", "group": "Go-live must" },
-    { "id": "content", "label": "Owner content pass (bios, services, photos)", "group": "Go-live must" },
-    { "id": "privacy", "label": "Add privacy policy + terms", "group": "Recommended" },
-    { "id": "analytics", "label": "Connect analytics + Search Console", "group": "Recommended" },
-    { "id": "assets", "label": "Replace placeholder images with real assets", "group": "Recommended" },
-    { "id": "redirects", "label": "Set redirects if replacing an existing site", "group": "Recommended" },
-    { "id": "qa", "label": "Mobile + desktop QA pass", "group": "QA" },
-    { "id": "approve", "label": "Client / owner approval to publish", "group": "QA" }
+    {
+      "id": "dns",
+      "label": "Point domain DNS to Netlify",
+      "group": "Go-live must"
+    },
+    {
+      "id": "staging",
+      "label": "Remove staging banners / noindex / X-Robots-Tag",
+      "group": "Go-live must"
+    },
+    {
+      "id": "nap",
+      "label": "Confirm NAP (name, address, phone, email)",
+      "group": "Go-live must"
+    },
+    {
+      "id": "forms",
+      "label": "Wire contact forms to real inbox / CRM",
+      "group": "Go-live must"
+    },
+    {
+      "id": "content",
+      "label": "Owner content pass (bios, services, photos)",
+      "group": "Go-live must"
+    },
+    {
+      "id": "privacy",
+      "label": "Add privacy policy + terms",
+      "group": "Recommended"
+    },
+    {
+      "id": "analytics",
+      "label": "Connect analytics + Search Console",
+      "group": "Recommended"
+    },
+    {
+      "id": "assets",
+      "label": "Replace placeholder images with real assets",
+      "group": "Recommended"
+    },
+    {
+      "id": "redirects",
+      "label": "Set redirects if replacing an existing site",
+      "group": "Recommended"
+    },
+    {
+      "id": "qa",
+      "label": "Mobile + desktop QA pass",
+      "group": "QA"
+    },
+    {
+      "id": "approve",
+      "label": "Client / owner approval to publish",
+      "group": "QA"
+    }
   ],
   "projects": [
     {
@@ -29,7 +73,7 @@
       "url": "https://near-me-os.netlify.app/",
       "pr": "https://github.com/rrace002/seocow-demo/pull/15",
       "pages": 117,
-      "notes": "Publishable product landing with More Pages… factory."
+      "notes": "Publishable product landing with More Pages\u2026 factory."
     },
     {
       "id": "ahbi",
@@ -51,7 +95,7 @@
       "url": "https://work-office-beach.netlify.app/",
       "pr": "https://github.com/rrace002/seocow-demo/pull/17",
       "pages": 77,
-      "notes": "7×10 factory for coworking, luxury condos, short-term rentals."
+      "notes": "7\u00d710 factory for coworking, luxury condos, short-term rentals."
     },
     {
       "id": "online-psychiatrists",
@@ -106,7 +150,7 @@
       "url": "https://trade-os-factory.netlify.app/",
       "pr": "https://github.com/rrace002/seocow-demo/pull/8",
       "pages": 117,
-      "notes": "Trading systems and indicators — not contractors."
+      "notes": "Trading systems and indicators \u2014 not contractors."
     },
     {
       "id": "car-rental",
@@ -206,6 +250,17 @@
       "pr": "https://github.com/rrace002/seocow-demo/pull/14",
       "pages": 117,
       "notes": "Default phone (862) 295-0011 until owner NAP confirmed."
+    },
+    {
+      "id": "north-jersey-moving",
+      "name": "North Jersey Moving Services",
+      "client": "North Jersey movers",
+      "type": "Local moving factory",
+      "status": "staging",
+      "url": "https://north-jersey-moving-services.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/22",
+      "pages": 117,
+      "notes": "Local & long-distance moving. NAP/domain marked [confirm]."
     }
   ]
 }
