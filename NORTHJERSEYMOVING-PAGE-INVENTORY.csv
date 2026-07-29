@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_questionnaire_field,booking_type
+/,HOME,,north jersey moving services,logo/home,"A1,A6,A10",
+/about-north-jersey-moving/,COMP-HUB,/,about north jersey moving services,About menu,"A1,A10",
+/about-north-jersey-moving/why-choose-us/,COMP-CHILD,/about-north-jersey-moving/,why choose north jersey moving services,About menu,"A10,A12",
+/about-north-jersey-moving/service-areas/,COMP-CHILD,/about-north-jersey-moving/,north jersey movers service areas,About menu,F1,
+/contact/,COMP-CONTACT,/,contact north jersey moving services,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,moving proposal north jersey,nav utility,I1,Request for Proposal
+/request-a-quote/,FORM-CONSULT,/,moving quote north jersey,nav utility (highlighted),I1,Consultation Request
+/local-moving/,SVC-HUB,/,local moving north jersey,Services menu,B (category),
+/local-moving/same-day-local-moves/,SVC-CHILD,/local-moving/,same-day local moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/local-moving/in-town-apartment-moves/,SVC-CHILD,/local-moving/,in-town apartment moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/local-moving/house-to-house-local-moves/,SVC-CHILD,/local-moving/,house-to-house local moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/local-moving/cross-county-north-jersey-moves/,SVC-CHILD,/local-moving/,cross-county north jersey moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/local-moving/studio-one-bedroom-local-moves/,SVC-CHILD,/local-moving/,studio & one-bedroom local moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/local-moving/multi-stop-local-moves/,SVC-CHILD,/local-moving/,multi-stop local moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/local-moving/last-minute-local-moves/,SVC-CHILD,/local-moving/,last-minute local moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/local-moving/weekend-local-moving/,SVC-CHILD,/local-moving/,weekend local moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/local-moving/hourly-local-moving/,SVC-CHILD,/local-moving/,hourly local moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/local-moving/local-move-planning/,SVC-CHILD,/local-moving/,local move planning north jersey,Services menu > hub grid,B row,Request for Proposal
+/long-distance-moving/,SVC-HUB,/,long-distance moving north jersey,Services menu,B (category),
+/long-distance-moving/interstate-moving-from-north-jersey/,SVC-CHILD,/long-distance-moving/,interstate moving from north jersey north jersey,Services menu > hub grid,B row,Request for Proposal
+/long-distance-moving/northeast-corridor-moves/,SVC-CHILD,/long-distance-moving/,northeast corridor moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/long-distance-moving/long-distance-home-moves/,SVC-CHILD,/long-distance-moving/,long-distance home moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/long-distance-moving/long-distance-apartment-moves/,SVC-CHILD,/long-distance-moving/,long-distance apartment moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/long-distance-moving/partial-load-long-distance/,SVC-CHILD,/long-distance-moving/,partial-load long distance north jersey,Services menu > hub grid,B row,Request for Proposal
+/long-distance-moving/dedicated-truck-long-distance/,SVC-CHILD,/long-distance-moving/,dedicated truck long distance north jersey,Services menu > hub grid,B row,Request for Proposal
+/long-distance-moving/long-distance-move-estimates/,SVC-CHILD,/long-distance-moving/,long-distance move estimates north jersey,Services menu > hub grid,B row,Request for Proposal
+/long-distance-moving/vehicle-transport-coordination/,SVC-CHILD,/long-distance-moving/,vehicle transport coordination north jersey,Services menu > hub grid,B row,Request for Proposal
+/long-distance-moving/long-distance-delivery-windows/,SVC-CHILD,/long-distance-moving/,long-distance delivery windows north jersey,Services menu > hub grid,B row,Request for Proposal
+/long-distance-moving/storage-in-transit/,SVC-CHILD,/long-distance-moving/,storage-in-transit north jersey,Services menu > hub grid,B row,Request for Proposal
+/residential-moving/,SVC-HUB,/,residential moving north jersey,Services menu,B (category),
+/residential-moving/full-service-home-moving/,SVC-CHILD,/residential-moving/,full-service home moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/residential-moving/bedroom-by-bedroom-moves/,SVC-CHILD,/residential-moving/,bedroom-by-bedroom moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/residential-moving/family-home-relocation/,SVC-CHILD,/residential-moving/,family home relocation north jersey,Services menu > hub grid,B row,Request for Proposal
+/residential-moving/townhouse-moving/,SVC-CHILD,/residential-moving/,townhouse moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/residential-moving/basement-attic-move-help/,SVC-CHILD,/residential-moving/,basement & attic move help north jersey,Services menu > hub grid,B row,Request for Proposal
+/residential-moving/garage-and-outdoor-moves/,SVC-CHILD,/residential-moving/,garage & outdoor moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/residential-moving/downsizing-home-moves/,SVC-CHILD,/residential-moving/,downsizing home moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/residential-moving/upsizing-home-moves/,SVC-CHILD,/residential-moving/,upsizing home moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/residential-moving/estate-cleanout-moves/,SVC-CHILD,/residential-moving/,estate cleanout moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/residential-moving/residential-move-checklists/,SVC-CHILD,/residential-moving/,residential move checklists north jersey,Services menu > hub grid,B row,Request for Proposal
+/commercial-office-moving/,SVC-HUB,/,commercial & office moving north jersey,Services menu,B (category),
+/commercial-office-moving/office-relocation/,SVC-CHILD,/commercial-office-moving/,office relocation north jersey,Services menu > hub grid,B row,Request for Proposal
+/commercial-office-moving/small-business-moving/,SVC-CHILD,/commercial-office-moving/,small business moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/commercial-office-moving/retail-store-moving/,SVC-CHILD,/commercial-office-moving/,retail store moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/commercial-office-moving/medical-office-moving/,SVC-CHILD,/commercial-office-moving/,medical office moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/commercial-office-moving/weekend-office-moves/,SVC-CHILD,/commercial-office-moving/,weekend office moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/commercial-office-moving/after-hours-commercial-moves/,SVC-CHILD,/commercial-office-moving/,after-hours commercial moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/commercial-office-moving/cubicle-and-furniture-moves/,SVC-CHILD,/commercial-office-moving/,cubicle & furniture moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/commercial-office-moving/file-and-records-moving/,SVC-CHILD,/commercial-office-moving/,file & records moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/commercial-office-moving/it-equipment-move-support/,SVC-CHILD,/commercial-office-moving/,it equipment move support north jersey,Services menu > hub grid,B row,Request for Proposal
+/commercial-office-moving/commercial-move-project-planning/,SVC-CHILD,/commercial-office-moving/,commercial move project planning north jersey,Services menu > hub grid,B row,Request for Proposal
+/packing-services/,SVC-HUB,/,packing services north jersey,Services menu,B (category),
+/packing-services/full-home-packing/,SVC-CHILD,/packing-services/,full-home packing north jersey,Services menu > hub grid,B row,Request for Proposal
+/packing-services/partial-packing-services/,SVC-CHILD,/packing-services/,partial packing services north jersey,Services menu > hub grid,B row,Request for Proposal
+/packing-services/fragile-item-packing/,SVC-CHILD,/packing-services/,fragile item packing north jersey,Services menu > hub grid,B row,Request for Proposal
+/packing-services/kitchen-packing/,SVC-CHILD,/packing-services/,kitchen packing north jersey,Services menu > hub grid,B row,Request for Proposal
+/packing-services/wardrobe-packing/,SVC-CHILD,/packing-services/,wardrobe packing north jersey,Services menu > hub grid,B row,Request for Proposal
+/packing-services/packing-supplies-delivery/,SVC-CHILD,/packing-services/,packing supplies delivery north jersey,Services menu > hub grid,B row,Request for Proposal
+/packing-services/custom-crate-packing/,SVC-CHILD,/packing-services/,custom crate packing north jersey,Services menu > hub grid,B row,Request for Proposal
+/packing-services/labeling-and-inventory-packing/,SVC-CHILD,/packing-services/,labeling & inventory packing north jersey,Services menu > hub grid,B row,Request for Proposal
+/packing-services/same-day-packing-help/,SVC-CHILD,/packing-services/,same-day packing help north jersey,Services menu > hub grid,B row,Request for Proposal
+/packing-services/eco-friendly-packing-options/,SVC-CHILD,/packing-services/,eco-friendly packing options north jersey,Services menu > hub grid,B row,Request for Proposal
+/loading-unloading/,SVC-HUB,/,loading & unloading north jersey,Services menu,B (category),
+/loading-unloading/loading-help-only/,SVC-CHILD,/loading-unloading/,loading help only north jersey,Services menu > hub grid,B row,Request for Proposal
+/loading-unloading/unloading-help-only/,SVC-CHILD,/loading-unloading/,unloading help only north jersey,Services menu > hub grid,B row,Request for Proposal
+/loading-unloading/pod-and-container-loading/,SVC-CHILD,/loading-unloading/,pod & container loading north jersey,Services menu > hub grid,B row,Request for Proposal
+/loading-unloading/truck-loading-services/,SVC-CHILD,/loading-unloading/,truck loading services north jersey,Services menu > hub grid,B row,Request for Proposal
+/loading-unloading/furniture-wrapping-loading/,SVC-CHILD,/loading-unloading/,furniture wrapping & loading north jersey,Services menu > hub grid,B row,Request for Proposal
+/loading-unloading/stair-carry-loading/,SVC-CHILD,/loading-unloading/,stair carry loading north jersey,Services menu > hub grid,B row,Request for Proposal
+/loading-unloading/elevator-building-loading/,SVC-CHILD,/loading-unloading/,elevator building loading north jersey,Services menu > hub grid,B row,Request for Proposal
+/loading-unloading/heavy-item-loading/,SVC-CHILD,/loading-unloading/,heavy item loading north jersey,Services menu > hub grid,B row,Request for Proposal
+/loading-unloading/rental-truck-labor/,SVC-CHILD,/loading-unloading/,rental truck labor north jersey,Services menu > hub grid,B row,Request for Proposal
+/loading-unloading/origin-and-destination-labor/,SVC-CHILD,/loading-unloading/,origin & destination labor north jersey,Services menu > hub grid,B row,Request for Proposal
+/apartment-condo-moving/,SVC-HUB,/,apartment & condo moving north jersey,Services menu,B (category),
+/apartment-condo-moving/high-rise-apartment-moves/,SVC-CHILD,/apartment-condo-moving/,high-rise apartment moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/apartment-condo-moving/walk-up-apartment-moves/,SVC-CHILD,/apartment-condo-moving/,walk-up apartment moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/apartment-condo-moving/condo-association-moves/,SVC-CHILD,/apartment-condo-moving/,condo association moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/apartment-condo-moving/studio-apartment-moving/,SVC-CHILD,/apartment-condo-moving/,studio apartment moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/apartment-condo-moving/luxury-condo-moving/,SVC-CHILD,/apartment-condo-moving/,luxury condo moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/apartment-condo-moving/jersey-city-apartment-moves/,SVC-CHILD,/apartment-condo-moving/,jersey city apartment moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/apartment-condo-moving/newark-apartment-moves/,SVC-CHILD,/apartment-condo-moving/,newark apartment moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/apartment-condo-moving/certificate-of-insurance-moves/,SVC-CHILD,/apartment-condo-moving/,certificate of insurance moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/apartment-condo-moving/short-notice-apartment-moves/,SVC-CHILD,/apartment-condo-moving/,short-notice apartment moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/apartment-condo-moving/furniture-placement-condo-moves/,SVC-CHILD,/apartment-condo-moving/,furniture placement condo moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/specialty-item-moving/,SVC-HUB,/,specialty item moving north jersey,Services menu,B (category),
+/specialty-item-moving/piano-moving/,SVC-CHILD,/specialty-item-moving/,piano moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/specialty-item-moving/safe-moving/,SVC-CHILD,/specialty-item-moving/,safe moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/specialty-item-moving/antique-furniture-moving/,SVC-CHILD,/specialty-item-moving/,antique furniture moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/specialty-item-moving/art-and-mirror-moving/,SVC-CHILD,/specialty-item-moving/,art & mirror moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/specialty-item-moving/gym-equipment-moving/,SVC-CHILD,/specialty-item-moving/,gym equipment moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/specialty-item-moving/pool-table-moving/,SVC-CHILD,/specialty-item-moving/,pool table moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/specialty-item-moving/hot-tub-spa-moving/,SVC-CHILD,/specialty-item-moving/,hot tub & spa moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/specialty-item-moving/gun-safe-appliance-moves/,SVC-CHILD,/specialty-item-moving/,gun safe & appliance moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/specialty-item-moving/fragile-collectibles-moving/,SVC-CHILD,/specialty-item-moving/,fragile collectibles moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/specialty-item-moving/single-item-specialty-moves/,SVC-CHILD,/specialty-item-moving/,single-item specialty moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/storage-solutions/,SVC-HUB,/,storage solutions north jersey,Services menu,B (category),
+/storage-solutions/short-term-moving-storage/,SVC-CHILD,/storage-solutions/,short-term moving storage north jersey,Services menu > hub grid,B row,Request for Proposal
+/storage-solutions/warehouse-storage-holds/,SVC-CHILD,/storage-solutions/,warehouse storage holds north jersey,Services menu > hub grid,B row,Request for Proposal
+/storage-solutions/storage-then-delivery/,SVC-CHILD,/storage-solutions/,storage-then-delivery north jersey,Services menu > hub grid,B row,Request for Proposal
+/storage-solutions/partial-inventory-storage/,SVC-CHILD,/storage-solutions/,partial inventory storage north jersey,Services menu > hub grid,B row,Request for Proposal
+/storage-solutions/climate-consideration-storage/,SVC-CHILD,/storage-solutions/,climate-consideration storage north jersey,Services menu > hub grid,B row,Request for Proposal
+/storage-solutions/business-inventory-storage/,SVC-CHILD,/storage-solutions/,business inventory storage north jersey,Services menu > hub grid,B row,Request for Proposal
+/storage-solutions/seasonal-item-storage-moves/,SVC-CHILD,/storage-solutions/,seasonal item storage moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/storage-solutions/storage-unit-loading/,SVC-CHILD,/storage-solutions/,storage unit loading north jersey,Services menu > hub grid,B row,Request for Proposal
+/storage-solutions/move-delay-storage/,SVC-CHILD,/storage-solutions/,move-delay storage north jersey,Services menu > hub grid,B row,Request for Proposal
+/storage-solutions/inventory-documented-storage/,SVC-CHILD,/storage-solutions/,inventory-documented storage north jersey,Services menu > hub grid,B row,Request for Proposal
+/senior-assisted-moving/,SVC-HUB,/,senior & assisted moving north jersey,Services menu,B (category),
+/senior-assisted-moving/senior-home-moving/,SVC-CHILD,/senior-assisted-moving/,senior home moving north jersey,Services menu > hub grid,B row,Request for Proposal
+/senior-assisted-moving/downsizing-for-seniors/,SVC-CHILD,/senior-assisted-moving/,downsizing for seniors north jersey,Services menu > hub grid,B row,Request for Proposal
+/senior-assisted-moving/assisted-living-moves/,SVC-CHILD,/senior-assisted-moving/,assisted living moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/senior-assisted-moving/independent-living-community-moves/,SVC-CHILD,/senior-assisted-moving/,independent living community moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/senior-assisted-moving/family-coordinated-senior-moves/,SVC-CHILD,/senior-assisted-moving/,family-coordinated senior moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/senior-assisted-moving/packing-help-for-seniors/,SVC-CHILD,/senior-assisted-moving/,packing help for seniors north jersey,Services menu > hub grid,B row,Request for Proposal
+/senior-assisted-moving/furniture-placement-senior-moves/,SVC-CHILD,/senior-assisted-moving/,furniture placement senior moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/senior-assisted-moving/estate-to-senior-housing-moves/,SVC-CHILD,/senior-assisted-moving/,estate-to-senior-housing moves north jersey,Services menu > hub grid,B row,Request for Proposal
+/senior-assisted-moving/accessible-path-move-planning/,SVC-CHILD,/senior-assisted-moving/,accessible path move planning north jersey,Services menu > hub grid,B row,Request for Proposal
+/senior-assisted-moving/compassionate-move-day-support/,SVC-CHILD,/senior-assisted-moving/,compassionate move-day support north jersey,Services menu > hub grid,B row,Request for Proposal
