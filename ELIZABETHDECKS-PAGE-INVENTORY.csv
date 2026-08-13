@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_questionnaire_field,booking_type
+/,HOME,,elizabeth decks and additions,logo/home,"A1,A6,A10",
+/about-elizabeth-decks-and-additions/,COMP-HUB,/,about elizabeth decks and additions,About menu,"A1,A10",
+/about-elizabeth-decks-and-additions/why-choose-us/,COMP-CHILD,/about-elizabeth-decks-and-additions/,why choose elizabeth decks and additions,About menu,"A10,A12",
+/about-elizabeth-decks-and-additions/service-areas/,COMP-CHILD,/about-elizabeth-decks-and-additions/,elizabeth nj decks additions service areas,About menu,F1,
+/contact/,COMP-CONTACT,/,contact elizabeth decks and additions,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,decks additions proposal elizabeth nj,nav utility,I1,Request for Proposal
+/request-a-quote/,FORM-CONSULT,/,decks additions quote elizabeth nj,nav utility (highlighted),I1,Consultation Request
+/new-deck-construction/,SVC-HUB,/,new deck construction elizabeth nj,Services menu,B (category),
+/new-deck-construction/custom-deck-design-build/,SVC-CHILD,/new-deck-construction/,custom deck design & build elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/new-deck-construction/ground-level-deck-construction/,SVC-CHILD,/new-deck-construction/,ground-level deck construction elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/new-deck-construction/elevated-deck-construction/,SVC-CHILD,/new-deck-construction/,elevated deck construction elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/new-deck-construction/multi-level-deck-construction/,SVC-CHILD,/new-deck-construction/,multi-level deck construction elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/new-deck-construction/small-yard-deck-build/,SVC-CHILD,/new-deck-construction/,small-yard deck build elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/new-deck-construction/wraparound-deck-construction/,SVC-CHILD,/new-deck-construction/,wraparound deck construction elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/new-deck-construction/deck-with-stairs-landing/,SVC-CHILD,/new-deck-construction/,deck with stairs & landing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/new-deck-construction/permit-ready-deck-planning/,SVC-CHILD,/new-deck-construction/,permit-ready deck planning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/new-deck-construction/deck-rebuild-in-place/,SVC-CHILD,/new-deck-construction/,deck rebuild in place elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/new-deck-construction/new-deck-for-remodel/,SVC-CHILD,/new-deck-construction/,new deck for a remodel elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-repair-restoration/,SVC-HUB,/,deck repair & restoration elizabeth nj,Services menu,B (category),
+/deck-repair-restoration/soft-board-deck-repair/,SVC-CHILD,/deck-repair-restoration/,soft board deck repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-repair-restoration/loose-railing-deck-repair/,SVC-CHILD,/deck-repair-restoration/,loose railing deck repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-repair-restoration/deck-joist-repair/,SVC-CHILD,/deck-repair-restoration/,deck joist repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-repair-restoration/ledger-board-repair/,SVC-CHILD,/deck-repair-restoration/,ledger board repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-repair-restoration/deck-footing-stabilization/,SVC-CHILD,/deck-repair-restoration/,deck footing stabilization elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-repair-restoration/wobbly-deck-diagnosis/,SVC-CHILD,/deck-repair-restoration/,wobbly deck diagnosis elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-repair-restoration/stair-stringer-repair/,SVC-CHILD,/deck-repair-restoration/,stair stringer repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-repair-restoration/deck-hardware-upgrade/,SVC-CHILD,/deck-repair-restoration/,deck hardware upgrade elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-repair-restoration/weathered-deck-restoration/,SVC-CHILD,/deck-repair-restoration/,weathered deck restoration elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-repair-restoration/emergency-unsafe-deck-repair/,SVC-CHILD,/deck-repair-restoration/,emergency unsafe deck repair elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/composite-wood-decking/,SVC-HUB,/,composite & wood decking elizabeth nj,Services menu,B (category),
+/composite-wood-decking/composite-decking-install/,SVC-CHILD,/composite-wood-decking/,composite decking installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/composite-wood-decking/pressure-treated-decking-install/,SVC-CHILD,/composite-wood-decking/,pressure-treated decking installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/composite-wood-decking/cedar-decking-install/,SVC-CHILD,/composite-wood-decking/,cedar decking installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/composite-wood-decking/hidden-fastener-decking/,SVC-CHILD,/composite-wood-decking/,hidden fastener decking elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/composite-wood-decking/deck-board-replacement/,SVC-CHILD,/composite-wood-decking/,deck board replacement elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/composite-wood-decking/picture-frame-deck-border/,SVC-CHILD,/composite-wood-decking/,picture-frame deck border elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/composite-wood-decking/deck-inlay-pattern-install/,SVC-CHILD,/composite-wood-decking/,deck inlay & pattern install elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/composite-wood-decking/composite-vs-wood-consult/,SVC-CHILD,/composite-wood-decking/,composite vs wood consult elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/composite-wood-decking/faded-composite-board-swap/,SVC-CHILD,/composite-wood-decking/,faded composite board swap elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/composite-wood-decking/deck-surface-resurfacing/,SVC-CHILD,/composite-wood-decking/,deck surface resurfacing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-railings-stairs/,SVC-HUB,/,deck railings & stairs elizabeth nj,Services menu,B (category),
+/deck-railings-stairs/wood-deck-railing-install/,SVC-CHILD,/deck-railings-stairs/,wood deck railing installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-railings-stairs/aluminum-composite-railing/,SVC-CHILD,/deck-railings-stairs/,aluminum & composite railing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-railings-stairs/cable-rail-deck-install/,SVC-CHILD,/deck-railings-stairs/,cable rail deck installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-railings-stairs/glass-panel-rail-prep/,SVC-CHILD,/deck-railings-stairs/,glass panel rail prep elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-railings-stairs/deck-stair-building/,SVC-CHILD,/deck-railings-stairs/,deck stair building elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-railings-stairs/stair-railing-rebuild/,SVC-CHILD,/deck-railings-stairs/,stair railing rebuild elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-railings-stairs/deck-gate-install/,SVC-CHILD,/deck-railings-stairs/,deck gate installation elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-railings-stairs/code-height-rail-upgrade/,SVC-CHILD,/deck-railings-stairs/,code-height rail upgrade elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-railings-stairs/lighting-ready-rail-posts/,SVC-CHILD,/deck-railings-stairs/,lighting-ready rail posts elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/deck-railings-stairs/ada-minded-stair-options/,SVC-CHILD,/deck-railings-stairs/,ada-minded stair options elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/covered-decks-porches/,SVC-HUB,/,covered decks & porches elizabeth nj,Services menu,B (category),
+/covered-decks-porches/covered-deck-roof-add/,SVC-CHILD,/covered-decks-porches/,covered deck roof add-on elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/covered-decks-porches/screened-porch-conversion/,SVC-CHILD,/covered-decks-porches/,screened porch conversion elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/covered-decks-porches/three-season-porch-build/,SVC-CHILD,/covered-decks-porches/,three-season porch build elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/covered-decks-porches/front-porch-rebuild/,SVC-CHILD,/covered-decks-porches/,front porch rebuild elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/covered-decks-porches/rear-covered-porch/,SVC-CHILD,/covered-decks-porches/,rear covered porch elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/covered-decks-porches/pergola-over-deck/,SVC-CHILD,/covered-decks-porches/,pergola over deck elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/covered-decks-porches/awning-ready-deck-frame/,SVC-CHILD,/covered-decks-porches/,awning-ready deck frame elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/covered-decks-porches/porch-ceiling-beadboard/,SVC-CHILD,/covered-decks-porches/,porch ceiling & beadboard elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/covered-decks-porches/screen-repair-porch/,SVC-CHILD,/covered-decks-porches/,screen repair for porches elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/covered-decks-porches/covered-entry-deck/,SVC-CHILD,/covered-decks-porches/,covered entry deck elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/room-additions/,SVC-HUB,/,room additions elizabeth nj,Services menu,B (category),
+/room-additions/single-room-addition/,SVC-CHILD,/room-additions/,single-room addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/room-additions/family-room-addition/,SVC-CHILD,/room-additions/,family room addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/room-additions/kitchen-expansion-addition/,SVC-CHILD,/room-additions/,kitchen expansion addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/room-additions/primary-suite-addition/,SVC-CHILD,/room-additions/,primary suite addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/room-additions/home-office-addition/,SVC-CHILD,/room-additions/,home office addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/room-additions/mudroom-addition/,SVC-CHILD,/room-additions/,mudroom addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/room-additions/dining-room-bump-out/,SVC-CHILD,/room-additions/,dining room bump-out elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/room-additions/addition-to-deck-connection/,SVC-CHILD,/room-additions/,addition-to-deck connection elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/room-additions/small-footprint-addition/,SVC-CHILD,/room-additions/,small-footprint addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/room-additions/phased-room-addition/,SVC-CHILD,/room-additions/,phased room addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/second-story-additions/,SVC-HUB,/,second-story additions elizabeth nj,Services menu,B (category),
+/second-story-additions/second-story-addition-planning/,SVC-CHILD,/second-story-additions/,second-story addition planning elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/second-story-additions/partial-second-story-add/,SVC-CHILD,/second-story-additions/,partial second-story add elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/second-story-additions/full-second-story-addition/,SVC-CHILD,/second-story-additions/,full second-story addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/second-story-additions/dormer-addition/,SVC-CHILD,/second-story-additions/,dormer addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/second-story-additions/stair-location-for-second-story/,SVC-CHILD,/second-story-additions/,stair location for second story elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/second-story-additions/roof-removal-second-story/,SVC-CHILD,/second-story-additions/,roof removal for second story elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/second-story-additions/second-story-deck-tie-in/,SVC-CHILD,/second-story-additions/,second-story deck tie-in elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/second-story-additions/load-bearing-review-support/,SVC-CHILD,/second-story-additions/,load-bearing review support elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/second-story-additions/second-story-finish-package/,SVC-CHILD,/second-story-additions/,second-story finish package elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/second-story-additions/occupied-home-second-story/,SVC-CHILD,/second-story-additions/,occupied-home second story elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/garage-sunroom-additions/,SVC-HUB,/,"garage, sunroom & conversions elizabeth nj",Services menu,B (category),
+/garage-sunroom-additions/garage-conversion-living-space/,SVC-CHILD,/garage-sunroom-additions/,garage conversion living space elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/garage-sunroom-additions/attached-garage-addition/,SVC-CHILD,/garage-sunroom-additions/,attached garage addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/garage-sunroom-additions/sunroom-addition/,SVC-CHILD,/garage-sunroom-additions/,sunroom addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/garage-sunroom-additions/three-season-room-addition/,SVC-CHILD,/garage-sunroom-additions/,three-season room addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/garage-sunroom-additions/four-season-room-consult/,SVC-CHILD,/garage-sunroom-additions/,four-season room consult elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/garage-sunroom-additions/porch-to-room-conversion/,SVC-CHILD,/garage-sunroom-additions/,porch-to-room conversion elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/garage-sunroom-additions/breezeway-addition/,SVC-CHILD,/garage-sunroom-additions/,breezeway addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/garage-sunroom-additions/in-law-suite-addition-shell/,SVC-CHILD,/garage-sunroom-additions/,in-law suite addition shell elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/garage-sunroom-additions/home-studio-addition/,SVC-CHILD,/garage-sunroom-additions/,home studio addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/garage-sunroom-additions/conversion-vs-new-addition/,SVC-CHILD,/garage-sunroom-additions/,conversion vs new addition elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/addition-framing-shell/,SVC-HUB,/,addition framing & shell elizabeth nj,Services menu,B (category),
+/addition-framing-shell/addition-foundation-prep/,SVC-CHILD,/addition-framing-shell/,addition foundation prep elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/addition-framing-shell/addition-framing/,SVC-CHILD,/addition-framing-shell/,addition framing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/addition-framing-shell/addition-sheathing-wrap/,SVC-CHILD,/addition-framing-shell/,addition sheathing & wrap elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/addition-framing-shell/addition-roof-tie-in/,SVC-CHILD,/addition-framing-shell/,addition roof tie-in elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/addition-framing-shell/addition-window-door-rough/,SVC-CHILD,/addition-framing-shell/,addition window & door rough-in elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/addition-framing-shell/addition-exterior-siding-match/,SVC-CHILD,/addition-framing-shell/,addition exterior siding match elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/addition-framing-shell/addition-insulation-air-seal/,SVC-CHILD,/addition-framing-shell/,addition insulation & air seal elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/addition-framing-shell/weather-tight-addition-milestone/,SVC-CHILD,/addition-framing-shell/,weather-tight addition milestone elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/addition-framing-shell/addition-structural-beam-work/,SVC-CHILD,/addition-framing-shell/,addition structural beam work elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/addition-framing-shell/existing-house-tie-in-carpentry/,SVC-CHILD,/addition-framing-shell/,existing-house tie-in carpentry elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-living-structures/,SVC-HUB,/,outdoor living structures elizabeth nj,Services menu,B (category),
+/outdoor-living-structures/attached-pergola-build/,SVC-CHILD,/outdoor-living-structures/,attached pergola build elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-living-structures/freestanding-pergola/,SVC-CHILD,/outdoor-living-structures/,freestanding pergola elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-living-structures/patio-cover-structure/,SVC-CHILD,/outdoor-living-structures/,patio cover structure elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-living-structures/deck-adjacent-landing/,SVC-CHILD,/outdoor-living-structures/,deck-adjacent landing elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-living-structures/outdoor-kitchen-pad-prep/,SVC-CHILD,/outdoor-living-structures/,outdoor kitchen pad prep elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-living-structures/privacy-screen-on-deck/,SVC-CHILD,/outdoor-living-structures/,privacy screen on deck elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-living-structures/built-in-deck-bench-planter/,SVC-CHILD,/outdoor-living-structures/,built-in deck bench & planter elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-living-structures/hot-tub-deck-platform/,SVC-CHILD,/outdoor-living-structures/,hot tub deck platform elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-living-structures/yard-steps-and-walk/,SVC-CHILD,/outdoor-living-structures/,yard steps and walk elizabeth nj,Services menu > hub grid,B row,Request for Proposal
+/outdoor-living-structures/outdoor-living-master-plan/,SVC-CHILD,/outdoor-living-structures/,outdoor living master plan elizabeth nj,Services menu > hub grid,B row,Request for Proposal
