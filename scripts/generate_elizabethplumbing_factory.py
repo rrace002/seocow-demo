@@ -54,8 +54,8 @@ nav.nav a{display:block;color:#fff;padding:12px 15px;font-size:13.5px;font-weigh
 nav.nav a:hover{background:#082f49;text-decoration:none}
 nav.nav li:hover>.dd{display:block}
 .dd{display:none;position:absolute;top:100%;left:0;background:#fff;min-width:270px;box-shadow:0 8px 22px rgba(0,0,0,.18);border-top:3px solid #0284c7;z-index:60}
-.dd a{color:#0c4a6e;padding:10px 15px;font-weight:500;border-bottom:1px solid #bae6fd}
-.dd a:hover{background:#f0f9ff}
+nav.nav .dd a{color:#0c4a6e;padding:10px 15px;font-weight:500;border-bottom:1px solid #bae6fd}
+nav.nav .dd a:hover{background:#f0f9ff;color:#0c4a6e}
 .nav .em a{background:#0369a1}.nav .em a:hover{background:#0284c7}
 .hero{background:linear-gradient(rgba(8,47,73,.82),rgba(8,47,73,.82)),repeating-linear-gradient(45deg,#0c4a6e 0 14px,#0369a1 14px 28px);color:#fff;text-align:center;padding:74px 0 64px}
 .hero h1{font-size:34px;max-width:820px;margin:0 auto 14px;line-height:1.25}
