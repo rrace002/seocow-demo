@@ -1,0 +1,201 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Insights | Cryptocurrency Consulting</title>
+<meta name="description" content="Factory-written crypto operations insights pending owner review.">
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap');
+:root{--ink:#0b1f33;--muted:#5b6b7c;--line:#d7e2ea;--paper:#f4f7fb;--accent:#0ea5a0;--accent-dark:#0b7c78;--navy:#0b3d5c;--navy-2:#082c42;--cta:#e38b2a;--cta-hover:#c6741c;--ok:#148f5c;--bad:#c0392b;--max:1160px}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Source Sans 3',Segoe UI,Arial,sans-serif;color:var(--ink);line-height:1.65;background:#fff}
+h1,h2,h3,h4,.logo,.btn,.nav,summary{font-family:Sora,Segoe UI,sans-serif}
+a{color:var(--accent-dark);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 22px}
+.demo-banner{background:#071422;color:#9ee7e2;text-align:center;font:600 12px Sora,sans-serif;padding:8px 12px;letter-spacing:.3px}
+.utility{background:var(--navy);color:#d7eef2;font-size:13px;padding:7px 0}
+.utility .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.utility a{color:#fff}
+header.main{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:80}
+header.main .wrap{display:flex;align-items:center;justify-content:space-between;padding:12px 22px;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;color:var(--ink);text-decoration:none}
+.brand:hover{text-decoration:none}
+.mark{width:46px;height:46px;flex:0 0 46px}
+.logo{font:800 20px/1.1 Sora,sans-serif}
+.logo span{color:var(--accent-dark)}
+.logo small{display:block;font:600 10px Sora,sans-serif;color:var(--muted);letter-spacing:1.4px;text-transform:uppercase;margin-top:3px}
+.phone-cta{text-align:right}
+.phone-cta a{font:800 20px Sora,sans-serif;color:var(--navy);display:block}
+.phone-cta small{color:var(--muted);font-size:12px}
+nav.nav{background:var(--navy-2)}
+nav.nav ul{list-style:none;display:flex;flex-wrap:wrap;align-items:center}
+nav.nav>.wrap>ul>li{position:relative}
+nav.nav a{display:block;color:#fff;padding:13px 15px;font-size:13.5px;font-weight:650}
+nav.nav a:hover{background:#061e2e;text-decoration:none}
+nav.nav li:hover>.dd{display:block}
+.dd{display:none;position:absolute;top:100%;left:0;background:#fff;min-width:280px;max-height:70vh;overflow:auto;box-shadow:0 12px 28px rgba(8,44,66,.18);border-top:3px solid var(--accent);z-index:90}
+.dd a{color:var(--ink)!important;padding:10px 16px;font-weight:600;border-bottom:1px solid #eef3f7}
+.dd a:hover{background:#eef8f7}
+.nav .em a{background:var(--accent)}.nav .em a:hover{background:var(--accent-dark)}
+.search-mini{margin-left:auto;padding:8px 0 8px 12px}
+.search-mini input{border:0;border-radius:4px;padding:8px 10px;min-width:160px;font:14px 'Source Sans 3',sans-serif}
+.hero-photo{position:relative;color:#fff;padding:72px 0 68px;background:
+  linear-gradient(105deg,rgba(8,24,40,.88) 8%,rgba(11,61,92,.55) 52%,rgba(8,24,40,.35) 100%),
+  radial-gradient(1200px 420px at 80% 20%,rgba(14,165,160,.35),transparent 55%),
+  linear-gradient(180deg,#0b3d5c,#134e4a);
+overflow:hidden}
+.hero-photo:after{content:"";position:absolute;inset:auto -40px -80px 40%;height:280px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 200'%3E%3Cpath fill='%23ffffff18' d='M0 160 L40 120 L80 150 L140 80 L180 110 L240 40 L300 90 L360 30 L420 100 L480 50 L540 110 L600 70 L660 130 L720 90 L800 140 L800 200 L0 200Z'/%3E%3C/svg%3E") no-repeat bottom right;background-size:cover;pointer-events:none}
+.hero-photo .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}
+.kicker{font:700 12px Sora,sans-serif;letter-spacing:1.6px;text-transform:uppercase;color:#9ee7e2;margin-bottom:10px}
+.hero-photo h1{font-size:40px;line-height:1.15;max-width:640px;margin-bottom:14px}
+.hero-photo p{font-size:18px;color:#e7f4f6;max-width:560px}
+.hero-actions{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.search-hero{display:flex;gap:8px;margin-top:22px;max-width:460px}
+.search-hero input{flex:1;padding:12px 14px;border:0;border-radius:4px;font:15px 'Source Sans 3',sans-serif}
+.hero-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(6px);border-radius:10px;padding:22px}
+.hero-card h3{font-size:16px;margin-bottom:8px}
+.hero-card p{font-size:14px;color:#d7eef2;margin:0}
+.btn{display:inline-block;background:var(--cta);color:#fff;font:700 14px Sora,sans-serif;padding:13px 24px;border-radius:4px;border:none;cursor:pointer}
+.btn:hover{background:var(--cta-hover);text-decoration:none;color:#fff}
+.btn.alt{background:#fff;color:var(--navy)}.btn.alt:hover{background:#e8f4f3;color:var(--navy)}
+.btn.navy{background:var(--navy)}
+section{padding:52px 0}
+section.tint{background:var(--paper)}
+section.navy{background:var(--navy);color:#fff}section.navy h2{color:#fff}
+section h2{font-size:28px;margin-bottom:14px;line-height:1.25}
+section p{margin-bottom:14px;font-size:17px}
+.lead{font-size:18.5px;color:#334155}
+.inner-hero{padding:36px 0 10px}
+.photo-panel{min-height:160px;border-radius:10px;background:
+  linear-gradient(160deg,rgba(11,61,92,.2),rgba(14,165,160,.25)),
+  linear-gradient(45deg,#0b3d5c 0%,#148f8c 100%);
+box-shadow:inset 0 0 0 1px #ffffff22}
+ul.checks{list-style:none;margin:10px 0}
+ul.checks li{padding:8px 0 8px 30px;position:relative}
+ul.checks li:before{content:"\2713";position:absolute;left:4px;color:var(--ok);font-weight:800}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
+.cols3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.icon-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:16px;margin-top:22px}
+.icon-tile{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px;text-align:center;box-shadow:0 6px 18px rgba(11,61,92,.06);transition:transform .15s ease}
+.icon-tile:hover{transform:translateY(-3px);text-decoration:none}
+.icon-tile svg{width:48px;height:48px;margin-bottom:8px}
+.icon-tile h3{font-size:15px;color:var(--ink);margin:0 0 6px}
+.icon-tile p{font-size:13px;color:var(--muted);margin:0}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px;box-shadow:0 4px 14px rgba(11,61,92,.05)}
+.card h3{font-size:17px;margin-bottom:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:18px}
+.gcard{background:#fff;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;padding:18px}
+.gcard h3{font-size:16px;margin-bottom:6px}.gcard h3 a{color:var(--ink)}
+.gcard p{font-size:14px;color:var(--muted);margin:0}
+.ctastrip{background:var(--navy-2);color:#fff;text-align:center;padding:42px 0}
+.ctastrip h2{color:#fff;margin-bottom:12px}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:16px}
+.vs .col{padding:22px}
+.vs .col.bad{background:#fff5f5}.vs .col.good{background:#f0faf6}
+.vs h3{font-size:16px;margin-bottom:10px}
+.vs ul{list-style:none}.vs li{padding:8px 0 8px 26px;position:relative;font-size:15px;border-bottom:1px dashed #e5e7eb}
+.vs .bad li:before{content:"\2717";position:absolute;left:2px;color:var(--bad);font-weight:800}
+.vs .good li:before{content:"\2713";position:absolute;left:2px;color:var(--ok);font-weight:800}
+details{border:1px solid var(--line);border-radius:6px;margin-bottom:10px;background:#fff}
+details summary{cursor:pointer;padding:14px 18px;font:600 15px Sora,sans-serif;list-style:none}
+details summary:before{content:"+ ";color:var(--accent-dark);font-weight:800}
+details[open] summary:before{content:"\2013 "}
+details div{padding:0 18px 16px}
+.formbox{background:#fff;border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:8px;padding:24px}
+.formbox label{display:block;font:600 12.5px Sora,sans-serif;color:var(--muted);margin:12px 0 4px}
+.formbox input,.formbox select,.formbox textarea{width:100%;padding:11px;border:1px solid #c5d0d8;border-radius:4px;font:15px 'Source Sans 3',sans-serif}
+.formbox textarea{min-height:96px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:20px 0}
+.step{position:relative;padding-top:8px}
+.step b{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:var(--accent);color:#fff;margin-bottom:8px}
+.crumb{font-size:13px;color:var(--muted);padding:16px 0 0}
+.crumb a{color:var(--muted)}
+footer{background:#071422;color:#b7c4ce;padding:48px 0 24px;margin-top:20px;font-size:14px}
+footer h4{color:#fff;font:700 12px Sora,sans-serif;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px}
+footer ul{list-style:none}footer li{margin-bottom:7px}footer a{color:#c5d4de}
+.fcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:24px}
+.copy{border-top:1px solid #1a3348;margin-top:28px;padding-top:16px;text-align:center;font-size:12px;color:#8aa0b0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
+.stat{background:#fff;border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:8px;padding:18px;text-align:center}
+.stat b{display:block;font:800 22px Sora,sans-serif}
+.stat span{font:600 11.5px Sora,sans-serif;color:var(--muted);letter-spacing:.4px;text-transform:uppercase}
+.navy .stat{background:rgba(255,255,255,.08);border-color:transparent;color:#fff}.navy .stat span{color:#b7e4e0}
+.hubcard{background:#fff;border:1px solid var(--line);border-radius:10px;padding:20px;box-shadow:0 6px 16px rgba(11,61,92,.06)}
+.hubcard h3{font-size:17px;margin-bottom:6px}.hubcard h3 a{color:var(--ink)}
+.hubcard ul{list-style:none;margin:10px 0}
+.hubcard li{padding:4px 0 4px 18px;position:relative;font-size:14px}
+.hubcard li:before{content:"\2192";position:absolute;left:0;color:var(--accent-dark)}
+.partners{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.partner{border:1px solid var(--line);background:#fff;border-radius:6px;padding:10px 14px;font:700 13px Sora,sans-serif;color:var(--navy)}
+.insight-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.insight{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.insight .thumb{height:92px;background:linear-gradient(120deg,#0b3d5c,#0ea5a0)}
+.insight .pad{padding:16px}
+.insight small{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.5px}
+.insight h3{font-size:16px;margin:6px 0}
+@media(max-width:860px){
+  .hero-photo .wrap,.cols2,.vs{grid-template-columns:1fr}
+  .hero-photo h1{font-size:30px}
+  .search-mini{margin-left:0}
+}
+
+</style></head><body>
+<div class="demo-banner">STAGING PREVIEW — cryptocurrencyconsulting.io factory build · content pending owner review · not the live Cryptocurrency Consulting website</div>
+<div class="utility"><div class="wrap">
+<span>Expert Blockchain Solutions · San Francisco, CA</span>
+<span><a href="tel:+15551234567">+1 (555) 123-4567</a> · <a href="mailto:info@cryptocurrencyconsulting.io">info@cryptocurrencyconsulting.io</a></span>
+</div></div>
+<header class="main"><div class="wrap">
+<a class="brand" href="../index.html"><svg class="mark" viewBox="0 0 46 46" aria-hidden="true">
+<rect width="46" height="46" rx="9" fill="#0b3d5c"/>
+<circle cx="23" cy="23" r="10" fill="none" stroke="#0ea5a0" stroke-width="3"/>
+<circle cx="23" cy="23" r="4" fill="#e38b2a"/>
+</svg><div class="logo">Crypto <span>Consulting</span><small>Expert Blockchain Solutions</small></div></a>
+<div class="phone-cta"><a href="tel:+15551234567">+1 (555) 123-4567</a><small>Mon–Fri 9am–6pm · Sat 10am–2pm *[confirm]*</small></div>
+</div></header>
+<nav class="nav"><div class="wrap"><ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../trading-bot-development/index.html">Services &#9662;</a><div class="dd"><a href="../trading-bot-development/index.html">Trading Bot Development</a><a href="../signals-and-webhooks/index.html">Signals and Webhooks</a><a href="../blockchain-node-deployment/index.html">Blockchain Node Deployment</a><a href="../trade-strategy-and-indicators/index.html">Trade Strategy and Indicators</a><a href="../smart-contract-development/index.html">Smart Contract Development</a><a href="../crypto-security-audits/index.html">Crypto Security Audits</a><a href="../digital-asset-consulting/index.html">Digital Asset Consulting</a><a href="../blockchain-implementation/index.html">Blockchain Implementation</a><a href="../crypto-security-operations/index.html">Crypto Security Operations</a><a href="../fintech-consulting-engagements/index.html">Fintech Consulting Engagements</a></div></li>
+<li><a href="../about-cryptocurrency-consulting/index.html">About &#9662;</a><div class="dd">
+<a href="../about-cryptocurrency-consulting/index.html">About Cryptocurrency Consulting</a>
+<a href="../about-cryptocurrency-consulting/why-choose-us/index.html">Why Choose Us</a>
+<a href="../about-cryptocurrency-consulting/who-we-serve/index.html">Who We Serve</a>
+</div></li>
+<li><a href="../insights/index.html">Insights</a></li>
+<li><a href="../contact/index.html">Contact</a></li>
+<li><a href="../request-a-proposal/index.html">Request a Proposal</a></li>
+<li class="em"><a href="../request-a-consultation/index.html">Consultation</a></li>
+<li class="search-mini"><form action="../search/index.html" method="get"><input type="search" name="q" placeholder="Search Find Now" aria-label="Search the site"></form></li>
+</ul></div></nav>
+
+<div class="wrap crumb"><a href="../index.html">Home</a> &rsaquo; Insights</div>
+<section class="inner-hero"><div class="wrap">
+<p class="kicker">Tech advisory</p>
+<h1>Insights for crypto operators</h1>
+<p class="lead">Original factory articles for this staging site — not scraped posts, and not invented client case studies. Owner review before launch.</p>
+<div class="insight-grid"><article class="insight"><div class="thumb"></div><div class="pad"><small>Automation</small><h3><a href="../insights/kill-switches-before-live-keys/index.html">Put kill switches on the calendar before live keys</a></h3><p>Bots without a documented stop condition are an operations incident waiting for volatility.</p></div></article><article class="insight"><div class="thumb"></div><div class="pad"><small>Signals</small><h3><a href="../insights/webhooks-are-production-plumbing/index.html">Treat TradingView webhooks like production plumbing</a></h3><p>Unauthenticated callbacks and silent retries turn a signal into a surprise order.</p></div></article><article class="insight"><div class="thumb"></div><div class="pad"><small>Infrastructure</small><h3><a href="../insights/nodes-need-recovery-not-just-uptime/index.html">Nodes need recovery plans, not just uptime dashboards</a></h3><p>A synced node is not a backup. Know how you rebuild state after disk or key events.</p></div></article><article class="insight"><div class="thumb"></div><div class="pad"><small>Smart contracts</small><h3><a href="../insights/contracts-without-tests-are-press-releases/index.html">Contracts without tests are press releases</a></h3><p>Mainnet is not the place to discover you had no deployment pipeline.</p></div></article><article class="insight"><div class="thumb"></div><div class="pad"><small>SecOps</small><h3><a href="../insights/hot-wallet-limits-are-a-policy/index.html">Hot-wallet limits are a policy, not a spreadsheet cell</a></h3><p>If anyone can raise a limit in Discord, you do not have a limit.</p></div></article><article class="insight"><div class="thumb"></div><div class="pad"><small>Implementation</small><h3><a href="../insights/implementation-is-not-a-whitepaper/index.html">Blockchain implementation is not a whitepaper</a></h3><p>If the use case does not survive your current data model, stop before the pilot theater.</p></div></article></div>
+</div></section>
+<footer><div class="wrap"><div class="fcols">
+<div><h4>Services</h4><ul><li><a href="../trading-bot-development/index.html">Trading Bots</a></li><li><a href="../signals-and-webhooks/index.html">Signals</a></li><li><a href="../blockchain-node-deployment/index.html">Nodes</a></li><li><a href="../trade-strategy-and-indicators/index.html">Strategy</a></li><li><a href="../smart-contract-development/index.html">Smart Contracts</a></li><li><a href="../crypto-security-audits/index.html">Security Audits</a></li><li><a href="../digital-asset-consulting/index.html">Digital Assets</a></li><li><a href="../blockchain-implementation/index.html">Implementation</a></li><li><a href="../crypto-security-operations/index.html">SecOps</a></li><li><a href="../fintech-consulting-engagements/index.html">Engagements</a></li></ul></div>
+<div><h4>Company</h4><ul>
+<li><a href="../about-cryptocurrency-consulting/index.html">About Cryptocurrency Consulting</a></li>
+<li><a href="../about-cryptocurrency-consulting/why-choose-us/index.html">Why Choose Us</a></li>
+<li><a href="../about-cryptocurrency-consulting/who-we-serve/index.html">Who We Serve</a></li>
+<li><a href="../contact/index.html">Contact Us</a></li>
+</ul></div>
+<div><h4>Insights</h4><ul>
+<li><a href="../insights/index.html">All insights</a></li>
+<li><a href="../search/index.html">Search</a></li>
+</ul></div>
+<div><h4>Get Started</h4><ul>
+<li><a href="../request-a-consultation/index.html">Request a Consultation</a></li>
+<li><a href="../request-a-proposal/index.html">Request a Proposal</a></li>
+<li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+<li><a href="mailto:info@cryptocurrencyconsulting.io">info@cryptocurrencyconsulting.io</a></li>
+<li>123 Blockchain Avenue, San Francisco, CA 94105 [confirm]</li>
+</ul></div>
+</div>
+<div class="copy">Cryptocurrency Consulting · San Francisco, CA · +1 (555) 123-4567
+<br>Copyright &copy; 2026. Cryptocurrency Consulting. All rights reserved.<br>Crypto assets involve risk of loss. Consulting is not investment advice or a profit guarantee.</div></div></footer>
+</body></html>

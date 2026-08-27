@@ -8,3 +8,5 @@ Category: **cryptocurrency / blockchain consulting & development**.
 - FORM-CONSULT: `/request-a-consultation/`
 - FORM-PRICING: `/request-a-proposal/`
 - NAP on live site looks placeholder (555 / Blockchain Avenue) — marked [confirm]
+- Completeness instruction set: `FACTORY-INSTRUCTION-SET.md` (quality bar: san-diegotechsupport.com)
+- Shared chrome: `scripts/factory_complete.py`

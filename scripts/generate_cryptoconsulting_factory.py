@@ -10,12 +10,15 @@ from __future__ import annotations
 
 import csv
 import json
-import re
 import shutil
+import sys
 from html import escape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import factory_complete as fc  # noqa: E402
+
 BASE = "https://www.cryptocurrencyconsulting.io"
 PHONE = "+1 (555) 123-4567"  # on live site — looks placeholder; [confirm]
 PHONE_TEL = "+15551234567"
@@ -28,98 +31,7 @@ STAGING_BANNER = (
     "STAGING PREVIEW — cryptocurrencyconsulting.io factory build · content pending owner review "
     "· not the live Cryptocurrency Consulting website"
 )
-
-# NearMe factory CSS (SEO Cow template) with Cryptocurrency Consulting orange remap
-FACTORY_CSS = r"""
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Georgia,'Times New Roman',serif;color:#0f172a;line-height:1.65;background:#fff}
-h1,h2,h3,.nav,.btn,.card h3,.utility{font-family:'Segoe UI',Arial,Helvetica,sans-serif}
-a{color:#059669;text-decoration:none}a:hover{text-decoration:underline}
-.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
-.demo-banner{background:#020617;color:#a7f3d0;text-align:center;font:600 12px 'Segoe UI',sans-serif;padding:6px;letter-spacing:.4px}
-.utility{background:#0f172a;color:#d1fae5;font-size:12.5px;padding:5px 0}
-.utility .wrap{display:flex;justify-content:space-between}
-header.main{background:#fff;border-bottom:3px solid #10b981;position:relative;z-index:50}
-header.main .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px;flex-wrap:wrap;gap:10px}
-.logo{font:800 22px 'Segoe UI',sans-serif;color:#0f172a}.logo span{color:#10b981}
-.logo small{display:block;font:600 10.5px 'Segoe UI',sans-serif;color:#5a6b7b;letter-spacing:1.5px;text-transform:uppercase}
-.phone-cta{text-align:right;font-family:'Segoe UI',sans-serif}
-.phone-cta a{font-size:19px;font-weight:800;color:#0f172a}
-.phone-cta small{display:block;color:#5a6b7b;font-size:11px}
-nav.nav{background:#0f172a}
-nav.nav ul{list-style:none;display:flex;flex-wrap:wrap}
-nav.nav>.wrap>ul>li{position:relative}
-nav.nav a{display:block;color:#fff;padding:12px 15px;font-size:13.5px;font-weight:600}
-nav.nav a:hover{background:#020617;text-decoration:none}
-nav.nav li:hover>.dd{display:block}
-.dd{display:none;position:absolute;top:100%;left:0;background:#fff;min-width:270px;box-shadow:0 8px 22px rgba(0,0,0,.18);border-top:3px solid #10b981;z-index:60}
-.dd a{color:#0f172a;padding:10px 15px;font-weight:500;border-bottom:1px solid #d1fae5}
-.dd a:hover{background:#ecfdf5}
-.nav .em a{background:#10b981}.nav .em a:hover{background:#059669}
-.hero{background:linear-gradient(rgba(2,6,23,.88),rgba(2,6,23,.88)),repeating-linear-gradient(45deg,#0f172a 0 14px,#134e4a 14px 28px);color:#fff;text-align:center;padding:74px 0 64px}
-.hero h1{font-size:34px;max-width:820px;margin:0 auto 14px;line-height:1.25}
-.hero p{color:#a7f3d0;font:600 15px 'Segoe UI',sans-serif;letter-spacing:.5px}
-.hero .btn{margin-top:26px}
-.btn{display:inline-block;background:#10b981;color:#fff;font:700 14px 'Segoe UI',sans-serif;padding:13px 28px;border-radius:4px;border:none;cursor:pointer}
-.btn:hover{background:#f07a3a;text-decoration:none}
-.btn.alt{background:#0f172a;color:#fff}.btn.alt:hover{background:#7a3c1a}
-section{padding:44px 0}
-section.tint{background:#f0fdf4}
-section h2{font-size:25px;color:#0f172a;margin-bottom:16px;line-height:1.3}
-section p{margin-bottom:14px;font-size:16.5px}
-.lead{font-size:17px}
-ul.checks{list-style:none;margin:10px 0 6px}
-ul.checks li{padding:7px 0 7px 30px;position:relative;font-size:16px}
-ul.checks li:before{content:"\2713";position:absolute;left:4px;color:#10b981;font-weight:800;font-family:'Segoe UI',sans-serif}
-.cols2{display:grid;grid-template-columns:1fr 1fr;gap:26px}
-@media(max-width:760px){.cols2{grid-template-columns:1fr}.hero h1{font-size:26px}}
-.card{background:#fff;border:1px solid #d1e7dd;border-radius:6px;padding:24px;box-shadow:0 2px 6px rgba(16,185,129,.06)}
-.card h3{color:#0f172a;font-size:18px;margin-bottom:10px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;margin-top:20px}
-.gcard{background:#fff;border:1px solid #d1e7dd;border-left:4px solid #10b981;border-radius:6px;padding:20px}
-.gcard h3{font-size:16px;margin-bottom:8px}.gcard h3 a{color:#0f172a}
-.gcard p{font-size:14px;color:#44525f;margin:0}
-.gcard .tag{display:inline-block;margin-top:10px;font:600 10.5px 'Segoe UI',sans-serif;letter-spacing:.6px;text-transform:uppercase;color:#059669}
-.ctastrip{background:#0f172a;color:#fff;text-align:center;padding:36px 0}
-.ctastrip h2{color:#fff;margin-bottom:14px}
-.vs{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid #d1e7dd;border-radius:6px;overflow:hidden;margin-top:18px}
-.vs .col{padding:24px}
-.vs .col.bad{background:#f0fdf4}.vs .col.good{background:#f0fdf4}
-.vs h3{font-size:16px;margin-bottom:12px;color:#0f172a}
-.vs ul{list-style:none}.vs li{padding:8px 0 8px 26px;position:relative;font-size:15px;border-bottom:1px dashed #e2e2e2}
-.vs .bad li:before{content:"\2717";position:absolute;left:2px;color:#c0392b;font-weight:800}
-.vs .good li:before{content:"\2713";position:absolute;left:2px;color:#059669;font-weight:800}
-@media(max-width:760px){.vs{grid-template-columns:1fr}}
-details{border:1px solid #d1e7dd;border-radius:5px;margin-bottom:10px;background:#fff}
-details summary{cursor:pointer;padding:14px 18px;font:600 15px 'Segoe UI',sans-serif;color:#0f172a;list-style:none}
-details summary:before{content:"+ ";color:#10b981;font-weight:800}
-details[open] summary:before{content:"\2013 "}
-details div{padding:0 18px 16px;font-size:15.5px}
-.formbox{background:#fff;border:1px solid #d1e7dd;border-top:4px solid #10b981;border-radius:6px;padding:28px;max-width:640px}
-.formbox label{display:block;font:600 12.5px 'Segoe UI',sans-serif;color:#44525f;margin:12px 0 4px}
-.formbox input,.formbox select,.formbox textarea{width:100%;padding:10px;border:1px solid #c4cdd5;border-radius:4px;font:14px 'Segoe UI',sans-serif}
-.formbox textarea{min-height:90px}
-.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin:22px 0}
-.crumb{font:12.5px 'Segoe UI',sans-serif;color:#5a6b7b;padding:14px 0 0}
-.crumb a{color:#5a6b7b}
-footer{background:#020617;color:#c9b8b0;padding:44px 0 26px;margin-top:30px;font-size:13.5px}
-footer h4{color:#fff;font:700 13px 'Segoe UI',sans-serif;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px}
-footer ul{list-style:none}footer li{margin-bottom:7px}footer a{color:#c9b8b0}
-.fcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:26px}
-.copy{border-top:1px solid #134e4a;margin-top:30px;padding-top:16px;text-align:center;font-size:12px;color:#8a7a74}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px;margin-top:8px}
-.stat{background:#fff;border:1px solid #d1e7dd;border-top:4px solid #10b981;border-radius:6px;padding:18px;text-align:center}
-.stat b{display:block;font:800 20px 'Segoe UI',sans-serif;color:#0f172a}
-.stat span{font:600 12px 'Segoe UI',sans-serif;color:#5a6b7b;letter-spacing:.4px;text-transform:uppercase}
-.hubcard{background:#fff;border:1px solid #d1e7dd;border-radius:8px;padding:22px;box-shadow:0 3px 10px rgba(16,185,129,.08)}
-.hubcard h3{font-size:17px;margin-bottom:6px}.hubcard h3 a{color:#0f172a}
-.hubcard ul{list-style:none;margin:10px 0}
-.hubcard li{padding:4px 0 4px 22px;position:relative;font-size:13.5px}
-.hubcard li:before{content:"\2192";position:absolute;left:2px;color:#10b981;font-weight:700}
-.cols3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
-.audit{background:#10b981;color:#fff;text-align:center;padding:32px 0}
-.audit h2{color:#fff;margin-bottom:8px}.audit a.btn{background:#fff;color:#0f172a}
-"""
+HOURS = "Mon–Fri 9am–6pm · Sat 10am–2pm *[confirm]*"
 
 # Gate 1 — 10 × 10 (user revision request ~100 pages; grounded in product landing)
 HUBS = [
@@ -127,6 +39,8 @@ HUBS = [
         "slug": "trading-bot-development",
         "name": "Trading Bot Development",
         "short": "Trading Bots",
+        "icon": "bot",
+        "intro": "Bots fail quietly when nobody owns kill switches, keys, or fill alerts. We design automation around your venues, size limits, and who gets paged when something breaks.",
         "blurb": "Custom trading bot solutions to automate cryptocurrency strategies — from live site core services.",
         "children": [
             ("custom-crypto-trading-bots", "Custom Crypto Trading Bots", "Bots built around your rules, venues, and risk limits."),
@@ -145,6 +59,8 @@ HUBS = [
         "slug": "signals-and-webhooks",
         "name": "Signals and Webhooks",
         "short": "Signals",
+        "icon": "signal",
+        "intro": "A signal is only useful if it arrives, authenticates, and can be ignored when it should be ignored. We treat webhooks as production plumbing — not a Discord screenshot.",
         "blurb": "Real-time trading signals and webhook integration for timely market actions — from live site services.",
         "children": [
             ("realtime-trading-signals", "Real-Time Trading Signals", "Signal delivery designed for actionable timing, not noise."),
@@ -163,6 +79,8 @@ HUBS = [
         "slug": "blockchain-node-deployment",
         "name": "Blockchain Node Deployment",
         "short": "Nodes",
+        "icon": "node",
+        "intro": "Nodes are infrastructure. We plan deployment, monitoring, upgrades, and recovery so participation is not a laptop under a desk.",
         "blurb": "Professional setup and maintenance of blockchain nodes for network participation and security.",
         "children": [
             ("full-node-deployment", "Full Node Deployment", "Stand up full nodes with sensible defaults and monitoring."),
@@ -181,6 +99,8 @@ HUBS = [
         "slug": "trade-strategy-and-indicators",
         "name": "Trade Strategy and Indicators",
         "short": "Strategy",
+        "icon": "chart",
+        "intro": "Indicators and playbooks only help if they match your risk profile and can be handed to automation without tribal knowledge.",
         "blurb": "Custom trading strategies and technical indicators tailored to your risk profile.",
         "children": [
             ("custom-crypto-trade-strategies", "Custom Crypto Trade Strategies", "Strategy design matched to horizon, liquidity, and risk."),
@@ -199,6 +119,8 @@ HUBS = [
         "slug": "smart-contract-development",
         "name": "Smart Contract Development",
         "short": "Smart Contracts",
+        "icon": "contract",
+        "intro": "Contracts are production software. We prototype, test, document, and plan upgrades before mainnet — not after a surprise pause.",
         "blurb": "Creation and auditing of secure, efficient smart contracts for blockchain applications.",
         "children": [
             ("solidity-smart-contract-development", "Solidity Smart Contract Development", "Contract design and implementation for EVM environments."),
@@ -217,6 +139,8 @@ HUBS = [
         "slug": "crypto-security-audits",
         "name": "Crypto Security Audits",
         "short": "Security Audits",
+        "icon": "shield",
+        "intro": "Audits are only useful if findings get owners and deadlines. We review contracts, wallets, keys, and the path to remediate — not a PDF that sits in Drive.",
         "blurb": "Comprehensive security audits to protect digital assets against threats and vulnerabilities.",
         "children": [
             ("smart-contract-security-audits", "Smart Contract Security Audits", "Review contracts for common and protocol-specific failure modes."),
@@ -235,6 +159,8 @@ HUBS = [
         "slug": "digital-asset-consulting",
         "name": "Digital Asset Consulting",
         "short": "Digital Assets",
+        "icon": "wallet",
+        "intro": "Policy, education, and treasury basics so digital assets are treated like an operational program instead of a weekend experiment.",
         "blurb": "Guidance for businesses and individuals navigating digital asset management — mission from live About copy.",
         "children": [
             ("crypto-portfolio-strategy-consulting", "Crypto Portfolio Strategy Consulting", "Structure exposure with risk awareness, not hype cycles."),
@@ -253,6 +179,8 @@ HUBS = [
         "slug": "blockchain-implementation",
         "name": "Blockchain Implementation",
         "short": "Implementation",
+        "icon": "chain",
+        "intro": "Implementation starts with a use-case that survives contact with existing systems, data, and governance — then a pilot with an owner.",
         "blurb": "Help organizations implement blockchain where it creates real operational value — not theater.",
         "children": [
             ("blockchain-use-case-assessment", "Blockchain Use-Case Assessment", "Decide whether a chain is the right tool before you build."),
@@ -271,6 +199,8 @@ HUBS = [
         "slug": "crypto-security-operations",
         "name": "Crypto Security Operations",
         "short": "SecOps",
+        "icon": "lock",
+        "intro": "Hot wallets, vendor access, and phishing are operations problems. We write the runbooks and limits your team can actually follow.",
         "blurb": "Operational security for teams whose fintech and cybersecurity experience must protect real assets.",
         "children": [
             ("secure-ops-runbooks", "Secure Ops Runbooks", "Documented steps for deposits, withdrawals, and deploys."),
@@ -289,6 +219,8 @@ HUBS = [
         "slug": "fintech-consulting-engagements",
         "name": "Fintech Consulting Engagements",
         "short": "Engagements",
+        "icon": "briefcase",
+        "intro": "Discovery, retainers, and fixed-scope delivery so blockchain work has a commercial shape — not an endless Slack thread.",
         "blurb": "Engagement models for getting started, expanding a portfolio, or shipping blockchain work — from live About copy.",
         "children": [
             ("discovery-and-scoping-workshops", "Discovery & Scoping Workshops", "Clarify goals, constraints, and a realistic first milestone."),
@@ -316,126 +248,132 @@ INDUSTRIES = [
     "Security-Conscious Teams",
 ]
 
+SITE = fc.SiteConfig(
+    name="Cryptocurrency Consulting",
+    logo_html='Crypto <span>Consulting</span>',
+    tagline=TAGLINE,
+    domain="cryptocurrencyconsulting.io",
+    base=BASE,
+    phone=PHONE,
+    phone_tel=PHONE_TEL,
+    email=EMAIL,
+    hq=HQ,
+    address=ADDRESS + " [confirm]",
+    hours=HOURS,
+    founded=FOUNDED,
+    staging_banner=STAGING_BANNER,
+    about_href="about-cryptocurrency-consulting/",
+    consult_href="request-a-consultation/",
+    proposal_href="request-a-proposal/",
+    contact_href="contact/",
+    disclaimer="Crypto assets involve risk of loss. Consulting is not investment advice or a profit guarantee.",
+    partners=[
+        "Exchange APIs",
+        "EVM / Solidity",
+        "Node operators",
+        "Wallet & key hygiene",
+        "Webhook automation",
+        "Audit-ready delivery",
+    ],
+)
 
-def pfx(depth: int) -> str:
-    return "" if depth == 0 else "../" * depth
+STATS = [
+    (FOUNDED, "Founded (live site)"),
+    ("10", "Service hubs in this map"),
+    ("100", "Specialist service pages"),
+    ("SF", "Published HQ *[confirm]*"),
+    ("24/7", "Markets don't sleep"),
+    ("6", "Core live-site lines"),
+]
+
+BENEFITS = [
+    ("briefcase", "Since 2018", "Live site: founded in 2018 at the forefront of blockchain innovation."),
+    ("chain", "Full-stack crypto services", "Bots, signals, nodes, strategy, smart contracts, and security audits on one consulting path."),
+    ("people", "Businesses and individuals", "From first wallet questions to enterprise implementation support."),
+    ("lock", "Security in the critical path", "Keys, tests, monitoring, and handoff are scoped before go-live — not as an afterthought."),
+    ("phone", "Consultation-led", "A conversation first. We recommend a first milestone or an honest no."),
+    ("shield", "Risk realism", "Crypto assets involve loss. Delivery is not a profit guarantee."),
+]
+
+STEPS = [
+    ("Choose a service", "Pick the hub that matches — bots, signals, nodes, contracts, audits, or advisory."),
+    ("Let’s communicate", "Share how you trade, build, or custody assets today and where it hurts."),
+    ("Start with a scoped first step", "A written milestone, owners, and controls — then build and harden."),
+]
+
+INSIGHTS = [
+    {
+        "slug": "kill-switches-before-live-keys",
+        "kicker": "Automation",
+        "title": "Put kill switches on the calendar before live keys",
+        "excerpt": "Bots without a documented stop condition are an operations incident waiting for volatility.",
+        "body": "Most automation failures are not clever strategy bugs. They are missing owners: who can halt a bot, where the keys live, and what alert fires when an exchange API errors for ten minutes. Cryptocurrency Consulting treats kill switches, position caps, and paper modes as part of the build — not a later enhancement. If your team cannot describe the halt path in one paragraph, you are not ready for live capital.",
+    },
+    {
+        "slug": "webhooks-are-production-plumbing",
+        "kicker": "Signals",
+        "title": "Treat TradingView webhooks like production plumbing",
+        "excerpt": "Unauthenticated callbacks and silent retries turn a signal into a surprise order.",
+        "body": "Webhook strategy execution fails in boring ways: replayed payloads, shared secrets in a chart alert, no audit log, and no rule for when not to trade. Harden the callback, score the signal, and keep a fail-safe that does nothing when data is stale. That is the difference between a demo bridge and something you can defend to a risk committee.",
+    },
+    {
+        "slug": "nodes-need-recovery-not-just-uptime",
+        "kicker": "Infrastructure",
+        "title": "Nodes need recovery plans, not just uptime dashboards",
+        "excerpt": "A synced node is not a backup. Know how you rebuild state after disk or key events.",
+        "body": "Full nodes, validators, and RPC endpoints are only as good as the runbook next to them. Snapshot policy, key ceremony, upgrade windows, and who is on call matter more than the cloud logo. We scope node work as operations: monitoring, hardening, and recovery — because “it was synced yesterday” is not a restore test.",
+    },
+    {
+        "slug": "contracts-without-tests-are-press-releases",
+        "kicker": "Smart contracts",
+        "title": "Contracts without tests are press releases",
+        "excerpt": "Mainnet is not the place to discover you had no deployment pipeline.",
+        "body": "Token, NFT, and DeFi prototypes need the unglamorous path: tests, gas review, upgrade plan, and monitoring after deploy. Cryptocurrency Consulting writes that path into the engagement so “we shipped” includes who watches events and how you pause. Audits help; they do not replace an owner for remediation.",
+    },
+    {
+        "slug": "hot-wallet-limits-are-a-policy",
+        "kicker": "SecOps",
+        "title": "Hot-wallet limits are a policy, not a spreadsheet cell",
+        "excerpt": "If anyone can raise a limit in Discord, you do not have a limit.",
+        "body": "Treasury and trading desks leak through convenience: shared hot wallets, vendor laptops, and phishing that looks like a legit support ticket. Set limits, multi-sig paths, and access lifecycle in writing. Then practice the boring drills. Security operations is the habit of treating crypto like it can disappear this afternoon.",
+    },
+    {
+        "slug": "implementation-is-not-a-whitepaper",
+        "kicker": "Implementation",
+        "title": "Blockchain implementation is not a whitepaper",
+        "excerpt": "If the use case does not survive your current data model, stop before the pilot theater.",
+        "body": "Permissioned vs public, oracles, and governance are only interesting after the operational question is honest: what process improves, who enters data, and who is liable when it is wrong. We start with use-case assessment and existing-system integration so a pilot has a success definition other than a slide.",
+    },
+]
 
 
-def trunc(text: str, n: int = 155) -> str:
-    text = re.sub(r"\s+", " ", text).strip()
-    if len(text) <= n:
-        return text
-    return text[: n - 1].rsplit(" ", 1)[0].rstrip(" ,.;:") + "…"
-
-
-def write(path: Path, content: str) -> None:
+def write(path: Path, content: str) -> str:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
+    return str(path)
 
 
 def head(title: str, desc: str) -> str:
-    return f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-<meta name="robots" content="noindex, nofollow">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{escape(title)}</title>
-<meta name="description" content="{escape(trunc(desc))}">
-<style>
-{FACTORY_CSS}
-</style></head><body>
-<div class="demo-banner">{escape(STAGING_BANNER)}</div>
-"""
+    return fc.head(SITE, title, desc)
 
 
 def chrome(depth: int) -> str:
-    p = pfx(depth)
-    hub_dd = "".join(
-        f'<a href="{p}{h["slug"]}/index.html">{escape(h["name"])}</a>' for h in HUBS
-    )
-    return f"""<div class="utility"><div class="wrap"><span>{escape(TAGLINE)}</span><span>{escape(HQ)} &middot; {escape(EMAIL)}</span></div></div>
-<header class="main"><div class="wrap">
-<div class="logo">Crypto <span>Consulting</span><small>Blockchain Solutions</small></div>
-<div class="phone-cta"><a href="tel:{PHONE_TEL}">{escape(PHONE)}</a><small>Mon–Fri 9am–6pm · Sat 10am–2pm *[confirm]*</small></div>
-</div></header>
-<nav class="nav"><div class="wrap"><ul>
-<li><a href="{p}index.html">Home</a></li>
-<li><a href="{p}{HUBS[0]["slug"]}/index.html">Services &#9662;</a><div class="dd">{hub_dd}</div></li>
-<li><a href="{p}about-cryptocurrency-consulting/index.html">About &#9662;</a><div class="dd">
-<a href="{p}about-cryptocurrency-consulting/index.html">About Cryptocurrency Consulting</a>
-<a href="{p}about-cryptocurrency-consulting/why-choose-us/index.html">Why Choose Us</a>
-<a href="{p}about-cryptocurrency-consulting/who-we-serve/index.html">Who We Serve</a>
-</div></li>
-<li><a href="{p}contact/index.html">Contact</a></li>
-<li><a href="{p}request-a-proposal/index.html">Contact</a></li>
-<li class="em"><a href="{p}request-a-consultation/index.html">Consultation</a></li>
-</ul></div></nav>
-"""
+    return fc.chrome(SITE, HUBS, depth)
 
 
 def footer(depth: int) -> str:
-    p = pfx(depth)
-    hubs = "".join(
-        f'<li><a href="{p}{h["slug"]}/index.html">{escape(h["short"])}</a></li>' for h in HUBS
-    )
-    return f"""<footer><div class="wrap"><div class="fcols">
-<div><h4>Services</h4><ul>{hubs}</ul></div>
-<div><h4>Company</h4><ul>
-<li><a href="{p}about-cryptocurrency-consulting/index.html">About Cryptocurrency Consulting</a></li>
-<li><a href="{p}about-cryptocurrency-consulting/why-choose-us/index.html">Why Choose Us</a></li>
-<li><a href="{p}about-cryptocurrency-consulting/who-we-serve/index.html">Verticals</a></li>
-<li><a href="{p}contact/index.html">Contact Us</a></li>
-</ul></div>
-<div><h4>Get Started</h4><ul>
-<li><a href="{p}request-a-consultation/index.html">Request a Consultation</a></li>
-<li><a href="{p}request-a-proposal/index.html">Request a Proposal</a></li>
-<li><a href="tel:{PHONE_TEL}">{escape(PHONE)}</a></li>
-<li><a href="mailto:{EMAIL}">{escape(EMAIL)}</a></li>
-</ul></div>
-<div><h4>Visit</h4><ul><li>{escape(ADDRESS)} <em>[confirm]</em></li><li>Founded {escape(FOUNDED)}</li><li>Hours on contact page</li></ul></div>
-</div>
-<div class="copy">Cryptocurrency Consulting &middot; {escape(HQ)} &middot; {escape(PHONE)} <em>[confirm NAP]</em><br>
-Copyright &copy; 2026. Cryptocurrency Consulting. All rights reserved. Crypto assets involve risk of loss.</div></div></footer>
-</body></html>"""
+    return fc.footer(SITE, HUBS, depth)
 
 
 def faqs(items: list[tuple[str, str]]) -> str:
-    html = ['<section class="tint"><div class="wrap"><h2>Frequently Asked Questions</h2>']
-    ents = []
-    for q, a in items:
-        html.append(
-            f"<details><summary>{escape(q)}</summary><div><p>{escape(a)}</p></div></details>"
-        )
-        ents.append(
-            {
-                "@type": "Question",
-                "name": q,
-                "acceptedAnswer": {"@type": "Answer", "text": a},
-            }
-        )
-    html.append("</div></section>")
-    html.append(
-        '<script type="application/ld+json">'
-        + json.dumps(
-            {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": ents},
-            ensure_ascii=True,
-        )
-        + "</script>"
-    )
-    return "\n".join(html)
+    return fc.faqs_html(items)
 
 
 def form_shell() -> str:
-    opts = "".join(f'<option>{escape(h["name"])}</option>' for h in HUBS)
-    return f"""<div class="formbox">
-<label>First Name</label><input type="text">
-<label>Last Name</label><input type="text">
-<label>Email</label><input type="text">
-<label>Phone</label><input type="text">
-<label>I am a…</label><select><option>Please choose&hellip;</option><option>Business / Enterprise</option><option>Trading Desk / Fund</option><option>Builder / Startup</option><option>Individual</option></select>
-<label>Interest</label><select><option>Please choose&hellip;</option>{opts}<option>Consultation</option><option>Security Audit</option><option>Smart Contracts</option><option>Other</option></select>
-<label>Message</label><textarea></textarea><br><br>
-<button class="btn">Submit Now</button>
-<p style="margin-top:12px;font-size:12px;color:#7f95a8">Demo form shell — submission destination wired at rollout.</p>
-</div>"""
+    return fc.form_shell(
+        HUBS,
+        extra_options=("Security Audit", "Smart Contracts", "Consultation", "Other"),
+    )
 
 
 def org_schema() -> str:
@@ -475,7 +413,7 @@ def home() -> str:
         cards.append(
             f'<div class="hubcard"><h3><a href="{h["slug"]}/index.html">{escape(h["name"])}</a></h3>'
             f"<ul>{kids}</ul>"
-            f'<a href="{h["slug"]}/index.html" style="font:600 13px \'Segoe UI\',sans-serif">All {escape(h["short"]).lower()} services &rarr;</a></div>'
+            f'<a href="{h["slug"]}/index.html">All {escape(h["short"]).lower()} services &rarr;</a></div>'
         )
     return (
         head(
@@ -484,31 +422,69 @@ def home() -> str:
         )
         + chrome(0)
         + f"""
-<div class="hero"><div class="wrap"><h1>Expert Cryptocurrency Consulting Services</h1>
-<p>{escape(TAGLINE)}</p>
-<a class="btn" href="request-a-consultation/index.html">Get Started</a> <a class="btn alt" href="trading-bot-development/index.html">Explore Services</a></div></div>
-<section class="tint"><div class="wrap"><div class="stats">
-<div class="stat"><b>2018</b><span>Founded</span></div>
-<div class="stat"><b>6</b><span>Core Service Lines</span></div>
-<div class="stat"><b>SF</b><span>Based *[confirm]*</span></div>
-<div class="stat"><b>24/7</b><span>Markets Don't Sleep</span></div>
-</div></div></section>
-<section><div class="wrap"><h2>What can Cryptocurrency Consulting build for you?</h2>
-<p class="lead">Ten service families — trading bots, signals/webhooks, nodes, strategy, smart contracts, audits, digital assets, implementation, secops, and engagements.</p>
-<div class="cols3">{''.join(cards)}</div></div></section>
-<div class="audit"><div class="wrap"><h2>Not sure where to start? Begin with a consultation.</h2>
-<p style="margin-bottom:14px">Request a consultation — tell us whether you need bots, contracts, nodes, audits, or strategy.</p>
-<a class="btn" href="request-a-consultation/index.html">Request a Consultation</a></div></div>
-<section><div class="wrap"><h2>How engagements get started</h2><div class="cols3">
-<div class="card"><h3>1. Request a consultation</h3><p>Share goals — automation, security, implementation, or advisory.</p></div>
-<div class="card"><h3>2. Scoped recommendation</h3><p>We map the right service line and a clear first milestone.</p></div>
-<div class="card"><h3>3. Build &amp; harden</h3><p>Deliver bots, contracts, nodes, or audits with operational handoff.</p></div>
-</div></div></section>
-<section class="tint"><div class="wrap"><h2>Why Cryptocurrency Consulting</h2><div class="cols3">
-<div class="card"><h3>Since 2018</h3><p>Live site: founded in 2018 at the forefront of blockchain innovation.</p></div>
-<div class="card"><h3>Full-stack crypto services</h3><p>Bots, signals, nodes, strategy, smart contracts, and security audits.</p></div>
-<div class="card"><h3>Businesses &amp; individuals</h3><p>From first wallet to enterprise implementation support.</p></div>
-</div></div></section>
+<div class="hero-photo"><div class="wrap">
+<div>
+<p class="kicker">A reliable blockchain consulting partner</p>
+<h1>Expert cryptocurrency consulting for teams that need more than a brochure.</h1>
+<p>Navigate bots, signals, nodes, strategy, smart contracts, and security audits with a consultation-led practice founded in {escape(FOUNDED)}.</p>
+<div class="hero-actions">
+<a class="btn" href="request-a-consultation/index.html">Request a Consultation</a>
+<a class="btn alt" href="request-a-proposal/index.html">Request a Proposal</a>
+</div>
+<form class="search-hero" action="search/index.html" method="get">
+<input type="search" name="q" placeholder="Search services, hubs, insights…" aria-label="Search">
+<button class="btn navy" type="submit">Find Now</button>
+</form>
+</div>
+<div class="hero-card">
+<h3>Let us help you resolve the operational gaps</h3>
+<p>Tell us whether you need automation, custody discipline, implementation, or an audit path. A specialist follows up — this is a staging form until rollout.</p>
+</div>
+</div></div>
+<section class="navy"><div class="wrap">
+<p class="kicker">Cryptocurrency Consulting by the numbers</p>
+<h2>Public facts and this factory map — not invented ticket counts.</h2>
+{fc.stats_html(STATS)}
+</div></section>
+<section><div class="wrap">
+<p class="kicker">Our services</p>
+<h2>We engage across the crypto stack, not a single product SKU.</h2>
+<p class="lead">Ten service families with specialist pages underneath — the same density pattern as a complete local-service site, mapped to this trade.</p>
+{fc.icon_tiles(HUBS, 0)}
+</div></section>
+<section class="tint"><div class="wrap">
+<p class="kicker">Your benefits</p>
+<h2>Why teams choose Cryptocurrency Consulting</h2>
+{fc.benefits_html(BENEFITS)}
+</div></section>
+<section><div class="wrap">
+<p class="kicker">How it works</p>
+<h2>Are you ready to take the next step?</h2>
+{fc.how_it_works(STEPS)}
+<div class="cols2" style="margin-top:28px">
+<div>
+<h2>Contact form</h2>
+<p>Fill in the form and let the team know what you are building or protecting. A representative follows up after rollout wiring.</p>
+</div>
+{form_shell()}
+</div>
+</div></section>
+<section class="tint"><div class="wrap">
+<p class="kicker">Insights</p>
+<h2>Factory-written advisory for owner review</h2>
+{fc.insights_cards(INSIGHTS, 0, 3)}
+<p style="margin-top:18px"><a class="btn navy" href="insights/index.html">All insights</a></p>
+</div></section>
+<section><div class="wrap">
+<p class="kicker">Platforms we work with</p>
+<h2>Technology partners and stack themes</h2>
+<p>Badges from public service lines pending owner logo files. Not a claim of certification unless confirmed.</p>
+{fc.partners_html(SITE.partners)}
+</div></section>
+<section class="tint"><div class="wrap">
+<h2>Explore the 10-hub map</h2>
+<div class="cols3">{''.join(cards)}</div>
+</div></section>
 <div class="ctastrip"><div class="wrap"><h2>Ready to get started?</h2>
 <a class="btn" href="request-a-consultation/index.html">Consultation</a> <a class="btn alt" href="request-a-proposal/index.html">Request a Proposal</a></div></div>
 """
@@ -542,6 +518,7 @@ def hub_page(h: dict) -> str:
         f'<div class="gcard"><h3><a href="{s}/index.html">{escape(n)}</a></h3><p>{escape(b)}</p></div>'
         for s, n, b in h["children"]
     )
+    intro = h.get("intro", h["blurb"])
     return (
         head(
             f"{h['name']} | Cryptocurrency Consulting",
@@ -550,31 +527,45 @@ def hub_page(h: dict) -> str:
         + chrome(1)
         + f"""
 <div class="wrap crumb"><a href="../index.html">Home</a> &rsaquo; {escape(h["name"])}</div>
-<section style="padding-top:20px"><div class="wrap"><h2 style="font-size:28px">{escape(h["name"])} — From Cryptocurrency Consulting</h2>
-<p class="lead">{escape(h["blurb"])} Delivered as part of the Cryptocurrency Consulting stack rather than an isolated task.</p>
+<section class="inner-hero"><div class="wrap cols2">
+<div>
+<p class="kicker">{escape(h["short"])}</p>
+<h1>{escape(h["name"])}</h1>
+<p class="lead">{escape(h["blurb"])}</p>
+<p>{escape(intro)} Delivered as part of the Cryptocurrency Consulting stack rather than an isolated task.</p>
 <p><a class="btn" href="../request-a-consultation/index.html">Request a Consultation</a> <a class="btn alt" href="../request-a-proposal/index.html">Request a Proposal</a></p>
+</div>
+<div class="photo-panel" role="img" aria-label="Illustrated service panel"></div>
 </div></section>
-<section class="tint"><div class="wrap"><h2>{escape(h["short"])} Solutions We Provide</h2>
+<section class="tint"><div class="wrap"><h2>{escape(h["short"])} solutions we provide</h2>
 <div class="grid">{cards}</div></div></section>
-<section><div class="wrap"><h2>What Your Engagement Can Include</h2>
+<section><div class="wrap cols2">
+<div>
+<h2>What your engagement can include</h2>
 <ul class="checks">
-<li>Discovery tied to your real operational goals</li>
+<li>Discovery tied to your real operational goals for {escape(h["short"].lower())}</li>
 <li>Security design before mainnet or live keys</li>
 <li>Implementation with monitoring and handoff</li>
 <li>Documentation your team can run</li>
 <li>One accountable consulting partner across the stack</li>
-</ul></div></section>
+</ul>
+</div>
+<div>
+<h2>Request this service</h2>
+{form_shell()}
+</div>
+</div></section>
 """
         + faqs(
             [
-                (f"What are {h['name']}?", h["blurb"]),
+                (f"What are {h['name']}?", h["blurb"] + " " + intro),
                 (
-                    "How do we get started?",
-                    "Begin with a consultation. We map goals and recommend the right service line before build work starts.",
+                    f"How do we start {h['short'].lower()} work?",
+                    f"Begin with a consultation. We map goals for {h['name'].lower()} and recommend a first milestone before build work starts.",
                 ),
                 (
                     "Where is Cryptocurrency Consulting based?",
-                    f"Remote-friendly consulting with published business hours on the live site.",
+                    "Remote-friendly consulting with published business hours on the live site. Street NAP from the live site looks placeholder and is marked for confirmation.",
                 ),
             ]
         )
@@ -589,63 +580,94 @@ def leaf_page(h: dict, child: tuple[str, str, str]) -> str:
         for s, n, _ in h["children"]
         if s != slug
     )
+    p1 = (
+        f"{blurb} Cryptocurrency Consulting scopes {name.lower()} inside {h['name']} "
+        "so the work has an owner, a security bar, and a handoff — not a one-off script."
+    )
+    p2 = (
+        f"Teams usually ask for {name.lower()} after a near-miss: keys in chat, automation without a halt path, "
+        f"or {h['short'].lower()} work that nobody monitors. We start with how you actually operate — venues, chains, who signs, who gets paged."
+    )
+    p3 = (
+        f"Delivery for {name.lower()} is consultation-led. You get a written first milestone, the controls that belong "
+        f"in the critical path for {h['name'].lower()}, and documentation your staff can run after we step back."
+    )
     return (
         head(f"{name} | Cryptocurrency Consulting", f"{name} from Cryptocurrency Consulting — {blurb}")
         + chrome(2)
         + f"""
 <div class="wrap crumb"><a href="../../index.html">Home</a> &rsaquo; <a href="../index.html">{escape(h["name"])}</a> &rsaquo; {escape(name)}</div>
-<section style="padding-top:20px"><div class="wrap"><h2 style="font-size:28px">Engage Cryptocurrency Consulting for {escape(name.lower())} and related blockchain services.</h2>
-<p class="lead">{escape(blurb)} At Cryptocurrency Consulting, {escape(name.lower())} is delivered inside a coaching-led curriculum — process, risk, and accountability for busy professionals.</p>
+<section class="inner-hero"><div class="wrap">
+<p class="kicker">{escape(h["name"])}</p>
+<h1>{escape(name)}</h1>
+<p class="lead">{escape(blurb)}</p>
+<p>{escape(p1)}</p>
+<p>{escape(p2)}</p>
+<p>{escape(p3)}</p>
 <p><a class="btn" href="../../request-a-consultation/index.html">Request a Consultation</a> <a class="btn alt" href="../../request-a-proposal/index.html">Request a Proposal</a></p>
 </div></section>
-<section class="tint"><div class="wrap"><h2>How {escape(name)} from Cryptocurrency Consulting Can Help You:</h2>
+<section class="tint"><div class="wrap cols2">
+<div>
+<h2>What this {escape(name.lower())} engagement includes</h2>
 <ul class="checks">
-<li>Clearer automation or implementation ownership</li>
+<li>Scope written around {escape(name.lower())} — not a generic package</li>
 <li>Security and risk controls designed in early</li>
 <li>Documented runbooks your team can operate</li>
 <li>Integrations with the tools you already use</li>
 <li>Monitoring and handoff so work does not die at delivery</li>
-</ul></div></section>
-<section><div class="wrap"><h2>A {escape(name.lower())} engagement scoped to your stack — not a one-size package</h2>
-<p>No two organizations need {escape(name.lower())} the same way. We scope around your venues, chains, risk limits, and internal owners — after a consultation.</p>
+</ul>
+</div>
+<div>
+<h2>Problems this replaces</h2>
+<ul class="checks">
+<li>Forum DIY with no owner after launch</li>
+<li>Silent failures in {escape(h["short"].lower())} workflows</li>
+<li>Keys and API secrets treated casually</li>
+<li>No path from prototype to operations</li>
+</ul>
+</div>
 </div></section>
-<section class="tint"><div class="wrap"><h2>Teams avoid key risks by using a developed partner for {escape(name.lower())}</h2>
+<section><div class="wrap"><h2>A specialist path vs. one-person crypto DIY</h2>
 <div class="vs">
-<div class="col bad"><h3>Common failure modes with DIY crypto builds</h3><ul>
+<div class="col bad"><h3>Common failure modes without a developed partner</h3><ul>
 <li>Bots without kill switches</li>
 <li>Contracts shipped without tests or audits</li>
 <li>Nodes without monitoring or recovery plans</li>
 <li>Keys and API secrets treated casually</li>
 </ul></div>
-<div class="col good"><h3>Improvements when relying on Cryptocurrency Consulting</h3><ul>
+<div class="col good"><h3>When {escape(name.lower())} is scoped with Cryptocurrency Consulting</h3><ul>
 <li>Scoped delivery with security in the critical path</li>
-<li>Documented handoff and ops ownership</li>
+<li>Documented handoff and ops ownership for {escape(name.lower())}</li>
 <li>Monitoring after go-live</li>
 <li>A named consulting path instead of forum DIY</li>
 </ul></div>
 </div></div></section>
-<div class="ctastrip"><div class="wrap"><h2>See where you stand first — free</h2>
-<p style="max-width:720px;margin:0 auto 16px">Curious what {escape(name.lower())} would look like for your stack? Start with a consultation.</p>
-<a class="btn" href="../../request-a-consultation/index.html">Request a Consultation</a> <a class="btn alt" href="../../request-a-proposal/index.html">Request a Proposal</a></div></div>
+<section class="tint"><div class="wrap cols2">
+<div>
+<h2>Talk to us about {escape(name.lower())}</h2>
+<p>Share stack, constraints, and timing. Pricing is scoped after consultation — the live site does not publish a public rate card.</p>
+</div>
+{form_shell()}
+</div></section>
 """
         + faqs(
             [
                 (f"What is {name}?", blurb),
                 (
-                    f"How long until {name.lower()} shows results?",
-                    "Timelines depend on vertical and ad capacity. Timelines depend on scope — bots, contracts, nodes, and audits have different critical paths.",
+                    f"How long until {name.lower()} is in production?",
+                    f"Timelines depend on scope. {name} sits under {h['name']} — bots, contracts, nodes, and audits have different critical paths. We estimate after consultation.",
                 ),
                 (
                     f"What does {name.lower()} cost?",
-                    "Pricing is scoped after consultation — the live site does not publish a public rate card.",
+                    f"Pricing for {name.lower()} is scoped after consultation — the live site does not publish a public rate card.",
                 ),
                 (
                     f"Why choose Cryptocurrency Consulting for {name.lower()}?",
-                    f"We deliver {name.lower()} as part of Cryptocurrency Consulting's blockchain services stack founded in 2018.",
+                    f"We deliver {name.lower()} as part of Cryptocurrency Consulting's blockchain services stack founded in {FOUNDED} — with handoff, not a throwaway prototype.",
                 ),
             ]
         )
-        + f'<section><div class="wrap"><h2>Related {escape(h["short"])} Solutions</h2><div class="grid">{related}</div></div></section>'
+        + f'<section><div class="wrap"><h2>Related {escape(h["short"])} solutions</h2><div class="grid">{related}</div></div></section>'
         + footer(2)
     )
 
@@ -740,7 +762,37 @@ def write_inventory(urls: list[str]) -> None:
             "I1",
             "Consultation Request",
         ],
+        [
+            "/insights/",
+            "RESOURCE-HUB",
+            "/",
+            "cryptocurrency consulting insights",
+            "Insights menu",
+            "completeness",
+            "",
+        ],
+        [
+            "/search/",
+            "UTILITY-SEARCH",
+            "/",
+            "search cryptocurrency consulting",
+            "nav search",
+            "completeness",
+            "",
+        ],
     ]
+    for a in INSIGHTS:
+        rows.append(
+            [
+                f"/insights/{a['slug']}/",
+                "RESOURCE-CHILD",
+                "/insights/",
+                a["title"].lower(),
+                "Insights",
+                "completeness",
+                "",
+            ]
+        )
     for h in HUBS:
         rows.append(
             [
@@ -769,6 +821,93 @@ def write_inventory(urls: list[str]) -> None:
         csv.writer(f).writerows(rows)
 
 
+def search_catalog() -> list[dict]:
+    items = [{"title": "Home", "url": "/", "type": "HOME"}]
+    for h in HUBS:
+        items.append({"title": h["name"], "url": f"/{h['slug']}/", "type": "SVC-HUB"})
+        for s, n, _ in h["children"]:
+            items.append({"title": n, "url": f"/{h['slug']}/{s}/", "type": "SVC-CHILD"})
+    for a in INSIGHTS:
+        items.append({"title": a["title"], "url": f"/insights/{a['slug']}/", "type": "RESOURCE"})
+    items.append({"title": "About Cryptocurrency Consulting", "url": "/about-cryptocurrency-consulting/", "type": "COMP"})
+    items.append({"title": "Contact", "url": "/contact/", "type": "COMP-CONTACT"})
+    return items
+
+
+def search_page() -> str:
+    payload = json.dumps(search_catalog(), ensure_ascii=True)
+    return (
+        head("Search | Cryptocurrency Consulting", "Search Cryptocurrency Consulting services and insights.")
+        + chrome(1)
+        + f"""
+<div class="wrap crumb"><a href="../index.html">Home</a> &rsaquo; Search</div>
+<section class="inner-hero"><div class="wrap">
+<p class="kicker">Looking for something?</p>
+<h1>Search Find Now</h1>
+<p class="lead">Filter this factory map the way a complete service site offers on-page find.</p>
+<form class="search-hero" id="sf" action="index.html" method="get">
+<input id="q" type="search" name="q" placeholder="Search services and insights…" aria-label="Search">
+<button class="btn" type="submit">Find Now</button>
+</form>
+<ul id="results" class="checks" style="margin-top:22px"></ul>
+</div></section>
+<script>
+const CATALOG = {payload};
+function rel(url) {{
+  if (url === "/") return "../index.html";
+  return ".." + url + "index.html";
+}}
+function run() {{
+  const q = (new URLSearchParams(location.search).get("q") || "").trim().toLowerCase();
+  document.getElementById("q").value = new URLSearchParams(location.search).get("q") || "";
+  const hits = !q ? CATALOG.slice(0, 20) : CATALOG.filter(x => x.title.toLowerCase().includes(q) || x.type.toLowerCase().includes(q));
+  document.getElementById("results").innerHTML = hits.length
+    ? hits.map(x => "<li><a href=\\"" + rel(x.url) + "\\">" + x.title + "</a> — " + x.type + "</li>").join("")
+    : "<li>No matching pages. Try bots, audit, node, or insights.</li>";
+}}
+run();
+</script>
+"""
+        + footer(1)
+    )
+
+
+def insight_index() -> str:
+    return (
+        head("Insights | Cryptocurrency Consulting", "Factory-written crypto operations insights pending owner review.")
+        + chrome(1)
+        + f"""
+<div class="wrap crumb"><a href="../index.html">Home</a> &rsaquo; Insights</div>
+<section class="inner-hero"><div class="wrap">
+<p class="kicker">Tech advisory</p>
+<h1>Insights for crypto operators</h1>
+<p class="lead">Original factory articles for this staging site — not scraped posts, and not invented client case studies. Owner review before launch.</p>
+{fc.insights_cards(INSIGHTS, 1)}
+</div></section>
+"""
+        + footer(1)
+    )
+
+
+def insight_article(a: dict) -> str:
+    return (
+        head(f"{a['title']} | Cryptocurrency Consulting", a["excerpt"])
+        + chrome(2)
+        + f"""
+<div class="wrap crumb"><a href="../../index.html">Home</a> &rsaquo; <a href="../index.html">Insights</a> &rsaquo; {escape(a["title"])}</div>
+<section class="inner-hero"><div class="wrap">
+<p class="kicker">{escape(a["kicker"])}</p>
+<h1>{escape(a["title"])}</h1>
+<p class="lead">{escape(a["excerpt"])}</p>
+<div class="photo-panel" style="margin:18px 0 22px"></div>
+<p>{escape(a["body"])}</p>
+<p><a class="btn" href="../../request-a-consultation/index.html">Request a Consultation</a></p>
+</div></section>
+"""
+        + footer(2)
+    )
+
+
 def main() -> None:
     keep = {
         ".git",
@@ -777,6 +916,7 @@ def main() -> None:
         "CRYPTOCONSULTING-QUESTIONNAIRE-ANSWERS.md",
         "CRYPTOCONSULTING-PAGE-INVENTORY.csv",
         "CRYPTOCONSULTING-NOTES.md",
+        "FACTORY-INSTRUCTION-SET.md",
     }
     for child in list(ROOT.iterdir()):
         if child.name in keep or child.name.startswith("."):
@@ -892,6 +1032,14 @@ def main() -> None:
         write(ROOT / slug / "index.html", cta_page(slug, title, h2, lead))
         urls.append(f"/{slug}/")
 
+    write(ROOT / "insights" / "index.html", insight_index())
+    urls.append("/insights/")
+    for a in INSIGHTS:
+        write(ROOT / "insights" / a["slug"] / "index.html", insight_article(a))
+        urls.append(f"/insights/{a['slug']}/")
+    write(ROOT / "search" / "index.html", search_page())
+    urls.append("/search/")
+
     write(
         ROOT / "404.html",
         head("Page Not Found | Cryptocurrency Consulting", "Page not found.")
@@ -962,6 +1110,7 @@ FORM-CONSULT=`request-a-consultation` · FORM-PRICING=`request-a-proposal`
 - NAP from live site marked [confirm] due to placeholder pattern
 - Testimonials on live site not copied as invented FACTs beyond existence note
 - Staging: noindex + STAGING PREVIEW
+- Completeness chrome: `/insights/` + `/search/` (see FACTORY-INSTRUCTION-SET.md)
 | hubs | {len(HUBS)} | children | {svc_children} |
 """,
     )

@@ -5,100 +5,153 @@
 <meta name="description" content="Cryptocurrency Consulting helps businesses and individuals navigate blockchain and digital assets — bots, signals, nodes, strategies, smart contracts…">
 <style>
 
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap');
+:root{--ink:#0b1f33;--muted:#5b6b7c;--line:#d7e2ea;--paper:#f4f7fb;--accent:#0ea5a0;--accent-dark:#0b7c78;--navy:#0b3d5c;--navy-2:#082c42;--cta:#e38b2a;--cta-hover:#c6741c;--ok:#148f5c;--bad:#c0392b;--max:1160px}
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Georgia,'Times New Roman',serif;color:#0f172a;line-height:1.65;background:#fff}
-h1,h2,h3,.nav,.btn,.card h3,.utility{font-family:'Segoe UI',Arial,Helvetica,sans-serif}
-a{color:#059669;text-decoration:none}a:hover{text-decoration:underline}
-.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
-.demo-banner{background:#020617;color:#a7f3d0;text-align:center;font:600 12px 'Segoe UI',sans-serif;padding:6px;letter-spacing:.4px}
-.utility{background:#0f172a;color:#d1fae5;font-size:12.5px;padding:5px 0}
-.utility .wrap{display:flex;justify-content:space-between}
-header.main{background:#fff;border-bottom:3px solid #10b981;position:relative;z-index:50}
-header.main .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px;flex-wrap:wrap;gap:10px}
-.logo{font:800 22px 'Segoe UI',sans-serif;color:#0f172a}.logo span{color:#10b981}
-.logo small{display:block;font:600 10.5px 'Segoe UI',sans-serif;color:#5a6b7b;letter-spacing:1.5px;text-transform:uppercase}
-.phone-cta{text-align:right;font-family:'Segoe UI',sans-serif}
-.phone-cta a{font-size:19px;font-weight:800;color:#0f172a}
-.phone-cta small{display:block;color:#5a6b7b;font-size:11px}
-nav.nav{background:#0f172a}
-nav.nav ul{list-style:none;display:flex;flex-wrap:wrap}
+html{scroll-behavior:smooth}
+body{font-family:'Source Sans 3',Segoe UI,Arial,sans-serif;color:var(--ink);line-height:1.65;background:#fff}
+h1,h2,h3,h4,.logo,.btn,.nav,summary{font-family:Sora,Segoe UI,sans-serif}
+a{color:var(--accent-dark);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 22px}
+.demo-banner{background:#071422;color:#9ee7e2;text-align:center;font:600 12px Sora,sans-serif;padding:8px 12px;letter-spacing:.3px}
+.utility{background:var(--navy);color:#d7eef2;font-size:13px;padding:7px 0}
+.utility .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.utility a{color:#fff}
+header.main{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:80}
+header.main .wrap{display:flex;align-items:center;justify-content:space-between;padding:12px 22px;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;color:var(--ink);text-decoration:none}
+.brand:hover{text-decoration:none}
+.mark{width:46px;height:46px;flex:0 0 46px}
+.logo{font:800 20px/1.1 Sora,sans-serif}
+.logo span{color:var(--accent-dark)}
+.logo small{display:block;font:600 10px Sora,sans-serif;color:var(--muted);letter-spacing:1.4px;text-transform:uppercase;margin-top:3px}
+.phone-cta{text-align:right}
+.phone-cta a{font:800 20px Sora,sans-serif;color:var(--navy);display:block}
+.phone-cta small{color:var(--muted);font-size:12px}
+nav.nav{background:var(--navy-2)}
+nav.nav ul{list-style:none;display:flex;flex-wrap:wrap;align-items:center}
 nav.nav>.wrap>ul>li{position:relative}
-nav.nav a{display:block;color:#fff;padding:12px 15px;font-size:13.5px;font-weight:600}
-nav.nav a:hover{background:#020617;text-decoration:none}
+nav.nav a{display:block;color:#fff;padding:13px 15px;font-size:13.5px;font-weight:650}
+nav.nav a:hover{background:#061e2e;text-decoration:none}
 nav.nav li:hover>.dd{display:block}
-.dd{display:none;position:absolute;top:100%;left:0;background:#fff;min-width:270px;box-shadow:0 8px 22px rgba(0,0,0,.18);border-top:3px solid #10b981;z-index:60}
-.dd a{color:#0f172a;padding:10px 15px;font-weight:500;border-bottom:1px solid #d1fae5}
-.dd a:hover{background:#ecfdf5}
-.nav .em a{background:#10b981}.nav .em a:hover{background:#059669}
-.hero{background:linear-gradient(rgba(2,6,23,.88),rgba(2,6,23,.88)),repeating-linear-gradient(45deg,#0f172a 0 14px,#134e4a 14px 28px);color:#fff;text-align:center;padding:74px 0 64px}
-.hero h1{font-size:34px;max-width:820px;margin:0 auto 14px;line-height:1.25}
-.hero p{color:#a7f3d0;font:600 15px 'Segoe UI',sans-serif;letter-spacing:.5px}
-.hero .btn{margin-top:26px}
-.btn{display:inline-block;background:#10b981;color:#fff;font:700 14px 'Segoe UI',sans-serif;padding:13px 28px;border-radius:4px;border:none;cursor:pointer}
-.btn:hover{background:#f07a3a;text-decoration:none}
-.btn.alt{background:#0f172a;color:#fff}.btn.alt:hover{background:#7a3c1a}
-section{padding:44px 0}
-section.tint{background:#f0fdf4}
-section h2{font-size:25px;color:#0f172a;margin-bottom:16px;line-height:1.3}
-section p{margin-bottom:14px;font-size:16.5px}
-.lead{font-size:17px}
-ul.checks{list-style:none;margin:10px 0 6px}
-ul.checks li{padding:7px 0 7px 30px;position:relative;font-size:16px}
-ul.checks li:before{content:"\2713";position:absolute;left:4px;color:#10b981;font-weight:800;font-family:'Segoe UI',sans-serif}
-.cols2{display:grid;grid-template-columns:1fr 1fr;gap:26px}
-@media(max-width:760px){.cols2{grid-template-columns:1fr}.hero h1{font-size:26px}}
-.card{background:#fff;border:1px solid #d1e7dd;border-radius:6px;padding:24px;box-shadow:0 2px 6px rgba(16,185,129,.06)}
-.card h3{color:#0f172a;font-size:18px;margin-bottom:10px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;margin-top:20px}
-.gcard{background:#fff;border:1px solid #d1e7dd;border-left:4px solid #10b981;border-radius:6px;padding:20px}
-.gcard h3{font-size:16px;margin-bottom:8px}.gcard h3 a{color:#0f172a}
-.gcard p{font-size:14px;color:#44525f;margin:0}
-.gcard .tag{display:inline-block;margin-top:10px;font:600 10.5px 'Segoe UI',sans-serif;letter-spacing:.6px;text-transform:uppercase;color:#059669}
-.ctastrip{background:#0f172a;color:#fff;text-align:center;padding:36px 0}
-.ctastrip h2{color:#fff;margin-bottom:14px}
-.vs{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid #d1e7dd;border-radius:6px;overflow:hidden;margin-top:18px}
-.vs .col{padding:24px}
-.vs .col.bad{background:#f0fdf4}.vs .col.good{background:#f0fdf4}
-.vs h3{font-size:16px;margin-bottom:12px;color:#0f172a}
-.vs ul{list-style:none}.vs li{padding:8px 0 8px 26px;position:relative;font-size:15px;border-bottom:1px dashed #e2e2e2}
-.vs .bad li:before{content:"\2717";position:absolute;left:2px;color:#c0392b;font-weight:800}
-.vs .good li:before{content:"\2713";position:absolute;left:2px;color:#059669;font-weight:800}
-@media(max-width:760px){.vs{grid-template-columns:1fr}}
-details{border:1px solid #d1e7dd;border-radius:5px;margin-bottom:10px;background:#fff}
-details summary{cursor:pointer;padding:14px 18px;font:600 15px 'Segoe UI',sans-serif;color:#0f172a;list-style:none}
-details summary:before{content:"+ ";color:#10b981;font-weight:800}
-details[open] summary:before{content:"\2013 "}
-details div{padding:0 18px 16px;font-size:15.5px}
-.formbox{background:#fff;border:1px solid #d1e7dd;border-top:4px solid #10b981;border-radius:6px;padding:28px;max-width:640px}
-.formbox label{display:block;font:600 12.5px 'Segoe UI',sans-serif;color:#44525f;margin:12px 0 4px}
-.formbox input,.formbox select,.formbox textarea{width:100%;padding:10px;border:1px solid #c4cdd5;border-radius:4px;font:14px 'Segoe UI',sans-serif}
-.formbox textarea{min-height:90px}
-.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin:22px 0}
-.crumb{font:12.5px 'Segoe UI',sans-serif;color:#5a6b7b;padding:14px 0 0}
-.crumb a{color:#5a6b7b}
-footer{background:#020617;color:#c9b8b0;padding:44px 0 26px;margin-top:30px;font-size:13.5px}
-footer h4{color:#fff;font:700 13px 'Segoe UI',sans-serif;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px}
-footer ul{list-style:none}footer li{margin-bottom:7px}footer a{color:#c9b8b0}
-.fcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:26px}
-.copy{border-top:1px solid #134e4a;margin-top:30px;padding-top:16px;text-align:center;font-size:12px;color:#8a7a74}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px;margin-top:8px}
-.stat{background:#fff;border:1px solid #d1e7dd;border-top:4px solid #10b981;border-radius:6px;padding:18px;text-align:center}
-.stat b{display:block;font:800 20px 'Segoe UI',sans-serif;color:#0f172a}
-.stat span{font:600 12px 'Segoe UI',sans-serif;color:#5a6b7b;letter-spacing:.4px;text-transform:uppercase}
-.hubcard{background:#fff;border:1px solid #d1e7dd;border-radius:8px;padding:22px;box-shadow:0 3px 10px rgba(16,185,129,.08)}
-.hubcard h3{font-size:17px;margin-bottom:6px}.hubcard h3 a{color:#0f172a}
-.hubcard ul{list-style:none;margin:10px 0}
-.hubcard li{padding:4px 0 4px 22px;position:relative;font-size:13.5px}
-.hubcard li:before{content:"\2192";position:absolute;left:2px;color:#10b981;font-weight:700}
+.dd{display:none;position:absolute;top:100%;left:0;background:#fff;min-width:280px;max-height:70vh;overflow:auto;box-shadow:0 12px 28px rgba(8,44,66,.18);border-top:3px solid var(--accent);z-index:90}
+.dd a{color:var(--ink)!important;padding:10px 16px;font-weight:600;border-bottom:1px solid #eef3f7}
+.dd a:hover{background:#eef8f7}
+.nav .em a{background:var(--accent)}.nav .em a:hover{background:var(--accent-dark)}
+.search-mini{margin-left:auto;padding:8px 0 8px 12px}
+.search-mini input{border:0;border-radius:4px;padding:8px 10px;min-width:160px;font:14px 'Source Sans 3',sans-serif}
+.hero-photo{position:relative;color:#fff;padding:72px 0 68px;background:
+  linear-gradient(105deg,rgba(8,24,40,.88) 8%,rgba(11,61,92,.55) 52%,rgba(8,24,40,.35) 100%),
+  radial-gradient(1200px 420px at 80% 20%,rgba(14,165,160,.35),transparent 55%),
+  linear-gradient(180deg,#0b3d5c,#134e4a);
+overflow:hidden}
+.hero-photo:after{content:"";position:absolute;inset:auto -40px -80px 40%;height:280px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 200'%3E%3Cpath fill='%23ffffff18' d='M0 160 L40 120 L80 150 L140 80 L180 110 L240 40 L300 90 L360 30 L420 100 L480 50 L540 110 L600 70 L660 130 L720 90 L800 140 L800 200 L0 200Z'/%3E%3C/svg%3E") no-repeat bottom right;background-size:cover;pointer-events:none}
+.hero-photo .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}
+.kicker{font:700 12px Sora,sans-serif;letter-spacing:1.6px;text-transform:uppercase;color:#9ee7e2;margin-bottom:10px}
+.hero-photo h1{font-size:40px;line-height:1.15;max-width:640px;margin-bottom:14px}
+.hero-photo p{font-size:18px;color:#e7f4f6;max-width:560px}
+.hero-actions{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.search-hero{display:flex;gap:8px;margin-top:22px;max-width:460px}
+.search-hero input{flex:1;padding:12px 14px;border:0;border-radius:4px;font:15px 'Source Sans 3',sans-serif}
+.hero-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(6px);border-radius:10px;padding:22px}
+.hero-card h3{font-size:16px;margin-bottom:8px}
+.hero-card p{font-size:14px;color:#d7eef2;margin:0}
+.btn{display:inline-block;background:var(--cta);color:#fff;font:700 14px Sora,sans-serif;padding:13px 24px;border-radius:4px;border:none;cursor:pointer}
+.btn:hover{background:var(--cta-hover);text-decoration:none;color:#fff}
+.btn.alt{background:#fff;color:var(--navy)}.btn.alt:hover{background:#e8f4f3;color:var(--navy)}
+.btn.navy{background:var(--navy)}
+section{padding:52px 0}
+section.tint{background:var(--paper)}
+section.navy{background:var(--navy);color:#fff}section.navy h2{color:#fff}
+section h2{font-size:28px;margin-bottom:14px;line-height:1.25}
+section p{margin-bottom:14px;font-size:17px}
+.lead{font-size:18.5px;color:#334155}
+.inner-hero{padding:36px 0 10px}
+.photo-panel{min-height:160px;border-radius:10px;background:
+  linear-gradient(160deg,rgba(11,61,92,.2),rgba(14,165,160,.25)),
+  linear-gradient(45deg,#0b3d5c 0%,#148f8c 100%);
+box-shadow:inset 0 0 0 1px #ffffff22}
+ul.checks{list-style:none;margin:10px 0}
+ul.checks li{padding:8px 0 8px 30px;position:relative}
+ul.checks li:before{content:"\2713";position:absolute;left:4px;color:var(--ok);font-weight:800}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
 .cols3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
-.audit{background:#10b981;color:#fff;text-align:center;padding:32px 0}
-.audit h2{color:#fff;margin-bottom:8px}.audit a.btn{background:#fff;color:#0f172a}
+.icon-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:16px;margin-top:22px}
+.icon-tile{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px;text-align:center;box-shadow:0 6px 18px rgba(11,61,92,.06);transition:transform .15s ease}
+.icon-tile:hover{transform:translateY(-3px);text-decoration:none}
+.icon-tile svg{width:48px;height:48px;margin-bottom:8px}
+.icon-tile h3{font-size:15px;color:var(--ink);margin:0 0 6px}
+.icon-tile p{font-size:13px;color:var(--muted);margin:0}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px;box-shadow:0 4px 14px rgba(11,61,92,.05)}
+.card h3{font-size:17px;margin-bottom:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:18px}
+.gcard{background:#fff;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;padding:18px}
+.gcard h3{font-size:16px;margin-bottom:6px}.gcard h3 a{color:var(--ink)}
+.gcard p{font-size:14px;color:var(--muted);margin:0}
+.ctastrip{background:var(--navy-2);color:#fff;text-align:center;padding:42px 0}
+.ctastrip h2{color:#fff;margin-bottom:12px}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:16px}
+.vs .col{padding:22px}
+.vs .col.bad{background:#fff5f5}.vs .col.good{background:#f0faf6}
+.vs h3{font-size:16px;margin-bottom:10px}
+.vs ul{list-style:none}.vs li{padding:8px 0 8px 26px;position:relative;font-size:15px;border-bottom:1px dashed #e5e7eb}
+.vs .bad li:before{content:"\2717";position:absolute;left:2px;color:var(--bad);font-weight:800}
+.vs .good li:before{content:"\2713";position:absolute;left:2px;color:var(--ok);font-weight:800}
+details{border:1px solid var(--line);border-radius:6px;margin-bottom:10px;background:#fff}
+details summary{cursor:pointer;padding:14px 18px;font:600 15px Sora,sans-serif;list-style:none}
+details summary:before{content:"+ ";color:var(--accent-dark);font-weight:800}
+details[open] summary:before{content:"\2013 "}
+details div{padding:0 18px 16px}
+.formbox{background:#fff;border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:8px;padding:24px}
+.formbox label{display:block;font:600 12.5px Sora,sans-serif;color:var(--muted);margin:12px 0 4px}
+.formbox input,.formbox select,.formbox textarea{width:100%;padding:11px;border:1px solid #c5d0d8;border-radius:4px;font:15px 'Source Sans 3',sans-serif}
+.formbox textarea{min-height:96px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:20px 0}
+.step{position:relative;padding-top:8px}
+.step b{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:var(--accent);color:#fff;margin-bottom:8px}
+.crumb{font-size:13px;color:var(--muted);padding:16px 0 0}
+.crumb a{color:var(--muted)}
+footer{background:#071422;color:#b7c4ce;padding:48px 0 24px;margin-top:20px;font-size:14px}
+footer h4{color:#fff;font:700 12px Sora,sans-serif;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px}
+footer ul{list-style:none}footer li{margin-bottom:7px}footer a{color:#c5d4de}
+.fcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:24px}
+.copy{border-top:1px solid #1a3348;margin-top:28px;padding-top:16px;text-align:center;font-size:12px;color:#8aa0b0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
+.stat{background:#fff;border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:8px;padding:18px;text-align:center}
+.stat b{display:block;font:800 22px Sora,sans-serif}
+.stat span{font:600 11.5px Sora,sans-serif;color:var(--muted);letter-spacing:.4px;text-transform:uppercase}
+.navy .stat{background:rgba(255,255,255,.08);border-color:transparent;color:#fff}.navy .stat span{color:#b7e4e0}
+.hubcard{background:#fff;border:1px solid var(--line);border-radius:10px;padding:20px;box-shadow:0 6px 16px rgba(11,61,92,.06)}
+.hubcard h3{font-size:17px;margin-bottom:6px}.hubcard h3 a{color:var(--ink)}
+.hubcard ul{list-style:none;margin:10px 0}
+.hubcard li{padding:4px 0 4px 18px;position:relative;font-size:14px}
+.hubcard li:before{content:"\2192";position:absolute;left:0;color:var(--accent-dark)}
+.partners{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.partner{border:1px solid var(--line);background:#fff;border-radius:6px;padding:10px 14px;font:700 13px Sora,sans-serif;color:var(--navy)}
+.insight-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.insight{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.insight .thumb{height:92px;background:linear-gradient(120deg,#0b3d5c,#0ea5a0)}
+.insight .pad{padding:16px}
+.insight small{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.5px}
+.insight h3{font-size:16px;margin:6px 0}
+@media(max-width:860px){
+  .hero-photo .wrap,.cols2,.vs{grid-template-columns:1fr}
+  .hero-photo h1{font-size:30px}
+  .search-mini{margin-left:0}
+}
 
 </style></head><body>
 <div class="demo-banner">STAGING PREVIEW — cryptocurrencyconsulting.io factory build · content pending owner review · not the live Cryptocurrency Consulting website</div>
-<div class="utility"><div class="wrap"><span>Expert Blockchain Solutions</span><span>San Francisco, CA &middot; info@cryptocurrencyconsulting.io</span></div></div>
+<div class="utility"><div class="wrap">
+<span>Expert Blockchain Solutions · San Francisco, CA</span>
+<span><a href="tel:+15551234567">+1 (555) 123-4567</a> · <a href="mailto:info@cryptocurrencyconsulting.io">info@cryptocurrencyconsulting.io</a></span>
+</div></div>
 <header class="main"><div class="wrap">
-<div class="logo">Crypto <span>Consulting</span><small>Blockchain Solutions</small></div>
+<a class="brand" href="index.html"><svg class="mark" viewBox="0 0 46 46" aria-hidden="true">
+<rect width="46" height="46" rx="9" fill="#0b3d5c"/>
+<circle cx="23" cy="23" r="10" fill="none" stroke="#0ea5a0" stroke-width="3"/>
+<circle cx="23" cy="23" r="4" fill="#e38b2a"/>
+</svg><div class="logo">Crypto <span>Consulting</span><small>Expert Blockchain Solutions</small></div></a>
 <div class="phone-cta"><a href="tel:+15551234567">+1 (555) 123-4567</a><small>Mon–Fri 9am–6pm · Sat 10am–2pm *[confirm]*</small></div>
 </div></header>
 <nav class="nav"><div class="wrap"><ul>
@@ -109,36 +162,87 @@ footer ul{list-style:none}footer li{margin-bottom:7px}footer a{color:#c9b8b0}
 <a href="about-cryptocurrency-consulting/why-choose-us/index.html">Why Choose Us</a>
 <a href="about-cryptocurrency-consulting/who-we-serve/index.html">Who We Serve</a>
 </div></li>
+<li><a href="insights/index.html">Insights</a></li>
 <li><a href="contact/index.html">Contact</a></li>
-<li><a href="request-a-proposal/index.html">Contact</a></li>
+<li><a href="request-a-proposal/index.html">Request a Proposal</a></li>
 <li class="em"><a href="request-a-consultation/index.html">Consultation</a></li>
+<li class="search-mini"><form action="search/index.html" method="get"><input type="search" name="q" placeholder="Search Find Now" aria-label="Search the site"></form></li>
 </ul></div></nav>
 
-<div class="hero"><div class="wrap"><h1>Expert Cryptocurrency Consulting Services</h1>
-<p>Expert Blockchain Solutions</p>
-<a class="btn" href="request-a-consultation/index.html">Get Started</a> <a class="btn alt" href="trading-bot-development/index.html">Explore Services</a></div></div>
-<section class="tint"><div class="wrap"><div class="stats">
-<div class="stat"><b>2018</b><span>Founded</span></div>
-<div class="stat"><b>6</b><span>Core Service Lines</span></div>
-<div class="stat"><b>SF</b><span>Based *[confirm]*</span></div>
-<div class="stat"><b>24/7</b><span>Markets Don't Sleep</span></div>
-</div></div></section>
-<section><div class="wrap"><h2>What can Cryptocurrency Consulting build for you?</h2>
-<p class="lead">Ten service families — trading bots, signals/webhooks, nodes, strategy, smart contracts, audits, digital assets, implementation, secops, and engagements.</p>
-<div class="cols3"><div class="hubcard"><h3><a href="trading-bot-development/index.html">Trading Bot Development</a></h3><ul><li><a href="trading-bot-development/custom-crypto-trading-bots/index.html">Custom Crypto Trading Bots</a></li><li><a href="trading-bot-development/spot-trading-bot-development/index.html">Spot Trading Bot Development</a></li><li><a href="trading-bot-development/futures-bot-development/index.html">Futures Bot Development</a></li></ul><a href="trading-bot-development/index.html" style="font:600 13px 'Segoe UI',sans-serif">All trading bots services &rarr;</a></div><div class="hubcard"><h3><a href="signals-and-webhooks/index.html">Signals and Webhooks</a></h3><ul><li><a href="signals-and-webhooks/realtime-trading-signals/index.html">Real-Time Trading Signals</a></li><li><a href="signals-and-webhooks/webhook-strategy-execution/index.html">Webhook Strategy Execution</a></li><li><a href="signals-and-webhooks/tradingview-webhook-bridges/index.html">TradingView Webhook Bridges</a></li></ul><a href="signals-and-webhooks/index.html" style="font:600 13px 'Segoe UI',sans-serif">All signals services &rarr;</a></div><div class="hubcard"><h3><a href="blockchain-node-deployment/index.html">Blockchain Node Deployment</a></h3><ul><li><a href="blockchain-node-deployment/full-node-deployment/index.html">Full Node Deployment</a></li><li><a href="blockchain-node-deployment/validator-node-setup/index.html">Validator Node Setup</a></li><li><a href="blockchain-node-deployment/rpc-node-infrastructure/index.html">RPC Node Infrastructure</a></li></ul><a href="blockchain-node-deployment/index.html" style="font:600 13px 'Segoe UI',sans-serif">All nodes services &rarr;</a></div><div class="hubcard"><h3><a href="trade-strategy-and-indicators/index.html">Trade Strategy and Indicators</a></h3><ul><li><a href="trade-strategy-and-indicators/custom-crypto-trade-strategies/index.html">Custom Crypto Trade Strategies</a></li><li><a href="trade-strategy-and-indicators/technical-indicator-development/index.html">Technical Indicator Development</a></li><li><a href="trade-strategy-and-indicators/risk-profile-strategy-fit/index.html">Risk Profile Strategy Fit</a></li></ul><a href="trade-strategy-and-indicators/index.html" style="font:600 13px 'Segoe UI',sans-serif">All strategy services &rarr;</a></div><div class="hubcard"><h3><a href="smart-contract-development/index.html">Smart Contract Development</a></h3><ul><li><a href="smart-contract-development/solidity-smart-contract-development/index.html">Solidity Smart Contract Development</a></li><li><a href="smart-contract-development/token-contract-development/index.html">Token Contract Development</a></li><li><a href="smart-contract-development/defi-contract-prototyping/index.html">DeFi Contract Prototyping</a></li></ul><a href="smart-contract-development/index.html" style="font:600 13px 'Segoe UI',sans-serif">All smart contracts services &rarr;</a></div><div class="hubcard"><h3><a href="crypto-security-audits/index.html">Crypto Security Audits</a></h3><ul><li><a href="crypto-security-audits/smart-contract-security-audits/index.html">Smart Contract Security Audits</a></li><li><a href="crypto-security-audits/wallet-and-key-management-review/index.html">Wallet &amp; Key Management Review</a></li><li><a href="crypto-security-audits/exchange-account-security-review/index.html">Exchange Account Security Review</a></li></ul><a href="crypto-security-audits/index.html" style="font:600 13px 'Segoe UI',sans-serif">All security audits services &rarr;</a></div><div class="hubcard"><h3><a href="digital-asset-consulting/index.html">Digital Asset Consulting</a></h3><ul><li><a href="digital-asset-consulting/crypto-portfolio-strategy-consulting/index.html">Crypto Portfolio Strategy Consulting</a></li><li><a href="digital-asset-consulting/market-volatility-navigation/index.html">Market Volatility Navigation</a></li><li><a href="digital-asset-consulting/digital-asset-onboarding/index.html">Digital Asset Onboarding</a></li></ul><a href="digital-asset-consulting/index.html" style="font:600 13px 'Segoe UI',sans-serif">All digital assets services &rarr;</a></div><div class="hubcard"><h3><a href="blockchain-implementation/index.html">Blockchain Implementation</a></h3><ul><li><a href="blockchain-implementation/blockchain-use-case-assessment/index.html">Blockchain Use-Case Assessment</a></li><li><a href="blockchain-implementation/supply-chain-tracking-implementations/index.html">Supply Chain Tracking Implementations</a></li><li><a href="blockchain-implementation/enterprise-blockchain-pilots/index.html">Enterprise Blockchain Pilots</a></li></ul><a href="blockchain-implementation/index.html" style="font:600 13px 'Segoe UI',sans-serif">All implementation services &rarr;</a></div><div class="hubcard"><h3><a href="crypto-security-operations/index.html">Crypto Security Operations</a></h3><ul><li><a href="crypto-security-operations/secure-ops-runbooks/index.html">Secure Ops Runbooks</a></li><li><a href="crypto-security-operations/multi-sig-operations/index.html">Multi-Sig Operations</a></li><li><a href="crypto-security-operations/secrets-management-for-crypto-stacks/index.html">Secrets Management for Crypto Stacks</a></li></ul><a href="crypto-security-operations/index.html" style="font:600 13px 'Segoe UI',sans-serif">All secops services &rarr;</a></div><div class="hubcard"><h3><a href="fintech-consulting-engagements/index.html">Fintech Consulting Engagements</a></h3><ul><li><a href="fintech-consulting-engagements/discovery-and-scoping-workshops/index.html">Discovery &amp; Scoping Workshops</a></li><li><a href="fintech-consulting-engagements/fixed-scope-delivery-projects/index.html">Fixed-Scope Delivery Projects</a></li><li><a href="fintech-consulting-engagements/retainer-advisory-support/index.html">Retainer Advisory Support</a></li></ul><a href="fintech-consulting-engagements/index.html" style="font:600 13px 'Segoe UI',sans-serif">All engagements services &rarr;</a></div></div></div></section>
-<div class="audit"><div class="wrap"><h2>Not sure where to start? Begin with a consultation.</h2>
-<p style="margin-bottom:14px">Request a consultation — tell us whether you need bots, contracts, nodes, audits, or strategy.</p>
-<a class="btn" href="request-a-consultation/index.html">Request a Consultation</a></div></div>
-<section><div class="wrap"><h2>How engagements get started</h2><div class="cols3">
-<div class="card"><h3>1. Request a consultation</h3><p>Share goals — automation, security, implementation, or advisory.</p></div>
-<div class="card"><h3>2. Scoped recommendation</h3><p>We map the right service line and a clear first milestone.</p></div>
-<div class="card"><h3>3. Build &amp; harden</h3><p>Deliver bots, contracts, nodes, or audits with operational handoff.</p></div>
-</div></div></section>
-<section class="tint"><div class="wrap"><h2>Why Cryptocurrency Consulting</h2><div class="cols3">
-<div class="card"><h3>Since 2018</h3><p>Live site: founded in 2018 at the forefront of blockchain innovation.</p></div>
-<div class="card"><h3>Full-stack crypto services</h3><p>Bots, signals, nodes, strategy, smart contracts, and security audits.</p></div>
-<div class="card"><h3>Businesses &amp; individuals</h3><p>From first wallet to enterprise implementation support.</p></div>
-</div></div></section>
+<div class="hero-photo"><div class="wrap">
+<div>
+<p class="kicker">A reliable blockchain consulting partner</p>
+<h1>Expert cryptocurrency consulting for teams that need more than a brochure.</h1>
+<p>Navigate bots, signals, nodes, strategy, smart contracts, and security audits with a consultation-led practice founded in 2018.</p>
+<div class="hero-actions">
+<a class="btn" href="request-a-consultation/index.html">Request a Consultation</a>
+<a class="btn alt" href="request-a-proposal/index.html">Request a Proposal</a>
+</div>
+<form class="search-hero" action="search/index.html" method="get">
+<input type="search" name="q" placeholder="Search services, hubs, insights…" aria-label="Search">
+<button class="btn navy" type="submit">Find Now</button>
+</form>
+</div>
+<div class="hero-card">
+<h3>Let us help you resolve the operational gaps</h3>
+<p>Tell us whether you need automation, custody discipline, implementation, or an audit path. A specialist follows up — this is a staging form until rollout.</p>
+</div>
+</div></div>
+<section class="navy"><div class="wrap">
+<p class="kicker">Cryptocurrency Consulting by the numbers</p>
+<h2>Public facts and this factory map — not invented ticket counts.</h2>
+<div class="stats"><div class="stat"><b>2018</b><span>Founded (live site)</span></div><div class="stat"><b>10</b><span>Service hubs in this map</span></div><div class="stat"><b>100</b><span>Specialist service pages</span></div><div class="stat"><b>SF</b><span>Published HQ *[confirm]*</span></div><div class="stat"><b>24/7</b><span>Markets don&#x27;t sleep</span></div><div class="stat"><b>6</b><span>Core live-site lines</span></div></div>
+</div></section>
+<section><div class="wrap">
+<p class="kicker">Our services</p>
+<h2>We engage across the crypto stack, not a single product SKU.</h2>
+<p class="lead">Ten service families with specialist pages underneath — the same density pattern as a complete local-service site, mapped to this trade.</p>
+<div class="icon-grid"><a class="icon-tile" href="trading-bot-development/index.html"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 14h2M14 14h2M12 8V4M8 18h8a4 4 0 0 0 4-4V9a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v5a4 4 0 0 0 4 4z"/></svg><h3>Trading Bots</h3><p>Custom trading bot solutions to automate cryptocurrency strategies — from live site core s</p></a><a class="icon-tile" href="signals-and-webhooks/index.html"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19v-6M9 19V9M13 19V5M17 19v-9"/></svg><h3>Signals</h3><p>Real-time trading signals and webhook integration for timely market actions — from live si</p></a><a class="icon-tile" href="blockchain-node-deployment/index.html"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3zM12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg><h3>Nodes</h3><p>Professional setup and maintenance of blockchain nodes for network participation and secur</p></a><a class="icon-tile" href="trade-strategy-and-indicators/index.html"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19h16M7 16V9M12 16V5M17 16v-7"/></svg><h3>Strategy</h3><p>Custom trading strategies and technical indicators tailored to your risk profile.</p></a><a class="icon-tile" href="smart-contract-development/index.html"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h8l4 4v14H7zM15 3v4h4M9 13h6M9 17h6M9 9h2"/></svg><h3>Smart Contracts</h3><p>Creation and auditing of secure, efficient smart contracts for blockchain applications.</p></a><a class="icon-tile" href="crypto-security-audits/index.html"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></svg><h3>Security Audits</h3><p>Comprehensive security audits to protect digital assets against threats and vulnerabilitie</p></a><a class="icon-tile" href="digital-asset-consulting/index.html"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16v12H4zM4 7l2-3h10l2 3M16 13h2"/></svg><h3>Digital Assets</h3><p>Guidance for businesses and individuals navigating digital asset management — mission from</p></a><a class="icon-tile" href="blockchain-implementation/index.html"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12a4 4 0 0 1 0-6l2-2a4 4 0 1 1 6 6l-1 1M15 12a4 4 0 0 1 0 6l-2 2a4 4 0 1 1-6-6l1-1"/></svg><h3>Implementation</h3><p>Help organizations implement blockchain where it creates real operational value — not thea</p></a><a class="icon-tile" href="crypto-security-operations/index.html"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 11V8a4 4 0 1 1 8 0v3M6 11h12v9H6z"/></svg><h3>SecOps</h3><p>Operational security for teams whose fintech and cybersecurity experience must protect rea</p></a><a class="icon-tile" href="fintech-consulting-engagements/index.html"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 7h16v12H4zM4 12h16"/></svg><h3>Engagements</h3><p>Engagement models for getting started, expanding a portfolio, or shipping blockchain work </p></a></div>
+</div></section>
+<section class="tint"><div class="wrap">
+<p class="kicker">Your benefits</p>
+<h2>Why teams choose Cryptocurrency Consulting</h2>
+<div class="cols3"><div class="card"><svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 7h16v12H4zM4 12h16"/></svg><h3>Since 2018</h3><p>Live site: founded in 2018 at the forefront of blockchain innovation.</p></div><div class="card"><svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12a4 4 0 0 1 0-6l2-2a4 4 0 1 1 6 6l-1 1M15 12a4 4 0 0 1 0 6l-2 2a4 4 0 1 1-6-6l1-1"/></svg><h3>Full-stack crypto services</h3><p>Bots, signals, nodes, strategy, smart contracts, and security audits on one consulting path.</p></div><div class="card"><svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg><h3>Businesses and individuals</h3><p>From first wallet questions to enterprise implementation support.</p></div><div class="card"><svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 11V8a4 4 0 1 1 8 0v3M6 11h12v9H6z"/></svg><h3>Security in the critical path</h3><p>Keys, tests, monitoring, and handoff are scoped before go-live — not as an afterthought.</p></div><div class="card"><svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h4l2 5-2 1a12 12 0 0 0 5 5l1-2 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 4 5a2 2 0 0 1 2-2z"/></svg><h3>Consultation-led</h3><p>A conversation first. We recommend a first milestone or an honest no.</p></div><div class="card"><svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></svg><h3>Risk realism</h3><p>Crypto assets involve loss. Delivery is not a profit guarantee.</p></div></div>
+</div></section>
+<section><div class="wrap">
+<p class="kicker">How it works</p>
+<h2>Are you ready to take the next step?</h2>
+<div class="steps"><div class="card step"><b>1</b><h3>Choose a service</h3><p>Pick the hub that matches — bots, signals, nodes, contracts, audits, or advisory.</p></div><div class="card step"><b>2</b><h3>Let’s communicate</h3><p>Share how you trade, build, or custody assets today and where it hurts.</p></div><div class="card step"><b>3</b><h3>Start with a scoped first step</h3><p>A written milestone, owners, and controls — then build and harden.</p></div></div>
+<div class="cols2" style="margin-top:28px">
+<div>
+<h2>Contact form</h2>
+<p>Fill in the form and let the team know what you are building or protecting. A representative follows up after rollout wiring.</p>
+</div>
+<div class="formbox">
+<label>First Name *</label><input type="text" name="first" required>
+<label>Last Name *</label><input type="text" name="last" required>
+<label>Email *</label><input type="email" name="email" required>
+<label>Phone *</label><input type="tel" name="phone" required>
+<label>Company</label><input type="text" name="company">
+<label>Which services are you interested in? *</label>
+<select name="service" required><option value="">-- Select a service --</option><option>Trading Bot Development</option><option>Signals and Webhooks</option><option>Blockchain Node Deployment</option><option>Trade Strategy and Indicators</option><option>Smart Contract Development</option><option>Crypto Security Audits</option><option>Digital Asset Consulting</option><option>Blockchain Implementation</option><option>Crypto Security Operations</option><option>Fintech Consulting Engagements</option><option>Security Audit</option><option>Smart Contracts</option><option>Consultation</option><option>Other</option><option>Not sure / consultation</option></select>
+<label>Message</label><textarea name="message"></textarea><br><br>
+<button class="btn" type="submit">Submit Now</button>
+<p style="margin-top:12px;font-size:12px;color:#5b6b7c">Demo form shell — submission destination wired at rollout.</p>
+</div>
+</div>
+</div></section>
+<section class="tint"><div class="wrap">
+<p class="kicker">Insights</p>
+<h2>Factory-written advisory for owner review</h2>
+<div class="insight-grid"><article class="insight"><div class="thumb"></div><div class="pad"><small>Automation</small><h3><a href="insights/kill-switches-before-live-keys/index.html">Put kill switches on the calendar before live keys</a></h3><p>Bots without a documented stop condition are an operations incident waiting for volatility.</p></div></article><article class="insight"><div class="thumb"></div><div class="pad"><small>Signals</small><h3><a href="insights/webhooks-are-production-plumbing/index.html">Treat TradingView webhooks like production plumbing</a></h3><p>Unauthenticated callbacks and silent retries turn a signal into a surprise order.</p></div></article><article class="insight"><div class="thumb"></div><div class="pad"><small>Infrastructure</small><h3><a href="insights/nodes-need-recovery-not-just-uptime/index.html">Nodes need recovery plans, not just uptime dashboards</a></h3><p>A synced node is not a backup. Know how you rebuild state after disk or key events.</p></div></article></div>
+<p style="margin-top:18px"><a class="btn navy" href="insights/index.html">All insights</a></p>
+</div></section>
+<section><div class="wrap">
+<p class="kicker">Platforms we work with</p>
+<h2>Technology partners and stack themes</h2>
+<p>Badges from public service lines pending owner logo files. Not a claim of certification unless confirmed.</p>
+<div class="partners"><span class="partner">Exchange APIs</span><span class="partner">EVM / Solidity</span><span class="partner">Node operators</span><span class="partner">Wallet &amp; key hygiene</span><span class="partner">Webhook automation</span><span class="partner">Audit-ready delivery</span></div>
+</div></section>
+<section class="tint"><div class="wrap">
+<h2>Explore the 10-hub map</h2>
+<div class="cols3"><div class="hubcard"><h3><a href="trading-bot-development/index.html">Trading Bot Development</a></h3><ul><li><a href="trading-bot-development/custom-crypto-trading-bots/index.html">Custom Crypto Trading Bots</a></li><li><a href="trading-bot-development/spot-trading-bot-development/index.html">Spot Trading Bot Development</a></li><li><a href="trading-bot-development/futures-bot-development/index.html">Futures Bot Development</a></li></ul><a href="trading-bot-development/index.html">All trading bots services &rarr;</a></div><div class="hubcard"><h3><a href="signals-and-webhooks/index.html">Signals and Webhooks</a></h3><ul><li><a href="signals-and-webhooks/realtime-trading-signals/index.html">Real-Time Trading Signals</a></li><li><a href="signals-and-webhooks/webhook-strategy-execution/index.html">Webhook Strategy Execution</a></li><li><a href="signals-and-webhooks/tradingview-webhook-bridges/index.html">TradingView Webhook Bridges</a></li></ul><a href="signals-and-webhooks/index.html">All signals services &rarr;</a></div><div class="hubcard"><h3><a href="blockchain-node-deployment/index.html">Blockchain Node Deployment</a></h3><ul><li><a href="blockchain-node-deployment/full-node-deployment/index.html">Full Node Deployment</a></li><li><a href="blockchain-node-deployment/validator-node-setup/index.html">Validator Node Setup</a></li><li><a href="blockchain-node-deployment/rpc-node-infrastructure/index.html">RPC Node Infrastructure</a></li></ul><a href="blockchain-node-deployment/index.html">All nodes services &rarr;</a></div><div class="hubcard"><h3><a href="trade-strategy-and-indicators/index.html">Trade Strategy and Indicators</a></h3><ul><li><a href="trade-strategy-and-indicators/custom-crypto-trade-strategies/index.html">Custom Crypto Trade Strategies</a></li><li><a href="trade-strategy-and-indicators/technical-indicator-development/index.html">Technical Indicator Development</a></li><li><a href="trade-strategy-and-indicators/risk-profile-strategy-fit/index.html">Risk Profile Strategy Fit</a></li></ul><a href="trade-strategy-and-indicators/index.html">All strategy services &rarr;</a></div><div class="hubcard"><h3><a href="smart-contract-development/index.html">Smart Contract Development</a></h3><ul><li><a href="smart-contract-development/solidity-smart-contract-development/index.html">Solidity Smart Contract Development</a></li><li><a href="smart-contract-development/token-contract-development/index.html">Token Contract Development</a></li><li><a href="smart-contract-development/defi-contract-prototyping/index.html">DeFi Contract Prototyping</a></li></ul><a href="smart-contract-development/index.html">All smart contracts services &rarr;</a></div><div class="hubcard"><h3><a href="crypto-security-audits/index.html">Crypto Security Audits</a></h3><ul><li><a href="crypto-security-audits/smart-contract-security-audits/index.html">Smart Contract Security Audits</a></li><li><a href="crypto-security-audits/wallet-and-key-management-review/index.html">Wallet &amp; Key Management Review</a></li><li><a href="crypto-security-audits/exchange-account-security-review/index.html">Exchange Account Security Review</a></li></ul><a href="crypto-security-audits/index.html">All security audits services &rarr;</a></div><div class="hubcard"><h3><a href="digital-asset-consulting/index.html">Digital Asset Consulting</a></h3><ul><li><a href="digital-asset-consulting/crypto-portfolio-strategy-consulting/index.html">Crypto Portfolio Strategy Consulting</a></li><li><a href="digital-asset-consulting/market-volatility-navigation/index.html">Market Volatility Navigation</a></li><li><a href="digital-asset-consulting/digital-asset-onboarding/index.html">Digital Asset Onboarding</a></li></ul><a href="digital-asset-consulting/index.html">All digital assets services &rarr;</a></div><div class="hubcard"><h3><a href="blockchain-implementation/index.html">Blockchain Implementation</a></h3><ul><li><a href="blockchain-implementation/blockchain-use-case-assessment/index.html">Blockchain Use-Case Assessment</a></li><li><a href="blockchain-implementation/supply-chain-tracking-implementations/index.html">Supply Chain Tracking Implementations</a></li><li><a href="blockchain-implementation/enterprise-blockchain-pilots/index.html">Enterprise Blockchain Pilots</a></li></ul><a href="blockchain-implementation/index.html">All implementation services &rarr;</a></div><div class="hubcard"><h3><a href="crypto-security-operations/index.html">Crypto Security Operations</a></h3><ul><li><a href="crypto-security-operations/secure-ops-runbooks/index.html">Secure Ops Runbooks</a></li><li><a href="crypto-security-operations/multi-sig-operations/index.html">Multi-Sig Operations</a></li><li><a href="crypto-security-operations/secrets-management-for-crypto-stacks/index.html">Secrets Management for Crypto Stacks</a></li></ul><a href="crypto-security-operations/index.html">All secops services &rarr;</a></div><div class="hubcard"><h3><a href="fintech-consulting-engagements/index.html">Fintech Consulting Engagements</a></h3><ul><li><a href="fintech-consulting-engagements/discovery-and-scoping-workshops/index.html">Discovery &amp; Scoping Workshops</a></li><li><a href="fintech-consulting-engagements/fixed-scope-delivery-projects/index.html">Fixed-Scope Delivery Projects</a></li><li><a href="fintech-consulting-engagements/retainer-advisory-support/index.html">Retainer Advisory Support</a></li></ul><a href="fintech-consulting-engagements/index.html">All engagements services &rarr;</a></div></div>
+</div></section>
 <div class="ctastrip"><div class="wrap"><h2>Ready to get started?</h2>
 <a class="btn" href="request-a-consultation/index.html">Consultation</a> <a class="btn alt" href="request-a-proposal/index.html">Request a Proposal</a></div></div>
 <section class="tint"><div class="wrap"><h2>Frequently Asked Questions</h2>
@@ -152,17 +256,21 @@ footer ul{list-style:none}footer li{margin-bottom:7px}footer a{color:#c9b8b0}
 <div><h4>Company</h4><ul>
 <li><a href="about-cryptocurrency-consulting/index.html">About Cryptocurrency Consulting</a></li>
 <li><a href="about-cryptocurrency-consulting/why-choose-us/index.html">Why Choose Us</a></li>
-<li><a href="about-cryptocurrency-consulting/who-we-serve/index.html">Verticals</a></li>
+<li><a href="about-cryptocurrency-consulting/who-we-serve/index.html">Who We Serve</a></li>
 <li><a href="contact/index.html">Contact Us</a></li>
+</ul></div>
+<div><h4>Insights</h4><ul>
+<li><a href="insights/index.html">All insights</a></li>
+<li><a href="search/index.html">Search</a></li>
 </ul></div>
 <div><h4>Get Started</h4><ul>
 <li><a href="request-a-consultation/index.html">Request a Consultation</a></li>
 <li><a href="request-a-proposal/index.html">Request a Proposal</a></li>
 <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
 <li><a href="mailto:info@cryptocurrencyconsulting.io">info@cryptocurrencyconsulting.io</a></li>
+<li>123 Blockchain Avenue, San Francisco, CA 94105 [confirm]</li>
 </ul></div>
-<div><h4>Visit</h4><ul><li>123 Blockchain Avenue, San Francisco, CA 94105 <em>[confirm]</em></li><li>Founded 2018</li><li>Hours on contact page</li></ul></div>
 </div>
-<div class="copy">Cryptocurrency Consulting &middot; San Francisco, CA &middot; +1 (555) 123-4567 <em>[confirm NAP]</em><br>
-Copyright &copy; 2026. Cryptocurrency Consulting. All rights reserved. Crypto assets involve risk of loss.</div></div></footer>
+<div class="copy">Cryptocurrency Consulting · San Francisco, CA · +1 (555) 123-4567
+<br>Copyright &copy; 2026. Cryptocurrency Consulting. All rights reserved.<br>Crypto assets involve risk of loss. Consulting is not investment advice or a profit guarantee.</div></div></footer>
 </body></html>
