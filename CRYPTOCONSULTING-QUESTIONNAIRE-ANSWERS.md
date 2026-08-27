@@ -25,4 +25,5 @@ FORM-CONSULT=`request-a-consultation` · FORM-PRICING=`request-a-proposal`
 - NAP from live site marked [confirm] due to placeholder pattern
 - Testimonials on live site not copied as invented FACTs beyond existence note
 - Staging: noindex + STAGING PREVIEW
+- Completeness chrome: `/insights/` + `/search/` (see FACTORY-INSTRUCTION-SET.md)
 | hubs | 10 | children | 100 |

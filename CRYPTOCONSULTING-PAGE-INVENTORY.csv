@@ -6,6 +6,14 @@ url,type_id,parent_url,target_keyword,menu_location,source_intake_field,booking_
 /contact/,COMP-CONTACT,/,contact cryptocurrency consulting,Contact menu,"A3,A4,A5,I1",Phone Request
 /request-a-proposal/,FORM-PRICING,/,cryptocurrency consulting proposal,nav utility,I1,Request for Proposal
 /request-a-consultation/,FORM-CONSULT,/,request a consultation,nav utility (highlighted),I1,Consultation Request
+/insights/,RESOURCE-HUB,/,cryptocurrency consulting insights,Insights menu,completeness,
+/search/,UTILITY-SEARCH,/,search cryptocurrency consulting,nav search,completeness,
+/insights/kill-switches-before-live-keys/,RESOURCE-CHILD,/insights/,put kill switches on the calendar before live keys,Insights,completeness,
+/insights/webhooks-are-production-plumbing/,RESOURCE-CHILD,/insights/,treat tradingview webhooks like production plumbing,Insights,completeness,
+/insights/nodes-need-recovery-not-just-uptime/,RESOURCE-CHILD,/insights/,"nodes need recovery plans, not just uptime dashboards",Insights,completeness,
+/insights/contracts-without-tests-are-press-releases/,RESOURCE-CHILD,/insights/,contracts without tests are press releases,Insights,completeness,
+/insights/hot-wallet-limits-are-a-policy/,RESOURCE-CHILD,/insights/,"hot-wallet limits are a policy, not a spreadsheet cell",Insights,completeness,
+/insights/implementation-is-not-a-whitepaper/,RESOURCE-CHILD,/insights/,blockchain implementation is not a whitepaper,Insights,completeness,
 /trading-bot-development/,SVC-HUB,/,trading bot development,Services menu,B (category),
 /trading-bot-development/custom-crypto-trading-bots/,SVC-CHILD,/trading-bot-development/,custom crypto trading bots,Services menu > hub grid,B row,Request for Proposal
 /trading-bot-development/spot-trading-bot-development/,SVC-CHILD,/trading-bot-development/,spot trading bot development,Services menu > hub grid,B row,Request for Proposal
