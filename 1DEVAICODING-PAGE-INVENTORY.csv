@@ -1,0 +1,118 @@
+url,type_id,parent_url,target_keyword,menu_location,source_questionnaire_field,booking_type
+/,HOME,,1dev ai coding services,logo/home,"A1,A6,A10",
+/about-1dev/,COMP-HUB,/,about 1dev ai coding services,About menu,"A1,A10",
+/about-1dev/why-choose-us/,COMP-CHILD,/about-1dev/,why choose 1dev ai coding,About menu,"A10,A12",
+/about-1dev/service-areas/,COMP-CHILD,/about-1dev/,1dev coding service areas,About menu,F1,
+/contact/,COMP-CONTACT,/,contact 1dev ai coding,Contact menu,"A3,A4,A5,I1",Phone Request
+/request-a-proposal/,FORM-PRICING,/,ai coding proposal,nav utility,I1,Request for Proposal
+/request-a-quote/,FORM-CONSULT,/,ai coding quote,nav utility (highlighted),I1,Consultation Request
+/custom-software-development/,SVC-HUB,/,custom software development 1dev,Services menu,B (category),
+/custom-software-development/custom-business-applications/,SVC-CHILD,/custom-software-development/,custom business applications 1dev,Services menu > hub grid,B row,Request for Proposal
+/custom-software-development/desktop-application-development/,SVC-CHILD,/custom-software-development/,desktop application development 1dev,Services menu > hub grid,B row,Request for Proposal
+/custom-software-development/internal-tools-and-admin-panels/,SVC-CHILD,/custom-software-development/,internal tools & admin panels 1dev,Services menu > hub grid,B row,Request for Proposal
+/custom-software-development/saas-product-development/,SVC-CHILD,/custom-software-development/,saas product development 1dev,Services menu > hub grid,B row,Request for Proposal
+/custom-software-development/legacy-system-replacement/,SVC-CHILD,/custom-software-development/,legacy system replacement 1dev,Services menu > hub grid,B row,Request for Proposal
+/custom-software-development/domain-specific-software-builds/,SVC-CHILD,/custom-software-development/,domain-specific software builds 1dev,Services menu > hub grid,B row,Request for Proposal
+/custom-software-development/multi-tenant-application-development/,SVC-CHILD,/custom-software-development/,multi-tenant application development 1dev,Services menu > hub grid,B row,Request for Proposal
+/custom-software-development/workflow-centric-custom-software/,SVC-CHILD,/custom-software-development/,workflow-centric custom software 1dev,Services menu > hub grid,B row,Request for Proposal
+/custom-software-development/data-heavy-application-development/,SVC-CHILD,/custom-software-development/,data-heavy application development 1dev,Services menu > hub grid,B row,Request for Proposal
+/custom-software-development/custom-software-architecture/,SVC-CHILD,/custom-software-development/,custom software architecture 1dev,Services menu > hub grid,B row,Request for Proposal
+/web-application-development/,SVC-HUB,/,web application development 1dev,Services menu,B (category),
+/web-application-development/full-stack-web-applications/,SVC-CHILD,/web-application-development/,full-stack web applications 1dev,Services menu > hub grid,B row,Request for Proposal
+/web-application-development/customer-portals-and-dashboards/,SVC-CHILD,/web-application-development/,customer portals & dashboards 1dev,Services menu > hub grid,B row,Request for Proposal
+/web-application-development/progressive-web-apps/,SVC-CHILD,/web-application-development/,progressive web apps 1dev,Services menu > hub grid,B row,Request for Proposal
+/web-application-development/admin-consoles-and-back-offices/,SVC-CHILD,/web-application-development/,admin consoles & back offices 1dev,Services menu > hub grid,B row,Request for Proposal
+/web-application-development/authentication-and-user-accounts/,SVC-CHILD,/web-application-development/,authentication & user accounts 1dev,Services menu > hub grid,B row,Request for Proposal
+/web-application-development/real-time-web-applications/,SVC-CHILD,/web-application-development/,real-time web applications 1dev,Services menu > hub grid,B row,Request for Proposal
+/web-application-development/ecommerce-web-applications/,SVC-CHILD,/web-application-development/,e-commerce web applications 1dev,Services menu > hub grid,B row,Request for Proposal
+/web-application-development/content-driven-web-platforms/,SVC-CHILD,/web-application-development/,content-driven web platforms 1dev,Services menu > hub grid,B row,Request for Proposal
+/web-application-development/single-page-application-development/,SVC-CHILD,/web-application-development/,single-page application development 1dev,Services menu > hub grid,B row,Request for Proposal
+/web-application-development/server-side-rendered-web-apps/,SVC-CHILD,/web-application-development/,server-side rendered web apps 1dev,Services menu > hub grid,B row,Request for Proposal
+/mobile-app-development/,SVC-HUB,/,mobile app development 1dev,Services menu,B (category),
+/mobile-app-development/ios-app-development/,SVC-CHILD,/mobile-app-development/,ios app development 1dev,Services menu > hub grid,B row,Request for Proposal
+/mobile-app-development/android-app-development/,SVC-CHILD,/mobile-app-development/,android app development 1dev,Services menu > hub grid,B row,Request for Proposal
+/mobile-app-development/cross-platform-mobile-apps/,SVC-CHILD,/mobile-app-development/,cross-platform mobile apps 1dev,Services menu > hub grid,B row,Request for Proposal
+/mobile-app-development/mobile-backend-apis/,SVC-CHILD,/mobile-app-development/,mobile backend apis 1dev,Services menu > hub grid,B row,Request for Proposal
+/mobile-app-development/push-notifications-and-messaging/,SVC-CHILD,/mobile-app-development/,push notifications & messaging 1dev,Services menu > hub grid,B row,Request for Proposal
+/mobile-app-development/offline-capable-mobile-apps/,SVC-CHILD,/mobile-app-development/,offline-capable mobile apps 1dev,Services menu > hub grid,B row,Request for Proposal
+/mobile-app-development/mobile-app-ui-implementation/,SVC-CHILD,/mobile-app-development/,mobile app ui implementation 1dev,Services menu > hub grid,B row,Request for Proposal
+/mobile-app-development/app-store-submission-support/,SVC-CHILD,/mobile-app-development/,app store submission support 1dev,Services menu > hub grid,B row,Request for Proposal
+/mobile-app-development/mobile-app-rebuilds/,SVC-CHILD,/mobile-app-development/,mobile app rebuilds 1dev,Services menu > hub grid,B row,Request for Proposal
+/mobile-app-development/companion-mobile-apps/,SVC-CHILD,/mobile-app-development/,companion mobile apps 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-feature-integration/,SVC-HUB,/,ai feature integration 1dev,Services menu,B (category),
+/ai-feature-integration/llm-features-in-existing-apps/,SVC-CHILD,/ai-feature-integration/,llm features in existing apps 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-feature-integration/chat-and-assistant-interfaces/,SVC-CHILD,/ai-feature-integration/,chat & assistant interfaces 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-feature-integration/document-qa-features/,SVC-CHILD,/ai-feature-integration/,document q&a features 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-feature-integration/ai-search-and-retrieval/,SVC-CHILD,/ai-feature-integration/,ai search & retrieval 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-feature-integration/prompt-to-action-workflows/,SVC-CHILD,/ai-feature-integration/,prompt-to-action workflows 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-feature-integration/ai-content-generation-features/,SVC-CHILD,/ai-feature-integration/,ai content generation features 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-feature-integration/recommendation-features/,SVC-CHILD,/ai-feature-integration/,recommendation features 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-feature-integration/speech-and-transcription-features/,SVC-CHILD,/ai-feature-integration/,speech & transcription features 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-feature-integration/ai-feature-guardrails-and-evals/,SVC-CHILD,/ai-feature-integration/,guardrails & evals for ai features 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-feature-integration/human-in-the-loop-ai-features/,SVC-CHILD,/ai-feature-integration/,human-in-the-loop ai features 1dev,Services menu > hub grid,B row,Request for Proposal
+/automation-and-workflows/,SVC-HUB,/,automation & workflows 1dev,Services menu,B (category),
+/automation-and-workflows/business-process-automation/,SVC-CHILD,/automation-and-workflows/,business process automation 1dev,Services menu > hub grid,B row,Request for Proposal
+/automation-and-workflows/scheduled-job-and-batch-automation/,SVC-CHILD,/automation-and-workflows/,scheduled job & batch automation 1dev,Services menu > hub grid,B row,Request for Proposal
+/automation-and-workflows/data-sync-automation/,SVC-CHILD,/automation-and-workflows/,data sync automation 1dev,Services menu > hub grid,B row,Request for Proposal
+/automation-and-workflows/notification-and-alert-workflows/,SVC-CHILD,/automation-and-workflows/,notification & alert workflows 1dev,Services menu > hub grid,B row,Request for Proposal
+/automation-and-workflows/approval-workflow-automation/,SVC-CHILD,/automation-and-workflows/,approval workflow automation 1dev,Services menu > hub grid,B row,Request for Proposal
+/automation-and-workflows/spreadsheet-and-form-automation/,SVC-CHILD,/automation-and-workflows/,spreadsheet & form automation 1dev,Services menu > hub grid,B row,Request for Proposal
+/automation-and-workflows/ops-runbook-automation/,SVC-CHILD,/automation-and-workflows/,ops runbook automation 1dev,Services menu > hub grid,B row,Request for Proposal
+/automation-and-workflows/lead-and-crm-automation/,SVC-CHILD,/automation-and-workflows/,lead & crm automation 1dev,Services menu > hub grid,B row,Request for Proposal
+/automation-and-workflows/invoice-and-billing-automation/,SVC-CHILD,/automation-and-workflows/,invoice & billing automation 1dev,Services menu > hub grid,B row,Request for Proposal
+/automation-and-workflows/custom-webhook-automation/,SVC-CHILD,/automation-and-workflows/,custom webhook automation 1dev,Services menu > hub grid,B row,Request for Proposal
+/api-and-systems-integration/,SVC-HUB,/,api & systems integration 1dev,Services menu,B (category),
+/api-and-systems-integration/rest-api-development/,SVC-CHILD,/api-and-systems-integration/,rest api development 1dev,Services menu > hub grid,B row,Request for Proposal
+/api-and-systems-integration/third-party-api-integrations/,SVC-CHILD,/api-and-systems-integration/,third-party api integrations 1dev,Services menu > hub grid,B row,Request for Proposal
+/api-and-systems-integration/payment-processor-integrations/,SVC-CHILD,/api-and-systems-integration/,payment processor integrations 1dev,Services menu > hub grid,B row,Request for Proposal
+/api-and-systems-integration/crm-and-erp-integrations/,SVC-CHILD,/api-and-systems-integration/,crm & erp integrations 1dev,Services menu > hub grid,B row,Request for Proposal
+/api-and-systems-integration/webhook-and-event-pipelines/,SVC-CHILD,/api-and-systems-integration/,webhook & event pipelines 1dev,Services menu > hub grid,B row,Request for Proposal
+/api-and-systems-integration/sso-and-identity-integrations/,SVC-CHILD,/api-and-systems-integration/,sso & identity integrations 1dev,Services menu > hub grid,B row,Request for Proposal
+/api-and-systems-integration/data-warehouse-connectors/,SVC-CHILD,/api-and-systems-integration/,data warehouse connectors 1dev,Services menu > hub grid,B row,Request for Proposal
+/api-and-systems-integration/file-and-storage-integrations/,SVC-CHILD,/api-and-systems-integration/,file & storage integrations 1dev,Services menu > hub grid,B row,Request for Proposal
+/api-and-systems-integration/legacy-system-adapters/,SVC-CHILD,/api-and-systems-integration/,legacy system adapters 1dev,Services menu > hub grid,B row,Request for Proposal
+/api-and-systems-integration/api-documentation-and-sdks/,SVC-CHILD,/api-and-systems-integration/,api documentation & sdks 1dev,Services menu > hub grid,B row,Request for Proposal
+/code-review-and-rescue/,SVC-HUB,/,code review & rescue 1dev,Services menu,B (category),
+/code-review-and-rescue/independent-code-review/,SVC-CHILD,/code-review-and-rescue/,independent code review 1dev,Services menu > hub grid,B row,Request for Proposal
+/code-review-and-rescue/security-minded-code-review/,SVC-CHILD,/code-review-and-rescue/,security-minded code review 1dev,Services menu > hub grid,B row,Request for Proposal
+/code-review-and-rescue/performance-bottleneck-review/,SVC-CHILD,/code-review-and-rescue/,performance bottleneck review 1dev,Services menu > hub grid,B row,Request for Proposal
+/code-review-and-rescue/abandoned-project-rescue/,SVC-CHILD,/code-review-and-rescue/,abandoned project rescue 1dev,Services menu > hub grid,B row,Request for Proposal
+/code-review-and-rescue/technical-debt-assessment/,SVC-CHILD,/code-review-and-rescue/,technical debt assessment 1dev,Services menu > hub grid,B row,Request for Proposal
+/code-review-and-rescue/hotfix-and-production-firefighting/,SVC-CHILD,/code-review-and-rescue/,hotfix & production firefighting 1dev,Services menu > hub grid,B row,Request for Proposal
+/code-review-and-rescue/architecture-recovery-reviews/,SVC-CHILD,/code-review-and-rescue/,architecture recovery reviews 1dev,Services menu > hub grid,B row,Request for Proposal
+/code-review-and-rescue/dependency-and-upgrade-rescue/,SVC-CHILD,/code-review-and-rescue/,dependency & upgrade rescue 1dev,Services menu > hub grid,B row,Request for Proposal
+/code-review-and-rescue/test-coverage-rescue/,SVC-CHILD,/code-review-and-rescue/,test coverage rescue 1dev,Services menu > hub grid,B row,Request for Proposal
+/code-review-and-rescue/handoff-documentation-rescue/,SVC-CHILD,/code-review-and-rescue/,handoff documentation rescue 1dev,Services menu > hub grid,B row,Request for Proposal
+/mvp-and-startup-builds/,SVC-HUB,/,mvp & startup builds 1dev,Services menu,B (category),
+/mvp-and-startup-builds/startup-mvp-development/,SVC-CHILD,/mvp-and-startup-builds/,startup mvp development 1dev,Services menu > hub grid,B row,Request for Proposal
+/mvp-and-startup-builds/prototype-to-production/,SVC-CHILD,/mvp-and-startup-builds/,clickable prototype to production 1dev,Services menu > hub grid,B row,Request for Proposal
+/mvp-and-startup-builds/founder-led-product-scoping/,SVC-CHILD,/mvp-and-startup-builds/,founder-led product scoping 1dev,Services menu > hub grid,B row,Request for Proposal
+/mvp-and-startup-builds/first-customer-feature-builds/,SVC-CHILD,/mvp-and-startup-builds/,first-customer feature builds 1dev,Services menu > hub grid,B row,Request for Proposal
+/mvp-and-startup-builds/landing-page-plus-app-mvp/,SVC-CHILD,/mvp-and-startup-builds/,landing page plus app mvp 1dev,Services menu > hub grid,B row,Request for Proposal
+/mvp-and-startup-builds/stripe-ready-mvp-billing/,SVC-CHILD,/mvp-and-startup-builds/,stripe-ready mvp billing 1dev,Services menu > hub grid,B row,Request for Proposal
+/mvp-and-startup-builds/auth-and-onboarding-for-mvps/,SVC-CHILD,/mvp-and-startup-builds/,auth & onboarding for mvps 1dev,Services menu > hub grid,B row,Request for Proposal
+/mvp-and-startup-builds/analytics-ready-mvp-instrumentation/,SVC-CHILD,/mvp-and-startup-builds/,analytics-ready mvp instrumentation 1dev,Services menu > hub grid,B row,Request for Proposal
+/mvp-and-startup-builds/pivot-friendly-mvp-architecture/,SVC-CHILD,/mvp-and-startup-builds/,pivot-friendly mvp architecture 1dev,Services menu > hub grid,B row,Request for Proposal
+/mvp-and-startup-builds/post-mvp-hardening/,SVC-CHILD,/mvp-and-startup-builds/,post-mvp hardening 1dev,Services menu > hub grid,B row,Request for Proposal
+/maintenance-and-support/,SVC-HUB,/,maintenance & support 1dev,Services menu,B (category),
+/maintenance-and-support/ongoing-application-maintenance/,SVC-CHILD,/maintenance-and-support/,ongoing application maintenance 1dev,Services menu > hub grid,B row,Request for Proposal
+/maintenance-and-support/bug-fix-retainers/,SVC-CHILD,/maintenance-and-support/,bug-fix retainers 1dev,Services menu > hub grid,B row,Request for Proposal
+/maintenance-and-support/dependency-and-security-updates/,SVC-CHILD,/maintenance-and-support/,dependency & security updates 1dev,Services menu > hub grid,B row,Request for Proposal
+/maintenance-and-support/hosting-and-deploy-support/,SVC-CHILD,/maintenance-and-support/,hosting & deploy support 1dev,Services menu > hub grid,B row,Request for Proposal
+/maintenance-and-support/performance-monitoring-support/,SVC-CHILD,/maintenance-and-support/,performance monitoring support 1dev,Services menu > hub grid,B row,Request for Proposal
+/maintenance-and-support/feature-increment-retainers/,SVC-CHILD,/maintenance-and-support/,feature increment retainers 1dev,Services menu > hub grid,B row,Request for Proposal
+/maintenance-and-support/incident-support-windows/,SVC-CHILD,/maintenance-and-support/,incident support windows 1dev,Services menu > hub grid,B row,Request for Proposal
+/maintenance-and-support/database-maintenance-support/,SVC-CHILD,/maintenance-and-support/,database maintenance support 1dev,Services menu > hub grid,B row,Request for Proposal
+/maintenance-and-support/documentation-upkeep/,SVC-CHILD,/maintenance-and-support/,documentation upkeep 1dev,Services menu > hub grid,B row,Request for Proposal
+/maintenance-and-support/vendor-handoff-maintenance/,SVC-CHILD,/maintenance-and-support/,vendor handoff maintenance 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-pair-programming-and-training/,SVC-HUB,/,ai pair programming & training 1dev,Services menu,B (category),
+/ai-pair-programming-and-training/ai-pair-programming-sessions/,SVC-CHILD,/ai-pair-programming-and-training/,ai pair programming sessions 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-pair-programming-and-training/cursor-and-copilot-workflow-training/,SVC-CHILD,/ai-pair-programming-and-training/,cursor & copilot workflow training 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-pair-programming-and-training/team-ai-coding-playbooks/,SVC-CHILD,/ai-pair-programming-and-training/,team ai coding playbooks 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-pair-programming-and-training/prompt-engineering-for-developers/,SVC-CHILD,/ai-pair-programming-and-training/,prompt engineering for developers 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-pair-programming-and-training/codebase-onboarding-with-ai/,SVC-CHILD,/ai-pair-programming-and-training/,codebase onboarding with ai 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-pair-programming-and-training/ai-assisted-test-writing-training/,SVC-CHILD,/ai-pair-programming-and-training/,ai-assisted test writing training 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-pair-programming-and-training/ai-code-review-coaching/,SVC-CHILD,/ai-pair-programming-and-training/,ai code review coaching 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-pair-programming-and-training/staff-augmented-ai-coding-sprints/,SVC-CHILD,/ai-pair-programming-and-training/,staff-augmented ai coding sprints 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-pair-programming-and-training/engineering-manager-ai-briefings/,SVC-CHILD,/ai-pair-programming-and-training/,engineering manager ai briefings 1dev,Services menu > hub grid,B row,Request for Proposal
+/ai-pair-programming-and-training/safe-ai-coding-policy-workshops/,SVC-CHILD,/ai-pair-programming-and-training/,safe ai coding policy workshops 1dev,Services menu > hub grid,B row,Request for Proposal

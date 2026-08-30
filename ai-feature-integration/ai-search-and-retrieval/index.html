@@ -1,0 +1,178 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Search &amp; Retrieval | 1Dev AI Coding Services</title>
+<meta name="description" content="AI Search &amp; Retrieval from 1Dev AI Coding Services — Retrieval-augmented search over tickets, docs, or product catalogs.">
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;color:#0b1c24;line-height:1.65;background:#fff}
+h1,h2,h3,.nav,.btn,.card h3,.utility{font-family:'Segoe UI',Arial,Helvetica,sans-serif}
+a{color:#0891b2;text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.demo-banner{background:#05080d;color:#99f6e4;text-align:center;font:600 12px 'Segoe UI',sans-serif;padding:6px;letter-spacing:.4px}
+.utility{background:#0e1a24;color:#ccfbf1;font-size:12.5px;padding:5px 0}
+.utility .wrap{display:flex;justify-content:space-between}
+header.main{background:#fff;border-bottom:3px solid #00e8d0;position:relative;z-index:50}
+header.main .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px;flex-wrap:wrap;gap:10px}
+.logo{font:800 22px 'Segoe UI',sans-serif;color:#071018}.logo span{color:#00c4b4}
+.logo small{display:block;font:600 10.5px 'Segoe UI',sans-serif;color:#5a6b7b;letter-spacing:1.5px;text-transform:uppercase}
+.phone-cta{text-align:right;font-family:'Segoe UI',sans-serif}
+.phone-cta a{font-size:19px;font-weight:800;color:#071018}
+.phone-cta small{display:block;color:#5a6b7b;font-size:11px}
+nav.nav{background:#071018}
+nav.nav ul{list-style:none;display:flex;flex-wrap:wrap}
+nav.nav>.wrap>ul>li{position:relative}
+nav.nav>div.wrap>ul>li>a{display:block;color:#fff;padding:12px 15px;font-size:13.5px;font-weight:600}
+nav.nav>div.wrap>ul>li>a:hover{background:#0e1a24;text-decoration:none}
+nav.nav li:hover>.dd{display:block}
+.dd{display:none;position:absolute;top:100%;left:0;background:#fff;min-width:270px;box-shadow:0 8px 22px rgba(0,0,0,.18);border-top:3px solid #00e8d0;z-index:60}
+nav.nav .dd a{display:block;color:#071018;padding:10px 15px;font-size:13.5px;font-weight:500;border-bottom:1px solid #ccfbf1;background:#fff}
+nav.nav .dd a:hover{background:#f0fdfa;color:#071018;text-decoration:none}
+nav.nav>div.wrap>ul>li.em>a{background:#00e8d0;color:#071018}
+nav.nav>div.wrap>ul>li.em>a:hover{background:#00c4b4;color:#071018}
+.hero{background:linear-gradient(rgba(7,16,24,.88),rgba(7,16,24,.88)),repeating-linear-gradient(45deg,#071018 0 14px,#0e1a24 14px 28px);color:#fff;text-align:center;padding:74px 0 64px}
+.hero h1{font-size:34px;max-width:820px;margin:0 auto 14px;line-height:1.25}
+.hero p{color:#99f6e4;font:600 15px 'Segoe UI',sans-serif;letter-spacing:.5px}
+.hero .btn{margin-top:26px}
+.btn{display:inline-block;background:#00e8d0;color:#071018;font:700 14px 'Segoe UI',sans-serif;padding:13px 28px;border-radius:4px;border:none;cursor:pointer}
+.btn:hover{background:#00c4b4;text-decoration:none;color:#071018}
+.btn.alt{background:#0e1a24;color:#fff}.btn.alt:hover{background:#152636}
+section{padding:44px 0}
+section.tint{background:#f0fdfa}
+section h2{font-size:25px;color:#071018;margin-bottom:16px;line-height:1.3}
+section p{margin-bottom:14px;font-size:16.5px}
+.lead{font-size:17px}
+ul.checks{list-style:none;margin:10px 0 6px}
+ul.checks li{padding:7px 0 7px 30px;position:relative;font-size:16px}
+ul.checks li:before{content:"\2713";position:absolute;left:4px;color:#00c4b4;font-weight:800;font-family:'Segoe UI',sans-serif}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+@media(max-width:760px){.cols2{grid-template-columns:1fr}.hero h1{font-size:26px}}
+.card{background:#fff;border:1px solid #ccfbf1;border-radius:6px;padding:24px;box-shadow:0 2px 6px rgba(7,16,24,.06)}
+.card h3{color:#071018;font-size:18px;margin-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;margin-top:20px}
+.gcard{background:#fff;border:1px solid #ccfbf1;border-left:4px solid #00e8d0;border-radius:6px;padding:20px}
+.gcard h3{font-size:16px;margin-bottom:8px}.gcard h3 a{color:#071018}
+.gcard p{font-size:14px;color:#44525f;margin:0}
+.gcard .tag{display:inline-block;margin-top:10px;font:600 10.5px 'Segoe UI',sans-serif;letter-spacing:.6px;text-transform:uppercase;color:#0f766e}
+.ctastrip{background:#071018;color:#fff;text-align:center;padding:36px 0}
+.ctastrip h2{color:#fff;margin-bottom:14px}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid #ccfbf1;border-radius:6px;overflow:hidden;margin-top:18px}
+.vs .col{padding:24px}
+.vs .col.bad{background:#f0fdfa}.vs .col.good{background:#f0fdfa}
+.vs h3{font-size:16px;margin-bottom:12px;color:#071018}
+.vs ul{list-style:none}.vs li{padding:8px 0 8px 26px;position:relative;font-size:15px;border-bottom:1px dashed #e2e2e2}
+.vs .bad li:before{content:"\2717";position:absolute;left:2px;color:#c0392b;font-weight:800}
+.vs .good li:before{content:"\2713";position:absolute;left:2px;color:#00c4b4;font-weight:800}
+@media(max-width:760px){.vs{grid-template-columns:1fr}}
+details{border:1px solid #ccfbf1;border-radius:5px;margin-bottom:10px;background:#fff}
+details summary{cursor:pointer;padding:14px 18px;font:600 15px 'Segoe UI',sans-serif;color:#071018;list-style:none}
+details summary:before{content:"+ ";color:#00c4b4;font-weight:800}
+details[open] summary:before{content:"\2013 "}
+details div{padding:0 18px 16px;font-size:15.5px}
+.formbox{background:#fff;border:1px solid #ccfbf1;border-top:4px solid #00e8d0;border-radius:6px;padding:28px;max-width:640px}
+.formbox label{display:block;font:600 12.5px 'Segoe UI',sans-serif;color:#44525f;margin:12px 0 4px}
+.formbox input,.formbox select,.formbox textarea{width:100%;padding:10px;border:1px solid #c4cdd5;border-radius:4px;font:14px 'Segoe UI',sans-serif}
+.formbox textarea{min-height:90px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin:22px 0}
+.crumb{font:12.5px 'Segoe UI',sans-serif;color:#5a6b7b;padding:14px 0 0}
+.crumb a{color:#5a6b7b}
+footer{background:#05080d;color:#9ca8b0;padding:44px 0 26px;margin-top:30px;font-size:13.5px}
+footer h4{color:#fff;font:700 13px 'Segoe UI',sans-serif;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px}
+footer ul{list-style:none}footer li{margin-bottom:7px}footer a{color:#9ca8b0}
+.fcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:26px}
+.copy{border-top:1px solid #0e1a24;margin-top:30px;padding-top:16px;text-align:center;font-size:12px;color:#6b7a82}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px;margin-top:8px}
+.stat{background:#fff;border:1px solid #ccfbf1;border-top:4px solid #00e8d0;border-radius:6px;padding:18px;text-align:center}
+.stat b{display:block;font:800 20px 'Segoe UI',sans-serif;color:#071018}
+.stat span{font:600 12px 'Segoe UI',sans-serif;color:#5a6b7b;letter-spacing:.4px;text-transform:uppercase}
+.hubcard{background:#fff;border:1px solid #ccfbf1;border-radius:8px;padding:22px;box-shadow:0 3px 10px rgba(0,232,208,.08)}
+.hubcard h3{font-size:17px;margin-bottom:6px}.hubcard h3 a{color:#071018}
+.hubcard ul{list-style:none;margin:10px 0}
+.hubcard li{padding:4px 0 4px 22px;position:relative;font-size:13.5px}
+.hubcard li:before{content:"\2192";position:absolute;left:2px;color:#00c4b4;font-weight:700}
+.cols3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.audit{background:#00e8d0;color:#071018;text-align:center;padding:32px 0}
+.audit h2{color:#071018;margin-bottom:8px}.audit a.btn{background:#071018;color:#fff}
+.audit a.btn:hover{background:#0e1a24;color:#fff}
+
+</style></head><body>
+<div class="demo-banner">STAGING PREVIEW — 1Dev AI Coding Services factory build · Elizabeth, NJ / remote US · content pending owner review</div>
+<div class="utility"><div class="wrap"><span>AI-Assisted Software Development for Apps, Sites &amp; Automations</span><span>Elizabeth, NJ · Remote US &middot; info@1devaicoding.com</span></div></div>
+<header class="main"><div class="wrap">
+<div class="logo">1Dev <span>AI</span><small>Coding Services · Elizabeth, NJ</small></div>
+<div class="phone-cta"><a href="tel:+18622950011">(862) 295-0011</a><small>Request a coding quote</small></div>
+</div></header>
+<nav class="nav"><div class="wrap"><ul>
+<li><a href="../../index.html">Home</a></li>
+<li><a href="../../custom-software-development/index.html">Services &#9662;</a><div class="dd"><a href="../../custom-software-development/index.html">Custom Software Development</a><a href="../../web-application-development/index.html">Web Application Development</a><a href="../../mobile-app-development/index.html">Mobile App Development</a><a href="../../ai-feature-integration/index.html">AI Feature Integration</a><a href="../../automation-and-workflows/index.html">Automation &amp; Workflows</a><a href="../../api-and-systems-integration/index.html">API &amp; Systems Integration</a><a href="../../code-review-and-rescue/index.html">Code Review &amp; Rescue</a><a href="../../mvp-and-startup-builds/index.html">MVP &amp; Startup Builds</a><a href="../../maintenance-and-support/index.html">Maintenance &amp; Support</a><a href="../../ai-pair-programming-and-training/index.html">AI Pair Programming &amp; Training</a></div></li>
+<li><a href="../../about-1dev/index.html">About &#9662;</a><div class="dd">
+<a href="../../about-1dev/index.html">About 1Dev AI Coding Services</a>
+<a href="../../about-1dev/why-choose-us/index.html">Why Choose Us</a>
+<a href="../../about-1dev/service-areas/index.html">Service Areas</a>
+</div></li>
+<li><a href="../../contact/index.html">Contact</a></li>
+<li><a href="../../request-a-proposal/index.html">Request a Proposal</a></li>
+<li class="em"><a href="../../request-a-quote/index.html">Request a Quote</a></li>
+</ul></div></nav>
+
+<div class="wrap crumb"><a href="../../index.html">Home</a> &rsaquo; <a href="../index.html">AI Feature Integration</a> &rsaquo; AI Search &amp; Retrieval</div>
+<section style="padding-top:20px"><div class="wrap"><h2 style="font-size:28px">AI Search &amp; Retrieval from 1Dev AI Coding Services</h2>
+<p class="lead">Retrieval-augmented search over tickets, docs, or product catalogs. At 1Dev, ai search &amp; retrieval is delivered as working software work — scoped, reviewed, and quote-led before you commit hours.</p>
+<p><a class="btn" href="../../request-a-quote/index.html">Request a Quote</a> <a class="btn alt" href="../../request-a-proposal/index.html">Request a Proposal</a></p>
+</div></section>
+<section class="tint"><div class="wrap"><h2>AI Search &amp; Retrieval with 1Dev can help you gain:</h2>
+<ul class="checks">
+<li>A defined increment instead of an open-ended “we’ll figure it out in code”</li>
+<li>AI-assisted speed with human review, tests, and a repo you can keep</li>
+<li>Integrations and automations named against the systems you already run</li>
+<li>Written quote or proposal steps before major build spend</li>
+<li>Honest scope — no invented testimonials, awards, or wait-time guarantees</li>
+</ul></div></section>
+<section><div class="wrap"><h2>A ai search &amp; retrieval path scoped to your repo — not a one-size package</h2>
+<p>No two teams need ai search &amp; retrieval the same way. We match the current codebase (or greenfield), constraints, and the next shippable increment — then confirm next steps before build hours start.</p>
+</div></section>
+<section class="tint"><div class="wrap"><h2>Teams avoid key risks with a developed coding path for ai search &amp; retrieval</h2>
+<div class="vs">
+<div class="col bad"><h3>Common failure modes with ad-hoc or unreviewed AI coding</h3><ul>
+<li>Generated code nobody on the team can operate</li>
+<li>Features that demo well and fail on real data</li>
+<li>No tests, no deploy path, no handoff docs</li>
+<li>Strategy decks that never become a running application</li>
+</ul></div>
+<div class="col good"><h3>Improvements when relying on 1Dev AI Coding Services</h3><ul>
+<li>Custom software, AI features, and integrations under one service map</li>
+<li>Quote and proposal paths before you commit</li>
+<li>North Jersey hub with remote US delivery [confirm]</li>
+<li>Race Computer Services accountability for this factory build [confirm]</li>
+</ul></div>
+</div></div></section>
+<div class="ctastrip"><div class="wrap"><h2>See next steps first — request a quote</h2>
+<p style="max-width:720px;margin:0 auto 16px">Curious what ai search &amp; retrieval looks like for your product? Start with a quote request.</p>
+<a class="btn" href="../../request-a-quote/index.html">Request a Quote</a> <a class="btn alt" href="../../request-a-proposal/index.html">Request a Proposal</a></div></div>
+<section class="tint"><div class="wrap"><h2>Frequently Asked Questions</h2>
+<details><summary>What is AI Search &amp; Retrieval?</summary><div><p>Retrieval-augmented search over tickets, docs, or product catalogs.</p></div></details>
+<details><summary>How long until ai search &amp; retrieval is scheduled?</summary><div><p>Timing depends on repo state, integrations, and current capacity. We discuss windows after the quote — no invented same-week ship guarantees.</p></div></details>
+<details><summary>What does ai search &amp; retrieval cost?</summary><div><p>Price depends on scope, existing codebase quality, and integrations. Use Request a Quote for an estimate path; larger work can use Request a Proposal.</p></div></details>
+<details><summary>Why choose 1Dev AI Coding Services for ai search &amp; retrieval?</summary><div><p>We deliver ai search &amp; retrieval as part of an AI-assisted coding shop — apps, automations, and AI features with a clear quote and proposal path.</p></div></details>
+</div></section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is AI Search & Retrieval?", "acceptedAnswer": {"@type": "Answer", "text": "Retrieval-augmented search over tickets, docs, or product catalogs."}}, {"@type": "Question", "name": "How long until ai search & retrieval is scheduled?", "acceptedAnswer": {"@type": "Answer", "text": "Timing depends on repo state, integrations, and current capacity. We discuss windows after the quote \u2014 no invented same-week ship guarantees."}}, {"@type": "Question", "name": "What does ai search & retrieval cost?", "acceptedAnswer": {"@type": "Answer", "text": "Price depends on scope, existing codebase quality, and integrations. Use Request a Quote for an estimate path; larger work can use Request a Proposal."}}, {"@type": "Question", "name": "Why choose 1Dev AI Coding Services for ai search & retrieval?", "acceptedAnswer": {"@type": "Answer", "text": "We deliver ai search & retrieval as part of an AI-assisted coding shop \u2014 apps, automations, and AI features with a clear quote and proposal path."}}]}</script><section><div class="wrap"><h2>Related AI Features Services</h2><div class="grid"><div class="gcard"><h3><a href="../llm-features-in-existing-apps/index.html">LLM Features in Existing Apps</a></h3></div><div class="gcard"><h3><a href="../chat-and-assistant-interfaces/index.html">Chat &amp; Assistant Interfaces</a></h3></div><div class="gcard"><h3><a href="../document-qa-features/index.html">Document Q&amp;A Features</a></h3></div><div class="gcard"><h3><a href="../prompt-to-action-workflows/index.html">Prompt-to-Action Workflows</a></h3></div><div class="gcard"><h3><a href="../ai-content-generation-features/index.html">AI Content Generation Features</a></h3></div><div class="gcard"><h3><a href="../recommendation-features/index.html">Recommendation Features</a></h3></div><div class="gcard"><h3><a href="../speech-and-transcription-features/index.html">Speech &amp; Transcription Features</a></h3></div><div class="gcard"><h3><a href="../ai-feature-guardrails-and-evals/index.html">Guardrails &amp; Evals for AI Features</a></h3></div><div class="gcard"><h3><a href="../human-in-the-loop-ai-features/index.html">Human-in-the-Loop AI Features</a></h3></div></div></div></section><footer><div class="wrap"><div class="fcols">
+<div><h4>Services</h4><ul><li><a href="../../custom-software-development/index.html">Custom Software</a></li><li><a href="../../web-application-development/index.html">Web Apps</a></li><li><a href="../../mobile-app-development/index.html">Mobile</a></li><li><a href="../../ai-feature-integration/index.html">AI Features</a></li><li><a href="../../automation-and-workflows/index.html">Automation</a></li><li><a href="../../api-and-systems-integration/index.html">Integrations</a></li><li><a href="../../code-review-and-rescue/index.html">Code Rescue</a></li><li><a href="../../mvp-and-startup-builds/index.html">MVPs</a></li><li><a href="../../maintenance-and-support/index.html">Maintenance</a></li><li><a href="../../ai-pair-programming-and-training/index.html">Pair &amp; Train</a></li></ul></div>
+<div><h4>Company</h4><ul>
+<li><a href="../../about-1dev/index.html">About 1Dev AI Coding Services</a></li>
+<li><a href="../../about-1dev/why-choose-us/index.html">Why Choose Us</a></li>
+<li><a href="../../about-1dev/service-areas/index.html">Service Areas</a></li>
+<li><a href="../../contact/index.html">Contact Us</a></li>
+</ul></div>
+<div><h4>Get Started</h4><ul>
+<li><a href="../../request-a-quote/index.html">Request a Quote</a></li>
+<li><a href="../../request-a-proposal/index.html">Request a Proposal</a></li>
+<li><a href="tel:+18622950011">(862) 295-0011</a></li>
+<li><a href="mailto:info@1devaicoding.com">info@1devaicoding.com</a></li>
+</ul></div>
+<div><h4>Visit</h4><ul><li>12 Sayre St, Elizabeth, NJ 07208 <em>[confirm]</em></li><li>Operated by Race Computer Services, LLC <em>[confirm]</em></li><li>North Jersey hub · remote US work <em>[confirm]</em></li></ul></div>
+</div>
+<div class="copy">1Dev AI Coding Services &middot; Race Computer Services, LLC &middot; Elizabeth, NJ · Remote US &middot; (862) 295-0011<br>
+Copyright &copy; 2026. 1Dev AI Coding Services. All rights reserved.<br>
+Domain, email, and NAP marked [confirm] pending owner review.</div></div></footer>
+</body></html>
