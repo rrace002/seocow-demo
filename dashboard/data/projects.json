@@ -3,7 +3,7 @@
     "title": "Near Me OS \u00b7 Launch Base",
     "operator": "Race Computer Services, LLC",
     "phone": "(862) 295-0011",
-    "updated": "2026-07-29",
+    "updated": "2026-08-30",
     "basecampDocs": "https://github.com/basecamp/bc-api"
   },
   "checklistTemplate": [
@@ -261,6 +261,17 @@
       "pr": "https://github.com/rrace002/seocow-demo/pull/22",
       "pages": 117,
       "notes": "Local & long-distance moving. NAP/domain marked [confirm]."
+    },
+    {
+      "id": "1dev-ai-coding",
+      "name": "1Dev AI Coding Services",
+      "client": "Race Computer Services",
+      "type": "AI coding factory",
+      "status": "staging",
+      "url": "https://1dev-ai-coding-services.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/27",
+      "pages": 117,
+      "notes": "AI-assisted software development (apps, AI features, automations). NAP/domain marked [confirm]."
     }
   ]
 }
