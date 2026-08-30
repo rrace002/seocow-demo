@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "title": "Near Me OS \u00b7 Launch Base",
+    "operator": "Race Computer Services, LLC",
+    "phone": "(862) 295-0011",
+    "updated": "2026-08-30",
+    "basecampDocs": "https://github.com/basecamp/bc-api"
+  },
+  "checklistTemplate": [
+    {
+      "id": "dns",
+      "label": "Point domain DNS to Netlify",
+      "group": "Go-live must"
+    },
+    {
+      "id": "staging",
+      "label": "Remove staging banners / noindex / X-Robots-Tag",
+      "group": "Go-live must"
+    },
+    {
+      "id": "nap",
+      "label": "Confirm NAP (name, address, phone, email)",
+      "group": "Go-live must"
+    },
+    {
+      "id": "forms",
+      "label": "Wire contact forms to real inbox / CRM",
+      "group": "Go-live must"
+    },
+    {
+      "id": "content",
+      "label": "Owner content pass (bios, services, photos)",
+      "group": "Go-live must"
+    },
+    {
+      "id": "privacy",
+      "label": "Add privacy policy + terms",
+      "group": "Recommended"
+    },
+    {
+      "id": "analytics",
+      "label": "Connect analytics + Search Console",
+      "group": "Recommended"
+    },
+    {
+      "id": "assets",
+      "label": "Replace placeholder images with real assets",
+      "group": "Recommended"
+    },
+    {
+      "id": "redirects",
+      "label": "Set redirects if replacing an existing site",
+      "group": "Recommended"
+    },
+    {
+      "id": "qa",
+      "label": "Mobile + desktop QA pass",
+      "group": "QA"
+    },
+    {
+      "id": "approve",
+      "label": "Client / owner approval to publish",
+      "group": "QA"
+    }
+  ],
+  "projects": [
+    {
+      "id": "near-me-os",
+      "name": "Near Me OS",
+      "client": "Race Computer Services",
+      "type": "Product landing + factory",
+      "status": "staging",
+      "url": "https://near-me-os.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/15",
+      "pages": 117,
+      "notes": "Publishable product landing with More Pages\u2026 factory."
+    },
+    {
+      "id": "ahbi",
+      "name": "Abner Herrman & Brock",
+      "client": "AHBI",
+      "type": "RIA / SMA staging",
+      "status": "staging",
+      "url": "https://ahbi-factory.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/16",
+      "pages": 117,
+      "notes": "ahbi.com factory. Confirm compliance copy before go-live."
+    },
+    {
+      "id": "work-office-beach",
+      "name": "Work Office at the Beach",
+      "client": "South Beach Miami",
+      "type": "Coworking + condos + STRs",
+      "status": "staging",
+      "url": "https://work-office-beach.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/17",
+      "pages": 77,
+      "notes": "7\u00d710 factory for coworking, luxury condos, short-term rentals."
+    },
+    {
+      "id": "online-psychiatrists",
+      "name": "Online Psychiatrists",
+      "client": "Dr. Zlatin Ivanov",
+      "type": "Telehealth factory",
+      "status": "staging",
+      "url": "https://online-psychiatrists-factory.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/18",
+      "pages": 117,
+      "notes": "Keep crisis disclaimer visible. Confirm licensed-state copy."
+    },
+    {
+      "id": "sdts",
+      "name": "San Diego Tech Support",
+      "client": "SDTS",
+      "type": "MSP factory",
+      "status": "staging",
+      "url": "https://san-diego-tech-support-factory.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/19",
+      "pages": 117,
+      "notes": "Built from live SDTS site patterns."
+    },
+    {
+      "id": "wpts",
+      "name": "White Plains Tech Support",
+      "client": "Westchester MSP",
+      "type": "MSP factory",
+      "status": "staging",
+      "url": "https://white-plains-tech-support-factory.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/20",
+      "pages": 117,
+      "notes": "NAP fields still marked [confirm]."
+    },
+    {
+      "id": "ai-consulting",
+      "name": "AI Consulting Near Me",
+      "client": "Race / Near Me OS",
+      "type": "Consulting factory",
+      "status": "staging",
+      "url": "https://ai-consulting-near-me.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/7",
+      "pages": 117,
+      "notes": "Gate 1 AI consulting factory."
+    },
+    {
+      "id": "trade-os",
+      "name": "Trade OS",
+      "client": "Trading systems",
+      "type": "Trading systems factory",
+      "status": "staging",
+      "url": "https://trade-os-factory.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/8",
+      "pages": 117,
+      "notes": "Trading systems and indicators \u2014 not contractors."
+    },
+    {
+      "id": "car-rental",
+      "name": "Car Rental Near Me",
+      "client": "Local rental",
+      "type": "Local service factory",
+      "status": "staging",
+      "url": "https://car-rental-near-me.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/4",
+      "pages": 117,
+      "notes": "Confirm NAP and fleet content."
+    },
+    {
+      "id": "crypto-consulting",
+      "name": "Cryptocurrency Consulting",
+      "client": "Crypto advisory",
+      "type": "Consulting factory",
+      "status": "staging",
+      "url": "https://cryptocurrency-consulting.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/6",
+      "pages": 117,
+      "notes": "Merged to main. Compliance disclaimer before custom domain publish."
+    },
+    {
+      "id": "trader-foundation",
+      "name": "Trader Foundation",
+      "client": "Education / trading",
+      "type": "Education factory",
+      "status": "staging",
+      "url": "https://trader-foundation-9055fb.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/5",
+      "pages": 117,
+      "notes": "Confirm curriculum and disclaimer copy."
+    },
+    {
+      "id": "red-rabbit",
+      "name": "Red Rabbit Security",
+      "client": "Red Rabbit",
+      "type": "Cybersecurity / IT",
+      "status": "staging",
+      "url": "https://red-rabbit-security-factory.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/2",
+      "pages": 117,
+      "notes": "Confirm brand assets and NAP."
+    },
+    {
+      "id": "seo-cow",
+      "name": "SEO Cow",
+      "client": "SEO Cow",
+      "type": "Marketing factory",
+      "status": "staging",
+      "url": "https://seo-cow-ai-f35875.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/1",
+      "pages": 117,
+      "notes": "Elizabeth NJ SEO / digital marketing demo."
+    },
+    {
+      "id": "capital-compliance",
+      "name": "Capital Compliance",
+      "client": "Compliance",
+      "type": "Professional services",
+      "status": "staging",
+      "url": "https://capital-compliance-fdceb8.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/9",
+      "pages": 117,
+      "notes": "HIPAA / CMMC / NIST. Legal review before go-live."
+    },
+    {
+      "id": "elizabeth-electrical",
+      "name": "Elizabeth Electrical Services",
+      "client": "Elizabeth NJ trades",
+      "type": "Local trade factory",
+      "status": "staging",
+      "url": "https://elizabeth-electrical-services.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/11",
+      "pages": 117,
+      "notes": "Default phone (862) 295-0011 until owner NAP confirmed."
+    },
+    {
+      "id": "elizabeth-plumbing",
+      "name": "The Elizabeth Plumbing Stop",
+      "client": "Elizabeth NJ trades",
+      "type": "Local trade factory",
+      "status": "staging",
+      "url": "https://elizabeth-plumbing-stop.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/12",
+      "pages": 117,
+      "notes": "Default phone (862) 295-0011 until owner NAP confirmed."
+    },
+    {
+      "id": "elizabeth-handyman",
+      "name": "Elizabeth Handyman",
+      "client": "Elizabeth NJ trades",
+      "type": "Local trade factory",
+      "status": "staging",
+      "url": "https://elizabeth-handyman.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/14",
+      "pages": 117,
+      "notes": "Default phone (862) 295-0011 until owner NAP confirmed."
+    },
+    {
+      "id": "north-jersey-moving",
+      "name": "North Jersey Moving Services",
+      "client": "North Jersey movers",
+      "type": "Local moving factory",
+      "status": "staging",
+      "url": "https://north-jersey-moving-services.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/22",
+      "pages": 117,
+      "notes": "Local & long-distance moving. NAP/domain marked [confirm]."
+    },
+    {
+      "id": "1dev-ai-coding",
+      "name": "1Dev AI Coding Services",
+      "client": "Race Computer Services",
+      "type": "AI coding factory",
+      "status": "staging",
+      "url": "https://1dev-ai-coding-services.netlify.app/",
+      "pr": "https://github.com/rrace002/seocow-demo/pull/27",
+      "pages": 117,
+      "notes": "AI-assisted software development (apps, AI features, automations). NAP/domain marked [confirm]."
+    }
+  ]
+}
