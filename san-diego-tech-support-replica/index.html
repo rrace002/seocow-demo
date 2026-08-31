@@ -1,0 +1,290 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>San Diego Tech Support | One-page factory replica</title>
+<meta name="description" content="One-page completeness replica of San Diego Tech Support homepage modules — not the live website.">
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap');
+:root{--ink:#0b1f33;--muted:#5b6b7c;--line:#d7e2ea;--paper:#f4f7fb;--accent:#0ea5a0;--accent-dark:#0b7c78;--navy:#0b3d5c;--navy-2:#082c42;--cta:#e38b2a;--cta-hover:#c6741c;--ok:#148f5c;--bad:#c0392b;--max:1160px}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Source Sans 3',Segoe UI,Arial,sans-serif;color:var(--ink);line-height:1.65;background:#fff}
+h1,h2,h3,h4,.logo,.btn,.nav,summary{font-family:Sora,Segoe UI,sans-serif}
+a{color:var(--accent-dark);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 22px}
+.demo-banner{background:#071422;color:#9ee7e2;text-align:center;font:600 12px Sora,sans-serif;padding:8px 12px;letter-spacing:.3px}
+.utility{background:var(--navy);color:#d7eef2;font-size:13px;padding:7px 0}
+.utility .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.utility a{color:#fff}
+header.main{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:80}
+header.main .wrap{display:flex;align-items:center;justify-content:space-between;padding:12px 22px;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;color:var(--ink);text-decoration:none}
+.brand:hover{text-decoration:none}
+.mark{width:46px;height:46px;flex:0 0 46px}
+.logo{font:800 20px/1.1 Sora,sans-serif}
+.logo span{color:var(--accent-dark)}
+.logo small{display:block;font:600 10px Sora,sans-serif;color:var(--muted);letter-spacing:1.4px;text-transform:uppercase;margin-top:3px}
+.phone-cta{text-align:right}
+.phone-cta a{font:800 20px Sora,sans-serif;color:var(--navy);display:block}
+.phone-cta small{color:var(--muted);font-size:12px}
+nav.nav{background:var(--navy-2)}
+nav.nav ul{list-style:none;display:flex;flex-wrap:wrap;align-items:center}
+nav.nav>.wrap>ul>li{position:relative}
+nav.nav a{display:block;color:#fff;padding:13px 15px;font-size:13.5px;font-weight:650}
+nav.nav a:hover{background:#061e2e;text-decoration:none}
+nav.nav li:hover>.dd{display:block}
+.dd{display:none;position:absolute;top:100%;left:0;background:#fff;min-width:280px;max-height:70vh;overflow:auto;box-shadow:0 12px 28px rgba(8,44,66,.18);border-top:3px solid var(--accent);z-index:90}
+.dd a{color:var(--ink)!important;padding:10px 16px;font-weight:600;border-bottom:1px solid #eef3f7}
+.dd a:hover{background:#eef8f7}
+.nav .em a{background:var(--accent)}.nav .em a:hover{background:var(--accent-dark)}
+.search-mini{margin-left:auto;padding:8px 0 8px 12px}
+.search-mini input{border:0;border-radius:4px;padding:8px 10px;min-width:160px;font:14px 'Source Sans 3',sans-serif}
+.hero-photo{position:relative;color:#fff;padding:72px 0 68px;background:
+  linear-gradient(105deg,rgba(8,24,40,.88) 8%,rgba(11,61,92,.55) 52%,rgba(8,24,40,.35) 100%),
+  radial-gradient(1200px 420px at 80% 20%,rgba(14,165,160,.35),transparent 55%),
+  linear-gradient(180deg,#0b3d5c,#134e4a);
+overflow:hidden}
+.hero-photo:after{content:"";position:absolute;inset:auto -40px -80px 40%;height:280px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 200'%3E%3Cpath fill='%23ffffff18' d='M0 160 L40 120 L80 150 L140 80 L180 110 L240 40 L300 90 L360 30 L420 100 L480 50 L540 110 L600 70 L660 130 L720 90 L800 140 L800 200 L0 200Z'/%3E%3C/svg%3E") no-repeat bottom right;background-size:cover;pointer-events:none}
+.hero-photo .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}
+.kicker{font:700 12px Sora,sans-serif;letter-spacing:1.6px;text-transform:uppercase;color:#9ee7e2;margin-bottom:10px}
+.hero-photo h1{font-size:40px;line-height:1.15;max-width:640px;margin-bottom:14px}
+.hero-photo p{font-size:18px;color:#e7f4f6;max-width:560px}
+.hero-actions{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.search-hero{display:flex;gap:8px;margin-top:22px;max-width:460px}
+.search-hero input{flex:1;padding:12px 14px;border:0;border-radius:4px;font:15px 'Source Sans 3',sans-serif}
+.hero-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(6px);border-radius:10px;padding:22px}
+.hero-card h3{font-size:16px;margin-bottom:8px}
+.hero-card p{font-size:14px;color:#d7eef2;margin:0}
+.btn{display:inline-block;background:var(--cta);color:#fff;font:700 14px Sora,sans-serif;padding:13px 24px;border-radius:4px;border:none;cursor:pointer}
+.btn:hover{background:var(--cta-hover);text-decoration:none;color:#fff}
+.btn.alt{background:#fff;color:var(--navy)}.btn.alt:hover{background:#e8f4f3;color:var(--navy)}
+.btn.navy{background:var(--navy)}
+section{padding:52px 0}
+section.tint{background:var(--paper)}
+section.navy{background:var(--navy);color:#fff}section.navy h2{color:#fff}
+section h2{font-size:28px;margin-bottom:14px;line-height:1.25}
+section p{margin-bottom:14px;font-size:17px}
+.lead{font-size:18.5px;color:#334155}
+.inner-hero{padding:36px 0 10px}
+.photo-panel{min-height:160px;border-radius:10px;background:
+  linear-gradient(160deg,rgba(11,61,92,.2),rgba(14,165,160,.25)),
+  linear-gradient(45deg,#0b3d5c 0%,#148f8c 100%);
+box-shadow:inset 0 0 0 1px #ffffff22}
+ul.checks{list-style:none;margin:10px 0}
+ul.checks li{padding:8px 0 8px 30px;position:relative}
+ul.checks li:before{content:"\2713";position:absolute;left:4px;color:var(--ok);font-weight:800}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
+.cols3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.icon-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:16px;margin-top:22px}
+.icon-tile{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px;text-align:center;box-shadow:0 6px 18px rgba(11,61,92,.06);transition:transform .15s ease}
+.icon-tile:hover{transform:translateY(-3px);text-decoration:none}
+.icon-tile svg{width:48px;height:48px;margin-bottom:8px}
+.icon-tile h3{font-size:15px;color:var(--ink);margin:0 0 6px}
+.icon-tile p{font-size:13px;color:var(--muted);margin:0}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px;box-shadow:0 4px 14px rgba(11,61,92,.05)}
+.card h3{font-size:17px;margin-bottom:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:18px}
+.gcard{background:#fff;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;padding:18px}
+.gcard h3{font-size:16px;margin-bottom:6px}.gcard h3 a{color:var(--ink)}
+.gcard p{font-size:14px;color:var(--muted);margin:0}
+.ctastrip{background:var(--navy-2);color:#fff;text-align:center;padding:42px 0}
+.ctastrip h2{color:#fff;margin-bottom:12px}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:16px}
+.vs .col{padding:22px}
+.vs .col.bad{background:#fff5f5}.vs .col.good{background:#f0faf6}
+.vs h3{font-size:16px;margin-bottom:10px}
+.vs ul{list-style:none}.vs li{padding:8px 0 8px 26px;position:relative;font-size:15px;border-bottom:1px dashed #e5e7eb}
+.vs .bad li:before{content:"\2717";position:absolute;left:2px;color:var(--bad);font-weight:800}
+.vs .good li:before{content:"\2713";position:absolute;left:2px;color:var(--ok);font-weight:800}
+details{border:1px solid var(--line);border-radius:6px;margin-bottom:10px;background:#fff}
+details summary{cursor:pointer;padding:14px 18px;font:600 15px Sora,sans-serif;list-style:none}
+details summary:before{content:"+ ";color:var(--accent-dark);font-weight:800}
+details[open] summary:before{content:"\2013 "}
+details div{padding:0 18px 16px}
+.formbox{background:#fff;border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:8px;padding:24px}
+.formbox label{display:block;font:600 12.5px Sora,sans-serif;color:var(--muted);margin:12px 0 4px}
+.formbox input,.formbox select,.formbox textarea{width:100%;padding:11px;border:1px solid #c5d0d8;border-radius:4px;font:15px 'Source Sans 3',sans-serif}
+.formbox textarea{min-height:96px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:20px 0}
+.step{position:relative;padding-top:8px}
+.step b{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:var(--accent);color:#fff;margin-bottom:8px}
+.crumb{font-size:13px;color:var(--muted);padding:16px 0 0}
+.crumb a{color:var(--muted)}
+footer{background:#071422;color:#b7c4ce;padding:48px 0 24px;margin-top:20px;font-size:14px}
+footer h4{color:#fff;font:700 12px Sora,sans-serif;letter-spacing:.8px;text-transform:uppercase;margin-bottom:12px}
+footer ul{list-style:none}footer li{margin-bottom:7px}footer a{color:#c5d4de}
+.fcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:24px}
+.copy{border-top:1px solid #1a3348;margin-top:28px;padding-top:16px;text-align:center;font-size:12px;color:#8aa0b0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
+.stat{background:#fff;border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:8px;padding:18px;text-align:center}
+.stat b{display:block;font:800 22px Sora,sans-serif}
+.stat span{font:600 11.5px Sora,sans-serif;color:var(--muted);letter-spacing:.4px;text-transform:uppercase}
+.navy .stat{background:rgba(255,255,255,.08);border-color:transparent;color:#fff}.navy .stat span{color:#b7e4e0}
+.hubcard{background:#fff;border:1px solid var(--line);border-radius:10px;padding:20px;box-shadow:0 6px 16px rgba(11,61,92,.06)}
+.hubcard h3{font-size:17px;margin-bottom:6px}.hubcard h3 a{color:var(--ink)}
+.hubcard ul{list-style:none;margin:10px 0}
+.hubcard li{padding:4px 0 4px 18px;position:relative;font-size:14px}
+.hubcard li:before{content:"\2192";position:absolute;left:0;color:var(--accent-dark)}
+.partners{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.partner{border:1px solid var(--line);background:#fff;border-radius:6px;padding:10px 14px;font:700 13px Sora,sans-serif;color:var(--navy)}
+.insight-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.insight{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.insight .thumb{height:92px;background:linear-gradient(120deg,#0b3d5c,#0ea5a0)}
+.insight .pad{padding:16px}
+.insight small{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.5px}
+.insight h3{font-size:16px;margin:6px 0}
+@media(max-width:860px){
+  .hero-photo .wrap,.cols2,.vs{grid-template-columns:1fr}
+  .hero-photo h1{font-size:30px}
+  .search-mini{margin-left:0}
+}
+
+:root{--navy:#0a3d73;--navy-2:#072c54;--accent:#1a8cff;--accent-dark:#0d6ad4;--cta:#f5a623}
+</style></head><body>
+<div class="demo-banner">STAGING REPLICA — one page · structure based on san-diegotechsupport.com · not the live San Diego Tech Support website</div>
+<div class="utility"><div class="wrap">
+<span>Southern California IT consulting and cybersecurity</span>
+<span><a href="tel:+16194780455">(619) 478-0455</a> · <a href="mailto:support@san-diegotechsupport.com">support@san-diegotechsupport.com</a></span>
+</div></div>
+<header class="main"><div class="wrap">
+<a class="brand" href="#top"><svg class="mark" viewBox="0 0 46 46" aria-hidden="true">
+<rect width="46" height="46" rx="9" fill="#0b3d5c"/>
+<circle cx="23" cy="23" r="10" fill="none" stroke="#0ea5a0" stroke-width="3"/>
+<circle cx="23" cy="23" r="4" fill="#e38b2a"/>
+</svg><div class="logo">San Diego <span>Tech Support</span><small>Managed IT · Cyber · Cloud</small></div></a>
+<div class="phone-cta"><a href="tel:+16194780455">(619) 478-0455</a><small>Southern California MSP replica</small></div>
+</div></header>
+<nav class="nav"><div class="wrap"><ul>
+<li><a href="#top">Home</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#why">Why us</a></li>
+<li><a href="#how">How it works</a></li>
+<li><a href="#insights">Insights</a></li>
+<li><a href="#contact">Contact</a></li>
+<li class="em"><a href="#contact">Schedule a Consultation</a></li>
+</ul></div></nav>
+
+<div class="hero-photo" id="top"><div class="wrap">
+<div>
+<p class="kicker">San Diego IT support</p>
+<h1>A reliable IT support partner you can trust.</h1>
+<p>Managed services positioned as a step up from a single IT guy, without defaulting to the most expensive MSP in the room — for businesses across Southern California.</p>
+<div class="hero-actions">
+<a class="btn" href="#contact">Request a Consultation</a>
+<a class="btn alt" href="tel:+16194780455">Call (619) 478-0455</a>
+</div>
+<form class="search-hero" action="#services" method="get">
+<input type="search" name="q" placeholder="Search Find Now" aria-label="Search this page" id="q">
+<button class="btn navy" type="submit">Find Now</button>
+</form>
+</div>
+<div class="hero-card">
+<h3>Let us help you resolve your technology challenges</h3>
+<p>Tell the team how you use IT today. This replica form is a shell until rollout wiring.</p>
+</div>
+</div></div>
+
+<section class="navy" id="numbers"><div class="wrap">
+<p class="kicker">By the numbers</p>
+<h2>San Diego Tech Support figures as published on the live homepage</h2>
+<p style="color:#cfe6ff;margin-bottom:18px">Reconfirm before launch. This replica does not invent extra KPIs.</p>
+<div class="stats"><div class="stat"><b>5 sec</b><span>Avg. call wait (live site)</span></div><div class="stat"><b>94%</b><span>Same-day resolution (live site)</span></div><div class="stat"><b>8,473</b><span>Tickets resolved (live site)</span></div><div class="stat"><b>98.65%</b><span>SLAs met (live site)</span></div><div class="stat"><b>96.99%</b><span>Customer retention (live site)</span></div><div class="stat"><b>99%</b><span>Customer satisfaction (live site)</span></div></div>
+</div></section>
+
+<section id="services"><div class="wrap">
+<p class="kicker">Our services</p>
+<h2>Expert IT support across managed, cyber, cloud, and compliance.</h2>
+<p class="lead">The live site spans several IT lanes. Smaller clients are described as using entry-level managed services such as unlimited remote support. This page keeps that map on one screen.</p>
+<div class="icon-grid"><a class="icon-tile" href="#contact"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 7h16v12H4zM4 12h16"/></svg><h3>Managed IT</h3><p>Proactive monitoring, helpdesk, and a team instead of a single IT guy.</p></a><a class="icon-tile" href="#contact"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></svg><h3>Cybersecurity</h3><p>Consulting or managed controls — firewall, endpoint, awareness, and response.</p></a><a class="icon-tile" href="#contact"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 11V8a4 4 0 1 1 8 0v3M6 11h12v9H6z"/></svg><h3>Compliance</h3><p>HIPAA, PCI-DSS, CMMC, and NIST-oriented IT security work [confirm scope].</p></a><a class="icon-tile" href="#contact"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3zM12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg><h3>Cloud &amp; hosting</h3><p>Microsoft 365, backup, private cloud, and hosted infrastructure support.</p></a><a class="icon-tile" href="#contact"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg><h3>Enterprise IT</h3><p>Multi-office, vCIO, and project delivery for larger environments.</p></a><a class="icon-tile" href="#contact"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16v12H4zM4 7l2-3h10l2 3M16 13h2"/></svg><h3>Small business support</h3><p>Remote and onsite support sized for growing Southern California teams.</p></a><a class="icon-tile" href="#contact"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12a4 4 0 0 1 0-6l2-2a4 4 0 1 1 6 6l-1 1M15 12a4 4 0 0 1 0 6l-2 2a4 4 0 1 1-6-6l1-1"/></svg><h3>Network &amp; servers</h3><p>Installs, virtualization, and ongoing server administration.</p></a><a class="icon-tile" href="#contact"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19v-6M9 19V9M13 19V5M17 19v-9"/></svg><h3>Microsoft 365</h3><p>Email, identity, and day-to-day Office 365 administration.</p></a></div>
+</div></section>
+
+<section class="tint" id="why"><div class="wrap">
+<p class="kicker">Your benefits</p>
+<h2>Why choose San Diego Tech Support?</h2>
+<p class="lead">Collaborative IT partner language from the public site: managed services and complete technology outsourcing — rewritten here so we are not pasting their WordPress copy.</p>
+<div class="cols3"><div class="card"><svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19h16M7 16V9M12 16V5M17 16v-7"/></svg><h3>Improved IT efficiency</h3><p>Managed support is meant to keep operations moving instead of waiting on a contractor’s next available hour.</p></div><div class="card"><svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/></svg><h3>Layered cybersecurity</h3><p>Security can ride along with managed services — consultative or ongoing — instead of a one-time tool install.</p></div><div class="card"><svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h4l2 5-2 1a12 12 0 0 0 5 5l1-2 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 4 5a2 2 0 0 1 2-2z"/></svg><h3>US-based 24/7 options</h3><p>Live site positions 24×7 support on managed offerings. Terms apply [confirm].</p></div><div class="card"><svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 7h16v12H4zM4 12h16"/></svg><h3>Value over a bloated stack</h3><p>The public positioning is a step up from a one-person shop without enterprise MSP pricing theater.</p></div><div class="card"><svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg><h3>Time back for staff</h3><p>Employees stop burning the afternoon on printer and login loops.</p></div><div class="card"><svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#0b7c78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3zM12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg><h3>Enterprise-grade monitoring</h3><p>Managed clients are described as getting monitoring for alerting and security features [confirm product names].</p></div></div>
+</div></section>
+
+<section id="how"><div class="wrap">
+<p class="kicker">How it works</p>
+<h2>Are you ready to take your IT support to the next level?</h2>
+<div class="steps"><div class="card step"><b>1</b><h3>Choose a service</h3><p>Managed IT, cybersecurity, cloud, compliance, or a mix.</p></div><div class="card step"><b>2</b><h3>Let’s communicate</h3><p>How you use technology today — offices, Microsoft 365, who gets paged.</p></div><div class="card step"><b>3</b><h3>Start with a scoped first step</h3><p>A service model you can live with, then monitoring and support.</p></div></div>
+<div class="cols2" style="margin-top:28px" id="contact">
+<div>
+<h2>Contact form</h2>
+<p>Fill this in with IT needs. On the live site a representative follows up. Address: 310 3rd Ave, Chula Vista, CA 91911 <em>[confirm]</em>. Parent/affiliate notes (Race Computer Services) stay off this replica until confirmed.</p>
+<p><strong>San Diego Tech Support</strong><br>(619) 478-0455<br>support@san-diegotechsupport.com<br>Chula Vista, CA</p>
+</div>
+<div class="formbox">
+<label>First Name *</label><input type="text" name="first" required>
+<label>Last Name *</label><input type="text" name="last" required>
+<label>Email *</label><input type="email" name="email" required>
+<label>Phone *</label><input type="tel" name="phone" required>
+<label>Company</label><input type="text" name="company">
+<label>Which services are you interested in? *</label>
+<select name="service" required><option value="">-- Select a service --</option><option>Managed Services</option><option>Business Continuity</option><option>Cyber Security</option><option>Cloud Services</option><option>vCIO Services</option><option>Network Support</option><option>Microsoft 365</option><option>HIPAA / compliance consulting</option><option>Not sure / consultation</option></select>
+<label>Message</label><textarea name="message"></textarea><br><br>
+<button class="btn" type="submit">Submit Now</button>
+<p style="margin-top:12px;font-size:12px;color:#5b6b7c">Demo form shell — submission destination wired at rollout.</p>
+</div>
+</div>
+</div></section>
+
+<section class="tint" id="insights"><div class="wrap">
+<p class="kicker">Insights</p>
+<h2>Factory-written advisory cards (not scraped Tech Advisory posts)</h2>
+<div class="insight-grid"><article class="insight"><div class="thumb"></div><div class="pad"><small>Factory advisory</small><h3>Access control is a habit</h3><p>Who can join Wi-Fi, email, and admin panels should be written down — not remembered.</p></div></article><article class="insight"><div class="thumb"></div><div class="pad"><small>Factory advisory</small><h3>Backup is not disaster recovery</h3><p>A copy in the cloud still needs a restore test and an owner who knows the login.</p></div></article><article class="insight"><div class="thumb"></div><div class="pad"><small>Factory advisory</small><h3>Phishing beats most firewalls</h3><p>Staff reporting weird invoices is a control. Fancy appliances do not replace that drill.</p></div></article><article class="insight"><div class="thumb"></div><div class="pad"><small>Factory advisory</small><h3>One-person IT does not scale</h3><p>When the only technician is on vacation, the SLA is a voicemail.</p></div></article><article class="insight"><div class="thumb"></div><div class="pad"><small>Factory advisory</small><h3>Compliance is evidence, not a poster</h3><p>HIPAA and PCI conversations fail when nobody can show policies, logs, or a risk assessment.</p></div></article><article class="insight"><div class="thumb"></div><div class="pad"><small>Factory advisory</small><h3>Patch windows need a calendar</h3><p>Unpatched servers are not a mystery; they are a missing operations habit.</p></div></article></div>
+</div></section>
+
+<section id="partners"><div class="wrap">
+<p class="kicker">Technology partners</p>
+<h2>Platforms referenced in public navigation</h2>
+<p>Badges only — not a certification claim unless the owner confirms partner status.</p>
+<div class="partners"><span class="partner">Microsoft 365</span><span class="partner">Windows Server</span><span class="partner">Cisco [confirm]</span><span class="partner">Dell [confirm]</span><span class="partner">HPE [confirm]</span><span class="partner">AWS / GCP [confirm]</span></div>
+</div></section>
+
+<section class="tint"><div class="wrap"><h2>Frequently Asked Questions</h2>
+<details><summary>Is this the live San Diego Tech Support website?</summary><div><p>No. This is a one-page factory replica for layout and module completeness. The live site is san-diegotechsupport.com.</p></div></details>
+<details><summary>Where do the numbers come from?</summary><div><p>Call wait, same-day resolution, tickets, SLA, retention, and CSAT figures are copied as published on the live homepage and should be reconfirmed before any launch.</p></div></details>
+<details><summary>How do I get support?</summary><div><p>Call (619) 478-0455 or use the form. Email support@san-diegotechsupport.com. Street address from public listings may need confirmation.</p></div></details>
+</div></section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is this the live San Diego Tech Support website?", "acceptedAnswer": {"@type": "Answer", "text": "No. This is a one-page factory replica for layout and module completeness. The live site is san-diegotechsupport.com."}}, {"@type": "Question", "name": "Where do the numbers come from?", "acceptedAnswer": {"@type": "Answer", "text": "Call wait, same-day resolution, tickets, SLA, retention, and CSAT figures are copied as published on the live homepage and should be reconfirmed before any launch."}}, {"@type": "Question", "name": "How do I get support?", "acceptedAnswer": {"@type": "Answer", "text": "Call (619) 478-0455 or use the form. Email support@san-diegotechsupport.com. Street address from public listings may need confirmation."}}]}</script>
+
+<footer><div class="wrap"><div class="fcols">
+<div><h4>Services</h4><ul>
+<li><a href="#services">Managed IT</a></li>
+<li><a href="#services">Cybersecurity</a></li>
+<li><a href="#services">Cloud</a></li>
+<li><a href="#services">Compliance</a></li>
+</ul></div>
+<div><h4>Company</h4><ul>
+<li><a href="#why">Why choose us</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="https://www.san-diegotechsupport.com/">Live website</a></li>
+</ul></div>
+<div><h4>Visit</h4><ul>
+<li>310 3rd Ave, Chula Vista, CA 91911 [confirm]</li>
+<li>(619) 478-0455</li>
+<li>support@san-diegotechsupport.com</li>
+</ul></div>
+<div><h4>Replica note</h4><ul>
+<li>One-page factory completeness demo</li>
+<li>noindex staging</li>
+</ul></div>
+</div>
+<div class="copy">San Diego Tech Support one-page replica · not the live website<br>
+Copyright &copy; 2026. Structural demo only. Public stats attributed to the live homepage.</div></div></footer>
+<script>
+document.querySelector(".search-hero")?.addEventListener("submit", function(e) {
+  e.preventDefault();
+  const q = (document.getElementById("q").value || "").toLowerCase();
+  const tiles = [...document.querySelectorAll(".icon-tile")];
+  tiles.forEach(t => {
+    const hit = !q || t.innerText.toLowerCase().includes(q);
+    t.style.opacity = hit ? "1" : "0.35";
+  });
+  document.getElementById("services").scrollIntoView({behavior:"smooth"});
+});
+</script>
+</body></html>
