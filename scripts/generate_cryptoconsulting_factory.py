@@ -917,6 +917,8 @@ def main() -> None:
         "CRYPTOCONSULTING-PAGE-INVENTORY.csv",
         "CRYPTOCONSULTING-NOTES.md",
         "FACTORY-INSTRUCTION-SET.md",
+        "san-diego-tech-support-replica",
+        "SDT-ONE-PAGE-NOTES.md",
     }
     for child in list(ROOT.iterdir()):
         if child.name in keep or child.name.startswith("."):
